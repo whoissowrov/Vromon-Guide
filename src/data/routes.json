@@ -1,0 +1,415 @@
+{
+  "origins": [
+    { "id": "dhaka", "name": "Dhaka (Capital)" },
+    { "id": "chattogram", "name": "Chattogram (Port City)" },
+    { "id": "sylhet", "name": "Sylhet" },
+    { "id": "khulna", "name": "Khulna" },
+    { "id": "rajshahi", "name": "Rajshahi" }
+  ],
+  "destinations": [
+    { "id": "sajek-valley", "name": "Sajek Valley (Cloud Kingdom)" },
+    { "id": "coxs-bazar-sea-beach", "name": "Cox's Bazar (Longest Beach)" },
+    { "id": "saint-martins-island", "name": "Saint Martin's Island (Coral Gem)" },
+    { "id": "sreemangal-tea-capital", "name": "Sreemangal & Lawachara (Tea Capital)" },
+    { "id": "sundarbans-mangrove", "name": "Sundarbans (Mangrove Safari)" },
+    { "id": "bandarban-nilgiri", "name": "Bandarban & Nilgiri (High Peaks)" },
+    { "id": "tanguar-haor", "name": "Tanguar Haor (Inland Sea Houseboat)" },
+    { "id": "kuakata-daughter-of-ocean", "name": "Kuakata (Sunrise & Sunset Beach)" },
+    { "id": "birishiri-ceramic-hills", "name": "Birishiri (Ceramic Blue Lake)" },
+    { "id": "sompur-mahavihara", "name": "Sompur Mahavihara (UNESCO Heritage)" }
+  ],
+  "routes": {
+    "dhaka_to_sajek-valley": {
+      "summary": "Dhaka → Khagrachari / Dighinala → Sajek Valley",
+      "distance": "340 km",
+      "typicalDuration": "10 - 12 Hours total",
+      "overview": "Travel overnight by luxury or non-AC coach to Khagrachari, then hire a 4x4 Chander Gari with Bangladesh Army security convoy up to the hill crest.",
+      "bus": {
+        "available": true,
+        "operators": ["Shantijahan Paribahan", "Hanif Enterprise", "Saintmartin Travels", "Shyamoli NR", "Ena Transport"],
+        "fareRange": "৳850 (Non-AC) - ৳1,600 (AC Business / Sleeper)",
+        "boardingPoints": ["Sayedabad", "Gabtoli", "Kollanpur", "Arambagh"],
+        "droppingPoints": ["Khagrachari Sadar", "Dighinala Bus Stand"],
+        "duration": "8 - 9 hours",
+        "notes": "Night departure (10:00 PM - 11:30 PM) is strongly recommended to arrive in Khagrachari by 6:00 AM, in time for breakfast and the 10:00 AM Army Escort."
+      },
+      "train": {
+        "available": true,
+        "type": "Intermodal (Train + Road)",
+        "availableTrains": [
+          { "name": "Suborno Express (702)", "route": "Dhaka to Feni / Chattogram", "time": "04:30 PM - 08:45 PM", "fare": "৳450 - ৳850" },
+          { "name": "Chattala Express (68)", "route": "Dhaka to Feni", "time": "01:45 PM - 06:10 PM", "fare": "৳240 - ৳480" }
+        ],
+        "fares": { "shovon": "৳240 - ৳350", "snigdha": "৳480 - ৳650", "acBerth": "৳950 - ৳1,200" },
+        "notes": "Take train from Kamalapur to Feni Junction (3.5 hrs), then local CNG/Bus from Feni Mahipal to Khagrachari (2.5 hrs)."
+      },
+      "air": {
+        "available": true,
+        "nearestAirport": "Shah Amanat International Airport (CGP), Chattogram",
+        "distanceFromDestination": "180 km from airport",
+        "airlines": ["Biman Bangladesh Airlines", "US-Bangla Airlines", "Air Astra"],
+        "flightDuration": "45 minutes (Dhaka to Chattogram)",
+        "fareRange": "৳3,600 - ৳6,500 one-way",
+        "postFlightTransit": "From Chattogram, hire a private microbus/AC taxi to Khagrachari (3.5 hrs, ৳4,500 - ৳6,000)."
+      },
+      "localTransit": {
+        "type": "4x4 Open Chander Gari (Mahindra Jeep) / CNG",
+        "estimatedFare": "৳8,000 - ৳10,500 (Entire Chander Gari 2-Day Return Reserve for 12-14 people); or CNG auto-rickshaw ৳4,000 - ৳5,000 (3-4 people)",
+        "keyTips": "Convoy times strictly enforced by Bangladesh Army at Baghaihat Checkpoint: Morning Escort 10:00 AM, Afternoon Escort 03:00 PM."
+      }
+    },
+    "dhaka_to_coxs-bazar-sea-beach": {
+      "summary": "Dhaka → Cox's Bazar",
+      "distance": "395 km",
+      "typicalDuration": "45 mins (Air) / 8 Hours (Train) / 8-9 Hours (Bus)",
+      "overview": "The iconic route connecting the capital to the world's longest natural unbroken sandy beach.",
+      "bus": {
+        "available": true,
+        "operators": ["Green Line Water & Road", "Shohagh Paribahan (Scania Multi-axle)", "Saintmartin Travels", "Desh Travels", "Hanif Enterprise", "Ena Transport"],
+        "fareRange": "৳900 (Non-AC) - ৳2,200 (Luxury Multi-axle / Sleeper Bed)",
+        "boardingPoints": ["Arambagh", "Sayedabad", "Kalabagan", "Abdullahpur", "Fakirapool"],
+        "droppingPoints": ["Kolatoli Beach Road", "Jhawtola", "Cox's Bazar Central Bus Terminal"],
+        "duration": "8 - 10 hours",
+        "notes": "Premium luxury sleeper buses feature reclining pod beds, personal USB charging ports, and mineral water bottles."
+      },
+      "train": {
+        "available": true,
+        "type": "Direct High-Speed Tourist Train",
+        "availableTrains": [
+          { "name": "Cox's Bazar Express (814)", "route": "Dhaka Kamalapur to Cox's Bazar Iconic Station", "time": "10:30 PM - 06:40 AM (Overnight)", "fare": "৳695 - ৳1,725" },
+          { "name": "Paromita / Tourism Express (816)", "route": "Dhaka to Cox's Bazar Iconic Station", "time": "06:15 AM - 03:00 PM (Dayliner)", "fare": "৳695 - ৳1,725" }
+        ],
+        "fares": { "shovon": "৳695", "snigdha": "৳1,325", "acBerth": "৳1,725" },
+        "notes": "Arrives at the oyster-shell shaped Cox's Bazar Iconic Railway Station. Book tickets 10 days in advance on eticket.railway.gov.bd."
+      },
+      "air": {
+        "available": true,
+        "nearestAirport": "Cox's Bazar Airport (CXB)",
+        "distanceFromDestination": "3 km from Kolatoli beachfront hotel zone",
+        "airlines": ["Biman Bangladesh Airlines", "US-Bangla Airlines", "Air Astra", "Novoair"],
+        "flightDuration": "50 minutes",
+        "fareRange": "৳4,200 - ৳8,500 one-way",
+        "postFlightTransit": "Pre-paid battery auto-rickshaw (Tomtom) or AC cab takes only 10-15 minutes (৳150 - ৳400) to hotel."
+      },
+      "localTransit": {
+        "type": "Tomtom (Electric Easybike), Open Jeep & Marine Drive 4x4",
+        "estimatedFare": "Tomtom per town trip: ৳20 - ৳50/seat. Full-day Marine Drive Jeep reserve to Inani & Himchari: ৳3,500 - ৳5,000.",
+        "keyTips": "Rent an open hood 4x4 Mahindra Jeep for an unforgettable sunset drive down the 80km Marine Drive."
+      }
+    },
+    "dhaka_to_saint-martins-island": {
+      "summary": "Dhaka → Cox's Bazar / Teknaf → Bay Cruise Ship → Saint Martin's",
+      "distance": "470 km",
+      "typicalDuration": "12 - 14 Hours total",
+      "overview": "Take an overnight bus or train to Cox's Bazar or Teknaf, then cruise across the azure waters of the Bay of Bengal.",
+      "bus": {
+        "available": true,
+        "operators": ["Saintmartin Paribahan", "Green Line", "Desh Travels", "Shyamoli NR", "Shohagh"],
+        "fareRange": "৳1,100 (Non-AC to Teknaf) - ৳2,500 (Direct AC Bus to Teknaf Damdamia Ghat)",
+        "boardingPoints": ["Arambagh", "Sayedabad", "Fakirapool"],
+        "droppingPoints": ["Teknaf Damdamia Ship Ghat", "Cox's Bazar BIWTA Ghat"],
+        "duration": "10 - 11 hours to ghat",
+        "notes": "Direct buses connect straight to the ship boarding jetty early morning."
+      },
+      "train": {
+        "available": true,
+        "type": "Train + Connecting AC Shuttle",
+        "availableTrains": [
+          { "name": "Cox's Bazar Express (814)", "route": "Dhaka to Cox's Bazar", "time": "10:30 PM - 06:40 AM", "fare": "৳695 - ৳1,725" }
+        ],
+        "fares": { "shovon": "৳695", "snigdha": "৳1,325", "acBerth": "৳1,725" },
+        "notes": "Arrive at Cox's Bazar station, then take connecting coastal shuttle or BIWTA cruise ship (when sailing from Cox's Bazar Nuniarchora ghat)."
+      },
+      "air": {
+        "available": true,
+        "nearestAirport": "Cox's Bazar Airport (CXB)",
+        "distanceFromDestination": "100 km from Teknaf Ghat",
+        "airlines": ["Biman Bangladesh", "US-Bangla", "Air Astra"],
+        "flightDuration": "50 minutes to CXB",
+        "fareRange": "৳4,200 - ৳7,500",
+        "postFlightTransit": "AC Microbus from Cox's Bazar Airport to Teknaf Damdamia ghat (2 hrs, ৳3,000 - ৳4,000 reserve) or direct ship from Cox's Bazar."
+      },
+      "localTransit": {
+        "type": "Sea Cruise Ships (Keari Sindbad, Bay Cruiser, Karnafuly Express) & Island Van",
+        "estimatedFare": "Ship Roundtrip Ticket: ৳1,500 (Economy) - ৳3,200 (VIP AC Salon). Island manual cycle van: ৳100 - ৳300 per trip. Chera Dwip engine speed boat: ৳300 - ৳500/person return.",
+        "keyTips": "Ships depart Teknaf Ghat sharply between 09:00 AM - 09:30 AM and return from Saint Martin at 03:00 PM."
+      }
+    },
+    "dhaka_to_sreemangal-tea-capital": {
+      "summary": "Dhaka → Sreemangal (Direct Rail / Highway)",
+      "distance": "195 km",
+      "typicalDuration": "4 - 5 Hours",
+      "overview": "One of the most accessible and peaceful journeys in Bangladesh. The train ride through rural wetland marshes into rolling green tea slopes is iconic.",
+      "bus": {
+        "available": true,
+        "operators": ["Hanif Enterprise", "Shyamoli Paribahan", "Ena Transport", "Habiganj Express"],
+        "fareRange": "৳450 (Non-AC) - ৳900 (AC)",
+        "boardingPoints": ["Sayedabad", "Mohakhali", "Arambagh", "Uttara"],
+        "droppingPoints": ["Sreemangal Bus Stand", "Moulvibazar Road"],
+        "duration": "4 - 5 hours",
+        "notes": "Buses run every 30 minutes throughout day and night from Sayedabad and Mohakhali."
+      },
+      "train": {
+        "available": true,
+        "type": "Direct Scenic Intercity Train",
+        "availableTrains": [
+          { "name": "Parabat Express (709)", "route": "Dhaka to Sreemangal", "time": "06:20 AM - 10:45 AM", "fare": "৳240 - ৳580" },
+          { "name": "Jayantika Express (717)", "route": "Dhaka to Sreemangal", "time": "11:15 AM - 04:05 PM", "fare": "৳240 - ৳580" },
+          { "name": "Kalni Express (773)", "route": "Dhaka to Sreemangal", "time": "03:00 PM - 07:20 PM", "fare": "৳265 - ৳610" },
+          { "name": "Upaban Express (739)", "route": "Dhaka to Sreemangal", "time": "08:30 PM - 01:15 AM", "fare": "৳240 - ৳850" }
+        ],
+        "fares": { "shovon": "৳240", "snigdha": "৳460", "acBerth": "৳850" },
+        "notes": "Parabat Express morning train offers spectacular views of misty paddy fields and tea orchards entering Moulvibazar."
+      },
+      "air": {
+        "available": true,
+        "nearestAirport": "Osmani International Airport (ZYL), Sylhet",
+        "distanceFromDestination": "85 km from Sreemangal",
+        "airlines": ["Biman Bangladesh", "US-Bangla", "Novoair"],
+        "flightDuration": "40 minutes (Dhaka to Sylhet)",
+        "fareRange": "৳3,400 - ৳5,500",
+        "postFlightTransit": "Rent an AC taxi from Sylhet airport to Sreemangal (1.5 - 2 hours, ৳2,500 - ৳3,500)."
+      },
+      "localTransit": {
+        "type": "Rental Bicycle, CNG Auto-rickshaw, or Open Jeep",
+        "estimatedFare": "Bicycle rental: ৳150 - ৳250/day. CNG auto-rickshaw full-day reserve (Tea estates + Lawachara + Madhabpur Lake): ৳1,500 - ৳2,200.",
+        "keyTips": "Cycling through the tea gardens during morning fog is the most serene experience."
+      }
+    },
+    "dhaka_to_sundarbans-mangrove": {
+      "summary": "Dhaka → Khulna / Mongla Port → Mangrove Cruiser Ship",
+      "distance": "260 km via Padma Bridge",
+      "typicalDuration": "4 Hours (Road to Mongla) + 3-Day Liveaboard Cruise",
+      "overview": "Thanks to the Padma Bridge, reaching Mongla Port from Dhaka now takes only 3.5 to 4.5 hours by highway, followed by luxury river cruisers sailing into the wild mangrove canals.",
+      "bus": {
+        "available": true,
+        "operators": ["Green Line", "Tungipara Express", "Shohagh", "Eagle Paribahan", "Bagerhat Express"],
+        "fareRange": "৳650 (Non-AC) - ৳1,400 (AC Business)",
+        "boardingPoints": ["Sayedabad", "Gabtoli", "Arambagh", "Abdullahpur"],
+        "droppingPoints": ["Mongla Tourism Ghat", "Khulna Royal Mor", "Bagerhat"],
+        "duration": "3.5 - 4.5 hours",
+        "notes": "Direct buses cross the iconic Padma Bridge and go straight to Mongla river jetty."
+      },
+      "train": {
+        "available": true,
+        "type": "Direct Railway via Padma Rail Link",
+        "availableTrains": [
+          { "name": "Sundarban Express (725)", "route": "Dhaka to Khulna", "time": "08:15 AM - 03:50 PM", "fare": "৳500 - ৳1,250" },
+          { "name": "Chitra Express (763)", "route": "Dhaka to Khulna", "time": "07:00 PM - 02:45 AM", "fare": "৳500 - ৳1,250" },
+          { "name": "Benapole Express (795)", "route": "Dhaka to Jashore / Khulna", "time": "11:45 PM - 06:30 AM", "fare": "৳520 - ৳1,300" }
+        ],
+        "fares": { "shovon": "৳500", "snigdha": "৳950", "acBerth": "৳1,450" },
+        "notes": "Arrives at Khulna Railway Station. From Khulna, take a 45-minute AC cab to Mongla Port."
+      },
+      "air": {
+        "available": true,
+        "nearestAirport": "Jashore Airport (JSR)",
+        "distanceFromDestination": "110 km to Mongla Port",
+        "airlines": ["Biman Bangladesh", "US-Bangla", "Novoair"],
+        "flightDuration": "35 minutes",
+        "fareRange": "৳3,200 - ৳5,200",
+        "postFlightTransit": "AC Microbus/Taxi from Jashore Airport to Mongla Port (2 hrs, ৳3,000 - ৳4,000)."
+      },
+      "localTransit": {
+        "type": "Liveaboard Cruiser Vessel (3-Day All-Inclusive) & Wooden Dinghy Safari",
+        "estimatedFare": "3-Day 2-Night Full Cruiser Tour (Cabin, Food, Forest Guide & Armed Guards): ৳12,000 - ৳22,000/person; Day trip engine trawler to Karamjal: ৳3,000 - ৳5,000 reserve.",
+        "keyTips": "Book with registered Sundarbans tour operators (e.g., The Guide Tours, Silver Wave, Bengal Tours) well in advance."
+      }
+    },
+    "dhaka_to_bandarban-nilgiri": {
+      "summary": "Dhaka → Bandarban Town → Chander Gari to Nilgiri / Ruma",
+      "distance": "350 km",
+      "typicalDuration": "8 - 10 Hours",
+      "overview": "Traverse from central plains to towering heights through scenic hill passes.",
+      "bus": {
+        "available": true,
+        "operators": ["Saintmartin Travels", "Shyamoli NR", "Hanif Enterprise", "S. Alam Service", "Unique Service"],
+        "fareRange": "৳850 (Non-AC) - ৳1,800 (AC Sleeper / Business)",
+        "boardingPoints": ["Sayedabad", "Arambagh", "Kalabagan", "Fakirapool"],
+        "droppingPoints": ["Bandarban Sadar Bus Stand"],
+        "duration": "8 - 9 hours",
+        "notes": "Night coaches (10:30 PM - 11:30 PM) arrive in Bandarban at dawn (06:30 AM)."
+      },
+      "train": {
+        "available": true,
+        "type": "Train to Chattogram + Road Connector",
+        "availableTrains": [
+          { "name": "Suborno Express (702)", "route": "Dhaka to Chattogram", "time": "04:30 PM - 09:30 PM", "fare": "৳450 - ৳890" },
+          { "name": "Turna Express (742)", "route": "Dhaka to Chattogram", "time": "11:30 PM - 06:15 AM", "fare": "৳400 - ৳850" }
+        ],
+        "fares": { "shovon": "৳400", "snigdha": "৳750", "acBerth": "৳1,100" },
+        "notes": "From Chattogram Railway Station, take an AC Purabi / Purbani bus or private taxi to Bandarban (2 hrs, ৳180 bus / ৳2,200 taxi)."
+      },
+      "air": {
+        "available": true,
+        "nearestAirport": "Shah Amanat International Airport (CGP), Chattogram",
+        "distanceFromDestination": "85 km to Bandarban",
+        "airlines": ["Biman Bangladesh", "US-Bangla", "Air Astra"],
+        "flightDuration": "45 minutes",
+        "fareRange": "৳3,600 - ৳6,200",
+        "postFlightTransit": "AC Microbus from Chattogram Airport directly to Bandarban town (2.5 hrs, ৳3,500 - ৳4,500)."
+      },
+      "localTransit": {
+        "type": "4x4 Chander Gari (Mahindra / Toyota Land Cruiser) & Hill CNG",
+        "estimatedFare": "Nilgiri reserve roundtrip (same day): ৳5,500 - ৳7,000; Ruma Bazar reserve: ৳4,500 - ৳5,500; Local hill CNG to Golden Temple: ৳300 - ৳500.",
+        "keyTips": "Carry 5-6 photocopies of National ID (NID) or Passport for verification at military checkpoints along the hill roads."
+      }
+    },
+    "dhaka_to_tanguar-haor": {
+      "summary": "Dhaka → Sunamganj → Tahirpur Ghat → Luxury Houseboat",
+      "distance": "280 km",
+      "typicalDuration": "7 - 8 Hours to Ghat",
+      "overview": "Journey to the foothills of Meghalaya, board a wooden luxury houseboat, and live on the water.",
+      "bus": {
+        "available": true,
+        "operators": ["Hanif Enterprise", "Ena Transport", "Shyamoli NR", "Mamun Paribahan"],
+        "fareRange": "৳700 (Non-AC) - ৳1,300 (AC)",
+        "boardingPoints": ["Sayedabad", "Mohakhali", "Arambagh"],
+        "droppingPoints": ["Sunamganj Sadar New Bus Terminal"],
+        "duration": "6.5 - 7.5 hours",
+        "notes": "Night bus around 10:30 PM arrives in Sunamganj at 5:30 AM."
+      },
+      "train": {
+        "available": true,
+        "type": "Train to Sylhet + Road Connector",
+        "availableTrains": [
+          { "name": "Upaban Express (739)", "route": "Dhaka to Sylhet", "time": "08:30 PM - 05:00 AM", "fare": "৳320 - ৳850" },
+          { "name": "Parabat Express (709)", "route": "Dhaka to Sylhet", "time": "06:20 AM - 01:00 PM", "fare": "৳320 - ৳750" }
+        ],
+        "fares": { "shovon": "৳320", "snigdha": "৳610", "acBerth": "৳1,100" },
+        "notes": "From Sylhet Railway Station, take an AC microbus or local bus to Sunamganj (1.5 hrs, ৳150 bus / ৳2,000 car)."
+      },
+      "air": {
+        "available": true,
+        "nearestAirport": "Osmani International Airport (ZYL), Sylhet",
+        "distanceFromDestination": "80 km to Sunamganj",
+        "airlines": ["Biman Bangladesh", "US-Bangla", "Air Astra", "Novoair"],
+        "flightDuration": "40 minutes",
+        "fareRange": "৳3,400 - ৳5,800",
+        "postFlightTransit": "AC Microbus from Sylhet Airport directly to Tahirpur Boat Ghat (2.5 hrs, ৳4,000 - ৳5,000)."
+      },
+      "localTransit": {
+        "type": "CNG / Bike to Tahirpur Ghat + Luxury Overnight Houseboat",
+        "estimatedFare": "Sunamganj town to Tahirpur Ghat (CNG): ৳120/seat or ৳600 reserve. Houseboat 2-Day Package with 5 gourmet meals & haor tour: ৳7,500 - ৳15,000/person (or full boat reserve ৳40,000 - ৳1,20,000).",
+        "keyTips": "Houseboats book out 3-4 weeks ahead during peak monsoon (July-September). Early booking is essential."
+      }
+    },
+    "dhaka_to_kuakata-daughter-of-ocean": {
+      "summary": "Dhaka → Barishal / Patuakhali → Kuakata (Via Padma Bridge or Luxury River Launch)",
+      "distance": "285 km via Padma Bridge",
+      "typicalDuration": "5.5 - 6 Hours (Direct AC Bus) or Overnight Launch",
+      "overview": "Cross the mighty Padma & Payra river bridges by smooth highway, or relish a classic overnight triple-decker river launch down the southern delta.",
+      "bus": {
+        "available": true,
+        "operators": ["Sakura Paribahan", "Hanif Enterprise", "Kuakata Express", "Survi Paribahan", "Green Line"],
+        "fareRange": "৳750 (Non-AC) - ৳1,500 (AC Multi-axle)",
+        "boardingPoints": ["Sayedabad", "Gabtoli", "Abdullahpur"],
+        "droppingPoints": ["Kuakata Zero Point Beach Terminal"],
+        "duration": "5.5 - 6 hours",
+        "notes": "Padma Bridge and Payra 4-lane bridges have reduced travel time from 14 hours down to under 6 hours!"
+      },
+      "train": {
+        "available": false,
+        "type": "River Launch Alternative (Classic Southern Experience)",
+        "availableTrains": [
+          { "name": "MV Sundarban 10 / 12 (Giant Triple-decker Launch)", "route": "Dhaka Sadarghat to Barishal", "time": "08:30 PM - 05:00 AM (Overnight)", "fare": "৳350 (Deck) - ৳3,500 (VIP AC Cabin)" },
+          { "name": "MV Parabat 11 / 12", "route": "Dhaka Sadarghat to Barishal", "time": "09:00 PM - 05:30 AM", "fare": "৳350 - ৳3,500" }
+        ],
+        "fares": { "shovon": "৳350 (Deck)", "snigdha": "৳1,200 (Single AC Cabin)", "acBerth": "৳2,200 (Double AC Cabin)" },
+        "notes": "Cruising on a giant illuminated river launch across the Meghna river with fresh Hilsha fish dinner is a quintessentially Bengali experience."
+      },
+      "air": {
+        "available": true,
+        "nearestAirport": "Barishal Airport (BZL)",
+        "distanceFromDestination": "115 km to Kuakata",
+        "airlines": ["Biman Bangladesh Airlines", "US-Bangla Airlines"],
+        "flightDuration": "30 minutes",
+        "fareRange": "৳3,000 - ৳4,800",
+        "postFlightTransit": "AC Microbus/Taxi from Barishal Airport to Kuakata Beach (2.5 hrs, ৳3,500 - ৳4,500)."
+      },
+      "localTransit": {
+        "type": "Beach Motorbike Tour & Easybike",
+        "estimatedFare": "Guided beach motorbike tour (Red Crab Beach, Gangamati, Buddhist Well, Rakhine Village): ৳800 - ৳1,200 return.",
+        "keyTips": "Wake up at 05:00 AM to catch the sunrise over the eastern beach, then relax on the western beach for sunset."
+      }
+    },
+    "dhaka_to_birishiri-ceramic-hills": {
+      "summary": "Dhaka → Netrokona / Durgapur → Birishiri",
+      "distance": "175 km",
+      "typicalDuration": "5 - 6 Hours",
+      "overview": "Cross the old Brahmaputra river plains to the white clay mineral hills of Netrokona near the Meghalaya border.",
+      "bus": {
+        "available": true,
+        "operators": ["Sarkar Paribahan", "Shikha Paribahan", "Bikas Paribahan", "Al-Raji"],
+        "fareRange": "৳400 (Non-AC) - ৳750 (AC)",
+        "boardingPoints": ["Mohakhali Inter-district Terminal"],
+        "droppingPoints": ["Durgapur Birishiri Bridge Ghat"],
+        "duration": "5 - 6 hours",
+        "notes": "Direct buses depart Mohakhali starting from 06:00 AM."
+      },
+      "train": {
+        "available": true,
+        "type": "Intercity Train to Jaria Jhanjail",
+        "availableTrains": [
+          { "name": "Haor Express (777)", "route": "Dhaka to Mohanganj / Netrokona", "time": "10:15 AM - 03:00 PM", "fare": "৳220 - ৳450" }
+        ],
+        "fares": { "shovon": "৳220", "snigdha": "৳420", "acBerth": "৳750" },
+        "notes": "Get down at Netrokona or Shyamganj Junction, then 1-hr local CNG to Durgapur."
+      },
+      "air": {
+        "available": false,
+        "nearestAirport": "No direct commercial airport nearby; road transit from Dhaka is recommended.",
+        "distanceFromDestination": "N/A",
+        "airlines": [],
+        "flightDuration": "N/A",
+        "fareRange": "N/A",
+        "postFlightTransit": "Recommended mode is direct road transit via Mohakhali."
+      },
+      "localTransit": {
+        "type": "Local Motorbike Rental & Wooden Shomeshwari Boat",
+        "estimatedFare": "Local motorbike pilot for full-day tour (Ceramic Lake, Ranikhong, Garo Academy, Border viewpoint): ৳800 - ৳1,200. Shomeshwari river wooden boat crossing: ৳10 - ৳20/person.",
+        "keyTips": "Hiring a local motorbike rider as your guide is the most flexible way to navigate the gravel riverside roads."
+      }
+    },
+    "dhaka_to_sompur-mahavihara": {
+      "summary": "Dhaka → Joypurhat / Shantahar Junction → Paharpur",
+      "distance": "260 km",
+      "typicalDuration": "5 - 6 Hours",
+      "overview": "Comfortable broad-gauge rail transit through the green northern agricultural belt to the ancient 8th-century Buddhist monastic citadel.",
+      "bus": {
+        "available": true,
+        "operators": ["Hanif Enterprise", "Shyamoli Paribahan", "SR Travels", "Ena Transport"],
+        "fareRange": "৳650 (Non-AC) - ৳1,200 (AC)",
+        "boardingPoints": ["Gabtoli", "Kollanpur", "Abdullahpur"],
+        "droppingPoints": ["Joypurhat Bus Stand", "Naogaon"],
+        "duration": "5.5 - 6.5 hours",
+        "notes": "Crosses the Bangabandhu Jamuna Bridge across the Brahmaputra river."
+      },
+      "train": {
+        "available": true,
+        "type": "Direct High-Speed Northern Intercity Train",
+        "availableTrains": [
+          { "name": "Drutojan Express (757)", "route": "Dhaka to Joypurhat", "time": "08:00 PM - 02:30 AM", "fare": "৳380 - ৳890" },
+          { "name": "Ekota Express (705)", "route": "Dhaka to Joypurhat", "time": "10:15 AM - 04:45 PM", "fare": "৳380 - ৳890" },
+          { "name": "Nilsagor Express (765)", "route": "Dhaka to Joypurhat", "time": "06:45 AM - 01:10 PM", "fare": "৳380 - ৳890" }
+        ],
+        "fares": { "shovon": "৳380", "snigdha": "৳720", "acBerth": "৳1,150" },
+        "notes": "Nilsagor and Ekota Express arrive during pleasant daylight hours. De-board at Joypurhat Station."
+      },
+      "air": {
+        "available": true,
+        "nearestAirport": "Shah Makhdum Airport (RJH), Rajshahi",
+        "distanceFromDestination": "85 km to Paharpur",
+        "airlines": ["Biman Bangladesh", "US-Bangla"],
+        "flightDuration": "45 minutes",
+        "fareRange": "৳3,200 - ৳5,200",
+        "postFlightTransit": "AC Taxi from Rajshahi Airport to Paharpur (2 hrs, ৳3,000 - ৳4,000)."
+      },
+      "localTransit": {
+        "type": "Battery Auto-rickshaw (Easybike) & Local CNG",
+        "estimatedFare": "Joypurhat Station to Paharpur Sompur Mahavihara gate: CNG ৳200 - ৳300 reserve, or shared auto ৳40/seat (approx 20-25 mins).",
+        "keyTips": "Pair with a visit to the nearby 16th-century black basalt Kushumba Mosque in Manda."
+      }
+    }
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "nationalEmergency": [
+    {
+      "service": "National Emergency Service (Police, Fire, Ambulance)",
+      "number": "999",
+      "available": "24/7 Toll-Free across all Bangladesh networks",
+      "desc": "Universal emergency number for immediate dispatch of Police, Fire Brigade, or Ambulance anywhere in Bangladesh."
+    },
+    {
+      "service": "Tourist Police Bangladesh Central Control Room",
+      "number": "+880 1320-160120",
+      "altNumber": "+880 1320-160121",
+      "available": "24/7 Dedicated Traveler Hotline",
+      "desc": "Specialized branch of Bangladesh Police dedicated to tourist safety, harassment reporting, lost items, and guidance."
+    },
+    {
+      "service": "Fire Service & Civil Defence Central HQ",
+      "number": "16163",
+      "altNumber": "+880 2-223355555",
+      "available": "24/7 Emergency",
+      "desc": "Fire rescue, road accident extrication, and water salvage operations."
+    },
+    {
+      "service": "National Health Helpline (Sasthya Batayan)",
+      "number": "16263",
+      "available": "24/7 Telemedicine & Doctor Advice",
+      "desc": "Immediate telephone consultations with registered government physicians."
+    }
+  ],
+  "regionalTouristPolice": [
+    {
+      "region": "Cox's Bazar Zone",
+      "phone": "+880 1320-160130",
+      "location": "Kolatoli Beach Circle, Laboni Point & Inani Beach Outposts",
+      "services": "Beach rescue coordination, vendor dispute resolution, lost property, late-night safety."
+    },
+    {
+      "region": "Sylhet Zone",
+      "phone": "+880 1320-160140",
+      "location": "Shah Jalal Dargah Gate, Jaflong, Ratargul & Sada Pathor Checkposts",
+      "services": "Boat tariff regulation, river safety, foreign tourist guidance."
+    },
+    {
+      "region": "Kuakata Zone",
+      "phone": "+880 1320-160150",
+      "location": "Kuakata Zero Point Beach Station",
+      "services": "Motorbike tour tariff regulation, sunrise/sunset beach safety, lifeguard support."
+    },
+    {
+      "region": "Chittagong Hill Tracts (Bandarban & Sajek)",
+      "phone": "+880 1320-160160",
+      "location": "Khagrachari Dighinala, Sajek Ruilui Para, Bandarban Sadar",
+      "services": "Security convoy coordination, hill checkpoints, indigenous community mediation."
+    },
+    {
+      "region": "Sundarbans Zone (Khulna & Mongla)",
+      "phone": "+880 1320-160170",
+      "location": "Mongla Tourism Ghat & Khulna BIWTA Jetty",
+      "services": "Cruiser ship manifest check, forest department liaison, river security."
+    }
+  ],
+  "majorHospitals": [
+    {
+      "zone": "Cox's Bazar",
+      "name": "Cox's Bazar 250-Bed District Sadar Hospital",
+      "phone": "+880 341-63854",
+      "location": "Hospital Road, Cox's Bazar Sadar",
+      "type": "Government Tertiary Hospital with 24/7 Trauma Center"
+    },
+    {
+      "zone": "Sylhet",
+      "name": "Sylhet MAG Osmani Medical College Hospital",
+      "phone": "+880 821-713667",
+      "location": "Kajolshah, Medical Road, Sylhet",
+      "type": "Premier Tertiary Referral & Emergency Hospital"
+    },
+    {
+      "zone": "Khulna (Sundarbans Gateway)",
+      "name": "Khulna Medical College Hospital",
+      "phone": "+880 41-760350",
+      "location": "Boyra, Khulna",
+      "type": "Super-speciality regional trauma & ICU center"
+    },
+    {
+      "zone": "Chattogram",
+      "name": "Chattogram Medical College Hospital (CMCH)",
+      "phone": "+880 31-619400",
+      "location": "57 K.B. Fazlul Kader Road, Chattogram",
+      "type": "Largest emergency medical facility in south-eastern Bangladesh"
+    },
+    {
+      "zone": "Dhaka (Capital)",
+      "name": "Dhaka Medical College Hospital & Evercare Hospital",
+      "phone": "+880 2-55165088 / 10678",
+      "location": "Secretariat Road / Bashundhara R/A, Dhaka",
+      "type": "Level-1 emergency trauma centers & international standard care"
+    }
+  ],
+  "travelGuidelines": [
+    {
+      "title": "Chittagong Hill Tracts (CHT) Entry Formalities",
+      "badge": "Permits & Security",
+      "desc": "Domestic travelers only require valid National ID cards at Army checkpoints in Khagrachari, Sajek, and Bandarban. Foreign passport holders require prior security clearance from the Ministry of Home Affairs (or on-spot foreign registration at Bandarban / Khagrachari DC offices). Always carry multiple paper photocopies of your passport, visa, and entry stamps."
+    },
+    {
+      "title": "Mobile Connectivity & Internet in Remote Areas",
+      "badge": "SIM & Telecom",
+      "desc": "Grameenphone and Teletalk offer the strongest coverage in remote hill tracts (Sajek, Keokradong, Bandarban) and mangrove forests (Sundarbans). In central haor waters, Robi and GP both perform reliably. Buy a local Tourist SIM at Hazrat Shahjalal International Airport arrivals using your passport and biometric fingerprint."
+    },
+    {
+      "title": "Cash vs. Mobile Banking (bKash / Nagad)",
+      "badge": "Currency & Payments",
+      "desc": "While credit cards (Visa/Mastercard) are accepted in hotels in Dhaka, Chattogram, and Cox's Bazar, remote spots like Sajek, Tanguar Haor, and Birishiri run predominantly on physical cash and bKash / Nagad mobile wallets. Always withdraw sufficient paper currency before departing regional hub towns."
+    },
+    {
+      "title": "Cultural Etiquette & Respectful Photography",
+      "badge": "Local Etiquette",
+      "desc": "Dress modestly when visiting historic mosques, Hindu temples, Buddhist monasteries, and rural villages (shoulders and knees covered). Always ask polite permission before photographing local village women, fishermen, or indigenous hill residents. Tipping ৳50-100 to helpful boatmen and porters is standard courtesy."
+    },
+    {
+      "title": "Leave No Trace & Eco Preservation",
+      "badge": "Environment",
+      "desc": "Help preserve Bangladesh's pristine wonders: strictly avoid dumping single-use plastics into the freshwater of Tanguar Haor, the coral beds of Chera Dwip, or the mangrove streams of the Sundarbans. Always bring your personal trash back to mainland waste disposal bins."
+    }
+  ]
+}

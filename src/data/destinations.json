@@ -1,0 +1,646 @@
+[
+  {
+    "id": "sajek-valley",
+    "name": "Sajek Valley",
+    "bengaliName": "সাজেক ভ্যালি",
+    "division": "Chattogram",
+    "district": "Rangamati",
+    "vibe": "Hills & Trekking",
+    "vibes": ["Hills & Trekking", "Forests & Wildlife"],
+    "rating": 4.9,
+    "reviewCount": 1420,
+    "heroImage": "https://images.unsplash.com/photo-1628083835398-4c2f6d0f6667?auto=format&fit=crop&w=1200&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1628083835398-4c2f6d0f6667?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1589308078059-be1415eab4c3?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=800&q=80"
+    ],
+    "tagline": "The Queen of Hills – Floating above an ocean of clouds",
+    "description": "Nestled among the lush green rolling peaks of the Kasalang range in Rangamati, Sajek Valley is famed as the 'Cloud Kingdom' of Bangladesh. At 1,800 feet above sea level, you wake up enclosed in sea-like fluffy clouds right at your cottage balcony.",
+    "bestTimeToVisit": "September to February (Autumn & Winter for dense cloud sea; June to August for dramatic rain & lush greenery)",
+    "idealDuration": "2 - 3 Days",
+    "budget": {
+      "backpacker": "৳3,500 - ৳5,000",
+      "standard": "৳7,000 - ৳10,000",
+      "luxury": "৳14,000 - ৳22,000",
+      "currency": "BDT"
+    },
+    "highlights": ["Konglak Peak Trek", "Helipad Cloud Watching", "Sajek Eco Cottages", "Army Escort Chander Gari Ride", "Hajachora Waterfall"],
+    "localFoods": [
+      {
+        "name": "Bamboo Chicken / Bamboo Biryani",
+        "desc": "Fresh indigenous chicken slow-cooked with mountain spices inside hollow bamboo stems over firewood."
+      },
+      {
+        "name": "Pahari Sweet Papaya & Pineapples",
+        "desc": "Organically harvested, intensely sweet local pineapples and papayas sold by local Lusai and Tripura farmers."
+      },
+      {
+        "name": "Indigenous Mountain Herbal Teas",
+        "desc": "Fragrant locally picked mountain herbal infusions served in rustic bamboo mugs."
+      }
+    ],
+    "safetyTips": [
+      "Travel between Dighinala and Sajek is strictly regulated under Bangladesh Army security convoy (Escort timings: 10:00 AM and 03:00 PM). Do not miss the escort window.",
+      "Bring cash! ATMs in Sajek are frequently offline. Teletalk and Robi provide the most reliable network coverage on the hills.",
+      "Respect indigenous Lusai, Chakma, and Tripura customs. Always ask permission before photographing local village residents.",
+      "Practice eco-tourism: carry back all plastic bottles and snack wrappers down to Khagrachari town."
+    ],
+    "transportSummary": "Bus from Dhaka to Khagrachari (8-9 hrs), then reserved 4x4 open Chander Gari with military escort up the hills."
+  },
+  {
+    "id": "saint-martins-island",
+    "name": "Saint Martin's Island & Chera Dwip",
+    "bengaliName": "সেন্ট মার্টিন্স দ্বীপ",
+    "division": "Chattogram",
+    "district": "Cox's Bazar",
+    "vibe": "Beaches & Islands",
+    "vibes": ["Beaches & Islands"],
+    "rating": 4.8,
+    "reviewCount": 1850,
+    "heroImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80"
+    ],
+    "tagline": "The only coral island of Bangladesh – Turquoise ocean and coconut groves",
+    "description": "Known locally as Narikel Jinjira (Coconut Island), this 8-sq-km jewel in the Bay of Bengal boasts crystal clear turquoise waters, living coral beds, swaying palm trees, and bioluminescent ocean waves under starry night skies.",
+    "bestTimeToVisit": "November to February (Sea cruise ships operate during these months; calm seas & sunny skies)",
+    "idealDuration": "3 - 4 Days",
+    "budget": {
+      "backpacker": "৳4,500 - ৳6,500",
+      "standard": "৳8,500 - ৳14,000",
+      "luxury": "৳18,000 - ৳30,000",
+      "currency": "BDT"
+    },
+    "highlights": ["Chera Dwip Coral Reef", "Sunset at West Beach", "Fresh Grilled Koral Fish & Lobster", "Stargazing over the Coral Shore", "Bicycle Island Tour"],
+    "localFoods": [
+      {
+        "name": "BBQ Koral & Rupchanda Fish",
+        "desc": "Live sea fish bought right from the fisherman's boat and grilled over glowing charcoal coals with local mustard and lemon."
+      },
+      {
+        "name": "Fresh Sweet Green Coconut (Dab)",
+        "desc": "Giant, sweet coastal coconuts harvested straight from the island's famous towering palm groves."
+      },
+      {
+        "name": "Dry Fish (Shutki) Bhorta & Crabs",
+        "desc": "Spicy pounded Loitta and Churi shutki with roasted red chilies and hot steamed rice."
+      }
+    ],
+    "safetyTips": [
+      "Do NOT collect or step on live coral formations at Chera Dwip. Bangladesh Department of Environment strictly bans coral extraction.",
+      "Check official maritime circulars for ship permits before planning. Sea crossings depend on calm maritime weather.",
+      "High tide currents can be strong on the eastern beaches; swim only in designated shallow zones during low tide.",
+      "Carry ample cash (bKash works in shops, but island ATM machines can be unreliable)."
+    ],
+    "transportSummary": "Bus/Train to Cox's Bazar/Teknaf, followed by luxury sea ship (Keari Sindbad, Bay Cruiser) across the Bay of Bengal (2.5 hrs)."
+  },
+  {
+    "id": "sreemangal-tea-capital",
+    "name": "Sreemangal & Lawachara",
+    "bengaliName": "শ্রীমঙ্গল ও লাউয়াছড়া",
+    "division": "Sylhet",
+    "district": "Moulvibazar",
+    "vibe": "Forests & Wildlife",
+    "vibes": ["Forests & Wildlife", "Hills & Trekking"],
+    "rating": 4.85,
+    "reviewCount": 1150,
+    "heroImage": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1563822249548-9a72b6353cd1?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&w=800&q=80"
+    ],
+    "tagline": "The Tea Capital of Bangladesh – Endless emerald slopes & rainforest canopy",
+    "description": "Sreemangal is blanketed in over 40 sprawling rolling tea gardens, rubber estates, and pine orchards. Right next door lies Lawachara National Park, home to the endangered Western Hoolock Gibbon, elusive clouded leopards, and towering forest canopies.",
+    "bestTimeToVisit": "October to March (Pleasant weather for cycling through tea gardens); July-August for misty rains and vibrant lush leaves",
+    "idealDuration": "2 - 3 Days",
+    "budget": {
+      "backpacker": "৳3,000 - ৳4,500",
+      "standard": "৳6,500 - ৳10,000",
+      "luxury": "৳15,000 - ৳25,000",
+      "currency": "BDT"
+    },
+    "highlights": ["Rolling Tea Estates & Tasting", "Lawachara National Park Trek", "Nilkantha 7-Layer Rainbow Tea", "Madhabpur Lake Lotus Blossoms", "Monipuri Indigenous Handloom Weaving Village"],
+    "localFoods": [
+      {
+        "name": "Seven-Layer Rainbow Tea (Nilkantha)",
+        "desc": "The globally famous layered glass tea featuring 7 distinct rainbow strata of green, black, condensed milk and ginger brews."
+      },
+      {
+        "name": "Shatkora Beef (Sylheti Wild Citrus Beef)",
+        "desc": "Tender beef shank braised slowly with indigenous bitter-aromatic Shatkora citrus slices, an iconic Sylheti delicacy."
+      },
+      {
+        "name": "Sylheti Chunga Pitha & Fresh Clotted Cream",
+        "desc": "Aromatic sticky rice steamed inside sweet bamboo tubes served with fresh raw date jaggery and buffalo cream."
+      }
+    ],
+    "safetyTips": [
+      "Inside Lawachara Rainforest, stay strictly on designated hiking trails. Beware of harmless forest leeches during rainy months (bring salt/tobacco powder).",
+      "Keep quiet while spotting wildlife; loud music is illegal inside the national park to protect the sensitive Hoolock Gibbons.",
+      "Rent a bicycle to explore the tea trails slowly and respectfully without disturbing tea plucking workers."
+    ],
+    "transportSummary": "Direct train from Dhaka (Parabat Express / Upaban Express, 4.5 hrs) or AC bus (Hanif / Shyamoli, 5 hrs)."
+  },
+  {
+    "id": "sundarbans-mangrove",
+    "name": "Sundarbans Mangrove Forest",
+    "bengaliName": "সুন্দরবন ম্যানগ্রোভ বন",
+    "division": "Khulna",
+    "district": "Bagerhat & Khulna",
+    "vibe": "Forests & Wildlife",
+    "vibes": ["Forests & Wildlife", "Riverine & Waterfalls"],
+    "rating": 4.95,
+    "reviewCount": 2100,
+    "heroImage": "https://images.unsplash.com/photo-1534177616072-ef7dc120449d?auto=format&fit=crop&w=1200&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1534177616072-ef7dc120449d?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80"
+    ],
+    "tagline": "The World's Largest Coastal Mangrove & Realm of the Royal Bengal Tiger",
+    "description": "A UNESCO World Heritage site straddling the delta of the Ganges and Brahmaputra rivers. Cruising along its labyrinth of tidal waterways reveals spotted deer, saltwater crocodiles, Irrawaddy dolphins, colorful kingfishers, and the iconic Royal Bengal Tiger.",
+    "bestTimeToVisit": "November to February (Pleasant winter breezes, low humidity, prime wildlife viewing at mudflats)",
+    "idealDuration": "3 - 4 Days (Liveaboard Cruiser Ship)",
+    "budget": {
+      "backpacker": "৳6,500 - ৳9,000",
+      "standard": "৳12,000 - ৳18,000",
+      "luxury": "৳22,000 - ৳40,000",
+      "currency": "BDT"
+    },
+    "highlights": ["Kotka Wildlife Sanctuary Watchtower", "Hiron Point Crocodile Canal", "Karamjal Wildlife Breeding Center", "Silent Morning Wooden Canoe Safari", "Sundarbans Wild Honey Harvesting Trail"],
+    "localFoods": [
+      {
+        "name": "Chui Jhal Beef / Mutton (Khulna Style)",
+        "desc": "Fiery tender meat cooked with aromatic Piper chaba wood stems, garlic bulbs, and dark mustard gravy."
+      },
+      {
+        "name": "Wild Sundarbans Khalsi Honey",
+        "desc": "Pure raw golden honey collected by brave forest honey hunters (Mawalis) from wild mangrove hives."
+      },
+      {
+        "name": "Fresh Freshwater Golda & Bagda Prawns",
+        "desc": "Jumbo tiger prawns cooked in coconut cream and roasted cumin sauce."
+      }
+    ],
+    "safetyTips": [
+      "Cruises into the deep forest require armed Forest Department security guards who accompany your ship and walking safaris.",
+      "Never wander into the forest alone without official armed forest escorts under any circumstances.",
+      "Sundarbans is an ecologically sensitive sanctuary: single-use plastic disposal into rivers is heavily penalized.",
+      "Bring motion sickness pills if you are sensitive to tidal river swells."
+    ],
+    "transportSummary": "Train or AC bus to Khulna/Mongla port, followed by a multi-day liveaboard cruiser vessel navigating down to the Bay."
+  },
+  {
+    "id": "tanguar-haor",
+    "name": "Tanguar Haor & Shimul Bagan",
+    "bengaliName": "টাঙ্গুয়ার হাওর ও শিমুল বাগান",
+    "division": "Sylhet",
+    "district": "Sunamganj",
+    "vibe": "Riverine & Waterfalls",
+    "vibes": ["Riverine & Waterfalls"],
+    "rating": 4.9,
+    "reviewCount": 980,
+    "heroImage": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1200&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80"
+    ],
+    "tagline": "The Inland Sea of Bangladesh – Ramsar Wetland of migratory birds & luxury houseboats",
+    "description": "Spanning over 100 square kilometers beneath the foothills of the Meghalaya plateau in India, Tanguar Haor is a magical freshwater wetland. During monsoon, it turns into a vast inland sea navigated by traditional double-decker wooden luxury houseboats.",
+    "bestTimeToVisit": "Monsoon (July to September) for scenic full-water houseboat cruises; Winter (Dec to Feb) for 200+ migratory bird species",
+    "idealDuration": "2 - 3 Days",
+    "budget": {
+      "backpacker": "৳4,000 - ৳6,000",
+      "standard": "৳8,000 - ৳13,000",
+      "luxury": "৳16,000 - ৳26,000",
+      "currency": "BDT"
+    },
+    "highlights": ["Overnight Luxury Houseboat Stay", "Watchtower Cloud Reflections", "Jadukata River Turquoise Waters", "Barek Tila Border Viewpoint", "Red Shimul Bagan (February bloom)"],
+    "localFoods": [
+      {
+        "name": "Fresh Haor Fish Platter (Bowal, Pabda, Batashi)",
+        "desc": "Freshly caught wild sweetwater haor fish lightly fried with turmeric, green chilies, and served with local rice."
+      },
+      {
+        "name": "Haor Duck Curry with Bhuna Khichuri",
+        "desc": "Rich braised free-range haor duck cooked in whole spices, paired with piping hot yellow lentil khichuri on rainy deck mornings."
+      },
+      {
+        "name": "Sunamganj Toker Doi (Traditional Sour Curd)",
+        "desc": "Pure cow milk curd prepared traditionally across rural haor settlements."
+      }
+    ],
+    "safetyTips": [
+      "Always wear an approved life jacket when cruising on small engine boats or swimming in open haor waters.",
+      "Check weather warnings: sudden monsoon windstorms (known as 'Kalbaishakhi' or 'Baor') can create large river waves.",
+      "Tahirpur and border areas close to Meghalaya require travelers to carry national ID cards or valid passports."
+    ],
+    "transportSummary": "Bus from Dhaka to Sunamganj (6-7 hrs), then local CNG/bike to Tahirpur Ghat to board your reserved houseboat."
+  },
+  {
+    "id": "coxs-bazar-sea-beach",
+    "name": "Cox's Bazar Beach & Marine Drive",
+    "bengaliName": "কক্সবাজার সমুদ্র সৈকত",
+    "division": "Chattogram",
+    "district": "Cox's Bazar",
+    "vibe": "Beaches & Islands",
+    "vibes": ["Beaches & Islands"],
+    "rating": 4.75,
+    "reviewCount": 3500,
+    "heroImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=800&q=80"
+    ],
+    "tagline": "The World's Longest Natural Unbroken Sea Beach (120 km)",
+    "description": "Stretching for 120 continuous kilometers alongside the Bay of Bengal, Cox's Bazar is Bangladesh's premier coastal haven. Cruise along the breathtaking Marine Drive road, flanked by towering emerald hills on one side and surging ocean waves on the other.",
+    "bestTimeToVisit": "October to April (Crisp sunny days and golden sunsets; surf season in late summer)",
+    "idealDuration": "3 - 5 Days",
+    "budget": {
+      "backpacker": "৳3,500 - ৳5,500",
+      "standard": "৳8,000 - ৳14,000",
+      "luxury": "৳18,000 - ৳35,000",
+      "currency": "BDT"
+    },
+    "highlights": ["Inani Coral Beach & Sea Snails", "80-km Marine Drive Open Jeep Drive", "Himchari Hilltop & Waterfall", "Laboni & Kolatoli Night Markets", "Surfing at Darianagar"],
+    "localFoods": [
+      {
+        "name": "Beachside Charcoal BBQ Red Snapper & Prawns",
+        "desc": "Fresh catch sizzled on live charcoal grills with spicy tamarind dip along Kolatoli beach strip."
+      },
+      {
+        "name": "Assorted Loitta Fry & Fish Bhorta Thali",
+        "desc": "Crispy golden fried Loitta fish paired with 10 varieties of spicy fish shutki bhortas and steaming hot rice."
+      },
+      {
+        "name": "Burmese Market Candies & Coconut Pancakes",
+        "desc": "Authentic tamarind candies, pickled fruits, and roasted cashew nuts from the Burmese market."
+      }
+    ],
+    "safetyTips": [
+      "Swim strictly within designated green-flag safety zones monitored by Sea Safe Lifeguards. Red flags indicate dangerous rip tides.",
+      "Beware of fast motorized quad bikes and beach buggies near crowded spots.",
+      "Keep the 24/7 Tourist Police helpline (+8801320-160120) saved in your phone; Tourist Police booths are stationed right on the sand."
+    ],
+    "transportSummary": "Direct high-speed train (Cox's Bazar Express / Paromita Express, 8 hrs from Dhaka), luxury sleeper buses, or direct 45-min domestic flight."
+  },
+  {
+    "id": "bandarban-nilgiri",
+    "name": "Bandarban & Nilgiri Hills",
+    "bengaliName": "বান্দরবান ও নীলগিরি",
+    "division": "Chattogram",
+    "district": "Bandarban",
+    "vibe": "Hills & Trekking",
+    "vibes": ["Hills & Trekking", "Riverine & Waterfalls"],
+    "rating": 4.9,
+    "reviewCount": 1600,
+    "heroImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1200&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80"
+    ],
+    "tagline": "The Roof of Bangladesh – Dramatic peaks, Keokradong & Boga Lake",
+    "description": "Bandarban is the epicenter of mountain adventure in Bangladesh. Home to the nation's highest peaks (Keokradong, Saka Haphong), pristine mysterious crater lakes like Boga Lake, roaring waterfalls like Nafakhum, and misty cloud resorts at Nilgiri (2,200 ft).",
+    "bestTimeToVisit": "October to March for cool weather trekking; June to August for full-force waterfalls (Nafakhum, Jadipai)",
+    "idealDuration": "3 - 5 Days",
+    "budget": {
+      "backpacker": "৳4,000 - ৳6,000",
+      "standard": "৳8,000 - ৳13,000",
+      "luxury": "৳16,000 - ৳28,000",
+      "currency": "BDT"
+    },
+    "highlights": ["Nilgiri Army Hill Resort", "Boga Lake Volcanic Caldera", "Keokradong Summit Trek", "Chimbuk Hill Viewpoint", "Sangu River Boat Cruise through Canyons"],
+    "localFoods": [
+      {
+        "name": "Pahari Bamboo Stem Shoot Curry",
+        "desc": "Delicate tender bamboo shoots cooked with organic hill herbs and mild mountain spices."
+      },
+      {
+        "name": "Marma Style Steamed Fish in Banana Leaf",
+        "desc": "River fish marinated in crushed wild coriander, ginger, and garlic, wrapped in fresh banana leaves and steamed."
+      },
+      {
+        "name": "Indigenous Wild Red Sticky Rice",
+        "desc": "Nutty, naturally aromatic red mountain rice cultivated on terraced jhum hill slopes."
+      }
+    ],
+    "safetyTips": [
+      "Foreign nationals must obtain prior security clearance and register at military checkpoints with photocopies of passport & visa.",
+      "Trekking to Keokradong or Nafakhum requires hiring an officially licensed indigenous local guide registered with local authorities.",
+      "Wear sturdy trekking boots with good grip; mountain trails can be slippery during early morning dew and rain."
+    ],
+    "transportSummary": "Direct AC/Non-AC bus from Dhaka to Bandarban town (8-9 hrs), then reserved 4x4 open Chander Gari into deep hill tracks."
+  },
+  {
+    "id": "sompur-mahavihara",
+    "name": "Sompur Mahavihara (Paharpur)",
+    "bengaliName": "সোমপুর মহাবিহার (পাহাড়পুর)",
+    "division": "Rajshahi",
+    "district": "Naogaon",
+    "vibe": "Heritage & History",
+    "vibes": ["Heritage & History"],
+    "rating": 4.8,
+    "reviewCount": 780,
+    "heroImage": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1563822249548-9a72b6353cd1?auto=format&fit=crop&w=800&q=80"
+    ],
+    "tagline": "UNESCO World Heritage – 8th Century Buddhist Monastic Citadel",
+    "description": "Constructed during the reign of Pala Emperor Dharmapala in the late 8th century, Sompur Mahavihara is one of the largest Buddhist monasteries south of the Himalayas. Its monumental central cruciform shrine influenced architecture across Southeast Asia and Pagan.",
+    "bestTimeToVisit": "October to March (Comfortable cool winter afternoons perfect for archaeological walking tours)",
+    "idealDuration": "1 - 2 Days",
+    "budget": {
+      "backpacker": "৳2,500 - ৳3,800",
+      "standard": "৳5,000 - ৳7,500",
+      "luxury": "৳10,000 - ৳16,000",
+      "currency": "BDT"
+    },
+    "highlights": ["Terracotta Plaque Relief Carvings", "Ancient Monastic Cell Quadrangles", "On-site Archaeological Museum", "Pala Dynasty Architectural Wonder", "Nearby Kushumba Mosque (Black Basalt)"],
+    "localFoods": [
+      {
+        "name": "Bogura Traditional Sara Doi (Clay-pot Sweet Curd)",
+        "desc": "World-famous creamy caramel baked sweet yogurt made from thick simmered buffalo milk in porous earthen pots."
+      },
+      {
+        "name": "Paharpur Traditional Chitol Maachher Muitha",
+        "desc": "Spicy pounded fish dumplings stewed in rich onion and cardamom broth."
+      },
+      {
+        "name": "Rajshahi Lychees & Mangoes (Summer)",
+        "desc": "Fazli, Khirsapat, and Langra mangoes harvested straight from nearby Rajshahi orchards."
+      }
+    ],
+    "safetyTips": [
+      "Do not climb or scratch the fragile ancient terracotta relief plaques. Preservation guards patrol the complex.",
+      "The site covers 27 acres; carry a sun hat, water bottle, and comfortable walking shoes.",
+      "Archaeological museum remains closed on government holidays and Sunday mornings."
+    ],
+    "transportSummary": "Direct train from Dhaka to Joypurhat or Shantahar Junction (5-6 hrs), then 25-min auto-rickshaw straight to the temple gates."
+  },
+  {
+    "id": "sixty-dome-mosque",
+    "name": "Sixty Dome Mosque & Bagerhat Heritage",
+    "bengaliName": "ষাট গম্বুজ মসজিদ",
+    "division": "Khulna",
+    "district": "Bagerhat",
+    "vibe": "Heritage & History",
+    "vibes": ["Heritage & History"],
+    "rating": 4.85,
+    "reviewCount": 860,
+    "heroImage": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=800&q=80"
+    ],
+    "tagline": "15th-Century Medieval Brick Mosque City – UNESCO World Heritage",
+    "description": "Built in the mid-15th century by the saint-warrior Khan Jahan Ali, the Sixty Dome Mosque (Shat Gombuj Masjid) features 77 domes supported by 60 stone columns and 11 vaulted bays. Its Tughlaq-influenced brick architecture stands as a pinnacle of medieval Sultanate engineering.",
+    "bestTimeToVisit": "October to March (Crisp dry weather)",
+    "idealDuration": "1 - 2 Days",
+    "budget": {
+      "backpacker": "৳2,500 - ৳4,000",
+      "standard": "৳5,500 - ৳8,500",
+      "luxury": "৳11,000 - ৳18,000",
+      "currency": "BDT"
+    },
+    "highlights": ["77 Terracotta Domes & 60 Stone Pillars", "Khan Jahan Ali Tomb & Sacred Crocodile Pond", "Ghoradighi Giant Freshwater Reservoir", "Bagerhat Museum Collections"],
+    "localFoods": [
+      {
+        "name": "Bagerhat Coconut Shell Curry & Chingri",
+        "desc": "Fresh sweet tiger prawns simmered in freshly squeezed coconut milk and mild green chilies."
+      },
+      {
+        "name": "Khulna Chui Jhal Mutton Bhuna",
+        "desc": "Rich dark braised mutton infused with piper chaba roots, meltingly tender and fragrant."
+      }
+    ],
+    "safetyTips": [
+      "This is an active place of prayer and veneration; dress modestly (shoulders and knees covered) and remove shoes before entering the prayer hall.",
+      "Feeding the sacred crocodiles at Khan Jahan Ali Dighi is regulated; maintain a safe distance from the water's edge."
+    ],
+    "transportSummary": "AC bus from Dhaka via the landmark Padma Bridge directly to Bagerhat (3.5 - 4 hrs)."
+  },
+  {
+    "id": "kuakata-daughter-of-ocean",
+    "name": "Kuakata – Sagar Kanya",
+    "bengaliName": "কুয়াকাটা সমুদ্র সৈকত",
+    "division": "Barishal",
+    "district": "Patuakhali",
+    "vibe": "Beaches & Islands",
+    "vibes": ["Beaches & Islands", "Heritage & History"],
+    "rating": 4.7,
+    "reviewCount": 1320,
+    "heroImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?auto=format&fit=crop&w=800&q=80"
+    ],
+    "tagline": "The Daughter of the Sea – Watch both Sunrise and Sunset from the same beach",
+    "description": "Kuakata is one of the rare beaches in the world where you can witness both the sunrise and sunset over the Bay of Bengal from the exact same shoreline. It also boasts historic Buddhist Wells, centuries-old Rakhine tribal villages, and the serene Gangamati mangrove canal.",
+    "bestTimeToVisit": "October to March (Clear skies for unhindered sunrise and sunset views)",
+    "idealDuration": "2 - 3 Days",
+    "budget": {
+      "backpacker": "৳3,000 - ৳4,500",
+      "standard": "৳6,500 - ৳10,000",
+      "luxury": "৳14,000 - ৳22,000",
+      "currency": "BDT"
+    },
+    "highlights": ["Sunrise & Sunset Dual View", "Red Crab Island (Lal Kakrar Dwip)", "Centuries-Old Rakhine Buddhist Temples", "Fatrar Bon Mangrove Reserve", "Fresh Fried Pomfret & Crab"],
+    "localFoods": [
+      {
+        "name": "Fresh Fried Hilsha (Ilish Paturi)",
+        "desc": "Prime Barishali Hilsha marinated in mustard paste, wrapped in gourd leaves and pan-roasted."
+      },
+      {
+        "name": "Rakhine Coconut Pancakes & Rice Noodles",
+        "desc": "Delicate traditional Rakhine breakfast cakes sweetened with pure palm syrup."
+      }
+    ],
+    "safetyTips": [
+      "When visiting Red Crab Beach, avoid chasing or stepping on the crab burrows to preserve the delicate habitat.",
+      "Motorbike tours along the beach are popular; always negotiate rates beforehand and wear a helmet."
+    ],
+    "transportSummary": "Direct AC bus from Dhaka via Padma Bridge and Payra Bridge (5.5 - 6 hrs), or luxury overnight Launch from Dhaka Sadarghat to Barishal."
+  },
+  {
+    "id": "ratargul-swamp-forest",
+    "name": "Ratargul Freshwater Swamp Forest",
+    "bengaliName": "রাতারগুল সোয়াম্প ফরেস্ট",
+    "division": "Sylhet",
+    "district": "Sylhet",
+    "vibe": "Forests & Wildlife",
+    "vibes": ["Forests & Wildlife", "Riverine & Waterfalls"],
+    "rating": 4.8,
+    "reviewCount": 1100,
+    "heroImage": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1200&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&w=800&q=80"
+    ],
+    "tagline": "The Amazon of Bangladesh – Submerged evergreen canopy navigated by silent canoes",
+    "description": "One of the few freshwater swamp forests in South Asia, Ratargul becomes completely submerged under 20-30 feet of water during monsoon. Silent wooden canoes glide between the submerged Koroch and Murta trees under a dense green emerald canopy.",
+    "bestTimeToVisit": "July to October (Monsoon season when the forest is delightfully submerged in crystal waters)",
+    "idealDuration": "Day Trip from Sylhet (combine with Bisnakhandi/Jaflong)",
+    "budget": {
+      "backpacker": "৳1,500 - ৳2,500",
+      "standard": "৳3,500 - ৳5,500",
+      "luxury": "৳7,000 - ৳12,000",
+      "currency": "BDT"
+    },
+    "highlights": ["Silent Wooden Boat Safari", "Submerged Koroch Tree Canopies", "Forest Watchtower Panoramic View", "Birdwatching (Kingfishers & Herons)", "Water Lily Blooms"],
+    "localFoods": [
+      {
+        "name": "Sylheti Akhni Pulao",
+        "desc": "Fragrant Kalijira rice cooked in spiced beef or mutton broth with prunes and fried onions."
+      },
+      {
+        "name": "Lalakhal Spiced Tea",
+        "desc": "Fresh spiced tea served at river ghats after the boat safari."
+      }
+    ],
+    "safetyTips": [
+      "Wear life jackets at all times on the wooden boats; the submerged forest water can be deep and branches may snag.",
+      "Watch your hands and do not grab tree branches blindly, as small harmless tree snakes and spiders occasionally rest on foliage."
+    ],
+    "transportSummary": "Direct train/air to Sylhet city, then 1-hr CNG auto-rickshaw or private car to Ratargul boat ghat."
+  },
+  {
+    "id": "birishiri-ceramic-hills",
+    "name": "Birishiri Ceramic Hills & Shomeshwari",
+    "bengaliName": "বিরিশিরি ও চীনা মাটির পাহাড়",
+    "division": "Mymensingh",
+    "district": "Netrokona",
+    "vibe": "Riverine & Waterfalls",
+    "vibes": ["Riverine & Waterfalls", "Hills & Trekking"],
+    "rating": 4.75,
+    "reviewCount": 650,
+    "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=800&q=80"
+    ],
+    "tagline": "The Turquoise Blue Lagoon & White Ceramic Chalk Cliffs",
+    "description": "Located in Durgapur near the Meghalaya border, Birishiri is famous for its surreal turquoise-blue porcelain lake framed by white and pink clay hills. Crossing the crystal clear shallow gravel bed of the Shomeshwari River on wooden boats is an unforgettable experience.",
+    "bestTimeToVisit": "October to March (Dry weather when the lake water turns brilliant turquoise and roads are easily accessible)",
+    "idealDuration": "2 Days",
+    "budget": {
+      "backpacker": "৳2,500 - ৳3,800",
+      "standard": "৳5,000 - ৳7,500",
+      "luxury": "৳9,000 - ৳14,000",
+      "currency": "BDT"
+    },
+    "highlights": ["Ceramic Blue Water Lake", "Shomeshwari River Wooden Boat Ride", "Hajong & Garo Indigenous Cultural Academy", "Ranikhong Catholic Church on Hilltop", "Bijoypur Border Lookout"],
+    "localFoods": [
+      {
+        "name": "Muktagacha Gopal Monda",
+        "desc": "Legendary sweetmeat from nearby Mymensingh, made using pure curdled chhana and raw sugar since 1824."
+      },
+      {
+        "name": "Shomeshwari River Baime & Air Fish Curry",
+        "desc": "Fresh sweet river fish cooked with mustard seed paste and dried red chilies."
+      }
+    ],
+    "safetyTips": [
+      "Swimming in the ceramic lake is prohibited because the chemical-rich chalk bed drops abruptly and water contains fine mineral sediments.",
+      "Roads from Netrokona can be dusty; carry a dust mask or bandana when riding local motorbikes or rickshaws."
+    ],
+    "transportSummary": "Bus or train from Dhaka to Netrokona / Jaria Jhanjail, then local CNG or rental motorbike across the river."
+  },
+  {
+    "id": "old-dhaka-heritage",
+    "name": "Historic Old Dhaka & Sonargaon",
+    "bengaliName": "পুরান ঢাকা ও সোনারগাঁও",
+    "division": "Dhaka",
+    "district": "Dhaka & Narayanganj",
+    "vibe": "Heritage & History",
+    "vibes": ["Heritage & History"],
+    "rating": 4.8,
+    "reviewCount": 2400,
+    "heroImage": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=800&q=80"
+    ],
+    "tagline": "The 400-Year-Old Mughal Capital & Lost City of Panam",
+    "description": "Old Dhaka is a dizzying, enchanting sensory maze of historic Mughal mosques, 19th-century colonial mansions like Ahsan Manzil (The Pink Palace), the incomplete 1678 Lalbagh Fort, and Panam City—the abandoned ghostly 19th-century merchant street in ancient capital Sonargaon.",
+    "bestTimeToVisit": "October to March (Cooler pleasant walking temperatures; vibrant Shakrain Kite Festival in mid-January)",
+    "idealDuration": "1 - 2 Days",
+    "budget": {
+      "backpacker": "৳1,500 - ৳2,500",
+      "standard": "৳3,500 - ৳6,000",
+      "luxury": "৳8,000 - ৳15,000",
+      "currency": "BDT"
+    },
+    "highlights": ["Lalbagh Fort & Pari Bibi Tomb", "Ahsan Manzil (Pink Palace) on Buriganga River", "Panam Nagar Merchant Mansions", "Sadarghat River Port Wooden Boat Crossings", "Star Mosque (Tara Masjid) Chini-Tikri Mosaics"],
+    "localFoods": [
+      {
+        "name": "Authentic Old Dhaka Kacchi Biryani",
+        "desc": "Fragrant Chinigura rice layered with tender marinated mutton and saffron potatoes, served with Borhani yogurt drink (Hazi / Sultan's Dine)."
+      },
+      {
+        "name": "Bakarkhani & Malai Cha",
+        "desc": "Crispy traditional multi-layered dry biscuit bread paired with thick simmering clotted cream tea at Nazira Bazar."
+      },
+      {
+        "name": "Beauty Lassi & Special Faluda",
+        "desc": "Century-old refreshing sweet yogurt lassi whipped with pure lemon essence and topped with shaved ice."
+      }
+    ],
+    "safetyTips": [
+      "Streets in Old Dhaka are extremely bustling; keep backpacks zipped and wallets in front pockets.",
+      "Explore on foot or take cycle rickshaws; large cars get stuck in the narrow historic lanes.",
+      "Stay hydrated and sample street food from renowned established legacy outlets."
+    ],
+    "transportSummary": "Dhaka Metro Rail (MRT Line 6) to Motijheel / Bangladesh Secretariat, then a short cycle-rickshaw ride into the historic quarters."
+  },
+  {
+    "id": "kantajew-temple-dinajpur",
+    "name": "Kantajew Temple & Tajhat Palace",
+    "bengaliName": "কান্তজীউ মন্দির ও তাজহাট রাজবাড়ি",
+    "division": "Rangpur",
+    "district": "Dinajpur & Rangpur",
+    "vibe": "Heritage & History",
+    "vibes": ["Heritage & History"],
+    "rating": 4.82,
+    "reviewCount": 590,
+    "heroImage": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=800&q=80"
+    ],
+    "tagline": "The Masterpiece of Terracotta Artistry & Northern Royal Splendor",
+    "description": "Built in 1752 by Maharaja Pran Nath, the late medieval Kantajew Temple is one of the most magnificent Hindu monuments in the subcontinent. Every square inch of its brick exterior is adorned with intricate terracotta panels illustrating epic scenes from the Ramayana and Mahabharata.",
+    "bestTimeToVisit": "November to February (Mild northern winter, coincides with the historic annual Rash Mela in late autumn)",
+    "idealDuration": "2 Days",
+    "budget": {
+      "backpacker": "৳2,500 - ৳3,800",
+      "standard": "৳5,000 - ৳7,500",
+      "luxury": "৳10,000 - ৳16,000",
+      "currency": "BDT"
+    },
+    "highlights": ["Exquisite Ramayana Terracotta Reliefs", "Nava-Ratna (Nine-Spire) Temple Architecture", "Tajhat Palace Neoclassical Facade", "Ramsagar National Lake (Man-made Dighi)"],
+    "localFoods": [
+      {
+        "name": "Dinajpur Kataribhog & Chini-gura Rice Specialties",
+        "desc": "Prized aromatic rice cooked into delicate sweet polao and kheer."
+      },
+      {
+        "name": "Dinajpur Lychees (Bedana & Bombay)",
+        "desc": "Renowned as the juiciest, sweetest lychees in South Asia (May-June harvest)."
+      }
+    ],
+    "safetyTips": [
+      "Remove footwear before walking onto the raised terracotta plinth.",
+      "Northern winter nights can be surprisingly chilly; pack light woolens and jackets during December and January."
+    ],
+    "transportSummary": "Direct train from Dhaka (Ekota Express / Drutojan Express, 7 hrs) or domestic flight to Saidpur Airport (50 mins) + 30-min car ride."
+  }
+]

@@ -1,0 +1,232 @@
+[
+  {
+    "id": "sajek-3-days",
+    "title": "3 Days in Sajek Valley: Kingdom of Clouds & Peaks",
+    "subtitle": "Wake up floating above an ocean of clouds, trek Konglak Peak & savor Bamboo Chicken",
+    "duration": "3 Days / 2 Nights",
+    "category": "Hills & Trekking",
+    "difficulty": "Moderate (Mountain roads & hill climbs)",
+    "bestSeason": "September to February (or July-August for dramatic rain clouds)",
+    "estimatedCost": "৳6,500 - ৳9,500 per person",
+    "coverImage": "https://images.unsplash.com/photo-1628083835398-4c2f6d0f6667?auto=format&fit=crop&w=1000&q=80",
+    "destinationId": "sajek-valley",
+    "days": [
+      {
+        "day": 1,
+        "title": "Khagrachari Arrival, Chander Gari Convoy & Sunset at Helipad",
+        "schedule": [
+          { "time": "06:30 AM", "activity": "Arrive at Khagrachari by night coach. Fresh up and savor authentic Pahari breakfast (Paratha, Dal, and organic hill papaya)." },
+          { "time": "09:30 AM", "activity": "Board your reserved 4x4 open-roof Chander Gari at Dighinala. Report at the Bangladesh Army Checkpoint for the morning security escort convoy." },
+          { "time": "10:30 AM", "activity": "En-route stop at Hajachora Waterfall. Take photos and enjoy the refreshing mist." },
+          { "time": "01:00 PM", "activity": "Reach Sajek Valley crest. Check into your wooden hill cottage (e.g., Meghpunji, Madol, or Sajek Resort). Soak in the breathtaking 180-degree mountain view." },
+          { "time": "02:00 PM", "activity": "Lunch: Savor traditional Bamboo Chicken and indigenous fragrant Pahari rice at a Lusai homestyle cafe." },
+          { "time": "04:30 PM", "activity": "Walk up to Sajek Helipad for the golden sunset. Watch rolling clouds engulf the deep green valleys in purple and gold light." },
+          { "time": "08:00 PM", "activity": "Campfire or cottage balcony BBQ under a blanket of crystal-clear stars. Stargazing session." }
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Sunrise Cloud Sea, Konglak Peak Trek & Indigenous Village Tour",
+        "schedule": [
+          { "time": "05:15 AM", "activity": "Early wakeup! Step onto your balcony to witness the famous Sajek 'Ocean of Clouds' billowing below your feet as dawn breaks." },
+          { "time": "07:30 AM", "activity": "Trek up to Konglak Peak (highest peak in Sajek at 1,800+ ft). Pass through traditional Lusai and Tripura ethnic village settlements." },
+          { "time": "10:00 AM", "activity": "Enjoy fresh, chilled Pahari sweet orange and pineapple slices hand-cut by local hill villagers." },
+          { "time": "01:30 PM", "activity": "Traditional indigenous lunch: Fresh hill vegetables, wild mountain herb dal, and spicy smoked fish paste." },
+          { "time": "04:00 PM", "activity": "Explore Ruilui Para village. Visit the historic stone church and interact respectfully with local artisans crafting bamboo baskets." },
+          { "time": "07:30 PM", "activity": "Dinner featuring clay-pot slow-cooked mountain mutton with aromatic whole spices." }
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Alutila Mysterious Cave, Tareng & Return to Dhaka",
+        "schedule": [
+          { "time": "08:30 AM", "activity": "Breakfast and checkout. Join the morning 10:00 AM military return convoy down the hills." },
+          { "time": "01:00 PM", "activity": "Lunch in Khagrachari Sadar town at the famed 'System Restaurant' (authentic Chakma delicacies: Haba, Sabarang, and Bamboo shoot fry)." },
+          { "time": "02:30 PM", "activity": "Adventure through the dark, water-carved limestone tunnel of Alutila Cave holding lit bamboo torches (Mashal)." },
+          { "time": "04:30 PM", "activity": "Visit Tareng Park & the Hanging Bridge of Khagrachari (Horticulture Eco Park)." },
+          { "time": "09:00 PM", "activity": "Board your return overnight coach to Dhaka." }
+        ]
+      }
+    ],
+    "packingChecklist": [
+      "National ID (NID) or Passport copies for army checkpoint registration",
+      "Power bank (hill electricity can be intermittent during storms)",
+      "Warm shawl or fleece jacket (evenings and early mornings are chilly)",
+      "Sturdy walking shoes with rubber grip for Konglak Peak",
+      "Sufficient cash (ATMs in Sajek are limited/unreliable)",
+      "Mosquito repellent cream (Odomos) & personal medical kit"
+    ]
+  },
+  {
+    "id": "sylhet-sreemangal-4-days",
+    "title": "4 Days in Sylhet & Sreemangal: Tea Gardens, Rainforest & Swamp",
+    "subtitle": "Discover emerald tea trails, hear wild Gibbons call in Lawachara, and canoe through submerged mangrove trees",
+    "duration": "4 Days / 3 Nights",
+    "category": "Forests & Wildlife",
+    "difficulty": "Easy to Moderate",
+    "bestSeason": "October to March (for pleasant tea garden walks) or July-August (for swollen swamp water)",
+    "estimatedCost": "৳8,500 - ৳13,500 per person",
+    "coverImage": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1000&q=80",
+    "destinationId": "sreemangal-tea-capital",
+    "days": [
+      {
+        "day": 1,
+        "title": "Scenic Train to Sreemangal, Tea Estates & Nilkantha 7-Layer Tea",
+        "schedule": [
+          { "time": "06:20 AM", "activity": "Board the Parabat Express train from Dhaka Kamalapur. Enjoy rural scenic views of wetland paddy fields." },
+          { "time": "10:45 AM", "activity": "Arrive at Sreemangal Station. Check in at an eco-resort nestled amidst rubber and tea trees (e.g., Grand Sultan, Dusai, or Shanti Bari Eco Resort)." },
+          { "time": "01:00 PM", "activity": "Lunch: Savor legendary Sylheti Shatkora Beef curry at Panshi or Kutum Bari." },
+          { "time": "03:00 PM", "activity": "Bicycle or easybike ride through the Finlay & BTRI rolling green tea plantations." },
+          { "time": "05:00 PM", "activity": "Visit the famous Nilkantha Tea Cabin to taste the legendary 7-Layer Rainbow Tea." }
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Lawachara National Park Wildlife Safari & Monipuri Indigenous Village",
+        "schedule": [
+          { "time": "06:00 AM", "activity": "Early morning guided walking trek inside Lawachara National Park. Listen for the distinct call of the endangered Hoolock Gibbon and spot hornbills." },
+          { "time": "09:30 AM", "activity": "Breakfast of hot Puri and spiced tea at the forest edge." },
+          { "time": "11:00 AM", "activity": "Visit Madhabpur Lake, surrounded by terraced tea hillocks with blooming wild pink water lilies." },
+          { "time": "02:30 PM", "activity": "Explore the Monipuri tribal handloom village in Radhanagar. Witness intricate shawls and scarves woven by hand." },
+          { "time": "06:00 PM", "activity": "Evening drive to Sylhet city. Check in to Sylhet hotel." }
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Ratargul Freshwater Swamp Forest & Turquoise Lalakhal River",
+        "schedule": [
+          { "time": "07:30 AM", "activity": "Drive from Sylhet city to Ratargul Swamp Forest boat ghat." },
+          { "time": "08:45 AM", "activity": "Board a quiet wooden boat rowed by a local boatman. Glide between the submerged Koroch trees beneath the emerald green canopy." },
+          { "time": "11:30 AM", "activity": "Climb the Ratargul Forest Watchtower for a 360-degree view of the submerged wetland." },
+          { "time": "01:30 PM", "activity": "Traditional Sylheti lunch: Fresh river fish curry, fried shutki, and Akhni Pulao." },
+          { "time": "03:30 PM", "activity": "Boat cruise on Lalakhal River, famous for its vivid turquoise and emerald mineral-tinted water flowing down from the Cherrapunji hills." }
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Hazrat Shah Jalal Dargah, Bholaganj Sada Pathor & Return",
+        "schedule": [
+          { "time": "08:00 AM", "activity": "Visit the 700-year-old historic Dargah of Hazrat Shah Jalal. Observe the sacred pond catfish and historic architecture." },
+          { "time": "10:30 AM", "activity": "Excursion to Bholaganj Sada Pathor (White Stone) – where crystal-clear icy mountain rivers tumble over millions of smooth white pebbles right on the border." },
+          { "time": "03:00 PM", "activity": "Final shopping for Sylheti Manipuri shawls, pure cane furniture pieces, and fresh Orange Shatkora." },
+          { "time": "06:30 PM", "activity": "Board return evening train (Kalni Express / Upaban) or 40-minute domestic flight back to Dhaka." }
+        ]
+      }
+    ],
+    "packingChecklist": [
+      "Insect repellent & anti-leech salt packet for Lawachara rainforest",
+      "Waterproof dry pouch for phones and cameras during boat rides",
+      "Quick-dry t-shirts and lightweight cotton pants",
+      "Hat, sunglasses, and high-SPF sunscreen for open boat cruises",
+      "Cash for roadside fruit stalls and tea garden purchases"
+    ]
+  },
+  {
+    "id": "saint-martins-3-days",
+    "title": "3 Days in Saint Martin's & Chera Dwip: Coral Island Getaway",
+    "subtitle": "Clear blue waves, fresh BBQ snapper, cycling along coconut groves & living coral reefs",
+    "duration": "3 Days / 2 Nights",
+    "category": "Beaches & Islands",
+    "difficulty": "Easy",
+    "bestSeason": "November to February (smooth calm sea crossing)",
+    "estimatedCost": "৳9,000 - ৳14,500 per person",
+    "coverImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1000&q=80",
+    "destinationId": "saint-martins-island",
+    "days": [
+      {
+        "day": 1,
+        "title": "Teknaf Ship Cruise, Coconut Welcoming & West Beach Sunset",
+        "schedule": [
+          { "time": "09:00 AM", "activity": "Board the luxury sea cruise ship (Keari Sindbad or Bay Cruiser) at Teknaf Damdamia Ghat. Cruise along the Naf River into the open Bay of Bengal." },
+          { "time": "12:00 PM", "activity": "Disembark at Saint Martin's Island jetty. Walk or ride a traditional wooden van to your beach resort (e.g., Blue Marine, Music Eco Resort, Coral View)." },
+          { "time": "01:30 PM", "activity": "Lunch: Steamed rice, Loitta fish fry, and famous spicy Shutki Bhorta." },
+          { "time": "04:30 PM", "activity": "Rent a beach bicycle. Cycle across coconut groves to the quieter Western Beach." },
+          { "time": "07:30 PM", "activity": "Select a fresh live sea fish (Rupchanda, Red Snapper, or Koral) right at the shore and watch it grilled over glowing charcoal coals with spicy coriander sauce." }
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Chera Dwip Coral Reef Expedition & Stargazing by the Tide",
+        "schedule": [
+          { "time": "06:00 AM", "activity": "Witness a glorious island sunrise with fisherman hauling in fresh morning nets." },
+          { "time": "08:00 AM", "activity": "Take a local engine trawler or speed boat to Chera Dwip – the southernmost coral outcrop of Bangladesh." },
+          { "time": "09:30 AM", "activity": "Wade in knee-deep crystal-clear turquoise waters and observe living brain coral colonies and colorful reef fish." },
+          { "time": "01:00 PM", "activity": "Return to main island for lunch: Giant sweet coastal coconut water (Dab) and fresh mud crab curry." },
+          { "time": "04:30 PM", "activity": "Relax on a hammock under coconut trees with the gentle ocean breeze." },
+          { "time": "08:30 PM", "activity": "Night beach stroll: On moonless nights, marvel at bioluminescent plankton glowing in the cresting waves." }
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Local Dry Fish Market, Ship Departure & Return",
+        "schedule": [
+          { "time": "07:30 AM", "activity": "Visit the vibrant local fisherman's market. Pick up premium sun-dried fish (Shutki) and roasted cashew nuts." },
+          { "time": "11:30 AM", "activity": "Final dip in the warm ocean waves. Check out from resort." },
+          { "time": "02:30 PM", "activity": "Arrive at the jetty. Board the return cruise ship back to the mainland." },
+          { "time": "06:00 PM", "activity": "Reach Teknaf, connect with your luxury return coach to Dhaka or Cox's Bazar." }
+        ]
+      }
+    ],
+    "packingChecklist": [
+      "Water shoes or strap sandals with thick soles (coral rocks are sharp)",
+      "High SPF Reef-Safe Sunscreen and UV protection sunglasses",
+      "Snorkeling mask (if you want to see underwater coral and reef fish)",
+      "Plenty of cash (island ATMs frequently run out of notes)",
+      "Motion sickness tablets for sea ship transit if prone to nausea"
+    ]
+  },
+  {
+    "id": "sundarbans-3-days",
+    "title": "3 Days in Sundarbans: Mangrove Cruise & Tiger Safari",
+    "subtitle": "Cruise the mysterious labyrinth of tidal rivers, spot spotted deer, crocodiles and elusive Bengal Tigers",
+    "duration": "3 Days / 2 Nights (All-Inclusive Cruiser)",
+    "category": "Forests & Wildlife",
+    "difficulty": "Easy (Liveaboard ship based)",
+    "bestSeason": "November to February (cool weather & active wildlife on banks)",
+    "estimatedCost": "৳14,000 - ৳22,000 per person (All inclusive)",
+    "coverImage": "https://images.unsplash.com/photo-1534177616072-ef7dc120449d?auto=format&fit=crop&w=1000&q=80",
+    "destinationId": "sundarbans-mangrove",
+    "days": [
+      {
+        "day": 1,
+        "title": "Boarding at Mongla, Karamjal Breeding Center & Sailing into Wild Waters",
+        "schedule": [
+          { "time": "07:30 AM", "activity": "Board the luxury motor cruise vessel at Mongla Port. Meet the ship captain, crew, and armed Forest Department escorts." },
+          { "time": "09:00 AM", "activity": "Breakfast served on the open observation deck while navigating down the Pasur River." },
+          { "time": "11:00 AM", "activity": "Disembark at Karamjal Eco-tourism center. Walk the wooden boardwalk, visit the saltwater crocodile breeding tanks, and observe the deer herd." },
+          { "time": "01:30 PM", "activity": "Buffet lunch on board featuring fresh Khulna freshwater prawns and steamed rice." },
+          { "time": "04:30 PM", "activity": "Anchor deep inside the mangrove forest near Harbaria Eco Park. Watch kingfishers and monkey troops from deck." },
+          { "time": "08:00 PM", "activity": "Dinner under the stars, accompanied by river breezes and sounds of nocturnal forest wildlife." }
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Kotka Wildlife Sanctuary, Silent Canoe Safari & Watchtower",
+        "schedule": [
+          { "time": "05:45 AM", "activity": "Silent wooden rowboat trip into narrow forest creeks before the engine starts. Spot mudskippers, otters, and drinking spotted deer in the early morning fog." },
+          { "time": "08:30 AM", "activity": "Hearty ship breakfast: Hot Parathas, omelettes, and pure Sundarbans wild honey." },
+          { "time": "10:30 AM", "activity": "Guided walking trail through Kotka forest with armed guards. Walk along Jamtola Beach – an untouched, isolated wild beach on the Bay of Bengal." },
+          { "time": "02:00 PM", "activity": "Lunch: Traditional spicy Chui Jhal beef and lentils." },
+          { "time": "04:00 PM", "activity": "Climb the Kotka Watchtower. Scan the vast grassy clearing for herds of spotted deer, wild boars, and fresh Royal Bengal Tiger pugmarks in the soft mud." }
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Kochikhali Creek Exploration & Return to Mongla Port",
+        "schedule": [
+          { "time": "06:30 AM", "activity": "Early morning boat safari through Kochikhali canal. Spot Irrawaddy dolphins breaching the surface." },
+          { "time": "09:00 AM", "activity": "Breakfast and begin cruising back towards Mongla, enjoying the changing river delta vistas." },
+          { "time": "01:00 PM", "activity": "Farewell lunch on board with Hilsha fish curry and sweet curd." },
+          { "time": "04:30 PM", "activity": "Disembark at Mongla Tourism Ghat. Connect to your evening coach back to Dhaka via the Padma Bridge." }
+        ]
+      }
+    ],
+    "packingChecklist": [
+      "Earthy/neutral colored clothing (green, beige, brown; avoid bright neon colors that startle animals)",
+      "Binoculars (essential for birdwatching and spotting distant wildlife)",
+      "Telephoto camera lens or smartphone zoom lens",
+      "Hat, sunglasses, and windbreaker for breezy deck viewing",
+      "Motion sickness medication if sensitive to river vessel movement"
+    ]
+  }
+]
