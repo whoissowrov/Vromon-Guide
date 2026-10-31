@@ -12,9 +12,11 @@ import {
   RotateCcw,
   CheckCircle2,
   AlertCircle,
-  HelpCircle,
   Cake,
-  Soup
+  Navigation,
+  ExternalLink,
+  Car,
+  Compass
 } from 'lucide-react';
 
 const LocalFoodGuide = () => {
@@ -64,8 +66,9 @@ const LocalFoodGuide = () => {
         item.place.toLowerCase().includes(q) ||
         item.district.toLowerCase().includes(q) ||
         item.description.toLowerCase().includes(q) ||
-        (item.tags && item.tags.some(t => t.toLowerCase().includes(q))) ||
-        (item.bestSpots && item.bestSpots.toLowerCase().includes(q))
+        (item.shopSpot && item.shopSpot.toLowerCase().includes(q)) ||
+        (item.localTransit && item.localTransit.toLowerCase().includes(q)) ||
+        (item.tags && item.tags.some(t => t.toLowerCase().includes(q)))
       );
     });
   }, [selectedDivision, selectedCategory, foodSearch]);
@@ -86,13 +89,13 @@ const LocalFoodGuide = () => {
         <div className="text-center max-w-3xl mx-auto mb-10">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-bold bg-amber-100 dark:bg-amber-950/70 text-amber-900 dark:text-amber-300 border border-amber-300/50 dark:border-amber-700/40 shadow-sm mb-3">
             <Utensils className="w-3.5 h-3.5 text-amber-600 dark:text-amber-400" />
-            <span>৮টি বিভাগের আসল ও ঐতিহ্যবাহী লোকাল খাবার (Authentic Food & Pricing)</span>
+            <span>৮টি বিভাগের আসল খাবার • লাইভ গুগল ম্যাপস ডিরেকশন ও লোকাল যাতায়াত</span>
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-slate-900 dark:text-white tracking-tight">
-            Traditional Local Food & Pricing Guide
+            Traditional Local Food & Live Maps Guide
           </h2>
           <p className="text-sm sm:text-base text-slate-600 dark:text-slate-300 mt-2 font-medium">
-            খাবারের নাম, কোন জায়গার আসল খাবার, স্বাদ এবং বাস্তবসম্মত আনুমানিক দামের নির্ভরযোগ্য তালিকা—ভ্রমণের পথে খাঁটি স্বাদের পূর্ণাঙ্গ স্বাদ গ্রহণ করুন।
+            খাবারের নাম, বিখ্যাত নির্দিষ্ট দোকান ও স্পট, এক ক্লিকে গুগল ম্যাপসে লাইভ ডিরেকশন এবং লোকাল রিকশা/সিএনজি ভাড়ার পূর্ণাঙ্গ তালিকা।
           </p>
         </div>
 
@@ -212,7 +215,7 @@ const LocalFoodGuide = () => {
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-out"
                       loading="lazy"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/35 to-transparent" />
 
                     {/* Origin / Place Tag in upper left */}
                     <div className="absolute top-3.5 left-3.5">
@@ -259,13 +262,54 @@ const LocalFoodGuide = () => {
                       </div>
                     </div>
 
-                    {/* Recommended Spots / Where to Eat */}
-                    {food.bestSpots && (
-                      <div className="text-xs text-slate-600 dark:text-slate-400">
-                        <span className="font-bold text-emerald-700 dark:text-emerald-400 block mb-0.5">
-                          📍 কোথায় পাবেন (Best Spots):
+                    {/* Specific Shop & Spot */}
+                    {food.shopSpot && (
+                      <div className="p-3 rounded-xl bg-slate-50 dark:bg-[#0E241B] border border-slate-200 dark:border-emerald-900/40 text-xs">
+                        <span className="font-bold text-slate-800 dark:text-slate-200 block mb-1 flex items-center gap-1.5">
+                          <MapPin className="w-3.5 h-3.5 text-rose-500 shrink-0" />
+                          <span>দোকান ও স্পট:</span>
                         </span>
-                        <span className="italic">{food.bestSpots}</span>
+                        <span className="text-slate-600 dark:text-slate-300 font-medium">
+                          {food.shopSpot}
+                        </span>
+                      </div>
+                    )}
+
+                    {/* Local Transit & Fare Step */}
+                    {food.localTransit && (
+                      <div className="p-3 rounded-xl bg-emerald-50/70 dark:bg-emerald-950/30 border border-emerald-200/60 dark:border-emerald-800/40 text-xs space-y-1">
+                        <span className="font-bold text-emerald-800 dark:text-emerald-300 flex items-center gap-1.5">
+                          <Car className="w-3.5 h-3.5 text-emerald-600 dark:text-emerald-400 shrink-0" />
+                          <span>লোকাল যাতায়াত ও ভাড়া:</span>
+                        </span>
+                        <p className="text-slate-700 dark:text-slate-300 text-[11px] sm:text-xs">
+                          {food.localTransit}
+                        </p>
+                      </div>
+                    )}
+
+                    {/* Google Maps Live Direction Buttons */}
+                    {food.mapLinks && food.mapLinks.length > 0 && (
+                      <div className="space-y-1.5 pt-1">
+                        <span className="text-[11px] font-bold text-slate-400 dark:text-slate-500 uppercase tracking-wider block">
+                          লাইভ লোকেশন ম্যাপ (Google Maps Directions):
+                        </span>
+                        <div className="flex flex-wrap gap-2">
+                          {food.mapLinks.map((mapItem, idx) => (
+                            <a
+                              key={idx}
+                              href={mapItem.url}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold bg-emerald-600 hover:bg-emerald-500 text-white shadow-sm transition-all hover:scale-102 group/map"
+                              title={`গুগল ম্যাপসে খুলুন: ${mapItem.title}`}
+                            >
+                              <Navigation className="w-3.5 h-3.5 text-amber-300 shrink-0 group-hover/map:rotate-45 transition-transform" />
+                              <span className="truncate max-w-[200px]">{mapItem.title}</span>
+                              <ExternalLink className="w-3 h-3 opacity-75 shrink-0" />
+                            </a>
+                          ))}
+                        </div>
                       </div>
                     )}
 
@@ -273,7 +317,7 @@ const LocalFoodGuide = () => {
                 </div>
 
                 {/* Tags Footer */}
-                <div className="p-5 sm:p-6 pt-0 border-t border-slate-100 dark:border-emerald-950/40 mt-2 flex flex-wrap gap-1.5">
+                <div className="p-5 sm:p-6 pt-0 border-t border-slate-100 dark:border-emerald-950/40 mt-3 flex flex-wrap gap-1.5">
                   {food.tags && food.tags.map((tag, i) => (
                     <span 
                       key={i}

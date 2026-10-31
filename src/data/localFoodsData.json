@@ -12,7 +12,14 @@
     "description": "মাষকলাইয়ের ডালের আটার তৈরি গরম রুটির সাথে ঝাল মরিচ-বেগুন ভর্তা অথবা কষা হাঁসের মাংস। রাজশাহীর পদ্মা পাড়ে সন্ধ্যার সবচেয়ে জনপ্রিয় ঐতিহ্যবাহী খাবার।",
     "price": "রুটি প্রতি পিস ১৫–২৫ টাকা; হাঁসের মাংস প্রতি বাটি ১২০–১৮০ টাকা; ভর্তা ১০–২০ টাকা।",
     "priceRange": "৳১৫ - ৳১৮০",
-    "bestSpots": "পদ্মার পাড় উপশহর মোড়, কোর্ট স্টেশন বাজার, রাজশাহী সদর",
+    "shopSpot": "রাজশাহী কোর্ট স্টেশন চত্বর ও উপশহর পয়েন্টের ফুটপাত দোকান।",
+    "mapLinks": [
+      {
+        "title": "Rajshahi Court Railway Station",
+        "url": "https://www.google.com/maps/search/?api=1&query=Rajshahi+Court+Railway+Station"
+      }
+    ],
+    "localTransit": "রাজশাহী রেলগেট বা সাহেববাজার থেকে লোকাল অটোরিকশা/ইজিবাইকে কোর্ট স্টেশন (ভাড়া ৳১৫–৳২০/জন)।",
     "tags": ["Duck", "Ruti", "Spicy", "Bhorta", "Dinner"],
     "image": "https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?auto=format&fit=crop&w=800&q=80"
   },
@@ -29,7 +36,18 @@
     "description": "মাটির সরার ঐতিহ্যবাহী মিষ্টি ও পাতলা স্তরের সোনালী সরযুক্ত দই। গাভীর খাঁটি দুধ দীর্ঘক্ষণ ঘন জ্বাল দিয়ে পোড়া মাটির সরায় জমানো হয়।",
     "price": "স্পেশাল সরা দই ২৫০–৩২০ টাকা; ক্ষীরসা প্রতি কেজি ৪০০–৫০০ টাকা।",
     "priceRange": "৳২৫০ - ৳৫০০",
-    "bestSpots": "এশিয়া সুইটস, আকবরিয়া গ্র্যান্ড হোটেল, শ্যামলী দই ঘর (বগুড়া শহর)",
+    "shopSpot": "এশিয়া সুইটমিট (বড়গোলা) এবং আকবরিয়া হোটেল (থানামোড়, সাতমাথা)।",
+    "mapLinks": [
+      {
+        "title": "Asia Sweetmeat Bogura",
+        "url": "https://www.google.com/maps/search/?api=1&query=Asia+Sweetmeat+Bogura"
+      },
+      {
+        "title": "Akboria Grand Hotel Bogura",
+        "url": "https://www.google.com/maps/search/?api=1&query=Akboria+Grand+Hotel+Bogura"
+      }
+    ],
+    "localTransit": "চারমাথা বাস টার্মিনাল থেকে সাতমাথাগামী শেয়ারিং সিএনজি বা অটো (ভাড়া ৳২০–৳২৫/জন)।",
     "tags": ["Yogurt", "Dessert", "GI Product", "Sweet"],
     "image": "https://images.unsplash.com/photo-1541658016709-82535e94bc69?auto=format&fit=crop&w=800&q=80"
   },
@@ -46,7 +64,14 @@
     "description": "খাঁটি গাভীর দুধের নরম ছানা ও চিনির সিরায় আলতো পাক দেওয়া বিখ্যাত মিষ্টান্ন। মুখে দিলে গলে যাওয়া অতুলনীয় সুবাস ও হালকা মিষ্টি।",
     "price": "প্রতি কেজি ৪৫০–৫৫০ টাকা।",
     "priceRange": "৳৪৫০ - ৳৫৫০/কেজি",
-    "bestSpots": "মৌচাক মিষ্টান্ন ভাণ্ডার, জয়কালী মিষ্টান্ন ভাণ্ডার (নাটোর স্টেশন বাজার)",
+    "shopSpot": "জয়কালী মিষ্টান্ন ভাণ্ডার ও কুণ্ডু মিষ্টান্ন (নিচাবাজার)।",
+    "mapLinks": [
+      {
+        "title": "Joykali Mistanno Vandar Natore",
+        "url": "https://www.google.com/maps/search/?api=1&query=Joykali+Mistanno+Vandar+Natore"
+      }
+    ],
+    "localTransit": "হরিশপুর বা মাদ্রাসা মোড় থেকে নিচাবাজার ইজিবাইক (ভাড়া ৳১৫–৳২০/জন)।",
     "tags": ["Sweet", "Chhana", "Heritage", "GI Product"],
     "image": "https://images.unsplash.com/photo-1599785209707-a456fc1337bb?auto=format&fit=crop&w=800&q=80"
   },
@@ -63,7 +88,14 @@
     "description": "চলনবিল এলাকার প্রাকৃতিক মহিষের খাঁটি দুধের ঘন সাদা দই। চিনি ছাড়া প্রাকৃতিকভাবেই ক্রিমি ও পুষ্টিকর। গুড় বা চিঁড়া দিয়ে খাওয়া অমৃততুল্য।",
     "price": "প্রতি কেজি ১৮০–২২০ টাকা।",
     "priceRange": "৳১৮০ - ৳২২০/কেজি",
-    "bestSpots": "তাড়াশ বাজার, চাটমোহর মোড়, চলনবিল হাইওয়ে বাজার",
+    "shopSpot": "তাড়াশ বাজার ও চাটমোহর মোড় (চলনবিল)।",
+    "mapLinks": [
+      {
+        "title": "Tarash Bazar Sirajganj",
+        "url": "https://www.google.com/maps/search/?api=1&query=Tarash+Bazar+Sirajganj"
+      }
+    ],
+    "localTransit": "পাবনা বা সিরাজগঞ্জ থেকে লোকাল বাসে তাড়াশ বাজার (ভাড়া ৳৪০–৳৫০)।",
     "tags": ["Curd", "Buffalo Milk", "Chalan Beel", "Natural"],
     "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=800&q=80"
   },
@@ -80,7 +112,18 @@
     "description": "পেঁয়াজ বেরেস্তা ও বিশেষ কালো মসলায় দীর্ঘক্ষণ অল্প আঁচে কষিয়ে মসলা মাখামাখা কালো করা রসালো গরুর মাংস। চট্টগ্রামের শতবর্ষী উৎসবের প্রাণ।",
     "price": "হাফ বা ফুল প্লেট ২২০–৩০০ টাকা।",
     "priceRange": "৳২২০ - ৳৩০০/প্লেট",
-    "bestSpots": "হোটেল জামান, মেজবান হাইলে আইয়ুন, বারকোড ক্যাফে, জিইসি মোড়",
+    "shopSpot": "মেজ্জান হাইলে আইয়ুন (জিইসি/প্রবর্তক মোড়) এবং আল-কাদেরিয়া/হোটেল জামান (চকবাজার)।",
+    "mapLinks": [
+      {
+        "title": "Mezzan Haile Aaiun GEC",
+        "url": "https://www.google.com/maps/search/?api=1&query=Mezzan+Haile+Aaiun+Chittagong"
+      },
+      {
+        "title": "Hotel Zaman GEC",
+        "url": "https://www.google.com/maps/search/?api=1&query=Hotel+Zaman+Chittagong"
+      }
+    ],
+    "localTransit": "নতুন ব্রিজ বা দামপাড়া থেকে জিইসি/চকবাজারগামী বাস বা টেম্পো (ভাড়া ৳১৫–৳২৫/জন)।",
     "tags": ["Beef", "Kala Bhuna", "Spicy", "Heritage", "Lunch"],
     "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80"
   },
@@ -97,7 +140,14 @@
     "description": "বিশেষ সাদা মসলা, জায়ফল-জয়ত্রী ও খাঁটি সরিষার তেলে রান্না ঝাল ঝাল মাংস এবং হাড়-চর্বি দিয়ে ঘন করে সেদ্ধ করা বুটের ডাল।",
     "price": "মাংস প্রতি প্লেট ১৮০–২৫০ টাকা; চনার ডাল ৫০–৭০ টাকা।",
     "priceRange": "৳৫০ - ৳২৫০",
-    "bestSpots": "মেজবান বাড়ি (চকবাজার), প্রিন্স মেজবান, বহদ্দারহাট",
+    "shopSpot": "মেজ্জান হাইলে আইয়ুন (চকবাজার ও জিইসি মোড়)।",
+    "mapLinks": [
+      {
+        "title": "Mezzan Haile Aaiun Chittagong",
+        "url": "https://www.google.com/maps/search/?api=1&query=Mezzan+Haile+Aaiun+Chittagong"
+      }
+    ],
+    "localTransit": "নতুন ব্রিজ বা দামপাড়া থেকে জিইসি/চকবাজারগামী বাস বা টেম্পো (ভাড়া ৳১৫–৳২৫/জন)।",
     "tags": ["Mezban", "Beef", "Chana Dal", "Mustard Oil", "Spicy"],
     "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?auto=format&fit=crop&w=800&q=80"
   },
@@ -114,7 +164,18 @@
     "description": "কাঁচা বাঁশের ফাঁপা অংশে পাহাড়ি বুনো মসলা দিয়ে কয়লার ধিকিধিকি আগুনে পোড়ানো দেশি মুরগি এবং বর্ষার কচি বাঁশের ডগা (বাঁশকোড়ল) ভাজি।",
     "price": "আস্ত বাঁশ মুরগি ৩৫০–৪৫০ টাকা; ব্যাম্বু শুট বাটি ১০০–১৫০ টাকা।",
     "priceRange": "৳১০০ - ৳৪৫০",
-    "bestSpots": "সাজেক রুইলুই পাড়া আদিবাসী রেস্তোরাঁ, বান্দরবান মেঘলা ও থানচি বাজার",
+    "shopSpot": "সাজেক রুইলুই পাড়া হেলিপ্যাড সংলগ্ন ফুড কোর্ট এবং থানচি ব্রিজ ঘাট সংলগ্ন রেস্তোরাঁ।",
+    "mapLinks": [
+      {
+        "title": "Ruilui Para Sajek Valley",
+        "url": "https://www.google.com/maps/search/?api=1&query=Ruilui+Para+Sajek+Valley"
+      },
+      {
+        "title": "Thanchi Bazar Bandarban",
+        "url": "https://www.google.com/maps/search/?api=1&query=Thanchi+Bazar+Bandarban"
+      }
+    ],
+    "localTransit": "খাগড়াছড়ি থেকে চাঁদের গাড়িতে সরাসরি রুইলুই পাড়া (শেয়ারিং ৳৩৫০–৳৪০০/জন)।",
     "tags": ["Bamboo", "Tribal", "Chicken", "Smoky", "Hills"],
     "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=800&q=80"
   },
@@ -131,7 +192,18 @@
     "description": "সাগরের তাজা রূপচাঁদা, কোরাল, টুনা, কিং প্রন, লবস্টার ও কাঁকড়া পছন্দের পর সাথে সাথে কাঠকয়লার আগুনে বারবিকিউ মসলা মেখে পোড়ানো।",
     "price": "রূপচাঁদা/কোরাল ৩০০–৭০০ টাকা (সাইজ অনুযায়ী); লবস্টার ৮০০–১৫০০ টাকা প্রতি পিস।",
     "priceRange": "৳৩০০ - ৳১,৫০০",
-    "bestSpots": "কক্সবাজার সুগন্ধা বিচ পয়েন্ট, লাবণী বিচ, সেন্টমার্টিন জেটি ঘাট বাজার",
+    "shopSpot": "সুগন্ধা বিচ পয়েন্ট নাইট ফুড মার্কেট (কক্সবাজার) এবং প্রধান জেটি ঘাট সংলগ্ন বাজার (সেন্টমার্টিন)।",
+    "mapLinks": [
+      {
+        "title": "Sugandha Beach Cox's Bazar",
+        "url": "https://www.google.com/maps/search/?api=1&query=Sugandha+Beach+Coxs+Bazar"
+      },
+      {
+        "title": "Saint Martin Jetty Ghat",
+        "url": "https://www.google.com/maps/search/?api=1&query=Saint+Martin+Island+Jetty"
+      }
+    ],
+    "localTransit": "কলাতলী মোড় থেকে সুগন্ধা বিচে হেঁটে যাওয়া যায়; সেন্টমার্টিন জেটি থেকে বাজারে হাঁটা পথ।",
     "tags": ["Seafood", "Lobster", "Fish BBQ", "Coral", "Beach Night"],
     "image": "https://images.unsplash.com/photo-1534939561126-855b8675edd7?auto=format&fit=crop&w=800&q=80"
   },
@@ -148,7 +220,14 @@
     "description": "চট্টগ্রামের শতবর্ষী লাল চা বা দুধ চায়ের সাথে খাওয়ার ঐতিহ্যবাহী মুচমুচে মিষ্টি ও নোনতা খাস্তা বিস্কুট।",
     "price": "প্যাকেট ৮০–১২০ টাকা।",
     "priceRange": "৳৮০ - ৳১২০/প্যাকেট",
-    "bestSpots": "গনি বেকারি (চকবাজার), পাহাড়তলী বাজার বেকারি",
+    "shopSpot": "গনি বেকারি (চকবাজার, চট্টগ্রাম)।",
+    "mapLinks": [
+      {
+        "title": "Gani Bakery Chittagong",
+        "url": "https://www.google.com/maps/search/?api=1&query=Gani+Bakery+Chittagong"
+      }
+    ],
+    "localTransit": "জিইসি মোড় থেকে চকবাজার টেম্পো বা রিকশা (ভাড়া ৳১৫–৳২০/জন)।",
     "tags": ["Bakery", "Tea Time", "Snack", "Heritage"],
     "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80"
   },
@@ -165,7 +244,18 @@
     "description": "সিলেটের পাহাড়ি বুনো সাইট্রাস জাতীয় ফল 'সাতকড়া'র পুরু খোসা কেটে গরুর মাংসের সাথে ঝোল রান্না। টক ও সুগন্ধি এক অনন্য স্বর্গীয় স্বাদ।",
     "price": "প্রতি বাটি ১৮০–২২০ টাকা।",
     "priceRange": "৳১৮০ - ৳২২০/বাটি",
-    "bestSpots": "পাঁচ ভাই রেস্তোরাঁ, পানসী রেস্টুরেন্ট, ভোজনবাড়ি (জিন্দাবাজার, সিলেট)",
+    "shopSpot": "পাঁচ ভাই রেস্টুরেন্ট এবং পানসী রেস্তোরাঁ (জল্লারপাড় মোড়, জিন্দাবাজার)।",
+    "mapLinks": [
+      {
+        "title": "Pach Bhai Restaurant Sylhet",
+        "url": "https://www.google.com/maps/search/?api=1&query=Pach+Bhai+Restaurant+Sylhet"
+      },
+      {
+        "title": "Pansi Restaurant Sylhet",
+        "url": "https://www.google.com/maps/search/?api=1&query=Pansi+Restaurant+Sylhet"
+      }
+    ],
+    "localTransit": "কদমতলী বাস টার্মিনাল বা রেলস্টেশন থেকে রিকশা (ভাড়া ৳৫০–৳৬০) অথবা শেয়ারিং সিএনজি (ভাড়া ৳২০/জন)।",
     "tags": ["Beef", "Shatkora", "Sylhet Special", "Citrus", "Lunch"],
     "image": "https://images.unsplash.com/photo-1543339308-43e59d6b73a6?auto=format&fit=crop&w=800&q=80"
   },
@@ -182,7 +272,18 @@
     "description": "সুগন্ধি চাল, খাসি বা গরুর মাংসের সাথে বিশেষ গোটা গরম মসলার স্টক (আখনি) দিয়ে তৈরি ঐতিহ্যবাহী দম পোলাও। বিরিয়ানির চেয়ে হালকা ও ঘ্রাণযুক্ত।",
     "price": "প্রতি প্লেট ১৬০–২২০ টাকা।",
     "priceRange": "৳১৬০ - ৳২২০/প্লেট",
-    "bestSpots": "পাঁচ ভাই, পানসী, হোটেল সুফিয়া (দরগাহ গেট, সিলেট)",
+    "shopSpot": "পাঁচ ভাই রেস্টুরেন্ট এবং পানসী রেস্তোরাঁ (জল্লারপাড় মোড়, জিন্দাবাজার)।",
+    "mapLinks": [
+      {
+        "title": "Pach Bhai Restaurant Sylhet",
+        "url": "https://www.google.com/maps/search/?api=1&query=Pach+Bhai+Restaurant+Sylhet"
+      },
+      {
+        "title": "Pansi Restaurant Sylhet",
+        "url": "https://www.google.com/maps/search/?api=1&query=Pansi+Restaurant+Sylhet"
+      }
+    ],
+    "localTransit": "কদমতলী বাস টার্মিনাল বা রেলস্টেশন থেকে রিকশা (ভাড়া ৳৫০–৳৬০) অথবা শেয়ারিং সিএনজি (ভাড়া ৳২০/জন)।",
     "tags": ["Polao", "Biryani", "Mutton", "Aromatic", "Lunch"],
     "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=800&q=80"
   },
@@ -199,7 +300,14 @@
     "description": "ঘনত্ব ও তাপমাত্রার পার্থক্যের মাধ্যমে এক কাঁচের গ্লাসে তৈরি সাতটি স্বতন্ত্র রঙের স্তরের চা—কালো চা, সবুজ চা, লেবু-আদা ও দুধের মিশ্রণ।",
     "price": "প্রতি গ্লাস ৮০–১০০ টাকা (লেমন স্পাইস বা সাধারণ স্পেশাল চা ২০–৩০ টাকা)।",
     "priceRange": "৳২০ - ৳১০০/গ্লাস",
-    "bestSpots": "নীলকণ্ঠ টি কেবিন (রামকৃষ্ণ মিশন রোড ও বিজিবি ক্যাম্প সংলগ্ন, শ্রীমঙ্গল)",
+    "shopSpot": "রমেশ রাম গৌড়ের নীলকণ্ঠ টি কেবিন (রামনগর মণিপুরি পাড়া)।",
+    "mapLinks": [
+      {
+        "title": "Neelkantha Tea Cabin Sreemangal",
+        "url": "https://www.google.com/maps/search/?api=1&query=Neelkantha+Tea+Cabin+Sreemangal"
+      }
+    ],
+    "localTransit": "শ্রীমঙ্গল চৌমোহনা থেকে টমটমে রামনগর মণিপুরি পাড়া (ভাড়া ৳২০–৳২৫/জন)।",
     "tags": ["Tea", "Seven Layer", "Sreemangal", "Beverage"],
     "image": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=800&q=80"
   },
@@ -216,7 +324,14 @@
     "description": "টাঙ্গুয়ার হাওরের মিষ্টি জলের জীবন্ত বোয়াল, আইড়, বাচা এবং কাঁচকি-মলা মাছের কাঁচামরিচ-পেঁয়াজের শুকনা চচ্চড়ি। হাউসবোটে গরম ভাতে অতুলনীয়।",
     "price": "বড় মাছের বাটি ১৫০–২৫০ টাকা; ছোট মাছের চচ্চড়ি ৮০–১২০ টাকা।",
     "priceRange": "৳৮০ - ৳২৫০/বাটি",
-    "bestSpots": "তাহিরপুর ঘাট হোটেল, সুনামগঞ্জ জগন্নাথবাড়ি মোড়, হাউসবোট মিল সার্ভিস",
+    "shopSpot": "তাহিরপুর বাজার ঘাট পয়েন্টের লোকাল খাবার হোটেল।",
+    "mapLinks": [
+      {
+        "title": "Tahirpur Bazar Sunamganj",
+        "url": "https://www.google.com/maps/search/?api=1&query=Tahirpur+Bazar+Sunamganj"
+      }
+    ],
+    "localTransit": "সুনামগঞ্জ শহর থেকে তাহিরপুর সাহেববাড়ি ঘাট সিএনজি (ভাড়া ৳১০০/জন)।",
     "tags": ["Fish", "Haor", "Boal", "Tanguar", "Lunch"],
     "image": "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?auto=format&fit=crop&w=800&q=80"
   },
@@ -233,7 +348,18 @@
     "description": "পাহাড়ি চুই গাছের লতা বা ডালের বিশেষ তীব্র সুগন্ধযুক্ত ও ঝাঁঝালো ঝাল দিয়ে মাটির পাত্রে কষিয়ে রান্না তেলতেলে নরম খাসির মাংস।",
     "price": "প্রতি প্লেট ২৮০–৩৫০ টাকা।",
     "priceRange": "৳২৮০ - ৳৩৫০/প্লেট",
-    "bestSpots": "আব্বাস হোটেল (চুকনগর বাজার, ডুমুরিয়া), কামরুল হোটেল (খুলনা শহর)",
+    "shopSpot": "আব্বাস হোটেল (চুকনগর বাজার মোড়, ডুমুরিয়া) এবং চুইঝাল খাসি কর্নার (জিরো পয়েন্ট)।",
+    "mapLinks": [
+      {
+        "title": "Abbas Hotel Chuknagar",
+        "url": "https://www.google.com/maps/search/?api=1&query=Abbas+Hotel+Chuknagar"
+      },
+      {
+        "title": "Zero Point Khulna",
+        "url": "https://www.google.com/maps/search/?api=1&query=Zero+Point+Khulna"
+      }
+    ],
+    "localTransit": "সোনাডাঙ্গা বাসস্ট্যান্ড থেকে চুকনগর বাস (ভাড়া ৳৫০–৳৬০/জন)।",
     "tags": ["Chuijhal", "Mutton", "Khulna Pride", "Spicy", "Lunch"],
     "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80"
   },
@@ -250,7 +376,14 @@
     "description": "খাঁটি গাভীর দুধ জ্বাল দিয়ে ঘন ক্ষীর বানিয়ে শুকনা ও নরম গোল ছাঁচে তৈরি হালকা মিষ্টির সন্দেশ। অনেকদিন ভালো থাকে।",
     "price": "প্রতি কেজি ৪২০–৫৫০ টাকা।",
     "priceRange": "৳৪২০ - ৳৫৫০/কেজি",
-    "bestSpots": "মায়ের দোয়া মিষ্টান্ন ভাণ্ডার, রূপসী বাংলা সুইটস (সাতক্ষীরা সদর)",
+    "shopSpot": "ঘোষ মিষ্টান্ন ভাণ্ডার (সাতক্ষীরা সদর বাজার ও তুফান মোড়)।",
+    "mapLinks": [
+      {
+        "title": "Ghosh Mistanna Bhandar Satkhira",
+        "url": "https://www.google.com/maps/search/?api=1&query=Ghosh+Mistanna+Bhandar+Satkhira"
+      }
+    ],
+    "localTransit": "সাতক্ষীরা বাস টার্মিনাল থেকে তুফান মোড় ইজিবাইক (ভাড়া ৳১০–৳১৫/জন)।",
     "tags": ["Sweet", "Sandesh", "Pure Milk", "Heritage"],
     "image": "https://images.unsplash.com/photo-1599785209707-a456fc1337bb?auto=format&fit=crop&w=800&q=80"
   },
@@ -267,7 +400,14 @@
     "description": "সুন্দরবনের গহীন ম্যানগ্রোভ ফরেস্টের মৌয়ালদের আহরিত প্রাকৃতিক পদ্ম ও খলসী ফুলের মধু এবং উপকূলীয় নোনা জলের গোলগাছের মিষ্টি রসের অর্গানিক গুড়।",
     "price": "খাঁটি কাঁচা মধু ৮০০–১২০০ টাকা/কেজি; গোলপাতার গুড় ২৫০–৩৫০ টাকা/কেজি।",
     "priceRange": "৳২৫০ - ৳১,২০০/কেজি",
-    "bestSpots": "বুড়িগোয়ালিনী ফরেস্ট পয়েন্ট, মোংলা ফেরিঘাট, শ্যামনগর বাজার",
+    "shopSpot": "বুড়িগোয়ালিনী ফরেস্ট ঘাট ও শ্যামনগর বাজার।",
+    "mapLinks": [
+      {
+        "title": "Burigoalini Forest Ghat",
+        "url": "https://www.google.com/maps/search/?api=1&query=Burigoalini+Shyamnagar"
+      }
+    ],
+    "localTransit": "শ্যামনগর বাসস্ট্যান্ড থেকে অটো বা মোটরসাইকেলে বুড়িগোয়ালিনী ঘাট (ভাড়া ৳৫০–৳৮০)।",
     "tags": ["Honey", "Golpata Gur", "Sundarbans", "Organic"],
     "image": "https://images.unsplash.com/photo-1587049352846-4a222e784d38?auto=format&fit=crop&w=800&q=80"
   },
@@ -284,7 +424,14 @@
     "description": "শীতকালের প্রথম গাছিদের নামানো তাজা খেজুরের নলেন পাটালি গুড় ও টাটকা ছানার মেলবন্ধনে তৈরি সুগন্ধি সন্দেশ।",
     "price": "প্রতি কেজি ৪০০–৬০০ টাকা।",
     "priceRange": "৳৪০০ - ৳৬০০/কেজি",
-    "bestSpots": "যশোর দড়াটানা মোড়, চিত্রা মিষ্টান্ন ভাণ্ডার, কেশবপুর বাজার",
+    "shopSpot": "দড়াটানা মোড় ও চিত্রা মোড় মিষ্টান্ন ভাণ্ডার (যশোর সদর)।",
+    "mapLinks": [
+      {
+        "title": "Doratana More Jessore",
+        "url": "https://www.google.com/maps/search/?api=1&query=Doratana+More+Jessore"
+      }
+    ],
+    "localTransit": "মনিহার বাসস্ট্যান্ড থেকে দড়াটানা মোড় রিকশায় (ভাড়া ৳১৫–৳২০)।",
     "tags": ["Date Palm", "Nolen Gur", "Winter Special", "Sweet"],
     "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80"
   },
@@ -301,7 +448,18 @@
     "description": "মেঘনা ও বঙ্গোপসাগরের রুপালি ইলিশ ঝাঁঝালো সরিষা বাটায় কড়া রান্না এবং শুকনা মরিচ-কাঁচা পেঁয়াজ দিয়ে ইলিশের লেজ ও কাঁটা পিষে তৈরি মশলাদার ভর্তা।",
     "price": "ইলিশ টুকরো ২৫০–৪৫০ টাকা (আকারভেদে); শুঁটকি ও লেজ ভর্তা ২০–৪০ টাকা।",
     "priceRange": "৳২০ - ৳৪৫০",
-    "bestSpots": "হোটেল রোজ গার্ডেন (কুয়াকাটা সৈকত), বিবির পুকুরপাড় হোটেল (বরিশাল শহর)",
+    "shopSpot": "কুয়াকাটা চৌরাস্তা সৈকত ফ্রাই শপ এবং হোটেল রিভারভিউ (পোর্ট রোড, বরিশাল)।",
+    "mapLinks": [
+      {
+        "title": "Kuakata Beach Zero Point",
+        "url": "https://www.google.com/maps/search/?api=1&query=Kuakata+Beach+Zero+Point"
+      },
+      {
+        "title": "Port Road Fish Market Barishal",
+        "url": "https://www.google.com/maps/search/?api=1&query=Port+Road+Fish+Market+Barishal"
+      }
+    ],
+    "localTransit": "কুয়াকাটা বাসস্ট্যান্ড থেকে সৈকতে হাঁটা পথ; নথুল্লাবাদ টার্মিনাল থেকে পোর্ট রোড অটো (ভাড়া ৳১৫–৳২০)।",
     "tags": ["Ilish", "Mustard Fish", "Bhorta", "Seafood", "Lunch"],
     "image": "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?auto=format&fit=crop&w=800&q=80"
   },
@@ -314,11 +472,18 @@
     "place": "ঝালকাঠি (ভিমরুলি ভাসমান হাট)",
     "district": "Jhalakathi",
     "category": "Snack / Beverage",
-    "categoryBn": "স্ನ್ಯাক্স ও পানীয়",
+    "categoryBn": "স্ন্যাক্স ও পানীয়",
     "description": "গাছ থেকে পাড়া তাজা কচকচে পেয়ারা ও মিষ্টি-টক আমড়া নৌকার ওপর বসে ঝাল কাসুন্দি, বিট লবণ ও লাল মরিচ দিয়ে স্পাইসি করে মাখানো।",
     "price": "প্রতি বাটি ২০–৪০ টাকা।",
     "priceRange": "৳২০ - ৳৪০/বাটি",
-    "bestSpots": "ভিমরুলি ভাসমান পেয়ারা হাট, আটঘর কুড়িয়ানা খালপাড়",
+    "shopSpot": "ভিমরুলি ভাসমান পেয়ারা হাটের কাঠের পুল পয়েন্ট।",
+    "mapLinks": [
+      {
+        "title": "Bhimruli Floating Guava Market",
+        "url": "https://www.google.com/maps/search/?api=1&query=Bhimruli+Floating+Guava+Market"
+      }
+    ],
+    "localTransit": "ঝালকাঠি শহর থেকে অটো বা বাইকে ভিমরুলি ঘাট (ভাড়া ৳৫০–৳৭০)।",
     "tags": ["Guava", "Kasundi", "Floating Market", "Street Food"],
     "image": "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?auto=format&fit=crop&w=800&q=80"
   },
@@ -335,7 +500,14 @@
     "description": "পাতলা বাদামী সরযুক্ত শতবর্ষী মিষ্টি দই। চুন ও বালির বিশেষ ভাটায় মাটির সরায় জমানো হয় বলে এতে হালকা ধোঁয়াটে প্রাকৃতিক মিষ্টি স্বাদ থাকে।",
     "price": "প্রতি সরা ১৮০–২৫০ টাকা।",
     "priceRange": "৳১৮০ - ৳২৫০/সরা",
-    "bestSpots": "গৌরনদী বাসস্ট্যান্ড মিষ্টির দোকান, নথুল্লাবাদ টার্মিনাল কাউন্টার",
+    "shopSpot": "গৌরনদী বাসস্ট্যান্ড সংলগ্ন মিষ্টান্ন বাজার।",
+    "mapLinks": [
+      {
+        "title": "Gournadi Bus Stand Barishal",
+        "url": "https://www.google.com/maps/search/?api=1&query=Gournadi+Bus+Stand+Barishal"
+      }
+    ],
+    "localTransit": "ঢাকা-বরিশাল রুটের যে কোনো বাসে সরাসরি গৌরনদী নামা যায়।",
     "tags": ["Curd", "Gournadi", "Dessert", "Heritage"],
     "image": "https://images.unsplash.com/photo-1541658016709-82535e94bc69?auto=format&fit=crop&w=800&q=80"
   },
@@ -352,7 +524,14 @@
     "description": "খাবার সোডা ও রসুনে সেদ্ধ করা নালফা ও পাটশাকের বিশেষ থকথকে স্যুপ (প্যালকা) এবং ফারমেন্ট করা মাছ ও কচু দিয়ে বানানো উত্তরবঙ্গের খাঁটি ঐতিহ্যবাহী সিডল ভর্তা।",
     "price": "প্যালকা বাটি ৪০–৬০ টাকা; সিডল ভর্তা ৩০–৫০ টাকা।",
     "priceRange": "৳৩০ - ৳৬০",
-    "bestSpots": "দিনাজপুর বাহাদুর বাজার, রংপুর পায়রা চত্বর দেশি হোটেল",
+    "shopSpot": "বাহাদুর বাজার ও রংপুর পায়রা চত্বর দেশি হোটেল।",
+    "mapLinks": [
+      {
+        "title": "Payra Chottor Rangpur",
+        "url": "https://www.google.com/maps/search/?api=1&query=Payra+Chottor+Rangpur"
+      }
+    ],
+    "localTransit": "রংপুর বাস টার্মিনাল থেকে পায়রা চত্বর ইজিবাইক (ভাড়া ৳১০–৳১৫)।",
     "tags": ["Pelka", "Seedol", "Indigenous", "North Bengal", "Spicy"],
     "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=800&q=80"
   },
@@ -369,7 +548,14 @@
     "description": "দিনাজপুরের জিআই পণ্য সুগন্ধি কাটারিভোগ চালের ঝরঝরে ধোঁয়া ওঠা নরম ভাতের সাথে শীতের দেশি পাতিহাঁসের ঘন কষা ঝাল মাংস।",
     "price": "ফুল মিল সেট ১৩০–১৮০ টাকা।",
     "priceRange": "৳১৩০ - ৳১৮০/সেট",
-    "bestSpots": "হোটেল রুস্তম, কাটারি ভাত ঘর (দিনাজপুর স্টেশন রোড)",
+    "shopSpot": "চারু বাবুর হোটেল ও দিলশাদ হোটেল (দিনাজপুর রেলবাজার ও স্টেশন রোড)।",
+    "mapLinks": [
+      {
+        "title": "Dinajpur Railway Station",
+        "url": "https://www.google.com/maps/search/?api=1&query=Dinajpur+Railway+Station"
+      }
+    ],
+    "localTransit": "দিনাজপুর বাস টার্মিনাল থেকে স্টেশন রোড ইজিবাইক (ভাড়া ৳১৫–৳২০/জন)।",
     "tags": ["Kataribhog Rice", "Duck Curry", "Dinajpur", "Lunch Set"],
     "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=800&q=80"
   },
@@ -386,7 +572,14 @@
     "description": "রংপুরের পদাগঞ্জ ও মিঠাপুকুরের আঁশবিহীন, মিষ্টি রসালো ও পাতলা খোসার বিখ্যাত আম। জুনে পরিপক্ক হলে মৌসুমি পর্যটকদের প্রধান আকর্ষণ।",
     "price": "প্রতি কেজি ৬০–১০০ টাকা (মৌসুমে)।",
     "priceRange": "৳৬০ - ৳১০০/কেজি",
-    "bestSpots": "পদাগঞ্জ আম বাজার, মিঠাপুকুর হাট, রংপুর সিটি বাজার",
+    "shopSpot": "পদাগঞ্জ হাট (মিঠাপুকুর, রংপুর)।",
+    "mapLinks": [
+      {
+        "title": "Podaganj Hat Mithapukur",
+        "url": "https://www.google.com/maps/search/?api=1&query=Podaganj+Mithapukur+Rangpur"
+      }
+    ],
+    "localTransit": "রংপুর শাপলা চত্বর থেকে পদাগঞ্জগামী লোকাল লেগুনা/বাস (ভাড়া ৳৪০–৳৫০/জন)।",
     "tags": ["Mango", "Haribhanga", "Fruit", "Seasonal", "GI Product"],
     "image": "https://images.unsplash.com/photo-1553279768-865429fa0078?auto=format&fit=crop&w=800&q=80"
   },
@@ -403,7 +596,18 @@
     "description": "জাফরান, ঘি ও বাসমতী চালে কাঁচা খাসির মাংসের সাথে মাখিয়ে দমে বসানো খাঁটি কাচ্চি। সাথে মিষ্টি-টক ও পুদিনা-ধনিয়ার ঝাঁঝালো বোরহানি।",
     "price": "প্রতি প্লেট ২৪০–৩৮০ টাকা; বোরহানি গ্লাস ৫০–৮০ টাকা।",
     "priceRange": "৳৫০ - ৳৩৮০",
-    "bestSpots": "গ্র্যান্ড নবাব, সুলতান'স ডাইন, আল রাজ্জাক (নাজিরাবাজার), বিউটি লাচ্ছি",
+    "shopSpot": "বিউটি লস্যি ও গ্র্যান্ড নবাব (নাজিরাবাজার) এবং লালবাগ কেল্লা মোড়।",
+    "mapLinks": [
+      {
+        "title": "Beauty Lassi Nazira Bazar",
+        "url": "https://www.google.com/maps/search/?api=1&query=Beauty+Lassi+Nazira+Bazar"
+      },
+      {
+        "title": "Lalbagh Fort Dhaka",
+        "url": "https://www.google.com/maps/search/?api=1&query=Lalbagh+Fort+Dhaka"
+      }
+    ],
+    "localTransit": "গুলিস্তান বা বংশাল থেকে রিকশায় নাজিরাবাজার (ভাড়া ৳৪০–৳৬০)।",
     "tags": ["Kacchi", "Mutton", "Old Dhaka", "Borhani", "Festive"],
     "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=800&q=80"
   },
@@ -420,7 +624,14 @@
     "description": "পদ্মা নদী থেকে সদ্য তোলা তাজা রূপালী ইলিশ চোখের সামনে গরম তেলে কড়া ভাজা, সাথে ইলিশের ডিম, গরম তেল ঢালা খিচুড়ি এবং কড়া লেজ ভর্তা।",
     "price": "ইলিশের টুকরো ২৮০–৫০০ টাকা; খিচুড়ি প্লেট ৬০–৮০ টাকা।",
     "priceRange": "৳৬০ - ৳৫০০",
-    "bestSpots": "মাওয়া পুরাতন ফেরিঘাট ইলিশ হোটেল, শিমুলিয়া ঘাট রেস্তোরাঁ",
+    "shopSpot": "পুরাতন মাওয়া ঘাট ও শিমুলিয়া ঘাট চত্বরের ইলিশ হোটেল।",
+    "mapLinks": [
+      {
+        "title": "Old Mawa Ghat Munshiganj",
+        "url": "https://www.google.com/maps/search/?api=1&query=Old+Mawa+Ghat+Munshiganj"
+      }
+    ],
+    "localTransit": "গুলিস্তান/যাত্রাবাড়ী থেকে মাওয়াগামী বাস (ভাড়া ৳৮০–৳১০০)।",
     "tags": ["Ilish", "Padma", "Khichuri", "Fried Fish", "Mawa Ghat"],
     "image": "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?auto=format&fit=crop&w=800&q=80"
   },
@@ -437,7 +648,14 @@
     "description": "ধলেশ্বরী নদীর মিষ্টি জলের খাঁটি গরুর দুধের ছানা দিয়ে তৈরি পোড়াবাড়ির সোনালী-পোড়া মিষ্টি। উপরে শুকনা মাওয়ার গুঁড়ো ছড়ানো রসালো মিষ্টি।",
     "price": "প্রতি কেজি ৩৫০–৪৫০ টাকা।",
     "priceRange": "৳৩৫০ - ৳৪৫০/কেজি",
-    "bestSpots": "পোড়াবাড়ি মিষ্টির বাজার, টাঙ্গাইল নিরালা মোড় মিষ্টির দোকান",
+    "shopSpot": "পোড়াবাড়ি বাজার মূল মিষ্টি পট্টি ও নিরালা মোড় (গোপাল মোদক)।",
+    "mapLinks": [
+      {
+        "title": "Porabari Tangail",
+        "url": "https://www.google.com/maps/search/?api=1&query=Porabari+Tangail"
+      }
+    ],
+    "localTransit": "টাঙ্গাইল নতুন বাসস্ট্যান্ড থেকে পোড়াবাড়ি সিএনজি (ভাড়া ৳২৫–৳৩০/জন)।",
     "tags": ["Chomchom", "Tangail", "Sweet", "GI Product", "Heritage"],
     "image": "https://images.unsplash.com/photo-1599785209707-a456fc1337bb?auto=format&fit=crop&w=800&q=80"
   },
@@ -454,7 +672,14 @@
     "description": "তন্দুরের ভেতর সেঁকা বহু স্তরবিশিষ্ট মুচমুচে নোনতা ও ঘিয়ের বাকরখানি। মিষ্টি বা পনিরের বাকরখানিও পাওয়া যায়। চায়ের সাথে সকালে খাওয়ার দারুণ ঐতিহ্য।",
     "price": "প্রতি কেজি ১৩০–১৬০ টাকা।",
     "priceRange": "৳১৩০ - ৳১৬০/কেজি",
-    "bestSpots": "নাজিরাবাজার মোড়, লালবাগ কেল্লা গেট বেকারি, চকবাজার",
+    "shopSpot": "লালবাগ কেল্লা মোড় বেকারি ও নাজিরাবাজার চক।",
+    "mapLinks": [
+      {
+        "title": "Lalbagh Fort Dhaka",
+        "url": "https://www.google.com/maps/search/?api=1&query=Lalbagh+Fort+Dhaka"
+      }
+    ],
+    "localTransit": "গুলিস্তান বা বংশাল থেকে রিকশায় নাজিরাবাজার/লালবাগ (ভাড়া ৳৪০–৳৬০)।",
     "tags": ["Bakorkhani", "Old Dhaka", "Breakfast", "Crispy", "Tea"],
     "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80"
   },
@@ -471,7 +696,14 @@
     "description": "১৮২৪ সালে রামগোপাল পালের হাত ধরে শুরু হওয়া প্রায় দুইশত বছরের প্রাচীন ঐতিহ্যবাহী মিষ্টি। কোনো প্রিজারভেটিভ ছাড়াই শুধু খাঁটি দুধের ছানা ও চিনি দিয়ে তৈরি নরম গোল মণ্ডা।",
     "price": "প্রতি পিস ২৫–৩০ টাকা; কেজি ৫৫০–৬৫০ টাকা।",
     "priceRange": "৳২৫/পিস (৳৫৫০ - ৳৬৫০/কেজি)",
-    "bestSpots": "শ্রী রামগোপাল পাল মণ্ডার আসল দোকান (মুক্তাগাছা রাজবাড়ি মোড়)",
+    "shopSpot": "রামগোপাল পাল মিষ্টান্ন ভাণ্ডার (মুক্তাগাছা রাজবাড়ি সংলগ্ন)।",
+    "mapLinks": [
+      {
+        "title": "Gopal Paler Monda Muktagacha",
+        "url": "https://www.google.com/maps/search/?api=1&query=Gopal+Paler+Monda+Muktagacha"
+      }
+    ],
+    "localTransit": "ময়মনসিংহ টাউনহল বা ব্রিজ মোড় থেকে সিএনজি/বাস (ভাড়া ৳৩০–৳৪০/জন)।",
     "tags": ["Monda", "Muktagacha", "200 Years Heritage", "Sweet", "GI Product"],
     "image": "https://images.unsplash.com/photo-1599785209707-a456fc1337bb?auto=format&fit=crop&w=800&q=80"
   },
@@ -488,7 +720,14 @@
     "description": "মাটির হাঁড়িতে ফারমেন্ট করে নরম করা চ্যাপা শুঁটকি প্রচুর পেঁয়াজ, রসুন ও লাল বোম্বাই মরিচে কড়া ভুনা। গরম নরম চালের আটার রুটির সাথে মুখে জল আনা স্বাদ।",
     "price": "প্রতি বাটি ৫০–৮০ টাকা; চালের রুটি ১০–১৫ টাকা।",
     "priceRange": "৳১০ - ৳৮০",
-    "bestSpots": "সুসং দুর্গাপুর বাজার দেশি হোটেল, নেত্রকোণা ছোট বাজার",
+    "shopSpot": "সুসং দুর্গাপুর বাজার ও বিরিশিরি কালচারাল একাডেমি মোড়।",
+    "mapLinks": [
+      {
+        "title": "Birishiri Cultural Academy Durgapur",
+        "url": "https://www.google.com/maps/search/?api=1&query=Birishiri+Cultural+Academy+Durgapur"
+      }
+    ],
+    "localTransit": "বিরিশিরি পয়েন্ট থেকে দুর্গাপুর বাজার অটোরিকশা (ভাড়া ৳২০–৳৩০/জন)।",
     "tags": ["Chepa Shutki", "Spicy", "Netrokona", "Ruti", "Birishiri"],
     "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80"
   },
@@ -505,7 +744,14 @@
     "description": "ব্রহ্মপুত্র পাড়ের খাঁটি গাভীর দুধের ঘন মালাই ও জাফরানি ক্ষীরে ডুবানো নরম স্পঞ্জি মালাই চপ ও রসকদম।",
     "price": "প্রতি কেজি ৪০০–৫০০ টাকা।",
     "priceRange": "৳৪০০ - ৳৫০০/কেজি",
-    "bestSpots": "মহাপ্রভু মিষ্টান্ন ভাণ্ডার (ছোতবাজার, ময়মনসিংহ), কৃষ্ণা কেবিন",
+    "shopSpot": "মহাপ্রভু মিষ্টান্ন ভাণ্ডার ও শ্রীকৃষ্ণ কেবিন (ছোট বাজার)।",
+    "mapLinks": [
+      {
+        "title": "Choto Bazar Mymensingh",
+        "url": "https://www.google.com/maps/search/?api=1&query=Choto+Bazar+Mymensingh"
+      }
+    ],
+    "localTransit": "ময়মনসিংহ রেল জংশন থেকে ছোট বাজার রিকশায় (ভাড়া ৳২০–৳৩০)।",
     "tags": ["Malai Chop", "Mymensingh", "Sweet", "Creamy", "Dessert"],
     "image": "https://images.unsplash.com/photo-1541658016709-82535e94bc69?auto=format&fit=crop&w=800&q=80"
   }
