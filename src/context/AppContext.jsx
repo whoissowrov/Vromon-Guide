@@ -32,7 +32,28 @@ export const AppProvider = ({ children }) => {
   });
 
   const [activeModalSpot, setActiveModalSpot] = useState(null);
+  const [activePhotoSpot, setActivePhotoSpot] = useState(null);
   const [isBookmarksOpen, setIsBookmarksOpen] = useState(false);
+
+  // Real Community Photos user uploads (persisted in localStorage)
+  const [communityUploads, setCommunityUploads] = useState(() => {
+    try {
+      const saved = localStorage.getItem('vromon_community_uploads');
+      return saved ? JSON.parse(saved) : {};
+    } catch {
+      return {};
+    }
+  });
+
+  // Photo likes tracker
+  const [likedPhotos, setLikedPhotos] = useState(() => {
+    try {
+      const saved = localStorage.getItem('vromon_liked_photos');
+      return saved ? JSON.parse(saved) : [];
+    } catch {
+      return [];
+    }
+  });
 
   // Sync theme with HTML class
   useEffect(() => {
@@ -50,6 +71,16 @@ export const AppProvider = ({ children }) => {
     localStorage.setItem('vromon_bookmarks', JSON.stringify(bookmarks));
   }, [bookmarks]);
 
+  // Persist community uploads
+  useEffect(() => {
+    localStorage.setItem('vromon_community_uploads', JSON.stringify(communityUploads));
+  }, [communityUploads]);
+
+  // Persist liked photos
+  useEffect(() => {
+    localStorage.setItem('vromon_liked_photos', JSON.stringify(likedPhotos));
+  }, [likedPhotos]);
+
   const toggleTheme = () => {
     setTheme(prev => (prev === 'dark' ? 'light' : 'dark'));
   };
@@ -62,6 +93,47 @@ export const AppProvider = ({ children }) => {
         return [...prev, spotId];
       }
     });
+  };
+
+  const togglePhotoLike = (photoId) => {
+    setLikedPhotos(prev => {
+      if (prev.includes(photoId)) {
+        return prev.filter(id => id !== photoId);
+      } else {
+        return [...prev, photoId];
+      }
+    });
+  };
+
+  const addCommunityPhoto = (spotId, photoData) => {
+    const newPhoto = {
+      id: `comm-${spotId}-${Date.now()}`,
+      url: photoData.url,
+      caption: photoData.caption || 'Traveler photo contribution',
+      photographer: photoData.photographer || 'Fellow Traveler',
+      date: photoData.date || 'Just now',
+      likes: 1,
+      aspectRatio: photoData.aspectRatio || 'tall',
+      isUserUploaded: true,
+      createdAt: new Date().toISOString()
+    };
+
+    setCommunityUploads(prev => {
+      const existing = prev[spotId] || [];
+      return {
+        ...prev,
+        [spotId]: [newPhoto, ...existing]
+      };
+    });
+
+    return newPhoto;
+  };
+
+  const getSpotPhotos = (spot) => {
+    if (!spot) return [];
+    const userPhotos = communityUploads[spot.id] || [];
+    const basePhotos = spot.realPhotos || [];
+    return [...userPhotos, ...basePhotos];
   };
 
   const planRouteTo = (destinationId) => {
@@ -95,6 +167,13 @@ export const AppProvider = ({ children }) => {
         toggleBookmark,
         activeModalSpot,
         setActiveModalSpot,
+        activePhotoSpot,
+        setActivePhotoSpot,
+        communityUploads,
+        likedPhotos,
+        togglePhotoLike,
+        addCommunityPhoto,
+        getSpotPhotos,
         isBookmarksOpen,
         setIsBookmarksOpen,
         planRouteTo,

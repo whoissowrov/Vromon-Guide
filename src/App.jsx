@@ -10,6 +10,7 @@ import ItinerariesSection from './components/ItinerariesSection';
 import BudgetCalculator from './components/BudgetCalculator';
 import TravelEssentials from './components/TravelEssentials';
 import DestinationModal from './components/DestinationModal';
+import CommunityPhotosModal from './components/CommunityPhotosModal';
 import BookmarksModal from './components/BookmarksModal';
 import Footer from './components/Footer';
 
@@ -68,6 +69,7 @@ function AppContent() {
 
       {/* Global Modals & Drawers */}
       <DestinationModal />
+      <CommunityPhotosModal />
       <BookmarksModal />
     </div>
   );

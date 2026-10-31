@@ -16,11 +16,20 @@ import {
   AlertTriangle,
   Heart,
   Car,
-  ExternalLink
+  ExternalLink,
+  Camera
 } from 'lucide-react';
 
 const DestinationModal = () => {
-  const { activeModalSpot, setActiveModalSpot, bookmarks, toggleBookmark, planRouteTo } = useApp();
+  const { 
+    activeModalSpot, 
+    setActiveModalSpot, 
+    bookmarks, 
+    toggleBookmark, 
+    planRouteTo,
+    setActivePhotoSpot,
+    getSpotPhotos
+  } = useApp();
   const [activeImageIndex, setActiveImageIndex] = useState(0);
   const [activeModalTab, setActiveModalTab] = useState('overview'); // 'overview' | 'transit'
 
@@ -37,7 +46,8 @@ const DestinationModal = () => {
 
   const spot = activeModalSpot;
   const isBookmarked = bookmarks.includes(spot.id);
-
+  const spotPhotos = getSpotPhotos ? getSpotPhotos(spot) : (spot.realPhotos || []);
+  const photosCount = spotPhotos.length;
 
   return (
     <div className="fixed inset-0 z-50 overflow-y-auto bg-black/70 backdrop-blur-md flex items-center justify-center p-3 sm:p-6 animate-fadeIn">
@@ -51,6 +61,16 @@ const DestinationModal = () => {
         
         {/* Top Floating Close & Bookmark buttons */}
         <div className="absolute top-4 right-4 z-20 flex items-center gap-2">
+          <button
+            onClick={() => setActivePhotoSpot(spot)}
+            className="px-3 py-2 rounded-full bg-black/50 hover:bg-emerald-600 text-white backdrop-blur-md shadow-lg transition-all text-xs font-bold flex items-center gap-1.5 border border-white/20 hover:border-emerald-400"
+            title="Open Real Community Photos Gallery"
+          >
+            <Camera className="w-4 h-4 text-emerald-400" />
+            <span className="hidden sm:inline">Real Photos</span>
+            <span className="px-1.5 py-0.2 rounded-full bg-emerald-500/80 text-[10px]">{photosCount}</span>
+          </button>
+
           <button
             onClick={() => toggleBookmark(spot.id)}
             className={`p-2.5 rounded-full backdrop-blur-md shadow-lg transition-all ${
@@ -140,8 +160,8 @@ const DestinationModal = () => {
             </div>
           </div>
 
-          {/* Tab Bar inside Modal: Overview vs Step-by-Step Transit */}
-          <div className="flex items-center gap-2 px-6 pt-3 pb-2 bg-slate-100 dark:bg-[#07130E] border-b border-slate-200 dark:border-emerald-950/60 text-xs sm:text-sm font-bold">
+          {/* Tab Bar inside Modal: Overview vs Step-by-Step Transit vs Real Photos */}
+          <div className="flex flex-wrap items-center gap-2 px-6 pt-3 pb-2 bg-slate-100 dark:bg-[#07130E] border-b border-slate-200 dark:border-emerald-950/60 text-xs sm:text-sm font-bold">
             <button
               onClick={() => setActiveModalTab('overview')}
               className={`px-4 py-2 rounded-xl transition-all ${
@@ -163,6 +183,14 @@ const DestinationModal = () => {
               <Car className="w-4 h-4" />
               <span>Step-by-Step Transit (লোকাল গাড়ি ও ভাড়া)</span>
             </button>
+            <button
+              onClick={() => setActivePhotoSpot(spot)}
+              className="px-4 py-2 rounded-xl transition-all flex items-center gap-1.5 text-emerald-700 dark:text-emerald-300 bg-emerald-100/80 hover:bg-emerald-200 dark:bg-emerald-950/70 dark:hover:bg-emerald-900/70 border border-emerald-500/40"
+              title="Open Real Community Photos Gallery & Lightbox"
+            >
+              <Camera className="w-4 h-4 text-emerald-500" />
+              <span>Real Photos ({photosCount})</span>
+            </button>
           </div>
 
           {/* Modal Main Body */}
@@ -181,6 +209,52 @@ const DestinationModal = () => {
                   <p className="text-sm sm:text-base text-slate-600 dark:text-slate-300 leading-relaxed">
                     {spot.description}
                   </p>
+                </div>
+
+                {/* Real Community Photos Preview Strip */}
+                <div className="p-5 rounded-2xl bg-gradient-to-br from-emerald-950/40 via-slate-900/60 to-[#07130E] border border-emerald-700/40 shadow-lg">
+                  <div className="flex flex-wrap items-center justify-between gap-3 mb-3.5">
+                    <div>
+                      <h4 className="text-base font-extrabold text-white flex items-center gap-2">
+                        <Camera className="w-4 h-4 text-emerald-400" />
+                        <span>Real Community Photos ({photosCount})</span>
+                      </h4>
+                      <p className="text-xs text-slate-300 mt-0.5">
+                        ভ্রমণকারীদের তোলা আসল ছবি, লাইটবক্স জুম ভিউ এবং আপনার ছবি আপলোড করার সুবিধা
+                      </p>
+                    </div>
+
+                    <button
+                      onClick={() => setActivePhotoSpot(spot)}
+                      className="px-4 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold shadow-glow flex items-center gap-1.5 transition-all"
+                    >
+                      <Camera className="w-3.5 h-3.5" />
+                      <span>সব ছবি ও লাইটবক্স দেখুন</span>
+                    </button>
+                  </div>
+
+                  <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5">
+                    {spotPhotos.slice(0, 4).map((ph, idx) => (
+                      <div
+                        key={idx}
+                        onClick={() => setActivePhotoSpot(spot)}
+                        className="group relative rounded-xl overflow-hidden aspect-4/3 cursor-pointer bg-slate-800 border border-slate-700/50 hover:border-emerald-400 transition-all shadow-md"
+                      >
+                        <img
+                          src={ph.url}
+                          alt={ph.caption}
+                          className="w-full h-full object-cover group-hover:scale-108 transition-transform duration-500"
+                          loading="lazy"
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent opacity-80 group-hover:opacity-100 transition-opacity" />
+                        <div className="absolute bottom-2 left-2 right-2 text-white">
+                          <p className="text-[11px] font-semibold truncate text-slate-200 group-hover:text-white">
+                            {ph.photographer}
+                          </p>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
                 </div>
 
                 {/* Key Highlights Grid */}

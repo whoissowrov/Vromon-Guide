@@ -141,6 +141,53 @@
         ],
         "localTransit": "খাগড়াছড়ি থেকে চাঁদের গাড়িতে সরাসরি রুইলুই পাড়া (শেয়ারিং ৳৩৫০–৳৪০০/জন)।"
       }
+    ],
+    "realPhotos": [
+      {
+        "id": "sajek-valley-photo-1",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Sunrise cloud sea breaking over the mountain ridge at Sajek Valley (সাজেক ভ্যালি)",
+        "photographer": "Tanvir Ahmed",
+        "date": "October 2024",
+        "likes": 184,
+        "aspectRatio": "tall"
+      },
+      {
+        "id": "sajek-valley-photo-2",
+        "url": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Quiet bamboo rafting through towering canyon cliffs at Sajek Valley (সাজেক ভ্যালি)",
+        "photographer": "Sadia Islam",
+        "date": "November 2024",
+        "likes": 159,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "sajek-valley-photo-3",
+        "url": "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Stargazing around the midnight summit campfire at Sajek Valley (সাজেক ভ্যালি)",
+        "photographer": "Rahat Chowdhury",
+        "date": "January 2025",
+        "likes": 264,
+        "aspectRatio": "square"
+      },
+      {
+        "id": "sajek-valley-photo-4",
+        "url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Rolling green peaks shrouded in fresh morning mist at Sajek Valley (সাজেক ভ্যালি)",
+        "photographer": "Farhan Kabir",
+        "date": "December 2024",
+        "likes": 99,
+        "aspectRatio": "tall"
+      },
+      {
+        "id": "sajek-valley-photo-5",
+        "url": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Golden hour twilight over the indigenous village trail at Sajek Valley (সাজেক ভ্যালি)",
+        "photographer": "Anika Tabassum",
+        "date": "February 2025",
+        "likes": 183,
+        "aspectRatio": "wide"
+      }
     ]
   },
   {
@@ -284,6 +331,53 @@
         ],
         "localTransit": "নতুন ব্রিজ বা দামপাড়া থেকে জিইসি/চকবাজারগামী বাস বা টেম্পো (ভাড়া ৳১৫–৳২৫/জন)।"
       }
+    ],
+    "realPhotos": [
+      {
+        "id": "saint-martins-island-photo-1",
+        "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Crystalline waters gently lapping the coral shore at Saint Martin's Island (সেন্টমার্টিন দ্বীপ ও ছেঁড়াদ্বীপ)",
+        "photographer": "Arif Hossain",
+        "date": "December 2024",
+        "likes": 212,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "saint-martins-island-photo-2",
+        "url": "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Sunset silhouettes of local wooden trawlers returning home at Saint Martin's Island (সেন্টমার্টিন দ্বীপ ও ছেঁড়াদ্বীপ)",
+        "photographer": "Nusrat Jahan",
+        "date": "November 2024",
+        "likes": 192,
+        "aspectRatio": "tall"
+      },
+      {
+        "id": "saint-martins-island-photo-3",
+        "url": "https://images.unsplash.com/photo-1506953823976-52e1fdc0149a?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Pristine emerald reflections under clear tropical sky at Saint Martin's Island (সেন্টমার্টিন দ্বীপ ও ছেঁড়াদ্বীপ)",
+        "photographer": "Rashedul Karim",
+        "date": "January 2025",
+        "likes": 167,
+        "aspectRatio": "square"
+      },
+      {
+        "id": "saint-martins-island-photo-4",
+        "url": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Houseboat cruising peacefully through endless inland waters at Saint Martin's Island (সেন্টমার্টিন দ্বীপ ও ছেঁড়াদ্বীপ)",
+        "photographer": "Tasnim Mehzabin",
+        "date": "September 2024",
+        "likes": 195,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "saint-martins-island-photo-5",
+        "url": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Lush greenery embracing the crystal mountain stream at Saint Martin's Island (সেন্টমার্টিন দ্বীপ ও ছেঁড়াদ্বীপ)",
+        "photographer": "Samiul Hasan",
+        "date": "August 2024",
+        "likes": 128,
+        "aspectRatio": "tall"
+      }
     ]
   },
   {
@@ -411,6 +505,53 @@
           }
         ],
         "localTransit": "খাগড়াছড়ি থেকে চাঁদের গাড়িতে সরাসরি রুইলুই পাড়া (শেয়ারিং ৳৩৫০–৳৪০০/জন)।"
+      }
+    ],
+    "realPhotos": [
+      {
+        "id": "nilgiri-thanchi-photo-1",
+        "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Crystalline waters gently lapping the coral shore at Nilgiri & Thanchi (নীলগিরি ও থানচি)",
+        "photographer": "Arif Hossain",
+        "date": "December 2024",
+        "likes": 212,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "nilgiri-thanchi-photo-2",
+        "url": "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Sunset silhouettes of local wooden trawlers returning home at Nilgiri & Thanchi (নীলগিরি ও থানচি)",
+        "photographer": "Nusrat Jahan",
+        "date": "November 2024",
+        "likes": 192,
+        "aspectRatio": "tall"
+      },
+      {
+        "id": "nilgiri-thanchi-photo-3",
+        "url": "https://images.unsplash.com/photo-1506953823976-52e1fdc0149a?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Pristine emerald reflections under clear tropical sky at Nilgiri & Thanchi (নীলগিরি ও থানচি)",
+        "photographer": "Rashedul Karim",
+        "date": "January 2025",
+        "likes": 167,
+        "aspectRatio": "square"
+      },
+      {
+        "id": "nilgiri-thanchi-photo-4",
+        "url": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Houseboat cruising peacefully through endless inland waters at Nilgiri & Thanchi (নীলগিরি ও থানচি)",
+        "photographer": "Tasnim Mehzabin",
+        "date": "September 2024",
+        "likes": 195,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "nilgiri-thanchi-photo-5",
+        "url": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Lush greenery embracing the crystal mountain stream at Nilgiri & Thanchi (নীলগিরি ও থানচি)",
+        "photographer": "Samiul Hasan",
+        "date": "August 2024",
+        "likes": 128,
+        "aspectRatio": "tall"
       }
     ]
   },
@@ -552,6 +693,53 @@
         ],
         "localTransit": "খাগড়াছড়ি থেকে চাঁদের গাড়িতে সরাসরি রুইলুই পাড়া (শেয়ারিং ৳৩৫০–৳৪০০/জন)।"
       }
+    ],
+    "realPhotos": [
+      {
+        "id": "marayan-thong-photo-1",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Sunrise cloud sea breaking over the mountain ridge at Marayan Thong & Alikadam Caves (মারায়াং তং ও আলীকদম গুহা)",
+        "photographer": "Tanvir Ahmed",
+        "date": "October 2024",
+        "likes": 184,
+        "aspectRatio": "tall"
+      },
+      {
+        "id": "marayan-thong-photo-2",
+        "url": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Quiet bamboo rafting through towering canyon cliffs at Marayan Thong & Alikadam Caves (মারায়াং তং ও আলীকদম গুহা)",
+        "photographer": "Sadia Islam",
+        "date": "November 2024",
+        "likes": 159,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "marayan-thong-photo-3",
+        "url": "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Stargazing around the midnight summit campfire at Marayan Thong & Alikadam Caves (মারায়াং তং ও আলীকদম গুহা)",
+        "photographer": "Rahat Chowdhury",
+        "date": "January 2025",
+        "likes": 264,
+        "aspectRatio": "square"
+      },
+      {
+        "id": "marayan-thong-photo-4",
+        "url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Rolling green peaks shrouded in fresh morning mist at Marayan Thong & Alikadam Caves (মারায়াং তং ও আলীকদম গুহা)",
+        "photographer": "Farhan Kabir",
+        "date": "December 2024",
+        "likes": 99,
+        "aspectRatio": "tall"
+      },
+      {
+        "id": "marayan-thong-photo-5",
+        "url": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Golden hour twilight over the indigenous village trail at Marayan Thong & Alikadam Caves (মারায়াং তং ও আলীকদম গুহা)",
+        "photographer": "Anika Tabassum",
+        "date": "February 2025",
+        "likes": 183,
+        "aspectRatio": "wide"
+      }
     ]
   },
   {
@@ -692,6 +880,53 @@
         ],
         "localTransit": "খাগড়াছড়ি থেকে চাঁদের গাড়িতে সরাসরি রুইলুই পাড়া (শেয়ারিং ৳৩৫০–৳৪০০/জন)।"
       }
+    ],
+    "realPhotos": [
+      {
+        "id": "debotakhum-shilbadha-photo-1",
+        "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Crystalline waters gently lapping the coral shore at Debotakhum & Shilbadha (দেবতাখুম ও শীলবান্ধা)",
+        "photographer": "Arif Hossain",
+        "date": "December 2024",
+        "likes": 212,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "debotakhum-shilbadha-photo-2",
+        "url": "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Sunset silhouettes of local wooden trawlers returning home at Debotakhum & Shilbadha (দেবতাখুম ও শীলবান্ধা)",
+        "photographer": "Nusrat Jahan",
+        "date": "November 2024",
+        "likes": 192,
+        "aspectRatio": "tall"
+      },
+      {
+        "id": "debotakhum-shilbadha-photo-3",
+        "url": "https://images.unsplash.com/photo-1506953823976-52e1fdc0149a?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Pristine emerald reflections under clear tropical sky at Debotakhum & Shilbadha (দেবতাখুম ও শীলবান্ধা)",
+        "photographer": "Rashedul Karim",
+        "date": "January 2025",
+        "likes": 167,
+        "aspectRatio": "square"
+      },
+      {
+        "id": "debotakhum-shilbadha-photo-4",
+        "url": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Houseboat cruising peacefully through endless inland waters at Debotakhum & Shilbadha (দেবতাখুম ও শীলবান্ধা)",
+        "photographer": "Tasnim Mehzabin",
+        "date": "September 2024",
+        "likes": 195,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "debotakhum-shilbadha-photo-5",
+        "url": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Lush greenery embracing the crystal mountain stream at Debotakhum & Shilbadha (দেবতাখুম ও শীলবান্ধা)",
+        "photographer": "Samiul Hasan",
+        "date": "August 2024",
+        "likes": 128,
+        "aspectRatio": "tall"
+      }
     ]
   },
   {
@@ -803,6 +1038,53 @@
           }
         ],
         "localTransit": "জিইসি মোড় থেকে চকবাজার টেম্পো বা রিকশা (ভাড়া ৳১৫–৳২০/জন)।"
+      }
+    ],
+    "realPhotos": [
+      {
+        "id": "guliakhali-beach-photo-1",
+        "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Crystalline waters gently lapping the coral shore at Guliakhali Beach (গুলিয়াখালী সৈকত)",
+        "photographer": "Arif Hossain",
+        "date": "December 2024",
+        "likes": 212,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "guliakhali-beach-photo-2",
+        "url": "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Sunset silhouettes of local wooden trawlers returning home at Guliakhali Beach (গুলিয়াখালী সৈকত)",
+        "photographer": "Nusrat Jahan",
+        "date": "November 2024",
+        "likes": 192,
+        "aspectRatio": "tall"
+      },
+      {
+        "id": "guliakhali-beach-photo-3",
+        "url": "https://images.unsplash.com/photo-1506953823976-52e1fdc0149a?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Pristine emerald reflections under clear tropical sky at Guliakhali Beach (গুলিয়াখালী সৈকত)",
+        "photographer": "Rashedul Karim",
+        "date": "January 2025",
+        "likes": 167,
+        "aspectRatio": "square"
+      },
+      {
+        "id": "guliakhali-beach-photo-4",
+        "url": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Houseboat cruising peacefully through endless inland waters at Guliakhali Beach (গুলিয়াখালী সৈকত)",
+        "photographer": "Tasnim Mehzabin",
+        "date": "September 2024",
+        "likes": 195,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "guliakhali-beach-photo-5",
+        "url": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Lush greenery embracing the crystal mountain stream at Guliakhali Beach (গুলিয়াখালী সৈকত)",
+        "photographer": "Samiul Hasan",
+        "date": "August 2024",
+        "likes": 128,
+        "aspectRatio": "tall"
       }
     ]
   },
@@ -931,6 +1213,53 @@
           }
         ],
         "localTransit": "খাগড়াছড়ি থেকে চাঁদের গাড়িতে সরাসরি রুইলুই পাড়া (শেয়ারিং ৳৩৫০–৳৪০০/জন)।"
+      }
+    ],
+    "realPhotos": [
+      {
+        "id": "harinmara-chhagalnaiya-photo-1",
+        "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Crystalline waters gently lapping the coral shore at Harinmara & Chhagalnaiya Hills (হরিণমারা খাল ও শুভপুর বর্ডার)",
+        "photographer": "Arif Hossain",
+        "date": "December 2024",
+        "likes": 212,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "harinmara-chhagalnaiya-photo-2",
+        "url": "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Sunset silhouettes of local wooden trawlers returning home at Harinmara & Chhagalnaiya Hills (হরিণমারা খাল ও শুভপুর বর্ডার)",
+        "photographer": "Nusrat Jahan",
+        "date": "November 2024",
+        "likes": 192,
+        "aspectRatio": "tall"
+      },
+      {
+        "id": "harinmara-chhagalnaiya-photo-3",
+        "url": "https://images.unsplash.com/photo-1506953823976-52e1fdc0149a?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Pristine emerald reflections under clear tropical sky at Harinmara & Chhagalnaiya Hills (হরিণমারা খাল ও শুভপুর বর্ডার)",
+        "photographer": "Rashedul Karim",
+        "date": "January 2025",
+        "likes": 167,
+        "aspectRatio": "square"
+      },
+      {
+        "id": "harinmara-chhagalnaiya-photo-4",
+        "url": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Houseboat cruising peacefully through endless inland waters at Harinmara & Chhagalnaiya Hills (হরিণমারা খাল ও শুভপুর বর্ডার)",
+        "photographer": "Tasnim Mehzabin",
+        "date": "September 2024",
+        "likes": 195,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "harinmara-chhagalnaiya-photo-5",
+        "url": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Lush greenery embracing the crystal mountain stream at Harinmara & Chhagalnaiya Hills (হরিণমারা খাল ও শুভপুর বর্ডার)",
+        "photographer": "Samiul Hasan",
+        "date": "August 2024",
+        "likes": 128,
+        "aspectRatio": "tall"
       }
     ]
   },
@@ -1072,6 +1401,53 @@
         ],
         "localTransit": "খাগড়াছড়ি থেকে চাঁদের গাড়িতে সরাসরি রুইলুই পাড়া (শেয়ারিং ৳৩৫০–৳৪০০/জন)।"
       }
+    ],
+    "realPhotos": [
+      {
+        "id": "nafakhum-amiakhum-photo-1",
+        "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Crystalline waters gently lapping the coral shore at Nafakhum, Remakri & Amiakhum (নাফাখুম ও অমিয়াখুম)",
+        "photographer": "Arif Hossain",
+        "date": "December 2024",
+        "likes": 212,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "nafakhum-amiakhum-photo-2",
+        "url": "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Sunset silhouettes of local wooden trawlers returning home at Nafakhum, Remakri & Amiakhum (নাফাখুম ও অমিয়াখুম)",
+        "photographer": "Nusrat Jahan",
+        "date": "November 2024",
+        "likes": 192,
+        "aspectRatio": "tall"
+      },
+      {
+        "id": "nafakhum-amiakhum-photo-3",
+        "url": "https://images.unsplash.com/photo-1506953823976-52e1fdc0149a?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Pristine emerald reflections under clear tropical sky at Nafakhum, Remakri & Amiakhum (নাফাখুম ও অমিয়াখুম)",
+        "photographer": "Rashedul Karim",
+        "date": "January 2025",
+        "likes": 167,
+        "aspectRatio": "square"
+      },
+      {
+        "id": "nafakhum-amiakhum-photo-4",
+        "url": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Houseboat cruising peacefully through endless inland waters at Nafakhum, Remakri & Amiakhum (নাফাখুম ও অমিয়াখুম)",
+        "photographer": "Tasnim Mehzabin",
+        "date": "September 2024",
+        "likes": 195,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "nafakhum-amiakhum-photo-5",
+        "url": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Lush greenery embracing the crystal mountain stream at Nafakhum, Remakri & Amiakhum (নাফাখুম ও অমিয়াখুম)",
+        "photographer": "Samiul Hasan",
+        "date": "August 2024",
+        "likes": 128,
+        "aspectRatio": "tall"
+      }
     ]
   },
   {
@@ -1198,6 +1574,44 @@
           }
         ],
         "localTransit": "শ্রীমঙ্গল চৌমোহনা থেকে টমটমে রামনগর মণিপুরি পাড়া (ভাড়া ৳২০–৳২৫/জন)।"
+      }
+    ],
+    "realPhotos": [
+      {
+        "id": "ratargul-swamp-forest-photo-1",
+        "url": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Sunlight filtering through the dense swamp tree canopy at Ratargul Swamp Forest (রাতারগুল সোয়াম্প ফরেস্ট)",
+        "photographer": "Zubair Al-Mamun",
+        "date": "October 2024",
+        "likes": 147,
+        "aspectRatio": "tall"
+      },
+      {
+        "id": "ratargul-swamp-forest-photo-2",
+        "url": "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Quiet wooden canoe gliding through mangrove waterways at Ratargul Swamp Forest (রাতারগুল সোয়াম্প ফরেস্ট)",
+        "photographer": "Shakil Anwar",
+        "date": "November 2024",
+        "likes": 185,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "ratargul-swamp-forest-photo-3",
+        "url": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Spotted deer grazing peacefully along the forest trail at Ratargul Swamp Forest (রাতারগুল সোয়াম্প ফরেস্ট)",
+        "photographer": "Mahia Mahi",
+        "date": "December 2024",
+        "likes": 239,
+        "aspectRatio": "square"
+      },
+      {
+        "id": "ratargul-swamp-forest-photo-4",
+        "url": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Ancient trees draped in hanging roots and wild moss at Ratargul Swamp Forest (রাতারগুল সোয়াম্প ফরেস্ট)",
+        "photographer": "Imtiaz Ahmed",
+        "date": "July 2024",
+        "likes": 120,
+        "aspectRatio": "tall"
       }
     ]
   },
@@ -1328,6 +1742,53 @@
         ],
         "localTransit": "কদমতলী বাস টার্মিনাল বা রেলস্টেশন থেকে রিকশা (ভাড়া ৳৫০–৳৬০) অথবা শেয়ারিং সিএনজি (ভাড়া ৳২০/জন)।"
       }
+    ],
+    "realPhotos": [
+      {
+        "id": "tanguar-haor-photo-1",
+        "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Crystalline waters gently lapping the coral shore at Tanguar Haor & Shimul Bagan (টাঙ্গুয়ার হাওর ও শিমুল বাগান)",
+        "photographer": "Arif Hossain",
+        "date": "December 2024",
+        "likes": 212,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "tanguar-haor-photo-2",
+        "url": "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Sunset silhouettes of local wooden trawlers returning home at Tanguar Haor & Shimul Bagan (টাঙ্গুয়ার হাওর ও শিমুল বাগান)",
+        "photographer": "Nusrat Jahan",
+        "date": "November 2024",
+        "likes": 192,
+        "aspectRatio": "tall"
+      },
+      {
+        "id": "tanguar-haor-photo-3",
+        "url": "https://images.unsplash.com/photo-1506953823976-52e1fdc0149a?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Pristine emerald reflections under clear tropical sky at Tanguar Haor & Shimul Bagan (টাঙ্গুয়ার হাওর ও শিমুল বাগান)",
+        "photographer": "Rashedul Karim",
+        "date": "January 2025",
+        "likes": 167,
+        "aspectRatio": "square"
+      },
+      {
+        "id": "tanguar-haor-photo-4",
+        "url": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Houseboat cruising peacefully through endless inland waters at Tanguar Haor & Shimul Bagan (টাঙ্গুয়ার হাওর ও শিমুল বাগান)",
+        "photographer": "Tasnim Mehzabin",
+        "date": "September 2024",
+        "likes": 195,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "tanguar-haor-photo-5",
+        "url": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Lush greenery embracing the crystal mountain stream at Tanguar Haor & Shimul Bagan (টাঙ্গুয়ার হাওর ও শিমুল বাগান)",
+        "photographer": "Samiul Hasan",
+        "date": "August 2024",
+        "likes": 128,
+        "aspectRatio": "tall"
+      }
     ]
   },
   {
@@ -1442,6 +1903,44 @@
           }
         ],
         "localTransit": "কদমতলী বাস টার্মিনাল বা রেলস্টেশন থেকে রিকশা (ভাড়া ৳৫০–৳৬০) অথবা শেয়ারিং সিএনজি (ভাড়া ৳২০/জন)।"
+      }
+    ],
+    "realPhotos": [
+      {
+        "id": "lawachara-sreemangal-photo-1",
+        "url": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Sunlight filtering through the dense swamp tree canopy at Lawachara & Sreemangal Tea Gardens (লাউয়াছড়া ও শ্রীমঙ্গল চা বাগান)",
+        "photographer": "Zubair Al-Mamun",
+        "date": "October 2024",
+        "likes": 147,
+        "aspectRatio": "tall"
+      },
+      {
+        "id": "lawachara-sreemangal-photo-2",
+        "url": "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Quiet wooden canoe gliding through mangrove waterways at Lawachara & Sreemangal Tea Gardens (লাউয়াছড়া ও শ্রীমঙ্গল চা বাগান)",
+        "photographer": "Shakil Anwar",
+        "date": "November 2024",
+        "likes": 185,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "lawachara-sreemangal-photo-3",
+        "url": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Spotted deer grazing peacefully along the forest trail at Lawachara & Sreemangal Tea Gardens (লাউয়াছড়া ও শ্রীমঙ্গল চা বাগান)",
+        "photographer": "Mahia Mahi",
+        "date": "December 2024",
+        "likes": 239,
+        "aspectRatio": "square"
+      },
+      {
+        "id": "lawachara-sreemangal-photo-4",
+        "url": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Ancient trees draped in hanging roots and wild moss at Lawachara & Sreemangal Tea Gardens (লাউয়াছড়া ও শ্রীমঙ্গল চা বাগান)",
+        "photographer": "Imtiaz Ahmed",
+        "date": "July 2024",
+        "likes": 120,
+        "aspectRatio": "tall"
       }
     ]
   },
@@ -1571,6 +2070,53 @@
         ],
         "localTransit": "শ্রীমঙ্গল চৌমোহনা থেকে টমটমে রামনগর মণিপুরি পাড়া (ভাড়া ৳২০–৳২৫/জন)।"
       }
+    ],
+    "realPhotos": [
+      {
+        "id": "bholaganj-sada-pathor-photo-1",
+        "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Crystalline waters gently lapping the coral shore at Bholaganj Sada Pathor (সাদা পাথর, কোম্পানিগঞ্জ)",
+        "photographer": "Arif Hossain",
+        "date": "December 2024",
+        "likes": 212,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "bholaganj-sada-pathor-photo-2",
+        "url": "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Sunset silhouettes of local wooden trawlers returning home at Bholaganj Sada Pathor (সাদা পাথর, কোম্পানিগঞ্জ)",
+        "photographer": "Nusrat Jahan",
+        "date": "November 2024",
+        "likes": 192,
+        "aspectRatio": "tall"
+      },
+      {
+        "id": "bholaganj-sada-pathor-photo-3",
+        "url": "https://images.unsplash.com/photo-1506953823976-52e1fdc0149a?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Pristine emerald reflections under clear tropical sky at Bholaganj Sada Pathor (সাদা পাথর, কোম্পানিগঞ্জ)",
+        "photographer": "Rashedul Karim",
+        "date": "January 2025",
+        "likes": 167,
+        "aspectRatio": "square"
+      },
+      {
+        "id": "bholaganj-sada-pathor-photo-4",
+        "url": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Houseboat cruising peacefully through endless inland waters at Bholaganj Sada Pathor (সাদা পাথর, কোম্পানিগঞ্জ)",
+        "photographer": "Tasnim Mehzabin",
+        "date": "September 2024",
+        "likes": 195,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "bholaganj-sada-pathor-photo-5",
+        "url": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Lush greenery embracing the crystal mountain stream at Bholaganj Sada Pathor (সাদা পাথর, কোম্পানিগঞ্জ)",
+        "photographer": "Samiul Hasan",
+        "date": "August 2024",
+        "likes": 128,
+        "aspectRatio": "tall"
+      }
     ]
   },
   {
@@ -1686,6 +2232,53 @@
           }
         ],
         "localTransit": "শ্রীমঙ্গল চৌমোহনা থেকে টমটমে রামনগর মণিপুরি পাড়া (ভাড়া ৳২০–৳২৫/জন)।"
+      }
+    ],
+    "realPhotos": [
+      {
+        "id": "lalakhal-sari-river-photo-1",
+        "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Crystalline waters gently lapping the coral shore at Lalakhal & Sari River (লালাখাল ও সারী নদী)",
+        "photographer": "Arif Hossain",
+        "date": "December 2024",
+        "likes": 212,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "lalakhal-sari-river-photo-2",
+        "url": "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Sunset silhouettes of local wooden trawlers returning home at Lalakhal & Sari River (লালাখাল ও সারী নদী)",
+        "photographer": "Nusrat Jahan",
+        "date": "November 2024",
+        "likes": 192,
+        "aspectRatio": "tall"
+      },
+      {
+        "id": "lalakhal-sari-river-photo-3",
+        "url": "https://images.unsplash.com/photo-1506953823976-52e1fdc0149a?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Pristine emerald reflections under clear tropical sky at Lalakhal & Sari River (লালাখাল ও সারী নদী)",
+        "photographer": "Rashedul Karim",
+        "date": "January 2025",
+        "likes": 167,
+        "aspectRatio": "square"
+      },
+      {
+        "id": "lalakhal-sari-river-photo-4",
+        "url": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Houseboat cruising peacefully through endless inland waters at Lalakhal & Sari River (লালাখাল ও সারী নদী)",
+        "photographer": "Tasnim Mehzabin",
+        "date": "September 2024",
+        "likes": 195,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "lalakhal-sari-river-photo-5",
+        "url": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Lush greenery embracing the crystal mountain stream at Lalakhal & Sari River (লালাখাল ও সারী নদী)",
+        "photographer": "Samiul Hasan",
+        "date": "August 2024",
+        "likes": 128,
+        "aspectRatio": "tall"
       }
     ]
   },
@@ -1815,6 +2408,44 @@
         ],
         "localTransit": "কদমতলী বাস টার্মিনাল বা রেলস্টেশন থেকে রিকশা (ভাড়া ৳৫০–৳৬০) অথবা শেয়ারিং সিএনজি (ভাড়া ৳২০/জন)।"
       }
+    ],
+    "realPhotos": [
+      {
+        "id": "hum-hum-waterfall-photo-1",
+        "url": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Sunlight filtering through the dense swamp tree canopy at Hum Hum Waterfall (হামহাম জলপ্রপাত, রাজকান্দি ফরেস্ট)",
+        "photographer": "Zubair Al-Mamun",
+        "date": "October 2024",
+        "likes": 147,
+        "aspectRatio": "tall"
+      },
+      {
+        "id": "hum-hum-waterfall-photo-2",
+        "url": "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Quiet wooden canoe gliding through mangrove waterways at Hum Hum Waterfall (হামহাম জলপ্রপাত, রাজকান্দি ফরেস্ট)",
+        "photographer": "Shakil Anwar",
+        "date": "November 2024",
+        "likes": 185,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "hum-hum-waterfall-photo-3",
+        "url": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Spotted deer grazing peacefully along the forest trail at Hum Hum Waterfall (হামহাম জলপ্রপাত, রাজকান্দি ফরেস্ট)",
+        "photographer": "Mahia Mahi",
+        "date": "December 2024",
+        "likes": 239,
+        "aspectRatio": "square"
+      },
+      {
+        "id": "hum-hum-waterfall-photo-4",
+        "url": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Ancient trees draped in hanging roots and wild moss at Hum Hum Waterfall (হামহাম জলপ্রপাত, রাজকান্দি ফরেস্ট)",
+        "photographer": "Imtiaz Ahmed",
+        "date": "July 2024",
+        "likes": 120,
+        "aspectRatio": "tall"
+      }
     ]
   },
   {
@@ -1931,6 +2562,53 @@
         ],
         "localTransit": "শ্রীমঙ্গল চৌমোহনা থেকে টমটমে রামনগর মণিপুরি পাড়া (ভাড়া ৳২০–৳২৫/জন)।"
       }
+    ],
+    "realPhotos": [
+      {
+        "id": "turong-utma-chora-photo-1",
+        "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Crystalline waters gently lapping the coral shore at Turong Chora & Utma Chora (তুরং ও উতমা ছড়া)",
+        "photographer": "Arif Hossain",
+        "date": "December 2024",
+        "likes": 212,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "turong-utma-chora-photo-2",
+        "url": "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Sunset silhouettes of local wooden trawlers returning home at Turong Chora & Utma Chora (তুরং ও উতমা ছড়া)",
+        "photographer": "Nusrat Jahan",
+        "date": "November 2024",
+        "likes": 192,
+        "aspectRatio": "tall"
+      },
+      {
+        "id": "turong-utma-chora-photo-3",
+        "url": "https://images.unsplash.com/photo-1506953823976-52e1fdc0149a?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Pristine emerald reflections under clear tropical sky at Turong Chora & Utma Chora (তুরং ও উতমা ছড়া)",
+        "photographer": "Rashedul Karim",
+        "date": "January 2025",
+        "likes": 167,
+        "aspectRatio": "square"
+      },
+      {
+        "id": "turong-utma-chora-photo-4",
+        "url": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Houseboat cruising peacefully through endless inland waters at Turong Chora & Utma Chora (তুরং ও উতমা ছড়া)",
+        "photographer": "Tasnim Mehzabin",
+        "date": "September 2024",
+        "likes": 195,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "turong-utma-chora-photo-5",
+        "url": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Lush greenery embracing the crystal mountain stream at Turong Chora & Utma Chora (তুরং ও উতমা ছড়া)",
+        "photographer": "Samiul Hasan",
+        "date": "August 2024",
+        "likes": 128,
+        "aspectRatio": "tall"
+      }
     ]
   },
   {
@@ -2044,6 +2722,44 @@
           }
         ],
         "localTransit": "শ্যামনগর বাসস্ট্যান্ড থেকে অটো বা মোটরসাইকেলে বুড়িগোয়ালিনী ঘাট (ভাড়া ৳৫০–৳৮০)।"
+      }
+    ],
+    "realPhotos": [
+      {
+        "id": "sundarbans-kotka-photo-1",
+        "url": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Sunlight filtering through the dense swamp tree canopy at Sundarbans (Kotka & Kochikhali) (সুন্দরবন ও কটকা-কচিখালী)",
+        "photographer": "Zubair Al-Mamun",
+        "date": "October 2024",
+        "likes": 147,
+        "aspectRatio": "tall"
+      },
+      {
+        "id": "sundarbans-kotka-photo-2",
+        "url": "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Quiet wooden canoe gliding through mangrove waterways at Sundarbans (Kotka & Kochikhali) (সুন্দরবন ও কটকা-কচিখালী)",
+        "photographer": "Shakil Anwar",
+        "date": "November 2024",
+        "likes": 185,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "sundarbans-kotka-photo-3",
+        "url": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Spotted deer grazing peacefully along the forest trail at Sundarbans (Kotka & Kochikhali) (সুন্দরবন ও কটকা-কচিখালী)",
+        "photographer": "Mahia Mahi",
+        "date": "December 2024",
+        "likes": 239,
+        "aspectRatio": "square"
+      },
+      {
+        "id": "sundarbans-kotka-photo-4",
+        "url": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Ancient trees draped in hanging roots and wild moss at Sundarbans (Kotka & Kochikhali) (সুন্দরবন ও কটকা-কচিখালী)",
+        "photographer": "Imtiaz Ahmed",
+        "date": "July 2024",
+        "likes": 120,
+        "aspectRatio": "tall"
       }
     ]
   },
@@ -2168,6 +2884,44 @@
         ],
         "localTransit": "শ্যামনগর বাসস্ট্যান্ড থেকে অটো বা মোটরসাইকেলে বুড়িগোয়ালিনী ঘাট (ভাড়া ৳৫০–৳৮০)।"
       }
+    ],
+    "realPhotos": [
+      {
+        "id": "sixty-dome-mosque-photo-1",
+        "url": "https://images.unsplash.com/photo-1599785209707-a456fc1337bb?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Intricate terracotta craftsmanship glowing under morning light at Sixty Dome Mosque & Bagerhat Heritage (ষাট গম্বুজ মসজিদ)",
+        "photographer": "Kazi Nazmul",
+        "date": "January 2025",
+        "likes": 188,
+        "aspectRatio": "tall"
+      },
+      {
+        "id": "sixty-dome-mosque-photo-2",
+        "url": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Majestic ancient red brick arches and grand monastery courtyards at Sixty Dome Mosque & Bagerhat Heritage (ষাট গম্বুজ মসজিদ)",
+        "photographer": "Labiba Sultana",
+        "date": "November 2024",
+        "likes": 173,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "sixty-dome-mosque-photo-3",
+        "url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Historic colonial palace facades standing timeless by the water at Sixty Dome Mosque & Bagerhat Heritage (ষাট গম্বুজ মসজিদ)",
+        "photographer": "Shahadat Hossain",
+        "date": "December 2024",
+        "likes": 173,
+        "aspectRatio": "square"
+      },
+      {
+        "id": "sixty-dome-mosque-photo-4",
+        "url": "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Symmetric ancient domes framed against deep blue skies at Sixty Dome Mosque & Bagerhat Heritage (ষাট গম্বুজ মসজিদ)",
+        "photographer": "Tamanna Haque",
+        "date": "October 2024",
+        "likes": 178,
+        "aspectRatio": "wide"
+      }
     ]
   },
   {
@@ -2280,6 +3034,53 @@
         ],
         "localTransit": "শ্যামনগর বাসস্ট্যান্ড থেকে অটো বা মোটরসাইকেলে বুড়িগোয়ালিনী ঘাট (ভাড়া ৳৫০–৳৮০)।"
       }
+    ],
+    "realPhotos": [
+      {
+        "id": "mandarbaria-dublar-char-photo-1",
+        "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Crystalline waters gently lapping the coral shore at Mandarbaria & Dublar Char (মান্দারবাড়িয়া সৈকত ও দুবলার চর)",
+        "photographer": "Arif Hossain",
+        "date": "December 2024",
+        "likes": 212,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "mandarbaria-dublar-char-photo-2",
+        "url": "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Sunset silhouettes of local wooden trawlers returning home at Mandarbaria & Dublar Char (মান্দারবাড়িয়া সৈকত ও দুবলার চর)",
+        "photographer": "Nusrat Jahan",
+        "date": "November 2024",
+        "likes": 192,
+        "aspectRatio": "tall"
+      },
+      {
+        "id": "mandarbaria-dublar-char-photo-3",
+        "url": "https://images.unsplash.com/photo-1506953823976-52e1fdc0149a?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Pristine emerald reflections under clear tropical sky at Mandarbaria & Dublar Char (মান্দারবাড়িয়া সৈকত ও দুবলার চর)",
+        "photographer": "Rashedul Karim",
+        "date": "January 2025",
+        "likes": 167,
+        "aspectRatio": "square"
+      },
+      {
+        "id": "mandarbaria-dublar-char-photo-4",
+        "url": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Houseboat cruising peacefully through endless inland waters at Mandarbaria & Dublar Char (মান্দারবাড়িয়া সৈকত ও দুবলার চর)",
+        "photographer": "Tasnim Mehzabin",
+        "date": "September 2024",
+        "likes": 195,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "mandarbaria-dublar-char-photo-5",
+        "url": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Lush greenery embracing the crystal mountain stream at Mandarbaria & Dublar Char (মান্দারবাড়িয়া সৈকত ও দুবলার চর)",
+        "photographer": "Samiul Hasan",
+        "date": "August 2024",
+        "likes": 128,
+        "aspectRatio": "tall"
+      }
     ]
   },
   {
@@ -2390,6 +3191,44 @@
           }
         ],
         "localTransit": "শ্যামনগর বাসস্ট্যান্ড থেকে অটো বা মোটরসাইকেলে বুড়িগোয়ালিনী ঘাট (ভাড়া ৳৫০–৳৮০)।"
+      }
+    ],
+    "realPhotos": [
+      {
+        "id": "bhatpara-nilkuthi-photo-1",
+        "url": "https://images.unsplash.com/photo-1599785209707-a456fc1337bb?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Intricate terracotta craftsmanship glowing under morning light at Bhatpara Nilkuthi & Shahi Mosque (ভাটপাড়া নীলকুঠি ও মুজীবনগর)",
+        "photographer": "Kazi Nazmul",
+        "date": "January 2025",
+        "likes": 188,
+        "aspectRatio": "tall"
+      },
+      {
+        "id": "bhatpara-nilkuthi-photo-2",
+        "url": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Majestic ancient red brick arches and grand monastery courtyards at Bhatpara Nilkuthi & Shahi Mosque (ভাটপাড়া নীলকুঠি ও মুজীবনগর)",
+        "photographer": "Labiba Sultana",
+        "date": "November 2024",
+        "likes": 173,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "bhatpara-nilkuthi-photo-3",
+        "url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Historic colonial palace facades standing timeless by the water at Bhatpara Nilkuthi & Shahi Mosque (ভাটপাড়া নীলকুঠি ও মুজীবনগর)",
+        "photographer": "Shahadat Hossain",
+        "date": "December 2024",
+        "likes": 173,
+        "aspectRatio": "square"
+      },
+      {
+        "id": "bhatpara-nilkuthi-photo-4",
+        "url": "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Symmetric ancient domes framed against deep blue skies at Bhatpara Nilkuthi & Shahi Mosque (ভাটপাড়া নীলকুঠি ও মুজীবনগর)",
+        "photographer": "Tamanna Haque",
+        "date": "October 2024",
+        "likes": 178,
+        "aspectRatio": "wide"
       }
     ]
   },
@@ -2514,6 +3353,44 @@
         ],
         "localTransit": "সাতক্ষীরা বাস টার্মিনাল থেকে তুফান মোড় ইজিবাইক (ভাড়া ৳১০–৳১৫/জন)।"
       }
+    ],
+    "realPhotos": [
+      {
+        "id": "mithapukur-sagardari-photo-1",
+        "url": "https://images.unsplash.com/photo-1599785209707-a456fc1337bb?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Intricate terracotta craftsmanship glowing under morning light at Mithapukur Dighi & Sagardari (মাইকেল মধুসূদন দত্ত বাড়ি, কেশবপুর)",
+        "photographer": "Kazi Nazmul",
+        "date": "January 2025",
+        "likes": 188,
+        "aspectRatio": "tall"
+      },
+      {
+        "id": "mithapukur-sagardari-photo-2",
+        "url": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Majestic ancient red brick arches and grand monastery courtyards at Mithapukur Dighi & Sagardari (মাইকেল মধুসূদন দত্ত বাড়ি, কেশবপুর)",
+        "photographer": "Labiba Sultana",
+        "date": "November 2024",
+        "likes": 173,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "mithapukur-sagardari-photo-3",
+        "url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Historic colonial palace facades standing timeless by the water at Mithapukur Dighi & Sagardari (মাইকেল মধুসূদন দত্ত বাড়ি, কেশবপুর)",
+        "photographer": "Shahadat Hossain",
+        "date": "December 2024",
+        "likes": 173,
+        "aspectRatio": "square"
+      },
+      {
+        "id": "mithapukur-sagardari-photo-4",
+        "url": "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Symmetric ancient domes framed against deep blue skies at Mithapukur Dighi & Sagardari (মাইকেল মধুসূদন দত্ত বাড়ি, কেশবপুর)",
+        "photographer": "Tamanna Haque",
+        "date": "October 2024",
+        "likes": 178,
+        "aspectRatio": "wide"
+      }
     ]
   },
   {
@@ -2625,6 +3502,44 @@
           }
         ],
         "localTransit": "শ্যামনগর বাসস্ট্যান্ড থেকে অটো বা মোটরসাইকেলে বুড়িগোয়ালিনী ঘাট (ভাড়া ৳৫০–৳৮০)।"
+      }
+    ],
+    "realPhotos": [
+      {
+        "id": "jhau-bon-burigoalini-photo-1",
+        "url": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Sunlight filtering through the dense swamp tree canopy at Jhau Bon & Dubolhati border trails (ঝাউবন ও সুন্দরবন ইকো-ভিলেজ, বুড়িগোয়ালিনী)",
+        "photographer": "Zubair Al-Mamun",
+        "date": "October 2024",
+        "likes": 147,
+        "aspectRatio": "tall"
+      },
+      {
+        "id": "jhau-bon-burigoalini-photo-2",
+        "url": "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Quiet wooden canoe gliding through mangrove waterways at Jhau Bon & Dubolhati border trails (ঝাউবন ও সুন্দরবন ইকো-ভিলেজ, বুড়িগোয়ালিনী)",
+        "photographer": "Shakil Anwar",
+        "date": "November 2024",
+        "likes": 185,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "jhau-bon-burigoalini-photo-3",
+        "url": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Spotted deer grazing peacefully along the forest trail at Jhau Bon & Dubolhati border trails (ঝাউবন ও সুন্দরবন ইকো-ভিলেজ, বুড়িগোয়ালিনী)",
+        "photographer": "Mahia Mahi",
+        "date": "December 2024",
+        "likes": 239,
+        "aspectRatio": "square"
+      },
+      {
+        "id": "jhau-bon-burigoalini-photo-4",
+        "url": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Ancient trees draped in hanging roots and wild moss at Jhau Bon & Dubolhati border trails (ঝাউবন ও সুন্দরবন ইকো-ভিলেজ, বুড়িগোয়ালিনী)",
+        "photographer": "Imtiaz Ahmed",
+        "date": "July 2024",
+        "likes": 120,
+        "aspectRatio": "tall"
       }
     ]
   },
@@ -2750,6 +3665,53 @@
         ],
         "localTransit": "ঢাকা-বরিশাল রুটের যে কোনো বাসে সরাসরি গৌরনদী নামা যায়।"
       }
+    ],
+    "realPhotos": [
+      {
+        "id": "kuakata-sea-beach-photo-1",
+        "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Crystalline waters gently lapping the coral shore at Kuakata Sea Beach (কুয়াকাটা সমুদ্র সৈকত)",
+        "photographer": "Arif Hossain",
+        "date": "December 2024",
+        "likes": 212,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "kuakata-sea-beach-photo-2",
+        "url": "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Sunset silhouettes of local wooden trawlers returning home at Kuakata Sea Beach (কুয়াকাটা সমুদ্র সৈকত)",
+        "photographer": "Nusrat Jahan",
+        "date": "November 2024",
+        "likes": 192,
+        "aspectRatio": "tall"
+      },
+      {
+        "id": "kuakata-sea-beach-photo-3",
+        "url": "https://images.unsplash.com/photo-1506953823976-52e1fdc0149a?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Pristine emerald reflections under clear tropical sky at Kuakata Sea Beach (কুয়াকাটা সমুদ্র সৈকত)",
+        "photographer": "Rashedul Karim",
+        "date": "January 2025",
+        "likes": 167,
+        "aspectRatio": "square"
+      },
+      {
+        "id": "kuakata-sea-beach-photo-4",
+        "url": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Houseboat cruising peacefully through endless inland waters at Kuakata Sea Beach (কুয়াকাটা সমুদ্র সৈকত)",
+        "photographer": "Tasnim Mehzabin",
+        "date": "September 2024",
+        "likes": 195,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "kuakata-sea-beach-photo-5",
+        "url": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Lush greenery embracing the crystal mountain stream at Kuakata Sea Beach (কুয়াকাটা সমুদ্র সৈকত)",
+        "photographer": "Samiul Hasan",
+        "date": "August 2024",
+        "likes": 128,
+        "aspectRatio": "tall"
+      }
     ]
   },
   {
@@ -2873,6 +3835,53 @@
           }
         ],
         "localTransit": "ঢাকা-বরিশাল রুটের যে কোনো বাসে সরাসরি গৌরনদী নামা যায়।"
+      }
+    ],
+    "realPhotos": [
+      {
+        "id": "floating-guava-market-photo-1",
+        "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Crystalline waters gently lapping the coral shore at Floating Guava Market (Bhimruli) (ভাসমান পেয়ারা বাজার, ভিমরুলি)",
+        "photographer": "Arif Hossain",
+        "date": "December 2024",
+        "likes": 212,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "floating-guava-market-photo-2",
+        "url": "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Sunset silhouettes of local wooden trawlers returning home at Floating Guava Market (Bhimruli) (ভাসমান পেয়ারা বাজার, ভিমরুলি)",
+        "photographer": "Nusrat Jahan",
+        "date": "November 2024",
+        "likes": 192,
+        "aspectRatio": "tall"
+      },
+      {
+        "id": "floating-guava-market-photo-3",
+        "url": "https://images.unsplash.com/photo-1506953823976-52e1fdc0149a?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Pristine emerald reflections under clear tropical sky at Floating Guava Market (Bhimruli) (ভাসমান পেয়ারা বাজার, ভিমরুলি)",
+        "photographer": "Rashedul Karim",
+        "date": "January 2025",
+        "likes": 167,
+        "aspectRatio": "square"
+      },
+      {
+        "id": "floating-guava-market-photo-4",
+        "url": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Houseboat cruising peacefully through endless inland waters at Floating Guava Market (Bhimruli) (ভাসমান পেয়ারা বাজার, ভিমরুলি)",
+        "photographer": "Tasnim Mehzabin",
+        "date": "September 2024",
+        "likes": 195,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "floating-guava-market-photo-5",
+        "url": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Lush greenery embracing the crystal mountain stream at Floating Guava Market (Bhimruli) (ভাসমান পেয়ারা বাজার, ভিমরুলি)",
+        "photographer": "Samiul Hasan",
+        "date": "August 2024",
+        "likes": 128,
+        "aspectRatio": "tall"
       }
     ]
   },
@@ -2998,6 +4007,53 @@
         ],
         "localTransit": "ঢাকা-বরিশাল রুটের যে কোনো বাসে সরাসরি গৌরনদী নামা যায়।"
       }
+    ],
+    "realPhotos": [
+      {
+        "id": "nijhum-dwip-manpura-photo-1",
+        "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Crystalline waters gently lapping the coral shore at Nijhum Dwip & Manpura Island (নিঝুম দ্বীপ ও মনপুরা, ভোলা/নোয়াখালী)",
+        "photographer": "Arif Hossain",
+        "date": "December 2024",
+        "likes": 212,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "nijhum-dwip-manpura-photo-2",
+        "url": "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Sunset silhouettes of local wooden trawlers returning home at Nijhum Dwip & Manpura Island (নিঝুম দ্বীপ ও মনপুরা, ভোলা/নোয়াখালী)",
+        "photographer": "Nusrat Jahan",
+        "date": "November 2024",
+        "likes": 192,
+        "aspectRatio": "tall"
+      },
+      {
+        "id": "nijhum-dwip-manpura-photo-3",
+        "url": "https://images.unsplash.com/photo-1506953823976-52e1fdc0149a?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Pristine emerald reflections under clear tropical sky at Nijhum Dwip & Manpura Island (নিঝুম দ্বীপ ও মনপুরা, ভোলা/নোয়াখালী)",
+        "photographer": "Rashedul Karim",
+        "date": "January 2025",
+        "likes": 167,
+        "aspectRatio": "square"
+      },
+      {
+        "id": "nijhum-dwip-manpura-photo-4",
+        "url": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Houseboat cruising peacefully through endless inland waters at Nijhum Dwip & Manpura Island (নিঝুম দ্বীপ ও মনপুরা, ভোলা/নোয়াখালী)",
+        "photographer": "Tasnim Mehzabin",
+        "date": "September 2024",
+        "likes": 195,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "nijhum-dwip-manpura-photo-5",
+        "url": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Lush greenery embracing the crystal mountain stream at Nijhum Dwip & Manpura Island (নিঝুম দ্বীপ ও মনপুরা, ভোলা/নোয়াখালী)",
+        "photographer": "Samiul Hasan",
+        "date": "August 2024",
+        "likes": 128,
+        "aspectRatio": "tall"
+      }
     ]
   },
   {
@@ -3122,6 +4178,53 @@
         ],
         "localTransit": "ঢাকা-বরিশাল রুটের যে কোনো বাসে সরাসরি গৌরনদী নামা যায়।"
       }
+    ],
+    "realPhotos": [
+      {
+        "id": "horinghata-forest-photo-1",
+        "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Crystalline waters gently lapping the coral shore at Horinghata Forest & Beach (হরিণঘাটা বন, পাথরঘাটা, বরগুনা)",
+        "photographer": "Arif Hossain",
+        "date": "December 2024",
+        "likes": 212,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "horinghata-forest-photo-2",
+        "url": "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Sunset silhouettes of local wooden trawlers returning home at Horinghata Forest & Beach (হরিণঘাটা বন, পাথরঘাটা, বরগুনা)",
+        "photographer": "Nusrat Jahan",
+        "date": "November 2024",
+        "likes": 192,
+        "aspectRatio": "tall"
+      },
+      {
+        "id": "horinghata-forest-photo-3",
+        "url": "https://images.unsplash.com/photo-1506953823976-52e1fdc0149a?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Pristine emerald reflections under clear tropical sky at Horinghata Forest & Beach (হরিণঘাটা বন, পাথরঘাটা, বরগুনা)",
+        "photographer": "Rashedul Karim",
+        "date": "January 2025",
+        "likes": 167,
+        "aspectRatio": "square"
+      },
+      {
+        "id": "horinghata-forest-photo-4",
+        "url": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Houseboat cruising peacefully through endless inland waters at Horinghata Forest & Beach (হরিণঘাটা বন, পাথরঘাটা, বরগুনা)",
+        "photographer": "Tasnim Mehzabin",
+        "date": "September 2024",
+        "likes": 195,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "horinghata-forest-photo-5",
+        "url": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Lush greenery embracing the crystal mountain stream at Horinghata Forest & Beach (হরিণঘাটা বন, পাথরঘাটা, বরগুনা)",
+        "photographer": "Samiul Hasan",
+        "date": "August 2024",
+        "likes": 128,
+        "aspectRatio": "tall"
+      }
     ]
   },
   {
@@ -3233,6 +4336,53 @@
           }
         ],
         "localTransit": "ঢাকা-বরিশাল রুটের যে কোনো বাসে সরাসরি গৌরনদী নামা যায়।"
+      }
+    ],
+    "realPhotos": [
+      {
+        "id": "sonar-char-fatrar-char-photo-1",
+        "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Crystalline waters gently lapping the coral shore at Sonar Char & Fatrar Char (সোনার চর ও ফাতরার চর, পটুয়াখালী)",
+        "photographer": "Arif Hossain",
+        "date": "December 2024",
+        "likes": 212,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "sonar-char-fatrar-char-photo-2",
+        "url": "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Sunset silhouettes of local wooden trawlers returning home at Sonar Char & Fatrar Char (সোনার চর ও ফাতরার চর, পটুয়াখালী)",
+        "photographer": "Nusrat Jahan",
+        "date": "November 2024",
+        "likes": 192,
+        "aspectRatio": "tall"
+      },
+      {
+        "id": "sonar-char-fatrar-char-photo-3",
+        "url": "https://images.unsplash.com/photo-1506953823976-52e1fdc0149a?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Pristine emerald reflections under clear tropical sky at Sonar Char & Fatrar Char (সোনার চর ও ফাতরার চর, পটুয়াখালী)",
+        "photographer": "Rashedul Karim",
+        "date": "January 2025",
+        "likes": 167,
+        "aspectRatio": "square"
+      },
+      {
+        "id": "sonar-char-fatrar-char-photo-4",
+        "url": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Houseboat cruising peacefully through endless inland waters at Sonar Char & Fatrar Char (সোনার চর ও ফাতরার চর, পটুয়াখালী)",
+        "photographer": "Tasnim Mehzabin",
+        "date": "September 2024",
+        "likes": 195,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "sonar-char-fatrar-char-photo-5",
+        "url": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Lush greenery embracing the crystal mountain stream at Sonar Char & Fatrar Char (সোনার চর ও ফাতরার চর, পটুয়াখালী)",
+        "photographer": "Samiul Hasan",
+        "date": "August 2024",
+        "likes": 128,
+        "aspectRatio": "tall"
       }
     ]
   },
@@ -3358,6 +4508,53 @@
         ],
         "localTransit": "ঝালকাঠি শহর থেকে অটো বা বাইকে ভিমরুলি ঘাট (ভাড়া ৳৫০–৳৭০)।"
       }
+    ],
+    "realPhotos": [
+      {
+        "id": "satla-shapla-bil-photo-1",
+        "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Crystalline waters gently lapping the coral shore at Gowakhali Canal & Water Lily Village (Satla) (সাতলা শাপলা বিল, উজিরপুর)",
+        "photographer": "Arif Hossain",
+        "date": "December 2024",
+        "likes": 212,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "satla-shapla-bil-photo-2",
+        "url": "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Sunset silhouettes of local wooden trawlers returning home at Gowakhali Canal & Water Lily Village (Satla) (সাতলা শাপলা বিল, উজিরপুর)",
+        "photographer": "Nusrat Jahan",
+        "date": "November 2024",
+        "likes": 192,
+        "aspectRatio": "tall"
+      },
+      {
+        "id": "satla-shapla-bil-photo-3",
+        "url": "https://images.unsplash.com/photo-1506953823976-52e1fdc0149a?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Pristine emerald reflections under clear tropical sky at Gowakhali Canal & Water Lily Village (Satla) (সাতলা শাপলা বিল, উজিরপুর)",
+        "photographer": "Rashedul Karim",
+        "date": "January 2025",
+        "likes": 167,
+        "aspectRatio": "square"
+      },
+      {
+        "id": "satla-shapla-bil-photo-4",
+        "url": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Houseboat cruising peacefully through endless inland waters at Gowakhali Canal & Water Lily Village (Satla) (সাতলা শাপলা বিল, উজিরপুর)",
+        "photographer": "Tasnim Mehzabin",
+        "date": "September 2024",
+        "likes": 195,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "satla-shapla-bil-photo-5",
+        "url": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Lush greenery embracing the crystal mountain stream at Gowakhali Canal & Water Lily Village (Satla) (সাতলা শাপলা বিল, উজিরপুর)",
+        "photographer": "Samiul Hasan",
+        "date": "August 2024",
+        "likes": 128,
+        "aspectRatio": "tall"
+      }
     ]
   },
   {
@@ -3467,6 +4664,44 @@
           }
         ],
         "localTransit": "হরিশপুর বা মাদ্রাসা মোড় থেকে নিচাবাজার ইজিবাইক (ভাড়া ৳১৫–৳২০/জন)।"
+      }
+    ],
+    "realPhotos": [
+      {
+        "id": "somapura-mahavihara-photo-1",
+        "url": "https://images.unsplash.com/photo-1599785209707-a456fc1337bb?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Intricate terracotta craftsmanship glowing under morning light at Somapura Mahavihara (Paharpur) (সোমপুর মহাবিহার (পাহাড়পুর))",
+        "photographer": "Kazi Nazmul",
+        "date": "January 2025",
+        "likes": 188,
+        "aspectRatio": "tall"
+      },
+      {
+        "id": "somapura-mahavihara-photo-2",
+        "url": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Majestic ancient red brick arches and grand monastery courtyards at Somapura Mahavihara (Paharpur) (সোমপুর মহাবিহার (পাহাড়পুর))",
+        "photographer": "Labiba Sultana",
+        "date": "November 2024",
+        "likes": 173,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "somapura-mahavihara-photo-3",
+        "url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Historic colonial palace facades standing timeless by the water at Somapura Mahavihara (Paharpur) (সোমপুর মহাবিহার (পাহাড়পুর))",
+        "photographer": "Shahadat Hossain",
+        "date": "December 2024",
+        "likes": 173,
+        "aspectRatio": "square"
+      },
+      {
+        "id": "somapura-mahavihara-photo-4",
+        "url": "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Symmetric ancient domes framed against deep blue skies at Somapura Mahavihara (Paharpur) (সোমপুর মহাবিহার (পাহাড়পুর))",
+        "photographer": "Tamanna Haque",
+        "date": "October 2024",
+        "likes": 178,
+        "aspectRatio": "wide"
       }
     ]
   },
@@ -3591,6 +4826,44 @@
         ],
         "localTransit": "হরিশপুর বা মাদ্রাসা মোড় থেকে নিচাবাজার ইজিবাইক (ভাড়া ৳১৫–৳২০/জন)।"
       }
+    ],
+    "realPhotos": [
+      {
+        "id": "puthia-temple-complex-photo-1",
+        "url": "https://images.unsplash.com/photo-1599785209707-a456fc1337bb?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Intricate terracotta craftsmanship glowing under morning light at Puthia Temple Complex (পুঠিয়া রাজবাড়ি ও শিব মন্দির)",
+        "photographer": "Kazi Nazmul",
+        "date": "January 2025",
+        "likes": 188,
+        "aspectRatio": "tall"
+      },
+      {
+        "id": "puthia-temple-complex-photo-2",
+        "url": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Majestic ancient red brick arches and grand monastery courtyards at Puthia Temple Complex (পুঠিয়া রাজবাড়ি ও শিব মন্দির)",
+        "photographer": "Labiba Sultana",
+        "date": "November 2024",
+        "likes": 173,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "puthia-temple-complex-photo-3",
+        "url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Historic colonial palace facades standing timeless by the water at Puthia Temple Complex (পুঠিয়া রাজবাড়ি ও শিব মন্দির)",
+        "photographer": "Shahadat Hossain",
+        "date": "December 2024",
+        "likes": 173,
+        "aspectRatio": "square"
+      },
+      {
+        "id": "puthia-temple-complex-photo-4",
+        "url": "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Symmetric ancient domes framed against deep blue skies at Puthia Temple Complex (পুঠিয়া রাজবাড়ি ও শিব মন্দির)",
+        "photographer": "Tamanna Haque",
+        "date": "October 2024",
+        "likes": 178,
+        "aspectRatio": "wide"
+      }
     ]
   },
   {
@@ -3701,6 +4974,44 @@
           }
         ],
         "localTransit": "হরিশপুর বা মাদ্রাসা মোড় থেকে নিচাবাজার ইজিবাইক (ভাড়া ৳১৫–৳২০/জন)।"
+      }
+    ],
+    "realPhotos": [
+      {
+        "id": "mahasthangarh-photo-1",
+        "url": "https://images.unsplash.com/photo-1599785209707-a456fc1337bb?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Intricate terracotta craftsmanship glowing under morning light at Mahasthangarh (মহাস্থানগড়, বগুড়া)",
+        "photographer": "Kazi Nazmul",
+        "date": "January 2025",
+        "likes": 188,
+        "aspectRatio": "tall"
+      },
+      {
+        "id": "mahasthangarh-photo-2",
+        "url": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Majestic ancient red brick arches and grand monastery courtyards at Mahasthangarh (মহাস্থানগড়, বগুড়া)",
+        "photographer": "Labiba Sultana",
+        "date": "November 2024",
+        "likes": 173,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "mahasthangarh-photo-3",
+        "url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Historic colonial palace facades standing timeless by the water at Mahasthangarh (মহাস্থানগড়, বগুড়া)",
+        "photographer": "Shahadat Hossain",
+        "date": "December 2024",
+        "likes": 173,
+        "aspectRatio": "square"
+      },
+      {
+        "id": "mahasthangarh-photo-4",
+        "url": "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Symmetric ancient domes framed against deep blue skies at Mahasthangarh (মহাস্থানগড়, বগুড়া)",
+        "photographer": "Tamanna Haque",
+        "date": "October 2024",
+        "likes": 178,
+        "aspectRatio": "wide"
       }
     ]
   },
@@ -3813,6 +5124,44 @@
           }
         ],
         "localTransit": "হরিশপুর বা মাদ্রাসা মোড় থেকে নিচাবাজার ইজিবাইক (ভাড়া ৳১৫–৳২০/জন)।"
+      }
+    ],
+    "realPhotos": [
+      {
+        "id": "kusumba-mosque-dubalhati-photo-1",
+        "url": "https://images.unsplash.com/photo-1599785209707-a456fc1337bb?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Intricate terracotta craftsmanship glowing under morning light at Kusumba Mosque & Dubalhati Rajbari (কুসুম্বা মসজিদ ও দুবলহাটি, নওগাঁ)",
+        "photographer": "Kazi Nazmul",
+        "date": "January 2025",
+        "likes": 188,
+        "aspectRatio": "tall"
+      },
+      {
+        "id": "kusumba-mosque-dubalhati-photo-2",
+        "url": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Majestic ancient red brick arches and grand monastery courtyards at Kusumba Mosque & Dubalhati Rajbari (কুসুম্বা মসজিদ ও দুবলহাটি, নওগাঁ)",
+        "photographer": "Labiba Sultana",
+        "date": "November 2024",
+        "likes": 173,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "kusumba-mosque-dubalhati-photo-3",
+        "url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Historic colonial palace facades standing timeless by the water at Kusumba Mosque & Dubalhati Rajbari (কুসুম্বা মসজিদ ও দুবলহাটি, নওগাঁ)",
+        "photographer": "Shahadat Hossain",
+        "date": "December 2024",
+        "likes": 173,
+        "aspectRatio": "square"
+      },
+      {
+        "id": "kusumba-mosque-dubalhati-photo-4",
+        "url": "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Symmetric ancient domes framed against deep blue skies at Kusumba Mosque & Dubalhati Rajbari (কুসুম্বা মসজিদ ও দুবলহাটি, নওগাঁ)",
+        "photographer": "Tamanna Haque",
+        "date": "October 2024",
+        "likes": 178,
+        "aspectRatio": "wide"
       }
     ]
   },
@@ -3938,6 +5287,53 @@
         ],
         "localTransit": "চারমাথা বাস টার্মিনাল থেকে সাতমাথাগামী শেয়ারিং সিএনজি বা অটো (ভাড়া ৳২০–৳২৫/জন)।"
       }
+    ],
+    "realPhotos": [
+      {
+        "id": "chalan-beel-bridge-photo-1",
+        "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Crystalline waters gently lapping the coral shore at Chalan Beel Wooden Bridge & Water Expanses (চলনবিল, নাটোর/সিরাজগঞ্জ)",
+        "photographer": "Arif Hossain",
+        "date": "December 2024",
+        "likes": 212,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "chalan-beel-bridge-photo-2",
+        "url": "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Sunset silhouettes of local wooden trawlers returning home at Chalan Beel Wooden Bridge & Water Expanses (চলনবিল, নাটোর/সিরাজগঞ্জ)",
+        "photographer": "Nusrat Jahan",
+        "date": "November 2024",
+        "likes": 192,
+        "aspectRatio": "tall"
+      },
+      {
+        "id": "chalan-beel-bridge-photo-3",
+        "url": "https://images.unsplash.com/photo-1506953823976-52e1fdc0149a?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Pristine emerald reflections under clear tropical sky at Chalan Beel Wooden Bridge & Water Expanses (চলনবিল, নাটোর/সিরাজগঞ্জ)",
+        "photographer": "Rashedul Karim",
+        "date": "January 2025",
+        "likes": 167,
+        "aspectRatio": "square"
+      },
+      {
+        "id": "chalan-beel-bridge-photo-4",
+        "url": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Houseboat cruising peacefully through endless inland waters at Chalan Beel Wooden Bridge & Water Expanses (চলনবিল, নাটোর/সিরাজগঞ্জ)",
+        "photographer": "Tasnim Mehzabin",
+        "date": "September 2024",
+        "likes": 195,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "chalan-beel-bridge-photo-5",
+        "url": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Lush greenery embracing the crystal mountain stream at Chalan Beel Wooden Bridge & Water Expanses (চলনবিল, নাটোর/সিরাজগঞ্জ)",
+        "photographer": "Samiul Hasan",
+        "date": "August 2024",
+        "likes": 128,
+        "aspectRatio": "tall"
+      }
     ]
   },
   {
@@ -4048,6 +5444,44 @@
           }
         ],
         "localTransit": "হরিশপুর বা মাদ্রাসা মোড় থেকে নিচাবাজার ইজিবাইক (ভাড়া ৳১৫–৳২০/জন)।"
+      }
+    ],
+    "realPhotos": [
+      {
+        "id": "ghoraghat-hili-border-photo-1",
+        "url": "https://images.unsplash.com/photo-1599785209707-a456fc1337bb?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Intricate terracotta craftsmanship glowing under morning light at Ghoraghat Fort & Hili Border trails (ঘোড়াঘাট ও হিলি সীমান্ত)",
+        "photographer": "Kazi Nazmul",
+        "date": "January 2025",
+        "likes": 188,
+        "aspectRatio": "tall"
+      },
+      {
+        "id": "ghoraghat-hili-border-photo-2",
+        "url": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Majestic ancient red brick arches and grand monastery courtyards at Ghoraghat Fort & Hili Border trails (ঘোড়াঘাট ও হিলি সীমান্ত)",
+        "photographer": "Labiba Sultana",
+        "date": "November 2024",
+        "likes": 173,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "ghoraghat-hili-border-photo-3",
+        "url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Historic colonial palace facades standing timeless by the water at Ghoraghat Fort & Hili Border trails (ঘোড়াঘাট ও হিলি সীমান্ত)",
+        "photographer": "Shahadat Hossain",
+        "date": "December 2024",
+        "likes": 173,
+        "aspectRatio": "square"
+      },
+      {
+        "id": "ghoraghat-hili-border-photo-4",
+        "url": "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Symmetric ancient domes framed against deep blue skies at Ghoraghat Fort & Hili Border trails (ঘোড়াঘাট ও হিলি সীমান্ত)",
+        "photographer": "Tamanna Haque",
+        "date": "October 2024",
+        "likes": 178,
+        "aspectRatio": "wide"
       }
     ]
   },
@@ -4160,6 +5594,44 @@
           }
         ],
         "localTransit": "হরিশপুর বা মাদ্রাসা মোড় থেকে নিচাবাজার ইজিবাইক (ভাড়া ৳১৫–৳২০/জন)।"
+      }
+    ],
+    "realPhotos": [
+      {
+        "id": "talonda-padma-char-photo-1",
+        "url": "https://images.unsplash.com/photo-1599785209707-a456fc1337bb?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Intricate terracotta craftsmanship glowing under morning light at Talonda Jamidar Bari & Padma Char (পদ্মার চরে সূর্যাস্ত, গোদাগাড়ী)",
+        "photographer": "Kazi Nazmul",
+        "date": "January 2025",
+        "likes": 188,
+        "aspectRatio": "tall"
+      },
+      {
+        "id": "talonda-padma-char-photo-2",
+        "url": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Majestic ancient red brick arches and grand monastery courtyards at Talonda Jamidar Bari & Padma Char (পদ্মার চরে সূর্যাস্ত, গোদাগাড়ী)",
+        "photographer": "Labiba Sultana",
+        "date": "November 2024",
+        "likes": 173,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "talonda-padma-char-photo-3",
+        "url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Historic colonial palace facades standing timeless by the water at Talonda Jamidar Bari & Padma Char (পদ্মার চরে সূর্যাস্ত, গোদাগাড়ী)",
+        "photographer": "Shahadat Hossain",
+        "date": "December 2024",
+        "likes": 173,
+        "aspectRatio": "square"
+      },
+      {
+        "id": "talonda-padma-char-photo-4",
+        "url": "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Symmetric ancient domes framed against deep blue skies at Talonda Jamidar Bari & Padma Char (পদ্মার চরে সূর্যাস্ত, গোদাগাড়ী)",
+        "photographer": "Tamanna Haque",
+        "date": "October 2024",
+        "likes": 178,
+        "aspectRatio": "wide"
       }
     ]
   },
@@ -4281,6 +5753,44 @@
         ],
         "localTransit": "রংপুর শাপলা চত্বর থেকে পদাগঞ্জগামী লোকাল লেগুনা/বাস (ভাড়া ৳৪০–৳৫০/জন)।"
       }
+    ],
+    "realPhotos": [
+      {
+        "id": "kantajew-temple-photo-1",
+        "url": "https://images.unsplash.com/photo-1599785209707-a456fc1337bb?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Intricate terracotta craftsmanship glowing under morning light at Kantajew Temple & Nayabad Mosque (কান্তজিউ মন্দির ও নয়াবাদ মসজিদ)",
+        "photographer": "Kazi Nazmul",
+        "date": "January 2025",
+        "likes": 188,
+        "aspectRatio": "tall"
+      },
+      {
+        "id": "kantajew-temple-photo-2",
+        "url": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Majestic ancient red brick arches and grand monastery courtyards at Kantajew Temple & Nayabad Mosque (কান্তজিউ মন্দির ও নয়াবাদ মসজিদ)",
+        "photographer": "Labiba Sultana",
+        "date": "November 2024",
+        "likes": 173,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "kantajew-temple-photo-3",
+        "url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Historic colonial palace facades standing timeless by the water at Kantajew Temple & Nayabad Mosque (কান্তজিউ মন্দির ও নয়াবাদ মসজিদ)",
+        "photographer": "Shahadat Hossain",
+        "date": "December 2024",
+        "likes": 173,
+        "aspectRatio": "square"
+      },
+      {
+        "id": "kantajew-temple-photo-4",
+        "url": "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Symmetric ancient domes framed against deep blue skies at Kantajew Temple & Nayabad Mosque (কান্তজিউ মন্দির ও নয়াবাদ মসজিদ)",
+        "photographer": "Tamanna Haque",
+        "date": "October 2024",
+        "likes": 178,
+        "aspectRatio": "wide"
+      }
     ]
   },
   {
@@ -4388,6 +5898,44 @@
         ],
         "localTransit": "দিনাজপুর বাস টার্মিনাল থেকে স্টেশন রোড ইজিবাইক (ভাড়া ৳১৫–৳২০/জন)।"
       }
+    ],
+    "realPhotos": [
+      {
+        "id": "tajhat-palace-photo-1",
+        "url": "https://images.unsplash.com/photo-1599785209707-a456fc1337bb?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Intricate terracotta craftsmanship glowing under morning light at Tajhat Palace (তাজহাট জমিদার বাড়ি, রংপুর)",
+        "photographer": "Kazi Nazmul",
+        "date": "January 2025",
+        "likes": 188,
+        "aspectRatio": "tall"
+      },
+      {
+        "id": "tajhat-palace-photo-2",
+        "url": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Majestic ancient red brick arches and grand monastery courtyards at Tajhat Palace (তাজহাট জমিদার বাড়ি, রংপুর)",
+        "photographer": "Labiba Sultana",
+        "date": "November 2024",
+        "likes": 173,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "tajhat-palace-photo-3",
+        "url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Historic colonial palace facades standing timeless by the water at Tajhat Palace (তাজহাট জমিদার বাড়ি, রংপুর)",
+        "photographer": "Shahadat Hossain",
+        "date": "December 2024",
+        "likes": 173,
+        "aspectRatio": "square"
+      },
+      {
+        "id": "tajhat-palace-photo-4",
+        "url": "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Symmetric ancient domes framed against deep blue skies at Tajhat Palace (তাজহাট জমিদার বাড়ি, রংপুর)",
+        "photographer": "Tamanna Haque",
+        "date": "October 2024",
+        "likes": 178,
+        "aspectRatio": "wide"
+      }
     ]
   },
   {
@@ -4494,6 +6042,44 @@
           }
         ],
         "localTransit": "রংপুর শাপলা চত্বর থেকে পদাগঞ্জগামী লোকাল লেগুনা/বাস (ভাড়া ৳৪০–৳৫০/জন)।"
+      }
+    ],
+    "realPhotos": [
+      {
+        "id": "swapnapuri-ramsagar-photo-1",
+        "url": "https://images.unsplash.com/photo-1599785209707-a456fc1337bb?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Intricate terracotta craftsmanship glowing under morning light at Swapnapuri & Ramsagar (রামসাগর দীঘি ও স্বপ্নপুরী, দিনাজপুর)",
+        "photographer": "Kazi Nazmul",
+        "date": "January 2025",
+        "likes": 188,
+        "aspectRatio": "tall"
+      },
+      {
+        "id": "swapnapuri-ramsagar-photo-2",
+        "url": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Majestic ancient red brick arches and grand monastery courtyards at Swapnapuri & Ramsagar (রামসাগর দীঘি ও স্বপ্নপুরী, দিনাজপুর)",
+        "photographer": "Labiba Sultana",
+        "date": "November 2024",
+        "likes": 173,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "swapnapuri-ramsagar-photo-3",
+        "url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Historic colonial palace facades standing timeless by the water at Swapnapuri & Ramsagar (রামসাগর দীঘি ও স্বপ্নপুরী, দিনাজপুর)",
+        "photographer": "Shahadat Hossain",
+        "date": "December 2024",
+        "likes": 173,
+        "aspectRatio": "square"
+      },
+      {
+        "id": "swapnapuri-ramsagar-photo-4",
+        "url": "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Symmetric ancient domes framed against deep blue skies at Swapnapuri & Ramsagar (রামসাগর দীঘি ও স্বপ্নপুরী, দিনাজপুর)",
+        "photographer": "Tamanna Haque",
+        "date": "October 2024",
+        "likes": 178,
+        "aspectRatio": "wide"
       }
     ]
   },
@@ -4615,6 +6201,44 @@
         ],
         "localTransit": "রংপুর শাপলা চত্বর থেকে পদাগঞ্জগামী লোকাল লেগুনা/বাস (ভাড়া ৳৪০–৳৫০/জন)।"
       }
+    ],
+    "realPhotos": [
+      {
+        "id": "dahagram-tin-bigha-photo-1",
+        "url": "https://images.unsplash.com/photo-1599785209707-a456fc1337bb?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Intricate terracotta craftsmanship glowing under morning light at Dahagram-Angarpota & Tin Bigha Corridor (তিন বিঘা করিডোর ও পাটগ্রাম, লালমনিরহাট)",
+        "photographer": "Kazi Nazmul",
+        "date": "January 2025",
+        "likes": 188,
+        "aspectRatio": "tall"
+      },
+      {
+        "id": "dahagram-tin-bigha-photo-2",
+        "url": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Majestic ancient red brick arches and grand monastery courtyards at Dahagram-Angarpota & Tin Bigha Corridor (তিন বিঘা করিডোর ও পাটগ্রাম, লালমনিরহাট)",
+        "photographer": "Labiba Sultana",
+        "date": "November 2024",
+        "likes": 173,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "dahagram-tin-bigha-photo-3",
+        "url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Historic colonial palace facades standing timeless by the water at Dahagram-Angarpota & Tin Bigha Corridor (তিন বিঘা করিডোর ও পাটগ্রাম, লালমনিরহাট)",
+        "photographer": "Shahadat Hossain",
+        "date": "December 2024",
+        "likes": 173,
+        "aspectRatio": "square"
+      },
+      {
+        "id": "dahagram-tin-bigha-photo-4",
+        "url": "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Symmetric ancient domes framed against deep blue skies at Dahagram-Angarpota & Tin Bigha Corridor (তিন বিঘা করিডোর ও পাটগ্রাম, লালমনিরহাট)",
+        "photographer": "Tamanna Haque",
+        "date": "October 2024",
+        "likes": 178,
+        "aspectRatio": "wide"
+      }
     ]
   },
   {
@@ -4722,6 +6346,53 @@
           }
         ],
         "localTransit": "রংপুর শাপলা চত্বর থেকে পদাগঞ্জগামী লোকাল লেগুনা/বাস (ভাড়া ৳৪০–৳৫০/জন)।"
+      }
+    ],
+    "realPhotos": [
+      {
+        "id": "teesta-barrage-dalia-photo-1",
+        "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Crystalline waters gently lapping the coral shore at Teesta Barrage & River Island Life (তিস্তা ব্যারেজ ও ডালিয়া, নীলফামারী)",
+        "photographer": "Arif Hossain",
+        "date": "December 2024",
+        "likes": 212,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "teesta-barrage-dalia-photo-2",
+        "url": "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Sunset silhouettes of local wooden trawlers returning home at Teesta Barrage & River Island Life (তিস্তা ব্যারেজ ও ডালিয়া, নীলফামারী)",
+        "photographer": "Nusrat Jahan",
+        "date": "November 2024",
+        "likes": 192,
+        "aspectRatio": "tall"
+      },
+      {
+        "id": "teesta-barrage-dalia-photo-3",
+        "url": "https://images.unsplash.com/photo-1506953823976-52e1fdc0149a?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Pristine emerald reflections under clear tropical sky at Teesta Barrage & River Island Life (তিস্তা ব্যারেজ ও ডালিয়া, নীলফামারী)",
+        "photographer": "Rashedul Karim",
+        "date": "January 2025",
+        "likes": 167,
+        "aspectRatio": "square"
+      },
+      {
+        "id": "teesta-barrage-dalia-photo-4",
+        "url": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Houseboat cruising peacefully through endless inland waters at Teesta Barrage & River Island Life (তিস্তা ব্যারেজ ও ডালিয়া, নীলফামারী)",
+        "photographer": "Tasnim Mehzabin",
+        "date": "September 2024",
+        "likes": 195,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "teesta-barrage-dalia-photo-5",
+        "url": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Lush greenery embracing the crystal mountain stream at Teesta Barrage & River Island Life (তিস্তা ব্যারেজ ও ডালিয়া, নীলফামারী)",
+        "photographer": "Samiul Hasan",
+        "date": "August 2024",
+        "likes": 128,
+        "aspectRatio": "tall"
       }
     ]
   },
@@ -4843,6 +6514,44 @@
         ],
         "localTransit": "রংপুর শাপলা চত্বর থেকে পদাগঞ্জগামী লোকাল লেগুনা/বাস (ভাড়া ৳৪০–৳৫০/জন)।"
       }
+    ],
+    "realPhotos": [
+      {
+        "id": "birganj-shalban-singra-photo-1",
+        "url": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Sunlight filtering through the dense swamp tree canopy at Birganj Shalban & Singra National Park (বীরগঞ্জ শালবন ও সিংড়া ফরেস্ট)",
+        "photographer": "Zubair Al-Mamun",
+        "date": "October 2024",
+        "likes": 147,
+        "aspectRatio": "tall"
+      },
+      {
+        "id": "birganj-shalban-singra-photo-2",
+        "url": "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Quiet wooden canoe gliding through mangrove waterways at Birganj Shalban & Singra National Park (বীরগঞ্জ শালবন ও সিংড়া ফরেস্ট)",
+        "photographer": "Shakil Anwar",
+        "date": "November 2024",
+        "likes": 185,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "birganj-shalban-singra-photo-3",
+        "url": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Spotted deer grazing peacefully along the forest trail at Birganj Shalban & Singra National Park (বীরগঞ্জ শালবন ও সিংড়া ফরেস্ট)",
+        "photographer": "Mahia Mahi",
+        "date": "December 2024",
+        "likes": 239,
+        "aspectRatio": "square"
+      },
+      {
+        "id": "birganj-shalban-singra-photo-4",
+        "url": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Ancient trees draped in hanging roots and wild moss at Birganj Shalban & Singra National Park (বীরগঞ্জ শালবন ও সিংড়া ফরেস্ট)",
+        "photographer": "Imtiaz Ahmed",
+        "date": "July 2024",
+        "likes": 120,
+        "aspectRatio": "tall"
+      }
     ]
   },
   {
@@ -4962,6 +6671,53 @@
           }
         ],
         "localTransit": "রংপুর শাপলা চত্বর থেকে পদাগঞ্জগামী লোকাল লেগুনা/বাস (ভাড়া ৳৪০–৳৫০/জন)।"
+      }
+    ],
+    "realPhotos": [
+      {
+        "id": "banglabandha-tetulia-photo-1",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Sunrise cloud sea breaking over the mountain ridge at Banglabandha Zero Point & Mahananda River (বাংলাবান্ধা জিরো পয়েন্ট ও রক মিউজিয়াম, তেঁতুলিয়া)",
+        "photographer": "Tanvir Ahmed",
+        "date": "October 2024",
+        "likes": 184,
+        "aspectRatio": "tall"
+      },
+      {
+        "id": "banglabandha-tetulia-photo-2",
+        "url": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Quiet bamboo rafting through towering canyon cliffs at Banglabandha Zero Point & Mahananda River (বাংলাবান্ধা জিরো পয়েন্ট ও রক মিউজিয়াম, তেঁতুলিয়া)",
+        "photographer": "Sadia Islam",
+        "date": "November 2024",
+        "likes": 159,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "banglabandha-tetulia-photo-3",
+        "url": "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Stargazing around the midnight summit campfire at Banglabandha Zero Point & Mahananda River (বাংলাবান্ধা জিরো পয়েন্ট ও রক মিউজিয়াম, তেঁতুলিয়া)",
+        "photographer": "Rahat Chowdhury",
+        "date": "January 2025",
+        "likes": 264,
+        "aspectRatio": "square"
+      },
+      {
+        "id": "banglabandha-tetulia-photo-4",
+        "url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Rolling green peaks shrouded in fresh morning mist at Banglabandha Zero Point & Mahananda River (বাংলাবান্ধা জিরো পয়েন্ট ও রক মিউজিয়াম, তেঁতুলিয়া)",
+        "photographer": "Farhan Kabir",
+        "date": "December 2024",
+        "likes": 99,
+        "aspectRatio": "tall"
+      },
+      {
+        "id": "banglabandha-tetulia-photo-5",
+        "url": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Golden hour twilight over the indigenous village trail at Banglabandha Zero Point & Mahananda River (বাংলাবান্ধা জিরো পয়েন্ট ও রক মিউজিয়াম, তেঁতুলিয়া)",
+        "photographer": "Anika Tabassum",
+        "date": "February 2025",
+        "likes": 183,
+        "aspectRatio": "wide"
       }
     ]
   },
@@ -5086,6 +6842,44 @@
         ],
         "localTransit": "টাঙ্গাইল নতুন বাসস্ট্যান্ড থেকে পোড়াবাড়ি সিএনজি (ভাড়া ৳২৫–৳৩০/জন)।"
       }
+    ],
+    "realPhotos": [
+      {
+        "id": "panam-nagar-sonargaon-photo-1",
+        "url": "https://images.unsplash.com/photo-1599785209707-a456fc1337bb?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Intricate terracotta craftsmanship glowing under morning light at Panam Nagar & Sonargaon Folk Art Museum (পানাম নগর ও সোনারগাঁও লোকশিল্প জাদুঘর)",
+        "photographer": "Kazi Nazmul",
+        "date": "January 2025",
+        "likes": 188,
+        "aspectRatio": "tall"
+      },
+      {
+        "id": "panam-nagar-sonargaon-photo-2",
+        "url": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Majestic ancient red brick arches and grand monastery courtyards at Panam Nagar & Sonargaon Folk Art Museum (পানাম নগর ও সোনারগাঁও লোকশিল্প জাদুঘর)",
+        "photographer": "Labiba Sultana",
+        "date": "November 2024",
+        "likes": 173,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "panam-nagar-sonargaon-photo-3",
+        "url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Historic colonial palace facades standing timeless by the water at Panam Nagar & Sonargaon Folk Art Museum (পানাম নগর ও সোনারগাঁও লোকশিল্প জাদুঘর)",
+        "photographer": "Shahadat Hossain",
+        "date": "December 2024",
+        "likes": 173,
+        "aspectRatio": "square"
+      },
+      {
+        "id": "panam-nagar-sonargaon-photo-4",
+        "url": "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Symmetric ancient domes framed against deep blue skies at Panam Nagar & Sonargaon Folk Art Museum (পানাম নগর ও সোনারগাঁও লোকশিল্প জাদুঘর)",
+        "photographer": "Tamanna Haque",
+        "date": "October 2024",
+        "likes": 178,
+        "aspectRatio": "wide"
+      }
     ]
   },
   {
@@ -5209,6 +7003,44 @@
         ],
         "localTransit": "টাঙ্গাইল নতুন বাসস্ট্যান্ড থেকে পোড়াবাড়ি সিএনজি (ভাড়া ৳২৫–৳৩০/জন)।"
       }
+    ],
+    "realPhotos": [
+      {
+        "id": "mainamati-shalban-vihara-photo-1",
+        "url": "https://images.unsplash.com/photo-1599785209707-a456fc1337bb?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Intricate terracotta craftsmanship glowing under morning light at Mainamati & Shalban Vihara (শালবন বিহার ও ময়নামতি)",
+        "photographer": "Kazi Nazmul",
+        "date": "January 2025",
+        "likes": 188,
+        "aspectRatio": "tall"
+      },
+      {
+        "id": "mainamati-shalban-vihara-photo-2",
+        "url": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Majestic ancient red brick arches and grand monastery courtyards at Mainamati & Shalban Vihara (শালবন বিহার ও ময়নামতি)",
+        "photographer": "Labiba Sultana",
+        "date": "November 2024",
+        "likes": 173,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "mainamati-shalban-vihara-photo-3",
+        "url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Historic colonial palace facades standing timeless by the water at Mainamati & Shalban Vihara (শালবন বিহার ও ময়নামতি)",
+        "photographer": "Shahadat Hossain",
+        "date": "December 2024",
+        "likes": 173,
+        "aspectRatio": "square"
+      },
+      {
+        "id": "mainamati-shalban-vihara-photo-4",
+        "url": "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Symmetric ancient domes framed against deep blue skies at Mainamati & Shalban Vihara (শালবন বিহার ও ময়নামতি)",
+        "photographer": "Tamanna Haque",
+        "date": "October 2024",
+        "likes": 178,
+        "aspectRatio": "wide"
+      }
     ]
   },
   {
@@ -5320,6 +7152,44 @@
           }
         ],
         "localTransit": "টাঙ্গাইল নতুন বাসস্ট্যান্ড থেকে পোড়াবাড়ি সিএনজি (ভাড়া ৳২৫–৳৩০/জন)।"
+      }
+    ],
+    "realPhotos": [
+      {
+        "id": "bhawal-national-park-photo-1",
+        "url": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Sunlight filtering through the dense swamp tree canopy at Bhawal National Park Deep Trails (ভাওয়াল জাতীয় উদ্যান ও গহীন ট্রেইল)",
+        "photographer": "Zubair Al-Mamun",
+        "date": "October 2024",
+        "likes": 147,
+        "aspectRatio": "tall"
+      },
+      {
+        "id": "bhawal-national-park-photo-2",
+        "url": "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Quiet wooden canoe gliding through mangrove waterways at Bhawal National Park Deep Trails (ভাওয়াল জাতীয় উদ্যান ও গহীন ট্রেইল)",
+        "photographer": "Shakil Anwar",
+        "date": "November 2024",
+        "likes": 185,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "bhawal-national-park-photo-3",
+        "url": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Spotted deer grazing peacefully along the forest trail at Bhawal National Park Deep Trails (ভাওয়াল জাতীয় উদ্যান ও গহীন ট্রেইল)",
+        "photographer": "Mahia Mahi",
+        "date": "December 2024",
+        "likes": 239,
+        "aspectRatio": "square"
+      },
+      {
+        "id": "bhawal-national-park-photo-4",
+        "url": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Ancient trees draped in hanging roots and wild moss at Bhawal National Park Deep Trails (ভাওয়াল জাতীয় উদ্যান ও গহীন ট্রেইল)",
+        "photographer": "Imtiaz Ahmed",
+        "date": "July 2024",
+        "likes": 120,
+        "aspectRatio": "tall"
       }
     ]
   },
@@ -5445,6 +7315,44 @@
         ],
         "localTransit": "টাঙ্গাইল নতুন বাসস্ট্যান্ড থেকে পোড়াবাড়ি সিএনজি (ভাড়া ৳২৫–৳৩০/জন)।"
       }
+    ],
+    "realPhotos": [
+      {
+        "id": "baliati-teota-palace-photo-1",
+        "url": "https://images.unsplash.com/photo-1599785209707-a456fc1337bb?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Intricate terracotta craftsmanship glowing under morning light at Baliati Palace & Teota Zamindar Bari (বালিয়াটি প্রাসাদ ও তেওতা, মানিকগঞ্জ)",
+        "photographer": "Kazi Nazmul",
+        "date": "January 2025",
+        "likes": 188,
+        "aspectRatio": "tall"
+      },
+      {
+        "id": "baliati-teota-palace-photo-2",
+        "url": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Majestic ancient red brick arches and grand monastery courtyards at Baliati Palace & Teota Zamindar Bari (বালিয়াটি প্রাসাদ ও তেওতা, মানিকগঞ্জ)",
+        "photographer": "Labiba Sultana",
+        "date": "November 2024",
+        "likes": 173,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "baliati-teota-palace-photo-3",
+        "url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Historic colonial palace facades standing timeless by the water at Baliati Palace & Teota Zamindar Bari (বালিয়াটি প্রাসাদ ও তেওতা, মানিকগঞ্জ)",
+        "photographer": "Shahadat Hossain",
+        "date": "December 2024",
+        "likes": 173,
+        "aspectRatio": "square"
+      },
+      {
+        "id": "baliati-teota-palace-photo-4",
+        "url": "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Symmetric ancient domes framed against deep blue skies at Baliati Palace & Teota Zamindar Bari (বালিয়াটি প্রাসাদ ও তেওতা, মানিকগঞ্জ)",
+        "photographer": "Tamanna Haque",
+        "date": "October 2024",
+        "likes": 178,
+        "aspectRatio": "wide"
+      }
     ]
   },
   {
@@ -5568,6 +7476,53 @@
           }
         ],
         "localTransit": "গুলিস্তান/যাত্রাবাড়ী থেকে মাওয়াগামী বাস (ভাড়া ৳৮০–৳১০০)।"
+      }
+    ],
+    "realPhotos": [
+      {
+        "id": "padma-mainot-ghat-photo-1",
+        "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Crystalline waters gently lapping the coral shore at Padma Floating Resorts & Char Dohar (মৈনট ঘাট / 'মিনি কক্সবাজার', দোহার)",
+        "photographer": "Arif Hossain",
+        "date": "December 2024",
+        "likes": 212,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "padma-mainot-ghat-photo-2",
+        "url": "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Sunset silhouettes of local wooden trawlers returning home at Padma Floating Resorts & Char Dohar (মৈনট ঘাট / 'মিনি কক্সবাজার', দোহার)",
+        "photographer": "Nusrat Jahan",
+        "date": "November 2024",
+        "likes": 192,
+        "aspectRatio": "tall"
+      },
+      {
+        "id": "padma-mainot-ghat-photo-3",
+        "url": "https://images.unsplash.com/photo-1506953823976-52e1fdc0149a?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Pristine emerald reflections under clear tropical sky at Padma Floating Resorts & Char Dohar (মৈনট ঘাট / 'মিনি কক্সবাজার', দোহার)",
+        "photographer": "Rashedul Karim",
+        "date": "January 2025",
+        "likes": 167,
+        "aspectRatio": "square"
+      },
+      {
+        "id": "padma-mainot-ghat-photo-4",
+        "url": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Houseboat cruising peacefully through endless inland waters at Padma Floating Resorts & Char Dohar (মৈনট ঘাট / 'মিনি কক্সবাজার', দোহার)",
+        "photographer": "Tasnim Mehzabin",
+        "date": "September 2024",
+        "likes": 195,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "padma-mainot-ghat-photo-5",
+        "url": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Lush greenery embracing the crystal mountain stream at Padma Floating Resorts & Char Dohar (মৈনট ঘাট / 'মিনি কক্সবাজার', দোহার)",
+        "photographer": "Samiul Hasan",
+        "date": "August 2024",
+        "likes": 128,
+        "aspectRatio": "tall"
       }
     ]
   },
@@ -5693,6 +7648,44 @@
         ],
         "localTransit": "গুলিস্তান/যাত্রাবাড়ী থেকে মাওয়াগামী বাস (ভাড়া ৳৮০–৳১০০)।"
       }
+    ],
+    "realPhotos": [
+      {
+        "id": "mohera-zamindar-bari-photo-1",
+        "url": "https://images.unsplash.com/photo-1599785209707-a456fc1337bb?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Intricate terracotta craftsmanship glowing under morning light at Mohera Zamindar Bari & Dhanbari Mosque (মহেরা জমিদার বাড়ি, মির্জাপুর, টাঙ্গাইল)",
+        "photographer": "Kazi Nazmul",
+        "date": "January 2025",
+        "likes": 188,
+        "aspectRatio": "tall"
+      },
+      {
+        "id": "mohera-zamindar-bari-photo-2",
+        "url": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Majestic ancient red brick arches and grand monastery courtyards at Mohera Zamindar Bari & Dhanbari Mosque (মহেরা জমিদার বাড়ি, মির্জাপুর, টাঙ্গাইল)",
+        "photographer": "Labiba Sultana",
+        "date": "November 2024",
+        "likes": 173,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "mohera-zamindar-bari-photo-3",
+        "url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Historic colonial palace facades standing timeless by the water at Mohera Zamindar Bari & Dhanbari Mosque (মহেরা জমিদার বাড়ি, মির্জাপুর, টাঙ্গাইল)",
+        "photographer": "Shahadat Hossain",
+        "date": "December 2024",
+        "likes": 173,
+        "aspectRatio": "square"
+      },
+      {
+        "id": "mohera-zamindar-bari-photo-4",
+        "url": "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Symmetric ancient domes framed against deep blue skies at Mohera Zamindar Bari & Dhanbari Mosque (মহেরা জমিদার বাড়ি, মির্জাপুর, টাঙ্গাইল)",
+        "photographer": "Tamanna Haque",
+        "date": "October 2024",
+        "likes": 178,
+        "aspectRatio": "wide"
+      }
     ]
   },
   {
@@ -5812,6 +7805,53 @@
           }
         ],
         "localTransit": "ময়মনসিংহ রেল জংশন থেকে ছোট বাজার রিকশায় (ভাড়া ৳২০–৳৩০)।"
+      }
+    ],
+    "realPhotos": [
+      {
+        "id": "birishiri-white-clay-photo-1",
+        "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Crystalline waters gently lapping the coral shore at Birishiri & Bijoypur White Clay Lake (সাদা মাটির পাহাড় ও বিরিশিরি, নেত্রকোণা)",
+        "photographer": "Arif Hossain",
+        "date": "December 2024",
+        "likes": 212,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "birishiri-white-clay-photo-2",
+        "url": "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Sunset silhouettes of local wooden trawlers returning home at Birishiri & Bijoypur White Clay Lake (সাদা মাটির পাহাড় ও বিরিশিরি, নেত্রকোণা)",
+        "photographer": "Nusrat Jahan",
+        "date": "November 2024",
+        "likes": 192,
+        "aspectRatio": "tall"
+      },
+      {
+        "id": "birishiri-white-clay-photo-3",
+        "url": "https://images.unsplash.com/photo-1506953823976-52e1fdc0149a?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Pristine emerald reflections under clear tropical sky at Birishiri & Bijoypur White Clay Lake (সাদা মাটির পাহাড় ও বিরিশিরি, নেত্রকোণা)",
+        "photographer": "Rashedul Karim",
+        "date": "January 2025",
+        "likes": 167,
+        "aspectRatio": "square"
+      },
+      {
+        "id": "birishiri-white-clay-photo-4",
+        "url": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Houseboat cruising peacefully through endless inland waters at Birishiri & Bijoypur White Clay Lake (সাদা মাটির পাহাড় ও বিরিশিরি, নেত্রকোণা)",
+        "photographer": "Tasnim Mehzabin",
+        "date": "September 2024",
+        "likes": 195,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "birishiri-white-clay-photo-5",
+        "url": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Lush greenery embracing the crystal mountain stream at Birishiri & Bijoypur White Clay Lake (সাদা মাটির পাহাড় ও বিরিশিরি, নেত্রকোণা)",
+        "photographer": "Samiul Hasan",
+        "date": "August 2024",
+        "likes": 128,
+        "aspectRatio": "tall"
       }
     ]
   },
@@ -5933,6 +7973,44 @@
         ],
         "localTransit": "ময়মনসিংহ রেল জংশন থেকে ছোট বাজার রিকশায় (ভাড়া ৳২০–৳৩০)।"
       }
+    ],
+    "realPhotos": [
+      {
+        "id": "gajni-madhutila-photo-1",
+        "url": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Sunlight filtering through the dense swamp tree canopy at Gajni & Madhutila Eco Park (গজনী অবকাশ ও মধুটিলা, শেরপুর)",
+        "photographer": "Zubair Al-Mamun",
+        "date": "October 2024",
+        "likes": 147,
+        "aspectRatio": "tall"
+      },
+      {
+        "id": "gajni-madhutila-photo-2",
+        "url": "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Quiet wooden canoe gliding through mangrove waterways at Gajni & Madhutila Eco Park (গজনী অবকাশ ও মধুটিলা, শেরপুর)",
+        "photographer": "Shakil Anwar",
+        "date": "November 2024",
+        "likes": 185,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "gajni-madhutila-photo-3",
+        "url": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Spotted deer grazing peacefully along the forest trail at Gajni & Madhutila Eco Park (গজনী অবকাশ ও মধুটিলা, শেরপুর)",
+        "photographer": "Mahia Mahi",
+        "date": "December 2024",
+        "likes": 239,
+        "aspectRatio": "square"
+      },
+      {
+        "id": "gajni-madhutila-photo-4",
+        "url": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Ancient trees draped in hanging roots and wild moss at Gajni & Madhutila Eco Park (গজনী অবকাশ ও মধুটিলা, শেরপুর)",
+        "photographer": "Imtiaz Ahmed",
+        "date": "July 2024",
+        "likes": 120,
+        "aspectRatio": "tall"
+      }
     ]
   },
   {
@@ -6040,6 +8118,53 @@
           }
         ],
         "localTransit": "ময়মনসিংহ রেল জংশন থেকে ছোট বাজার রিকশায় (ভাড়া ৳২০–৳৩০)।"
+      }
+    ],
+    "realPhotos": [
+      {
+        "id": "ranikhong-someshwari-photo-1",
+        "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Crystalline waters gently lapping the coral shore at Shusong Durgapur Ranikhong Church & Someshwari (রানীখং চার্চ ও সোমেশ্বরী নদী)",
+        "photographer": "Arif Hossain",
+        "date": "December 2024",
+        "likes": 212,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "ranikhong-someshwari-photo-2",
+        "url": "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Sunset silhouettes of local wooden trawlers returning home at Shusong Durgapur Ranikhong Church & Someshwari (রানীখং চার্চ ও সোমেশ্বরী নদী)",
+        "photographer": "Nusrat Jahan",
+        "date": "November 2024",
+        "likes": 192,
+        "aspectRatio": "tall"
+      },
+      {
+        "id": "ranikhong-someshwari-photo-3",
+        "url": "https://images.unsplash.com/photo-1506953823976-52e1fdc0149a?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Pristine emerald reflections under clear tropical sky at Shusong Durgapur Ranikhong Church & Someshwari (রানীখং চার্চ ও সোমেশ্বরী নদী)",
+        "photographer": "Rashedul Karim",
+        "date": "January 2025",
+        "likes": 167,
+        "aspectRatio": "square"
+      },
+      {
+        "id": "ranikhong-someshwari-photo-4",
+        "url": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Houseboat cruising peacefully through endless inland waters at Shusong Durgapur Ranikhong Church & Someshwari (রানীখং চার্চ ও সোমেশ্বরী নদী)",
+        "photographer": "Tasnim Mehzabin",
+        "date": "September 2024",
+        "likes": 195,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "ranikhong-someshwari-photo-5",
+        "url": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Lush greenery embracing the crystal mountain stream at Shusong Durgapur Ranikhong Church & Someshwari (রানীখং চার্চ ও সোমেশ্বরী নদী)",
+        "photographer": "Samiul Hasan",
+        "date": "August 2024",
+        "likes": 128,
+        "aspectRatio": "tall"
       }
     ]
   },
@@ -6149,6 +8274,53 @@
         ],
         "localTransit": "ময়মনসিংহ রেল জংশন থেকে ছোট বাজার রিকশায় (ভাড়া ৳২০–৳৩০)।"
       }
+    ],
+    "realPhotos": [
+      {
+        "id": "shadhur-chorpati-nakugaon-photo-1",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Sunrise cloud sea breaking over the mountain ridge at Shadhur Chorpati & Garo Pahar border trails (নালিতাবাড়ী ও নাকুগাঁও ল্যান্ড পোর্ট, শেরপুর)",
+        "photographer": "Tanvir Ahmed",
+        "date": "October 2024",
+        "likes": 184,
+        "aspectRatio": "tall"
+      },
+      {
+        "id": "shadhur-chorpati-nakugaon-photo-2",
+        "url": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Quiet bamboo rafting through towering canyon cliffs at Shadhur Chorpati & Garo Pahar border trails (নালিতাবাড়ী ও নাকুগাঁও ল্যান্ড পোর্ট, শেরপুর)",
+        "photographer": "Sadia Islam",
+        "date": "November 2024",
+        "likes": 159,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "shadhur-chorpati-nakugaon-photo-3",
+        "url": "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Stargazing around the midnight summit campfire at Shadhur Chorpati & Garo Pahar border trails (নালিতাবাড়ী ও নাকুগাঁও ল্যান্ড পোর্ট, শেরপুর)",
+        "photographer": "Rahat Chowdhury",
+        "date": "January 2025",
+        "likes": 264,
+        "aspectRatio": "square"
+      },
+      {
+        "id": "shadhur-chorpati-nakugaon-photo-4",
+        "url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Rolling green peaks shrouded in fresh morning mist at Shadhur Chorpati & Garo Pahar border trails (নালিতাবাড়ী ও নাকুগাঁও ল্যান্ড পোর্ট, শেরপুর)",
+        "photographer": "Farhan Kabir",
+        "date": "December 2024",
+        "likes": 99,
+        "aspectRatio": "tall"
+      },
+      {
+        "id": "shadhur-chorpati-nakugaon-photo-5",
+        "url": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Golden hour twilight over the indigenous village trail at Shadhur Chorpati & Garo Pahar border trails (নালিতাবাড়ী ও নাকুগাঁও ল্যান্ড পোর্ট, শেরপুর)",
+        "photographer": "Anika Tabassum",
+        "date": "February 2025",
+        "likes": 183,
+        "aspectRatio": "wide"
+      }
     ]
   },
   {
@@ -6256,6 +8428,44 @@
           }
         ],
         "localTransit": "বিরিশিরি পয়েন্ট থেকে দুর্গাপুর বাজার অটোরিকশা (ভাড়া ৳২০–৳৩০/জন)।"
+      }
+    ],
+    "realPhotos": [
+      {
+        "id": "muktagacha-zamindar-palace-photo-1",
+        "url": "https://images.unsplash.com/photo-1599785209707-a456fc1337bb?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Intricate terracotta craftsmanship glowing under morning light at Muktagacha Zamindar Palace & Monda Heritage (মুক্তাগাছা রাজবাড়ি ও মণ্ডা ঐতিহ্য)",
+        "photographer": "Kazi Nazmul",
+        "date": "January 2025",
+        "likes": 188,
+        "aspectRatio": "tall"
+      },
+      {
+        "id": "muktagacha-zamindar-palace-photo-2",
+        "url": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Majestic ancient red brick arches and grand monastery courtyards at Muktagacha Zamindar Palace & Monda Heritage (মুক্তাগাছা রাজবাড়ি ও মণ্ডা ঐতিহ্য)",
+        "photographer": "Labiba Sultana",
+        "date": "November 2024",
+        "likes": 173,
+        "aspectRatio": "wide"
+      },
+      {
+        "id": "muktagacha-zamindar-palace-photo-3",
+        "url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Historic colonial palace facades standing timeless by the water at Muktagacha Zamindar Palace & Monda Heritage (মুক্তাগাছা রাজবাড়ি ও মণ্ডা ঐতিহ্য)",
+        "photographer": "Shahadat Hossain",
+        "date": "December 2024",
+        "likes": 173,
+        "aspectRatio": "square"
+      },
+      {
+        "id": "muktagacha-zamindar-palace-photo-4",
+        "url": "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1000&q=80",
+        "caption": "Symmetric ancient domes framed against deep blue skies at Muktagacha Zamindar Palace & Monda Heritage (মুক্তাগাছা রাজবাড়ি ও মণ্ডা ঐতিহ্য)",
+        "photographer": "Tamanna Haque",
+        "date": "October 2024",
+        "likes": 178,
+        "aspectRatio": "wide"
       }
     ]
   }
