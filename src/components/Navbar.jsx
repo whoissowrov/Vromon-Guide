@@ -12,7 +12,8 @@ import {
   Calendar, 
   Calculator, 
   ShieldAlert,
-  Search
+  Search,
+  Utensils
 } from 'lucide-react';
 
 const Navbar = () => {
@@ -30,6 +31,7 @@ const Navbar = () => {
   const navLinks = [
     { label: 'Destinations', href: '#destinations', icon: MapPin },
     { label: 'Local Transit (ভাড়া)', href: '#transit-stepper', icon: Navigation },
+    { label: 'Local Foods (খাবার)', href: '#food-guide', icon: Utensils },
     { label: 'Route Planner', href: '#route-planner', icon: Compass },
     { label: 'Itineraries', href: '#itineraries', icon: Calendar },
     { label: 'Budget Calculator', href: '#calculator', icon: Calculator },

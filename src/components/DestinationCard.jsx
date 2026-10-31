@@ -142,6 +142,12 @@ const DestinationCard = ({ spot }) => {
                 <span><strong>লোকাল রুট:</strong> {stepsCount} ধাপের ট্রানজিট ও ভাড়া হিসাব</span>
               </div>
             )}
+            {spot.localFoods && spot.localFoods[0] && (
+              <div className="flex items-center gap-2 text-rose-700 dark:text-rose-400 font-semibold truncate">
+                <Utensils className="w-3.5 h-3.5 shrink-0" />
+                <span className="truncate"><strong>খাবার:</strong> {spot.localFoods[0].name} ({spot.localFoods[0].priceRange || spot.localFoods[0].price?.split(';')[0]})</span>
+              </div>
+            )}
           </div>
 
           {/* Highlights preview tags */}

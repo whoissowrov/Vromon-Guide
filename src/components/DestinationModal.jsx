@@ -272,15 +272,30 @@ const DestinationModal = () => {
                     {spot.localFoods.map((food, i) => (
                       <div 
                         key={i} 
-                        className="p-4 rounded-2xl bg-slate-50 dark:bg-[#0E241B] border border-slate-200 dark:border-emerald-900/40 hover:border-emerald-500/50 transition-colors"
+                        className="p-4 rounded-2xl bg-slate-50 dark:bg-[#0E241B] border border-slate-200 dark:border-emerald-900/40 hover:border-emerald-500/50 transition-colors space-y-2"
                       >
-                        <div className="font-bold text-sm sm:text-base text-slate-900 dark:text-white flex items-center gap-2">
-                          <span className="w-2 h-2 rounded-full bg-rose-500" />
-                          {food.name}
+                        <div className="flex items-start justify-between gap-2">
+                          <div className="font-bold text-sm sm:text-base text-slate-900 dark:text-white flex items-center gap-2">
+                            <span className="w-2 h-2 rounded-full bg-rose-500 shrink-0" />
+                            <span>{food.name}</span>
+                          </div>
+                          {food.category && (
+                            <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-amber-100 dark:bg-amber-950/70 text-amber-900 dark:text-amber-300 whitespace-nowrap">
+                              {food.category}
+                            </span>
+                          )}
                         </div>
-                        <p className="text-xs text-slate-600 dark:text-slate-300 mt-1.5 leading-relaxed">
+                        
+                        <p className="text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
                           {food.desc}
                         </p>
+
+                        {food.price && (
+                          <div className="pt-2 border-t border-slate-200/60 dark:border-emerald-900/40 flex items-center gap-1.5 text-xs font-semibold text-emerald-700 dark:text-emerald-400">
+                            <Banknote className="w-3.5 h-3.5 text-amber-500 shrink-0" />
+                            <span><strong>আনুমানিক দাম:</strong> {food.price}</span>
+                          </div>
+                        )}
                       </div>
                     ))}
                   </div>

@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import DestinationsDirectory from './components/DestinationsDirectory';
 import TransitBreakdown from './components/TransitBreakdown';
+import LocalFoodGuide from './components/LocalFoodGuide';
 import RoutePlanner from './components/RoutePlanner';
 import ItinerariesSection from './components/ItinerariesSection';
 import BudgetCalculator from './components/BudgetCalculator';
@@ -47,6 +48,9 @@ function AppContent() {
           </div>
           <TransitBreakdown destinationKey={transitSpotKey} />
         </div>
+
+        {/* Traditional Local Food & Pricing Guide (৮টি বিভাগের আসল ও ঐতিহ্যবাহী খাবার) */}
+        <LocalFoodGuide />
 
         {/* Full City-to-City Route Planner */}
         <RoutePlanner />
