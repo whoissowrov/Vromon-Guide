@@ -1,16 +1,29 @@
-# React + Vite
+# Vromon-Guide
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+> 🇧🇩 A modern, responsive Bangladesh Travel & Route Planning web application built with React, Vite, and Tailwind CSS.
 
-Currently, two official plugins are available:
+## Features
+- **52 Curated Destinations across all 8 Divisions**: Sajek, Saint Martin's, Nilgiri, Tanguar Haor, Sundarbans, Kuakata, Bholaganj Sada Pathor, and more with verified real photography.
+- **Real Community Photos Gallery**: Masonry gallery with interactive Lightbox zoom and user photo contributions.
+- **Step-by-Step Transit Breakdown**: Authentic local vehicle routes (Chander Gari, Leguna, engine trawlers, CNG, rickshaws) with fair pricing and local bargaining tips.
+- **8-Division Local Food Specialty Guide**: Live Google Maps directions and famous heritage shop recommendations for regional delicacies.
+- **Hidden Gems & Offbeat Spots**: Quiet trails, crowd meters, and secluded escapes.
+- **Budget Calculator & Route Planner**: Interactive cost estimations and customized route planning.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
+- React 19 + Vite
+- Tailwind CSS
+- Lucide React Icons
 
-## React Compiler
+## Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+# Install dependencies
+npm install
 
-## Expanding the Oxlint configuration
+# Run development server
+npm run dev
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+# Build for production
+npm run build
+```

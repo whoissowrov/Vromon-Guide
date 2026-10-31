@@ -304,6 +304,7 @@ const CommunityPhotosModal = () => {
                           src={photo.url}
                           alt={photo.caption || spot.name}
                           loading="lazy"
+                          referrerPolicy="no-referrer"
                           className="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/25 to-transparent opacity-80 group-hover:opacity-95 transition-opacity" />
@@ -502,6 +503,7 @@ const CommunityPhotosModal = () => {
               <img
                 src={currentLightboxPhoto.url}
                 alt={currentLightboxPhoto.caption}
+                referrerPolicy="no-referrer"
                 style={{
                   transform: isZoomed ? `scale(${zoomScale})` : 'scale(1)',
                   transition: 'transform 0.3s ease'

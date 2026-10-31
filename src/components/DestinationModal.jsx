@@ -100,6 +100,7 @@ const DestinationModal = () => {
               src={spot.gallery ? spot.gallery[activeImageIndex] || spot.heroImage : spot.heroImage}
               alt={spot.name}
               className="w-full h-full object-cover transition-opacity duration-300"
+              referrerPolicy="no-referrer"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-[#0B1E16] via-[#0B1E16]/30 to-transparent" />
 
@@ -245,6 +246,7 @@ const DestinationModal = () => {
                           alt={ph.caption}
                           className="w-full h-full object-cover group-hover:scale-108 transition-transform duration-500"
                           loading="lazy"
+                          referrerPolicy="no-referrer"
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent opacity-80 group-hover:opacity-100 transition-opacity" />
                         <div className="absolute bottom-2 left-2 right-2 text-white">
