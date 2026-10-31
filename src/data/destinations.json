@@ -5,10 +5,13 @@
     "bengaliName": "সাজেক ভ্যালি",
     "division": "Chattogram",
     "district": "Rangamati",
+    "category": "Popular",
     "vibe": "Hills & Trekking",
-    "vibes": ["Hills & Trekking", "Forests & Wildlife"],
-    "rating": 4.9,
-    "reviewCount": 1420,
+    "tags": ["Hills", "Clouds", "Trekking", "Eco-Cottages"],
+    "rating": 4.95,
+    "reviewCount": 2450,
+    "crowdLevel": "High",
+    "crowdMeter": "High (জনপ্রিয় ও পর্যটকে মুখর)",
     "heroImage": "https://images.unsplash.com/photo-1628083835398-4c2f6d0f6667?auto=format&fit=crop&w=1200&q=80",
     "gallery": [
       "https://images.unsplash.com/photo-1628083835398-4c2f6d0f6667?auto=format&fit=crop&w=800&q=80",
@@ -16,183 +19,595 @@
       "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=800&q=80"
     ],
     "tagline": "The Queen of Hills – Floating above an ocean of clouds",
-    "description": "Nestled among the lush green rolling peaks of the Kasalang range in Rangamati, Sajek Valley is famed as the 'Cloud Kingdom' of Bangladesh. At 1,800 feet above sea level, you wake up enclosed in sea-like fluffy clouds right at your cottage balcony.",
-    "bestTimeToVisit": "September to February (Autumn & Winter for dense cloud sea; June to August for dramatic rain & lush greenery)",
+    "description": "Nestled among the lush green rolling peaks of the Kasalang range in Rangamati at 1,800 feet above sea level. Wake up enclosed in sea-like fluffy clouds right at your wooden cottage balcony in Ruilui Para.",
+    "bestSeason": "September to February (Autumn & Winter for dense cloud sea; June to August for dramatic rains)",
+    "bestTimeToVisit": "September to February (Autumn & Winter)",
     "idealDuration": "2 - 3 Days",
     "budget": {
-      "backpacker": "৳3,500 - ৳5,000",
-      "standard": "৳7,000 - ৳10,000",
-      "luxury": "৳14,000 - ৳22,000",
+      "backpacker": "৳৩,৫০০ - ৳৫,০০০",
+      "standard": "৳৭,০০০ - ৳১০,০০০",
+      "luxury": "৳১৪,০০০ - ৳২২,০০০",
       "currency": "BDT"
     },
-    "highlights": ["Konglak Peak Trek", "Helipad Cloud Watching", "Sajek Eco Cottages", "Army Escort Chander Gari Ride", "Hajachora Waterfall"],
-    "localFoods": [
+    "highlights": ["Konglak Peak Trek", "Helipad Cloud Watching", "Sajek Wooden Eco Cottages", "Army Escort Chander Gari Ride", "Hajachora Waterfall"],
+    "howToGoSteps": [
       {
-        "name": "Bamboo Chicken / Bamboo Biryani",
-        "desc": "Fresh indigenous chicken slow-cooked with mountain spices inside hollow bamboo stems over firewood."
+        "step": 1,
+        "from": "Dhaka",
+        "to": "Khagrachari Town",
+        "vehicleType": "bus",
+        "vehicleLabelEn": "Highway Bus",
+        "vehicleLabelBn": "দূরপাল্লার বাস",
+        "sharedFare": "৳৮৫০/জন (Non-AC)",
+        "reservedFare": "৳১,৫০০/জন (AC Sleeper)",
+        "duration": "৮ - ৯ ঘণ্টা",
+        "notes": "শান্তিজাহান, হানিফ, সেন্টমার্টিন বা ইনা। রাতে উঠলে ভোরে খাগড়াছড়ি শাপলা চত্বরে পৌঁছায়।"
       },
       {
-        "name": "Pahari Sweet Papaya & Pineapples",
-        "desc": "Organically harvested, intensely sweet local pineapples and papayas sold by local Lusai and Tripura farmers."
+        "step": 2,
+        "from": "Khagrachari Town",
+        "to": "Baghaihat Army Checkpoint",
+        "vehicleType": "chander-gari",
+        "vehicleLabelEn": "Open Chander Gari (4x4 Jeep)",
+        "vehicleLabelBn": "খোলা চাঁদের গাড়ি (জিপ)",
+        "sharedFare": "৳৩৫০ - ৳৪০০/জন (একপাশ)",
+        "reservedFare": "৳৮,০০০ - ৳৯,৫০০ (রিজার্ভ ২ দিন ১ রাত, ১২-১৪ জন)",
+        "duration": "১.৫ ঘণ্টা",
+        "notes": "জিপ সমিতি কাউন্টার থেকে সরকারি স্লিপ কেটে গাড়ি নেওয়া নিরাপদ।"
       },
       {
-        "name": "Indigenous Mountain Herbal Teas",
-        "desc": "Fragrant locally picked mountain herbal infusions served in rustic bamboo mugs."
+        "step": 3,
+        "from": "Baghaihat",
+        "to": "Sajek Ruilui Para",
+        "vehicleType": "chander-gari",
+        "vehicleLabelEn": "Army Escort Convoy",
+        "vehicleLabelBn": "সেনাবাহিনী এসকর্ট কনভয়",
+        "sharedFare": "গাড়ির ভাড়ার অন্তর্ভুক্ত",
+        "reservedFare": "গাড়ির ভাড়ার অন্তর্ভুক্ত",
+        "duration": "১.৫ ঘণ্টা",
+        "notes": "সেনাবাহিনীর নির্দিষ্ট এসকর্ট টাইম (সকাল ১০:০০ এবং দুপুর ২:৩০) মেনে চলতে হয়।"
       }
     ],
-    "safetyTips": [
-      "Travel between Dighinala and Sajek is strictly regulated under Bangladesh Army security convoy (Escort timings: 10:00 AM and 03:00 PM). Do not miss the escort window.",
-      "Bring cash! ATMs in Sajek are frequently offline. Teletalk and Robi provide the most reliable network coverage on the hills.",
-      "Respect indigenous Lusai, Chakma, and Tripura customs. Always ask permission before photographing local village residents.",
-      "Practice eco-tourism: carry back all plastic bottles and snack wrappers down to Khagrachari town."
+    "bargainingTips": [
+      "খাগড়াছড়ি জিপ সমিতি কাউন্টার থেকে সরাসরি স্লিপ কেটে চাঁদের গাড়ি নিন, মধ্যস্বত্বভোগী বা দালালদের এড়িয়ে চলুন।",
+      "ছুটির দিনগুলোতে সাজেকে কটেজ আগে থেকে বুকিং ছাড়া গেলে রাতে থাকার জায়গা পাওয়া অসম্ভব হয়ে পড়ে।"
     ],
-    "transportSummary": "Bus from Dhaka to Khagrachari (8-9 hrs), then reserved 4x4 open Chander Gari with military escort up the hills."
+    "safetyTips": [
+      "বাঘাইহাট ও মাচালং আর্মি চেকপোস্টে এনআইডি বা জন্ম সনদের কপি জমা দিয়ে এন্ট্রি করতে হয়।",
+      "পাহাড়ে পর্যাপ্ত ক্যাশ টাকা সাথে রাখুন, সাজেকে এটিএম বুথ নিয়মিত সচল থাকে না।"
+    ],
+    "localFoods": [
+      { "name": "Bamboo Chicken / বাঁশ মুরগি", "desc": "কাঁচা বাঁশের ভেতর পাহাড়ের দেশি মুরগি ও জুম মসলা দিয়ে কয়লার আগুনে পোড়ানো।" },
+      { "name": "Pahari Sweet Papaya & Pineapple", "desc": "লুসাই ও ত্রিপুরা চাষিদের অর্গানিক অত্যন্ত মিষ্টি পাহাড়িয়া আনারস ও পেঁপে।" }
+    ]
   },
   {
     "id": "saint-martins-island",
-    "name": "Saint Martin's Island & Chera Dwip",
-    "bengaliName": "সেন্ট মার্টিন্স দ্বীপ",
+    "name": "Saint Martin's Island",
+    "bengaliName": "সেন্টমার্টিন দ্বীপ ও ছেঁড়াদ্বীপ",
     "division": "Chattogram",
     "district": "Cox's Bazar",
+    "category": "Popular",
     "vibe": "Beaches & Islands",
-    "vibes": ["Beaches & Islands"],
-    "rating": 4.8,
-    "reviewCount": 1850,
+    "tags": ["Beaches", "Coral", "Water", "Seafood", "Island"],
+    "rating": 4.88,
+    "reviewCount": 3120,
+    "crowdLevel": "High",
+    "crowdMeter": "High (পিক সিজনে মুখর)",
     "heroImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
     "gallery": [
       "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80"
+      "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=800&q=80"
     ],
-    "tagline": "The only coral island of Bangladesh – Turquoise ocean and coconut groves",
-    "description": "Known locally as Narikel Jinjira (Coconut Island), this 8-sq-km jewel in the Bay of Bengal boasts crystal clear turquoise waters, living coral beds, swaying palm trees, and bioluminescent ocean waves under starry night skies.",
-    "bestTimeToVisit": "November to February (Sea cruise ships operate during these months; calm seas & sunny skies)",
+    "tagline": "The Only Coral Island of Bangladesh – Turquoise ocean and coconut groves",
+    "description": "Known as Narikel Jinjira, this coral paradise in the Bay of Bengal features crystalline waters, live coral colonies, fresh seafood BBQs, and pristine coconut palm beaches.",
+    "bestSeason": "November to February (Ship sailing season)",
+    "bestTimeToVisit": "November to February",
     "idealDuration": "3 - 4 Days",
     "budget": {
-      "backpacker": "৳4,500 - ৳6,500",
-      "standard": "৳8,500 - ৳14,000",
-      "luxury": "৳18,000 - ৳30,000",
+      "backpacker": "৳৪,৫০০ - ৳৬,৫০০",
+      "standard": "৳৮,৫০০ - ৳১৪,০০০",
+      "luxury": "৳১৮,০০০ - ৳৩০,০০০",
       "currency": "BDT"
     },
-    "highlights": ["Chera Dwip Coral Reef", "Sunset at West Beach", "Fresh Grilled Koral Fish & Lobster", "Stargazing over the Coral Shore", "Bicycle Island Tour"],
-    "localFoods": [
+    "highlights": ["Chera Dwip Coral Reef", "West Beach Sunset", "Fresh BBQ Coral & Red Snapper", "Stargazing over Coral Shore"],
+    "howToGoSteps": [
       {
-        "name": "BBQ Koral & Rupchanda Fish",
-        "desc": "Live sea fish bought right from the fisherman's boat and grilled over glowing charcoal coals with local mustard and lemon."
+        "step": 1,
+        "from": "Dhaka",
+        "to": "Teknaf Ghat / Inani",
+        "vehicleType": "bus",
+        "vehicleLabelEn": "AC Highway Coach",
+        "vehicleLabelBn": "সরাসরি জাহাজের বাস",
+        "sharedFare": "৳১,১০০ (Non-AC)",
+        "reservedFare": "৳২,২০০ - ৳২,৫০০ (AC Multi-axle)",
+        "duration": "১০ - ১১ ঘণ্টা",
+        "notes": "সরাসরি দমদমিয়া জাহাজ ঘাটে নামিয়ে দেয় সকাল ৭:০০ টায়।"
       },
       {
-        "name": "Fresh Sweet Green Coconut (Dab)",
-        "desc": "Giant, sweet coastal coconuts harvested straight from the island's famous towering palm groves."
+        "step": 2,
+        "from": "Teknaf / Inani Jetty",
+        "to": "Saint Martin Island Jetty",
+        "vehicleType": "boat",
+        "vehicleLabelEn": "Cruise Liner (কেয়ারি/বে ক্রুজার)",
+        "vehicleLabelBn": "সমুদ্রগামী বিলাসবহুল জাহাজ",
+        "sharedFare": "৳১,২০০ - ৳২,৫০০ (যাওয়া-আসা)",
+        "reservedFare": "৳২,৫০০ - ৳৪,০০০ (ইনানী/কক্সবাজার সরাসরি ক্রুজ)",
+        "duration": "২.৫ ঘণ্টা",
+        "notes": "জাহাজ টেকনাফ থেকে সকাল ৯:০০-৯:৩০ মিনিটে ছাড়ে এবং সেন্টমার্টিন থেকে বিকেল ৩:০০ টায় ফেরে।"
       },
       {
-        "name": "Dry Fish (Shutki) Bhorta & Crabs",
-        "desc": "Spicy pounded Loitta and Churi shutki with roasted red chilies and hot steamed rice."
+        "step": 3,
+        "from": "Saint Martin Jetty",
+        "to": "Resorts / West Beach",
+        "vehicleType": "auto",
+        "vehicleLabelEn": "Van / Tomtom Easybike",
+        "vehicleLabelBn": "ভ্যান / টমটম",
+        "sharedFare": "৳২০ - ৳৫০/জন",
+        "reservedFare": "৳১০০ - ৳১৫০ (রিজার্ভ ভ্যান)",
+        "duration": "১৫ মিনিট",
+        "notes": "জেটি থেকে রিসোর্টে যেতে রিকশা-ভ্যানে আগেই ভাড়া মিটিয়ে নেওয়া ভালো।"
       }
     ],
-    "safetyTips": [
-      "Do NOT collect or step on live coral formations at Chera Dwip. Bangladesh Department of Environment strictly bans coral extraction.",
-      "Check official maritime circulars for ship permits before planning. Sea crossings depend on calm maritime weather.",
-      "High tide currents can be strong on the eastern beaches; swim only in designated shallow zones during low tide.",
-      "Carry ample cash (bKash works in shops, but island ATM machines can be unreliable)."
+    "bargainingTips": [
+      "ছেঁড়াদ্বীপে ট্রলার বা স্পিডবোটে যাওয়ার সময় জনপ্রতি ৩৫০-৪০০ টাকার বেশি দেবেন না।",
+      "তাজা রূপচাঁদা বা কোরাল মাছ বারবিকিউ করার সময় মাছের ওজন নিজ চোখে স্কেলে মেপে নিন।"
     ],
-    "transportSummary": "Bus/Train to Cox's Bazar/Teknaf, followed by luxury sea ship (Keari Sindbad, Bay Cruiser) across the Bay of Bengal (2.5 hrs)."
+    "safetyTips": [
+      "ছেঁড়াদ্বীপে জীবন্ত প্রবাল পায়ে মাড়াবেন না এবং কোনো কোরাল কুড়িয়ে নেওয়া আইনত দণ্ডনীয়।",
+      "ভাটার সময় পূর্ব সৈকতে সাঁতার কাটার সময় প্রবল স্রোত সম্পর্কে সতর্ক থাকুন।"
+    ],
+    "localFoods": [
+      { "name": "Live Charcoal BBQ Koral & Rupchanda", "desc": "জেলেদের জাল থেকে নামানো তাজা কোরাল মাছ খাঁটি সরিষার তেলে ঝাল মসলায় কয়লায় পোড়ানো।" },
+      { "name": "Sweet Coastal Green Coconut (ডাব)", "desc": "সেন্টমার্টিনের শতবর্ষী নারিকেল বাগানের মিষ্টি ঠান্ডা ডাবের পানি।" }
+    ]
   },
   {
-    "id": "sreemangal-tea-capital",
-    "name": "Sreemangal & Lawachara",
-    "bengaliName": "শ্রীমঙ্গল ও লাউয়াছড়া",
-    "division": "Sylhet",
-    "district": "Moulvibazar",
-    "vibe": "Forests & Wildlife",
-    "vibes": ["Forests & Wildlife", "Hills & Trekking"],
-    "rating": 4.85,
-    "reviewCount": 1150,
-    "heroImage": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=80",
+    "id": "nilgiri-thanchi",
+    "name": "Nilgiri & Thanchi",
+    "bengaliName": "নীলগিরি ও থানচি",
+    "division": "Chattogram",
+    "district": "Bandarban",
+    "category": "Popular",
+    "vibe": "Hills & Trekking",
+    "tags": ["Hills", "Clouds", "Rivers", "Waterfalls"],
+    "rating": 4.9,
+    "reviewCount": 1820,
+    "crowdLevel": "Medium",
+    "crowdMeter": "Medium (পাহাড়ি রিসোর্ট)",
+    "heroImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1200&q=80",
     "gallery": [
-      "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1563822249548-9a72b6353cd1?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&w=800&q=80"
+      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=800&q=80"
     ],
-    "tagline": "The Tea Capital of Bangladesh – Endless emerald slopes & rainforest canopy",
-    "description": "Sreemangal is blanketed in over 40 sprawling rolling tea gardens, rubber estates, and pine orchards. Right next door lies Lawachara National Park, home to the endangered Western Hoolock Gibbon, elusive clouded leopards, and towering forest canopies.",
-    "bestTimeToVisit": "October to March (Pleasant weather for cycling through tea gardens); July-August for misty rains and vibrant lush leaves",
+    "tagline": "The Cloud Peak of Bandarban – 2,200 ft high view above Chimbuk range",
+    "description": "Perched at 2,200 feet atop the Chimbuk hill range operated under army hospitality. Endless layered blue mountain crests touch the clouds overlooking the snaking Sangu River.",
+    "bestSeason": "October to March (Winter cool breezes & dramatic clouds)",
+    "bestTimeToVisit": "October to March",
     "idealDuration": "2 - 3 Days",
     "budget": {
-      "backpacker": "৳3,000 - ৳4,500",
-      "standard": "৳6,500 - ৳10,000",
-      "luxury": "৳15,000 - ৳25,000",
+      "backpacker": "৳৪,০০০ - ৳৬,০০০",
+      "standard": "৳৮,০০০ - ৳১৩,০০০",
+      "luxury": "৳১৬,০০০ - ৳২৮,০০০",
       "currency": "BDT"
     },
-    "highlights": ["Rolling Tea Estates & Tasting", "Lawachara National Park Trek", "Nilkantha 7-Layer Rainbow Tea", "Madhabpur Lake Lotus Blossoms", "Monipuri Indigenous Handloom Weaving Village"],
-    "localFoods": [
+    "highlights": ["Nilgiri Viewpoint Helipad", "Chimbuk Hilltop", "Sangu River Canyon", "Shoilo Propat Waterfall"],
+    "howToGoSteps": [
       {
-        "name": "Seven-Layer Rainbow Tea (Nilkantha)",
-        "desc": "The globally famous layered glass tea featuring 7 distinct rainbow strata of green, black, condensed milk and ginger brews."
+        "step": 1,
+        "from": "Dhaka",
+        "to": "Bandarban Town",
+        "vehicleType": "bus",
+        "vehicleLabelEn": "Highway Bus",
+        "vehicleLabelBn": "দূরপাল্লার বাস",
+        "sharedFare": "৳৮৫০ (Non-AC)",
+        "reservedFare": "৳১,৮০০ (AC Sleeper)",
+        "duration": "৮ - ৯ ঘণ্টা",
+        "notes": "শ্যামলী, সেন্টমার্টিন বা হানিফ।"
       },
       {
-        "name": "Shatkora Beef (Sylheti Wild Citrus Beef)",
-        "desc": "Tender beef shank braised slowly with indigenous bitter-aromatic Shatkora citrus slices, an iconic Sylheti delicacy."
-      },
-      {
-        "name": "Sylheti Chunga Pitha & Fresh Clotted Cream",
-        "desc": "Aromatic sticky rice steamed inside sweet bamboo tubes served with fresh raw date jaggery and buffalo cream."
+        "step": 2,
+        "from": "Bandarban Town",
+        "to": "Chimbuk ➔ Nilgiri",
+        "vehicleType": "chander-gari",
+        "vehicleLabelEn": "Chander Gari (4x4)",
+        "vehicleLabelBn": "চাঁদের গাড়ি / পাহাড়ি জিপ",
+        "sharedFare": "৳১৫০/জন (লোকাল শেয়ারিং)",
+        "reservedFare": "৳৪,৫০০ - ৳৫,৫০০ (রিজার্ভ জিপ)",
+        "duration": "২ - ২.৫ ঘণ্টা",
+        "notes": "আঁকাবাঁকা চোখজুড়ানো পাহাড়ি রুট।"
       }
     ],
-    "safetyTips": [
-      "Inside Lawachara Rainforest, stay strictly on designated hiking trails. Beware of harmless forest leeches during rainy months (bring salt/tobacco powder).",
-      "Keep quiet while spotting wildlife; loud music is illegal inside the national park to protect the sensitive Hoolock Gibbons.",
-      "Rent a bicycle to explore the tea trails slowly and respectfully without disturbing tea plucking workers."
+    "bargainingTips": [
+      "বান্দরবান জিপ স্টেশন থেকে শৈলপ্রপাত, চিম্বুক ও নীলগিরি প্যাকেজ চুক্তির আগে কোন কোন স্পটে কতক্ষণ দাঁড়াবে নিশ্চিত করুন।"
     ],
-    "transportSummary": "Direct train from Dhaka (Parabat Express / Upaban Express, 4.5 hrs) or AC bus (Hanif / Shyamoli, 5 hrs)."
+    "safetyTips": [
+      "পাহাড়ি খাড়া রাস্তায় ড্রাইভার যেন ওভারস্পিড না করে সেদিকে নজর রাখুন।"
+    ],
+    "localFoods": [
+      { "name": "Bamboo Shoot & Hill Herbs", "desc": "তাজা পাহাড়ি বাঁশের কোড়ল ও জুম শাকের ভাজি।" }
+    ]
   },
   {
-    "id": "sundarbans-mangrove",
-    "name": "Sundarbans Mangrove Forest",
-    "bengaliName": "সুন্দরবন ম্যানগ্রোভ বন",
-    "division": "Khulna",
-    "district": "Bagerhat & Khulna",
-    "vibe": "Forests & Wildlife",
-    "vibes": ["Forests & Wildlife", "Riverine & Waterfalls"],
-    "rating": 4.95,
-    "reviewCount": 2100,
-    "heroImage": "https://images.unsplash.com/photo-1534177616072-ef7dc120449d?auto=format&fit=crop&w=1200&q=80",
+    "id": "marayan-thong",
+    "name": "Marayan Thong & Alikadam Caves",
+    "bengaliName": "মারায়াং তং ও আলীকদম গুহা",
+    "division": "Chattogram",
+    "district": "Bandarban",
+    "category": "Offbeat",
+    "vibe": "Hills & Trekking",
+    "tags": ["Hills", "Trekking", "Camping", "Offbeat", "Caves"],
+    "rating": 4.92,
+    "reviewCount": 890,
+    "crowdLevel": "Low",
+    "crowdMeter": "Low (শান্ত ও নির্জন পাহাড়ি চূড়া)",
+    "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
     "gallery": [
-      "https://images.unsplash.com/photo-1534177616072-ef7dc120449d?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80"
+      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80"
     ],
-    "tagline": "The World's Largest Coastal Mangrove & Realm of the Royal Bengal Tiger",
-    "description": "A UNESCO World Heritage site straddling the delta of the Ganges and Brahmaputra rivers. Cruising along its labyrinth of tidal waterways reveals spotted deer, saltwater crocodiles, Irrawaddy dolphins, colorful kingfishers, and the iconic Royal Bengal Tiger.",
-    "bestTimeToVisit": "November to February (Pleasant winter breezes, low humidity, prime wildlife viewing at mudflats)",
-    "idealDuration": "3 - 4 Days (Liveaboard Cruiser Ship)",
+    "tagline": "The Crown of Alikadam – 1,650 ft Summit Camping & Buddhist Bihar",
+    "description": "Standing tall above the Matamuhuri River basin in Alikadam. Known for summit tent camping, watching sea clouds at sunrise, and exploring the ancient mysterious Alikadam limestone caves.",
+    "bestSeason": "October to February (Pleasant winter camping)",
+    "bestTimeToVisit": "October to February",
+    "idealDuration": "2 Days / 1 Night Camping",
     "budget": {
-      "backpacker": "৳6,500 - ৳9,000",
-      "standard": "৳12,000 - ৳18,000",
-      "luxury": "৳22,000 - ৳40,000",
+      "backpacker": "৳৩,০০০ - ৳৪,৫০০",
+      "standard": "৳৬,০০০ - ৳৮,৫০০",
+      "luxury": "৳১০,০০০ - ৳১৫,০০০",
       "currency": "BDT"
     },
-    "highlights": ["Kotka Wildlife Sanctuary Watchtower", "Hiron Point Crocodile Canal", "Karamjal Wildlife Breeding Center", "Silent Morning Wooden Canoe Safari", "Sundarbans Wild Honey Harvesting Trail"],
-    "localFoods": [
+    "highlights": ["Summit Buddhist Bihar", "Matamuhuri River Vista", "Alikadam Dim Pahar Pass", "Cave Exploration"],
+    "howToGoSteps": [
       {
-        "name": "Chui Jhal Beef / Mutton (Khulna Style)",
-        "desc": "Fiery tender meat cooked with aromatic Piper chaba wood stems, garlic bulbs, and dark mustard gravy."
+        "step": 1,
+        "from": "Chakaria",
+        "to": "Alikadam",
+        "vehicleType": "chander-gari",
+        "vehicleLabelEn": "Moon car / Leguna",
+        "vehicleLabelBn": "চাঁদের গাড়ি / লেগুনা",
+        "sharedFare": "৳১০০ - ৳১২০/জন",
+        "reservedFare": "৳১,৮০০ - ৳২,২০০",
+        "duration": "১.৫ ঘণ্টা",
+        "notes": "চকোরিয়া বাস টার্মিনাল থেকে সরাসরি আলীকদমের গাড়ি ছাড়ে।"
       },
       {
-        "name": "Wild Sundarbans Khalsi Honey",
-        "desc": "Pure raw golden honey collected by brave forest honey hunters (Mawalis) from wild mangrove hives."
+        "step": 2,
+        "from": "Alikadam Bazaar",
+        "to": "Abashik Point Trailhead",
+        "vehicleType": "auto",
+        "vehicleLabelEn": "Local Tomtom",
+        "vehicleLabelBn": "লোকাল টমটম / অটো",
+        "sharedFare": "৳৩০ - ৳৪০/জন",
+        "reservedFare": "৳১৫০ - ৳২০০",
+        "duration": "১৫ মিনিট",
+        "notes": "মাতামুহুরী নদী পার হয়ে পাহাড়ের নিচের আবাসিক পাড়ায় নামিয়ে দেবে।"
       },
       {
-        "name": "Fresh Freshwater Golda & Bagda Prawns",
-        "desc": "Jumbo tiger prawns cooked in coconut cream and roasted cumin sauce."
+        "step": 3,
+        "from": "Abashik Point",
+        "to": "Marayan Thong Summit",
+        "vehicleType": "trek",
+        "vehicleLabelEn": "Steep Uphill Trek",
+        "vehicleLabelBn": "খাড়া পাহাড়ি ট্র্যাকিং",
+        "sharedFare": "৳০ (হাঁটা পথ)",
+        "reservedFare": "৳৮০০ - ৳১,০০০ (লোকাল গাইড)",
+        "duration": "২.৫ - ৩ ঘণ্টা",
+        "notes": "খাড়া পাহাড়ি পথ। সাথে পর্যাপ্ত খাবার পানি ও তাঁবু নিয়ে উঠতে হবে।"
       }
     ],
-    "safetyTips": [
-      "Cruises into the deep forest require armed Forest Department security guards who accompany your ship and walking safaris.",
-      "Never wander into the forest alone without official armed forest escorts under any circumstances.",
-      "Sundarbans is an ecologically sensitive sanctuary: single-use plastic disposal into rivers is heavily penalized.",
-      "Bring motion sickness pills if you are sensitive to tidal river swells."
+    "bargainingTips": [
+      "পাহাড়ের চূড়ায় কোনো পানির উৎস নেই, নিচের বাজার থেকেই প্রয়োজনীয় পানি ও শুকনো খাবার কিনে নিন।"
     ],
-    "transportSummary": "Train or AC bus to Khulna/Mongla port, followed by a multi-day liveaboard cruiser vessel navigating down to the Bay."
+    "safetyTips": [
+      "পাহাড়ের চূড়ায় বৌদ্ধ মন্দির রয়েছে, সেখানে ধর্মীয় ভাবগাম্ভীর্য বজায় রাখুন এবং গান বাজানো থেকে বিরত থাকুন।"
+    ],
+    "localFoods": [
+      { "name": "Alikadam Bazaar Porota & Deshi Chicken", "desc": "বাজারের গরম পরোটা ও পাহাড়ি দেশি মোরগের ঝোল।" }
+    ]
+  },
+  {
+    "id": "debotakhum-shilbadha",
+    "name": "Debotakhum & Shilbadha",
+    "bengaliName": "দেবতাখুম ও শীলবান্ধা",
+    "division": "Chattogram",
+    "district": "Bandarban",
+    "category": "Offbeat",
+    "vibe": "Riverine & Waterfalls",
+    "tags": ["Canyon", "Rafting", "Water", "Offbeat", "Trekking"],
+    "rating": 4.9,
+    "reviewCount": 740,
+    "crowdLevel": "Low",
+    "crowdMeter": "Low to Medium (প্রাকৃতিক গোপন ক্যানিয়ন)",
+    "heroImage": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80",
+    "gallery": ["https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=800&q=80"],
+    "tagline": "The Green Grotto – Floating on bamboo rafts between 200ft vertical rock walls",
+    "description": "Located in Roangchhari, this untouched deep canyon features emerald green waters encased by gigantic stone gorge walls navigated by quiet bamboo rafts.",
+    "bestSeason": "November to March (Crystal clear calm water)",
+    "bestTimeToVisit": "November to March",
+    "idealDuration": "1 Day trip from Bandarban",
+    "budget": {
+      "backpacker": "৳২,৫০০ - ৳৩,৫০০",
+      "standard": "৳৪,৫00 - ৳৬,৫০০",
+      "luxury": "৳৮,০০০ - ৳১২,০০০",
+      "currency": "BDT"
+    },
+    "highlights": ["Bamboo Rafting in Gorge", "Taracha River Walk", "Shilbadha Indigenous Village", "Limestone Canyon"],
+    "howToGoSteps": [
+      {
+        "step": 1,
+        "from": "Bandarban Town",
+        "to": "Rowangchhari",
+        "vehicleType": "bus",
+        "vehicleLabelEn": "Shared Local Bus / Chander Gari",
+        "vehicleLabelBn": "লোকাল বাস / চাঁদের গাড়ি",
+        "sharedFare": "৳৬০ - ৳৭০/জন",
+        "reservedFare": "৳১,৮০০ - ৳২,০০০",
+        "duration": "১ ঘণ্টা",
+        "notes": "রোয়াংছড়ি বাসস্ট্যান্ড থেকে সকাল থেকে প্রতি ঘণ্টায় ছাড়ে।"
+      },
+      {
+        "step": 2,
+        "from": "Rowangchhari",
+        "to": "Taracha River Ghat",
+        "vehicleType": "cng",
+        "vehicleLabelEn": "Local CNG",
+        "vehicleLabelBn": "লোকাল সিএনজি",
+        "sharedFare": "৳৫০/জন",
+        "reservedFare": "৳১৫০ - ৳২০০",
+        "duration": "২০ মিনিট",
+        "notes": "থানায় এন্ট্রি করে গাইড সঙ্গে নিতে হয়।"
+      },
+      {
+        "step": 3,
+        "from": "Liangshang Para",
+        "to": "Debotakhum Gorge",
+        "vehicleType": "boat",
+        "vehicleLabelEn": "Bamboo Raft & Life Jacket",
+        "vehicleLabelBn": "বাঁশের ভেলা ও লাইফ জ্যাকেট",
+        "sharedFare": "৳১৫০/জন",
+        "reservedFare": "গাইড ফি বাধ্যতামূলক ৳১,০০০ - ৳১,২০০",
+        "duration": "১ ঘণ্টা",
+        "notes": "লাইফ জ্যাকেট পরা বাধ্যতামূলক।"
+      }
+    ],
+    "bargainingTips": [
+      "রোয়াংছড়ি গাইড সমিতির নির্ধারিত ফি ৳১,০০০-৳১,২০০। কোনো দালালের মাধ্যমে অতিরিক্ত টাকা দেবেন না।"
+    ],
+    "safetyTips": [
+      "বর্ষাকালে ক্যানিয়নে ফ্ল্যাশ ফ্লাড (হঠাৎ পাহাড়ি ঢল) হতে পারে, শীত বা শরতে যাওয়াই নিরাপদ।"
+    ],
+    "localFoods": [
+      { "name": "Marma Hill Stream Fish", "desc": "পাহাড়ি ঝর্ণার ছোট মাছ কলাপাতায় পুড়িয়ে তৈরি পদ।" }
+    ]
+  },
+  {
+    "id": "guliakhali-beach",
+    "name": "Guliakhali Beach",
+    "bengaliName": "গুলিয়াখালী সৈকত",
+    "division": "Chattogram",
+    "district": "Chattogram",
+    "category": "Offbeat",
+    "vibe": "Beaches & Islands",
+    "tags": ["Beach", "Mangrove", "Grass", "Offbeat", "Water"],
+    "rating": 4.75,
+    "reviewCount": 920,
+    "crowdLevel": "Low",
+    "crowdMeter": "Low to Medium (প্রাকৃতিক সবুজ সৈকত)",
+    "heroImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+    "gallery": ["https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80"],
+    "tagline": "The Green Carpet Beach – Where lush green carpet meets tidal mangrove roots",
+    "description": "Located in Sitakunda, Guliakhali is unique with its rolling carpet of green grass interwoven with natural mangrove canals and ocean tides.",
+    "bestSeason": "October to March (Dry ground & green grass)",
+    "bestTimeToVisit": "October to March",
+    "idealDuration": "Day Trip from Chattogram",
+    "budget": {
+      "backpacker": "৳১,০০০ - ৳১,৫০০",
+      "standard": "৳২,৫০০ - ৳৩,৫০০",
+      "luxury": "৳৫,০০০ - ৳৭,০০০",
+      "currency": "BDT"
+    },
+    "highlights": ["Green Grass Mound Carpet", "Tidal Mangrove Canals", "Sitakunda Eco Park Trail", "Sunset over Bay of Bengal"],
+    "howToGoSteps": [
+      {
+        "step": 1,
+        "from": "Sitakunda Bazar",
+        "to": "Guliakhali Ghat",
+        "vehicleType": "cng",
+        "vehicleLabelEn": "Local CNG Auto",
+        "vehicleLabelBn": "সিএনজি অটোরিকশা",
+        "sharedFare": "৳৫০/জন",
+        "reservedFare": "৳২০০ - ৳২৫০ (যাওয়া-আসা রিজার্ভ)",
+        "duration": "২৫ মিনিট",
+        "notes": "ড্রাইভারকে ঘাটে অপেক্ষা করতে বলে রাখা সুবিধাজনক।"
+      }
+    ],
+    "bargainingTips": ["ফেরার সময় ঘাট থেকে সিএনজি পাওয়া যায় না, তাই যাওয়া-আসা মিলিয়ে একবারে রিজার্ভ করুন।"],
+    "safetyTips": ["জোয়ারের সময় ম্যানগ্রোভ খালের পানি দ্রুত বৃদ্ধি পায়, জোয়ারের সময়ের দিকে খেয়াল রাখুন।"],
+    "localFoods": [{ "name": "Sitakunda Coastal Dal-Bhaat", "desc": "সীতাকুণ্ড বাজারের তাজা শুঁটকি ও দেশি ডাল-ভাত।" }]
+  },
+  {
+    "id": "harinmara-chhagalnaiya",
+    "name": "Harinmara & Chhagalnaiya Hills",
+    "bengaliName": "হরিণমারা খাল ও শুভপুর বর্ডার",
+    "division": "Chattogram",
+    "district": "Feni",
+    "category": "Offbeat",
+    "vibe": "Hills & Trekking",
+    "tags": ["Border", "Canal", "Hills", "Offbeat", "Water"],
+    "rating": 4.65,
+    "reviewCount": 380,
+    "crowdLevel": "Very Low",
+    "crowdMeter": "Very Low (একেবারে নির্জন)",
+    "heroImage": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1200&q=80",
+    "gallery": ["https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=800&q=80"],
+    "tagline": "The Hidden Serene Canal & Shubhapur Hill Border of Feni",
+    "description": "A tranquil nature trail tucked along the Indo-Bangla hill boundary in Chhagalnaiya, surrounded by gentle tea-like hillocks and serene canal waters.",
+    "bestSeason": "October to February",
+    "bestTimeToVisit": "October to February",
+    "idealDuration": "Day Trip from Feni",
+    "budget": {
+      "backpacker": "৳৮০০ - ৳১,২০০",
+      "standard": "৳২,০০০ - ৳৩,০০০",
+      "luxury": "৳৪,০০০ - ৳৬,০০০",
+      "currency": "BDT"
+    },
+    "highlights": ["Harinmara Canal", "Shubhapur Suspension Bridge", "Chhagalnaiya Border Market", "Peaceful Green Tila"],
+    "howToGoSteps": [
+      {
+        "step": 1,
+        "from": "Feni Town",
+        "to": "Chhagalnaiya",
+        "vehicleType": "cng",
+        "vehicleLabelEn": "Shared Leguna / CNG",
+        "vehicleLabelBn": "লেগুনা / সিএনজি",
+        "sharedFare": "৳৪০/জন",
+        "reservedFare": "৳২০০",
+        "duration": "৩০ মিনিট",
+        "notes": "ফেনী মহিপাল থেকে নিয়মিত ছাড়ে।"
+      },
+      {
+        "step": 2,
+        "from": "Chhagalnaiya Bazar",
+        "to": "Harinmara Point",
+        "vehicleType": "auto",
+        "vehicleLabelEn": "Local Auto / Bike",
+        "vehicleLabelBn": "লোকাল অটো / বাইক",
+        "sharedFare": "৳৫০/জন",
+        "reservedFare": "৳১০০ - ৳১৫০",
+        "duration": "২০ মিনিট",
+        "notes": "সীমান্তবর্তী পথ ধরে সুন্দর নিরিবিলি রাইড।"
+      }
+    ],
+    "bargainingTips": ["লোকাল বাইকচালকদের সাথে আগেই বর্ডার পয়েন্ট পর্যন্ত রেট পাকা করুন।"],
+    "safetyTips": ["আন্তর্জাতিক সীমানার কাছাকাছি নিয়ম মেনে চলুন এবং নো-ম্যানস ল্যান্ডে প্রবেশ করবেন না।"],
+    "localFoods": [{ "name": "Feni Mohish Dahi & Khondal Sweets", "desc": "ফেনীর বিখ্যাত খাঁটি মহিষের দুধের দই।" }]
+  },
+  {
+    "id": "nafakhum-amiakhum",
+    "name": "Nafakhum, Remakri & Amiakhum",
+    "bengaliName": "নাফাখুম ও অমিয়াখুম",
+    "division": "Chattogram",
+    "district": "Bandarban",
+    "category": "Offbeat",
+    "vibe": "Riverine & Waterfalls",
+    "tags": ["Waterfalls", "Extreme", "Trekking", "River", "Offbeat"],
+    "rating": 4.95,
+    "reviewCount": 1150,
+    "crowdLevel": "Low",
+    "crowdMeter": "Low (দুর্গম অ্যাডভেঞ্চার ট্রেইল)",
+    "heroImage": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80",
+    "gallery": ["https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=800&q=80"],
+    "tagline": "The Niagara of Bengal – Roaring waterfalls deep inside the Sangu River canyon",
+    "description": "Regarded as the most breathtaking wilderness expedition in Bangladesh. Navigating through Thanchi, the rapids of Remakri, and trekking across giant rocky river beds to Nafakhum and deep into Amiakhum.",
+    "bestSeason": "September to November (Post-monsoon waterfalls are roaring and river is navigable)",
+    "bestTimeToVisit": "September to November",
+    "idealDuration": "3 - 4 Days",
+    "budget": {
+      "backpacker": "৳৫,০০০ - ৳৭,৫০০",
+      "standard": "৳৯,০০০ - ৳১৩,০০০",
+      "luxury": "৳১৫,০০০ - ৳২২,০০০",
+      "currency": "BDT"
+    },
+    "highlights": ["Nafakhum Roaring Cascade", "Amiakhum Extreme Gorge", "Remakri Sangu Rapids", "Indigenous Homestays"],
+    "howToGoSteps": [
+      {
+        "step": 1,
+        "from": "Bandarban",
+        "to": "Thanchi",
+        "vehicleType": "chander-gari",
+        "vehicleLabelEn": "Local Chander Gari",
+        "vehicleLabelBn": "চাঁদের গাড়ি / লোকাল বাস",
+        "sharedFare": "৳২০০ - ৳২৫০/জন",
+        "reservedFare": "৳৪,৫০০ - ৳৫,০০০",
+        "duration": "৪ ঘণ্টা",
+        "notes": "থানচি বিজিবি ক্যাম্পে নাম রেজিস্ট্রেশন করতে হয়।"
+      },
+      {
+        "step": 2,
+        "from": "Thanchi Ghat",
+        "to": "Remakri",
+        "vehicleType": "boat",
+        "vehicleLabelEn": "Engine Boat (সাঙ্গু নৌকা)",
+        "vehicleLabelBn": "ইঞ্জিন চালিত সাঙ্গু নৌকা",
+        "sharedFare": "শেয়ারিং পাওয়া যায় না",
+        "reservedFare": "৳৪,৫০০ - ৳৫,০০০ (সর্বোচ্চ ৫ জন)",
+        "duration": "২.৫ - ৩ ঘণ্টা",
+        "notes": "থানচি বোট সমিতি থেকে সরকারি অনুমোদিত মাঝি নিতে হবে।"
+      },
+      {
+        "step": 3,
+        "from": "Remakri",
+        "to": "Nafakhum",
+        "vehicleType": "trek",
+        "vehicleLabelEn": "Rocky River Trek with Guide",
+        "vehicleLabelBn": "পায়ে হাঁটা পাথুরে নদী ট্রেইল",
+        "sharedFare": "৳১,০০০ - ৳১,৫০০/দিন (বাধ্যতামূলক গাইড ফি)",
+        "reservedFare": "একই গাইড পুরো গ্রুপের জন্য",
+        "duration": "২ - ২.৫ ঘণ্টা ট্র্যাকিং",
+        "notes": "ভালো গ্রিপের ট্রেকিং বুট বা স্যান্ডেল জরুরি।"
+      }
+    ],
+    "bargainingTips": ["থানচি ঘাট থেকে সরাসরি মাঝির সাথে কথা বলুন, কোনো বাইরের দালালের খপ্পরে পড়বেন না।"],
+    "safetyTips": ["সাঙ্গু নদীতে লাইফ জ্যাকেট পরা বাধ্যতামূলক। রেমাক্রির গভীর পানিতে অতিরিক্ত ঝুঁকি নেবেন না।"],
+    "localFoods": [{ "name": "Remakri Bamboo Chicken & Hill Rice", "desc": "রেমাক্রি মারমা পাড়ায় রান্না করা বাঁশ মুরগি ও জুমের চালের ভাত।" }]
+  },
+
+  {
+    "id": "ratargul-swamp-forest",
+    "name": "Ratargul Swamp Forest",
+    "bengaliName": "রাতারগুল সোয়াম্প ফরেস্ট",
+    "division": "Sylhet",
+    "district": "Sylhet",
+    "category": "Popular",
+    "vibe": "Forests & Wildlife",
+    "tags": ["Forest", "Water", "Canoe", "Wildlife"],
+    "rating": 4.82,
+    "reviewCount": 1680,
+    "crowdLevel": "High",
+    "crowdMeter": "High (বর্ষায় বেশ জনপ্রিয়)",
+    "heroImage": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1200&q=80",
+    "gallery": ["https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=800&q=80"],
+    "tagline": "The Amazon of Bangladesh – Submerged evergreen canopy navigated by silent canoes",
+    "description": "One of the few freshwater swamp forests in South Asia, completely submerged under 20-30 feet of water during monsoon. Quiet wooden canoes glide between Koroch and Murta trees.",
+    "bestSeason": "July to October (Monsoon submerged period)",
+    "bestTimeToVisit": "July to October",
+    "idealDuration": "Half Day trip from Sylhet",
+    "budget": {
+      "backpacker": "৳১,৫০০ - ৳২,৫০০",
+      "standard": "৳৩,৫০০ - ৳৫,৫০০",
+      "luxury": "৳৭,০০০ - ৳১২,০০০",
+      "currency": "BDT"
+    },
+    "highlights": ["Silent Wooden Boat Safari", "Submerged Koroch Tree Canopies", "Forest Watchtower", "Kingfisher Spotting"],
+    "howToGoSteps": [
+      {
+        "step": 1,
+        "from": "Sylhet (Amberkhana)",
+        "to": "Motorghat / Chowringhee",
+        "vehicleType": "cng",
+        "vehicleLabelEn": "Local CNG",
+        "vehicleLabelBn": "সিএনজি অটোরিকশা",
+        "sharedFare": "৳৮০/জন",
+        "reservedFare": "৳৩০০ - ৳৪০০",
+        "duration": "৪৫ মিনিট",
+        "notes": "আম্বরখানা সিএনজি স্ট্যান্ড থেকে মোটরঘাট যায়।"
+      },
+      {
+        "step": 2,
+        "from": "Motorghat",
+        "to": "Swamp Forest Inside",
+        "vehicleType": "boat",
+        "vehicleLabelEn": "Forest Dept Approved Wooden Boat",
+        "vehicleLabelBn": "বন বিভাগ ডিঙি নৌকা",
+        "sharedFare": "৳২০০/জন",
+        "reservedFare": "৳৮৫০ - ৳১,০০০ (সরকারি রেট)",
+        "duration": "১.৫ ঘণ্টা",
+        "notes": "সরকারি কাউন্টার থেকে নির্ধারিত রেটে টিকিট কাটুন।"
+      }
+    ],
+    "bargainingTips": ["মোটরঘাটে সরকারি রেট চার্ট টাঙানো আছে, অতিরিক্ত টাকা দাবি করলে কাউন্টারে জানান।"],
+    "safetyTips": ["গাছের ডালে অজান্তে হাত দেবেন না, শান্তভাবে নৌকায় বসে ওয়াচটাওয়ার উপভোগ করুন।"],
+    "localFoods": [{ "name": "Sylheti Akhni Pulao", "desc": "সুগন্ধি কালিজিরা চাল ও খাসির মাংসের ঐতিহ্যবাহী আখনি পোলাও।" }]
   },
   {
     "id": "tanguar-haor",
@@ -200,191 +615,360 @@
     "bengaliName": "টাঙ্গুয়ার হাওর ও শিমুল বাগান",
     "division": "Sylhet",
     "district": "Sunamganj",
+    "category": "Popular",
     "vibe": "Riverine & Waterfalls",
-    "vibes": ["Riverine & Waterfalls"],
-    "rating": 4.9,
-    "reviewCount": 980,
+    "tags": ["Haor", "Water", "Houseboat", "Birds", "Nature"],
+    "rating": 4.94,
+    "reviewCount": 2100,
+    "crowdLevel": "High",
+    "crowdMeter": "High (বর্ষায় হাউসবোটে তুমুল জনপ্রিয়)",
     "heroImage": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1200&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80"
-    ],
+    "gallery": ["https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=800&q=80"],
     "tagline": "The Inland Sea of Bangladesh – Ramsar Wetland of migratory birds & luxury houseboats",
-    "description": "Spanning over 100 square kilometers beneath the foothills of the Meghalaya plateau in India, Tanguar Haor is a magical freshwater wetland. During monsoon, it turns into a vast inland sea navigated by traditional double-decker wooden luxury houseboats.",
-    "bestTimeToVisit": "Monsoon (July to September) for scenic full-water houseboat cruises; Winter (Dec to Feb) for 200+ migratory bird species",
+    "description": "Spanning over 100 sq km below the Meghalaya plateau. During monsoon, it turns into a vast inland sea navigated by traditional double-decker wooden luxury houseboats.",
+    "bestSeason": "July to September for full water houseboats; Dec to Feb for migratory birds",
+    "bestTimeToVisit": "July to September",
     "idealDuration": "2 - 3 Days",
     "budget": {
-      "backpacker": "৳4,000 - ৳6,000",
-      "standard": "৳8,000 - ৳13,000",
-      "luxury": "৳16,000 - ৳26,000",
+      "backpacker": "৳৪,০০০ - ৳৬,০০০",
+      "standard": "৳৮,০০০ - ৳১৩,০০০",
+      "luxury": "৳১৬,০০০ - ৳২৬,০০০",
       "currency": "BDT"
     },
-    "highlights": ["Overnight Luxury Houseboat Stay", "Watchtower Cloud Reflections", "Jadukata River Turquoise Waters", "Barek Tila Border Viewpoint", "Red Shimul Bagan (February bloom)"],
-    "localFoods": [
+    "highlights": ["Luxury Houseboat Stay", "Watchtower Cloud Reflections", "Jadukata River", "Barek Tila Meghalaya View", "Shimul Bagan"],
+    "howToGoSteps": [
       {
-        "name": "Fresh Haor Fish Platter (Bowal, Pabda, Batashi)",
-        "desc": "Freshly caught wild sweetwater haor fish lightly fried with turmeric, green chilies, and served with local rice."
+        "step": 1,
+        "from": "Sunamganj Town",
+        "to": "Tahirpur Ghat",
+        "vehicleType": "cng",
+        "vehicleLabelEn": "Bike / CNG",
+        "vehicleLabelBn": "সিএনজি / মোটর বাইক",
+        "sharedFare": "৳১০০ (সিএনজি) / ৳২০০ (বাইক)",
+        "reservedFare": "৳৬০০ (রিজার্ভ সিএনজি)",
+        "duration": "১ ঘণ্টা",
+        "notes": "সুরমা নদী পার হয়ে তাহিরপুর বাজারে যাওয়া যায়।"
       },
       {
-        "name": "Haor Duck Curry with Bhuna Khichuri",
-        "desc": "Rich braised free-range haor duck cooked in whole spices, paired with piping hot yellow lentil khichuri on rainy deck mornings."
-      },
-      {
-        "name": "Sunamganj Toker Doi (Traditional Sour Curd)",
-        "desc": "Pure cow milk curd prepared traditionally across rural haor settlements."
+        "step": 2,
+        "from": "Tahirpur Ghat",
+        "to": "Tanguar Haor / Watchtower",
+        "vehicleType": "boat",
+        "vehicleLabelEn": "Day Engine Boat / Houseboat",
+        "vehicleLabelBn": "ইঞ্জিন বোট / হাউসবোট",
+        "sharedFare": "৳৬,০০০ - ৳১০,০০০/জন (২ দিন ১ রাত হাউসবোট)",
+        "reservedFare": "৳৩,০০০ - ৳৫,০০০ (দিনব্যাপী সাধারণ ট্রলার রিজার্ভ)",
+        "duration": "দিনব্যাপী ভ্রমণ",
+        "notes": "তাহিরপুর ঘাটে সাধারণ ট্রলার রিজার্ভ পাওয়া যায়।"
       }
     ],
-    "safetyTips": [
-      "Always wear an approved life jacket when cruising on small engine boats or swimming in open haor waters.",
-      "Check weather warnings: sudden monsoon windstorms (known as 'Kalbaishakhi' or 'Baor') can create large river waves.",
-      "Tahirpur and border areas close to Meghalaya require travelers to carry national ID cards or valid passports."
-    ],
-    "transportSummary": "Bus from Dhaka to Sunamganj (6-7 hrs), then local CNG/bike to Tahirpur Ghat to board your reserved houseboat."
+    "bargainingTips": ["তাহিরপুর ঘাটে সাধারণ ট্রলার ভাড়া করার সময় মাঝির সাথে সরাসরি দরদাম করুন।"],
+    "safetyTips": ["হাওরে সাঁতার কাটতে নামলে অবশ্যই ভালো মানের লাইফ জ্যাকেট গায়ে রাখুন।"],
+    "localFoods": [{ "name": "Fresh Haor Bowal & Pabda Fry", "desc": "হাওরের তাজা বোয়াল, পাবদা ও বাতাসি মাছের গরম ভাজি।" }]
   },
   {
-    "id": "coxs-bazar-sea-beach",
-    "name": "Cox's Bazar Beach & Marine Drive",
-    "bengaliName": "কক্সবাজার সমুদ্র সৈকত",
-    "division": "Chattogram",
-    "district": "Cox's Bazar",
-    "vibe": "Beaches & Islands",
-    "vibes": ["Beaches & Islands"],
-    "rating": 4.75,
-    "reviewCount": 3500,
-    "heroImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=800&q=80"
-    ],
-    "tagline": "The World's Longest Natural Unbroken Sea Beach (120 km)",
-    "description": "Stretching for 120 continuous kilometers alongside the Bay of Bengal, Cox's Bazar is Bangladesh's premier coastal haven. Cruise along the breathtaking Marine Drive road, flanked by towering emerald hills on one side and surging ocean waves on the other.",
-    "bestTimeToVisit": "October to April (Crisp sunny days and golden sunsets; surf season in late summer)",
-    "idealDuration": "3 - 5 Days",
+    "id": "lawachara-sreemangal",
+    "name": "Lawachara & Sreemangal Tea Gardens",
+    "bengaliName": "লাউয়াছড়া ও শ্রীমঙ্গল চা বাগান",
+    "division": "Sylhet",
+    "district": "Moulvibazar",
+    "category": "Popular",
+    "vibe": "Forests & Wildlife",
+    "tags": ["Forest", "Tea", "Wildlife", "Cycling"],
+    "rating": 4.86,
+    "reviewCount": 1420,
+    "crowdLevel": "Medium",
+    "crowdMeter": "Medium (সবুজ ও শান্ত চা বাগান)",
+    "heroImage": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=80",
+    "gallery": ["https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=80"],
+    "tagline": "The Tea Capital of Bangladesh – Endless emerald slopes & rainforest canopy",
+    "description": "Blanketed in over 40 sprawling rolling tea gardens. Lawachara National Park is home to the endangered Western Hoolock Gibbon and giant rainforest trees.",
+    "bestSeason": "October to March (Pleasant weather for cycling)",
+    "bestTimeToVisit": "October to March",
+    "idealDuration": "2 - 3 Days",
     "budget": {
-      "backpacker": "৳3,500 - ৳5,500",
-      "standard": "৳8,000 - ৳14,000",
-      "luxury": "৳18,000 - ৳35,000",
+      "backpacker": "৳৩,০০০ - ৳৪,৫০০",
+      "standard": "৳৬,৫০০ - ৳১০,০০০",
+      "luxury": "৳১৫,০০০ - ৳২৫,০০০",
       "currency": "BDT"
     },
-    "highlights": ["Inani Coral Beach & Sea Snails", "80-km Marine Drive Open Jeep Drive", "Himchari Hilltop & Waterfall", "Laboni & Kolatoli Night Markets", "Surfing at Darianagar"],
-    "localFoods": [
+    "highlights": ["Rolling Tea Estates", "Lawachara Gibbon Trek", "Nilkantha 7-Layer Rainbow Tea", "Madhabpur Lake"],
+    "howToGoSteps": [
       {
-        "name": "Beachside Charcoal BBQ Red Snapper & Prawns",
-        "desc": "Fresh catch sizzled on live charcoal grills with spicy tamarind dip along Kolatoli beach strip."
-      },
-      {
-        "name": "Assorted Loitta Fry & Fish Bhorta Thali",
-        "desc": "Crispy golden fried Loitta fish paired with 10 varieties of spicy fish shutki bhortas and steaming hot rice."
-      },
-      {
-        "name": "Burmese Market Candies & Coconut Pancakes",
-        "desc": "Authentic tamarind candies, pickled fruits, and roasted cashew nuts from the Burmese market."
+        "step": 1,
+        "from": "Sreemangal Station",
+        "to": "Kamalganj / Lawachara Gate",
+        "vehicleType": "auto",
+        "vehicleLabelEn": "Local Auto Easybike",
+        "vehicleLabelBn": "লোকাল ইজিবাইক / অটোরিকশা",
+        "sharedFare": "৳২০ - ৳৩০/জন",
+        "reservedFare": "৳২৫০ - ৳৩৫০ (রিজার্ভ)",
+        "duration": "২০ মিনিট",
+        "notes": "শ্রীমঙ্গল ভানুগাছ রোড ধরে মনোমুগ্ধকর চা বাগানের ভেতর দিয়ে পথ।"
       }
     ],
-    "safetyTips": [
-      "Swim strictly within designated green-flag safety zones monitored by Sea Safe Lifeguards. Red flags indicate dangerous rip tides.",
-      "Beware of fast motorized quad bikes and beach buggies near crowded spots.",
-      "Keep the 24/7 Tourist Police helpline (+8801320-160120) saved in your phone; Tourist Police booths are stationed right on the sand."
-    ],
-    "transportSummary": "Direct high-speed train (Cox's Bazar Express / Paromita Express, 8 hrs from Dhaka), luxury sleeper buses, or direct 45-min domestic flight."
+    "bargainingTips": ["চা বাগান ঘোরার জন্য সারাদিনের সিএনজি ১৫০০-১৮০০ টাকায় রিজার্ভ করা যায়।"],
+    "safetyTips": ["লাউয়াছড়া বনে হাঁটার সময় জোঁকের থেকে রক্ষা পেতে লবণ বা ওডমস সাথে রাখুন।"],
+    "localFoods": [
+      { "name": "Nilkantha 7-Layer Rainbow Tea", "desc": "একই গ্লাসে সাতটি স্তরের বিখ্যাত রঙধনু চা।" },
+      { "name": "Sylheti Shatkora Beef", "desc": "বুনো সুগন্ধি সাতকড়া লেবুর টুকরা দিয়ে কষা গরুর মাংস।" }
+    ]
   },
   {
-    "id": "bandarban-nilgiri",
-    "name": "Bandarban & Nilgiri Hills",
-    "bengaliName": "বান্দরবান ও নীলগিরি",
-    "division": "Chattogram",
-    "district": "Bandarban",
-    "vibe": "Hills & Trekking",
-    "vibes": ["Hills & Trekking", "Riverine & Waterfalls"],
-    "rating": 4.9,
-    "reviewCount": 1600,
-    "heroImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1200&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80"
-    ],
-    "tagline": "The Roof of Bangladesh – Dramatic peaks, Keokradong & Boga Lake",
-    "description": "Bandarban is the epicenter of mountain adventure in Bangladesh. Home to the nation's highest peaks (Keokradong, Saka Haphong), pristine mysterious crater lakes like Boga Lake, roaring waterfalls like Nafakhum, and misty cloud resorts at Nilgiri (2,200 ft).",
-    "bestTimeToVisit": "October to March for cool weather trekking; June to August for full-force waterfalls (Nafakhum, Jadipai)",
-    "idealDuration": "3 - 5 Days",
+    "id": "bholaganj-sada-pathor",
+    "name": "Bholaganj Sada Pathor",
+    "bengaliName": "সাদা পাথর, কোম্পানিগঞ্জ",
+    "division": "Sylhet",
+    "district": "Sylhet",
+    "category": "Offbeat",
+    "vibe": "Riverine & Waterfalls",
+    "tags": ["Water", "River", "Stones", "Offbeat", "Border"],
+    "rating": 4.88,
+    "reviewCount": 1100,
+    "crowdLevel": "Medium",
+    "crowdMeter": "Medium (শনিবার-শুক্রবার বেশি ভিড়)",
+    "heroImage": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1200&q=80",
+    "gallery": ["https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=800&q=80"],
+    "tagline": "The White Stone Paradise – Icy Meghalaya streams cascading over millions of white pebbles",
+    "description": "Located right at the border of Companyganj where the Dholai river cascades down from Cherrapunji over massive beds of clean white limestone rocks.",
+    "bestSeason": "May to October (Full current & crystal water)",
+    "bestTimeToVisit": "May to October",
+    "idealDuration": "Day Trip from Sylhet",
     "budget": {
-      "backpacker": "৳4,000 - ৳6,000",
-      "standard": "৳8,000 - ৳13,000",
-      "luxury": "৳16,000 - ৳28,000",
+      "backpacker": "৳১,২০০ - ৳১,৮০০",
+      "standard": "৳২,৫০০ - ৳৪,০০০",
+      "luxury": "৳৬,০০০ - ৳৯,০০০",
       "currency": "BDT"
     },
-    "highlights": ["Nilgiri Army Hill Resort", "Boga Lake Volcanic Caldera", "Keokradong Summit Trek", "Chimbuk Hill Viewpoint", "Sangu River Boat Cruise through Canyons"],
-    "localFoods": [
+    "highlights": ["Dholai River Cold Water Bathing", "White Pebble Beds", "Meghalaya Waterfall Views", "Ropeway Cable Car Ruins"],
+    "howToGoSteps": [
       {
-        "name": "Pahari Bamboo Stem Shoot Curry",
-        "desc": "Delicate tender bamboo shoots cooked with organic hill herbs and mild mountain spices."
+        "step": 1,
+        "from": "Sylhet Town",
+        "to": "Bholaganj 10 No. Ghat",
+        "vehicleType": "bus",
+        "vehicleLabelEn": "BRTC AC Bus",
+        "vehicleLabelBn": "বিআরটিসি এসি বাস",
+        "sharedFare": "৳১৬০/জন",
+        "reservedFare": "৳২,০০০ (প্রাইভেট কার)",
+        "duration": "১ ঘণ্টা",
+        "notes": "আম্বরখানা ও মজুমদারী থেকে নিয়মিত বিআরটিসি এসি বাস ছাড়ে।"
       },
       {
-        "name": "Marma Style Steamed Fish in Banana Leaf",
-        "desc": "River fish marinated in crushed wild coriander, ginger, and garlic, wrapped in fresh banana leaves and steamed."
-      },
-      {
-        "name": "Indigenous Wild Red Sticky Rice",
-        "desc": "Nutty, naturally aromatic red mountain rice cultivated on terraced jhum hill slopes."
+        "step": 2,
+        "from": "Bholaganj Ghat",
+        "to": "Sada Pathor Zero Point",
+        "vehicleType": "boat",
+        "vehicleLabelEn": "Engine Trawler",
+        "vehicleLabelBn": "ইঞ্জিন চালিত ট্রলার",
+        "sharedFare": "৳১০০/জন (শেয়ারিং)",
+        "reservedFare": "৳৮০০ (রিজার্ভ সরকারি রেট, সর্বোচ্চ ৮ জন)",
+        "duration": "১৫ মিনিট",
+        "notes": "ঘাট কাউন্টারে সরকারি নির্ধারিত ফিতে টিকিট কেটে ট্রলারে উঠবেন।"
       }
     ],
-    "safetyTips": [
-      "Foreign nationals must obtain prior security clearance and register at military checkpoints with photocopies of passport & visa.",
-      "Trekking to Keokradong or Nafakhum requires hiring an officially licensed indigenous local guide registered with local authorities.",
-      "Wear sturdy trekking boots with good grip; mountain trails can be slippery during early morning dew and rain."
-    ],
-    "transportSummary": "Direct AC/Non-AC bus from Dhaka to Bandarban town (8-9 hrs), then reserved 4x4 open Chander Gari into deep hill tracks."
+    "bargainingTips": ["বোট ঘাটে সরকারি রেট ৳৮০০ (সর্বোচ্চ ৮ জন), অতিরিক্ত ফি নেওয়া নিষিদ্ধ।"],
+    "safetyTips": ["পাথরগুলো খুব পিচ্ছিল হতে পারে, সতর্ক হয়ে পা ফেলুন।"],
+    "localFoods": [{ "name": "Companyganj Roadside Paratha & Beef", "desc": "হাইওয়ের ধারের সুস্বাদু গরম পরোটা ও ভুনা মাংস।" }]
   },
   {
-    "id": "sompur-mahavihara",
-    "name": "Sompur Mahavihara (Paharpur)",
-    "bengaliName": "সোমপুর মহাবিহার (পাহাড়পুর)",
-    "division": "Rajshahi",
-    "district": "Naogaon",
-    "vibe": "Heritage & History",
-    "vibes": ["Heritage & History"],
+    "id": "lalakhal-sari-river",
+    "name": "Lalakhal & Sari River",
+    "bengaliName": "লালাখাল ও সারী নদী",
+    "division": "Sylhet",
+    "district": "Sylhet",
+    "category": "Offbeat",
+    "vibe": "Riverine & Waterfalls",
+    "tags": ["River", "Kayaking", "Water", "Offbeat", "Serene"],
     "rating": 4.8,
-    "reviewCount": 780,
-    "heroImage": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1563822249548-9a72b6353cd1?auto=format&fit=crop&w=800&q=80"
-    ],
-    "tagline": "UNESCO World Heritage – 8th Century Buddhist Monastic Citadel",
-    "description": "Constructed during the reign of Pala Emperor Dharmapala in the late 8th century, Sompur Mahavihara is one of the largest Buddhist monasteries south of the Himalayas. Its monumental central cruciform shrine influenced architecture across Southeast Asia and Pagan.",
-    "bestTimeToVisit": "October to March (Comfortable cool winter afternoons perfect for archaeological walking tours)",
-    "idealDuration": "1 - 2 Days",
+    "reviewCount": 670,
+    "crowdLevel": "Low",
+    "crowdMeter": "Low (শান্ত ও মনোরম ফিরোজা নদী)",
+    "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "gallery": ["https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80"],
+    "tagline": "The Emerald River – Turquoise waters and quiet kayaking near Jaintiapur",
+    "description": "Famed for its surreal natural emerald and turquoise-tinted mineral waters flowing down from the Jaintia hills. Ideal for kayaking, tea garden views, and peaceful boat rides.",
+    "bestSeason": "November to March (Water is brilliant turquoise blue)",
+    "bestTimeToVisit": "November to March",
+    "idealDuration": "Half Day Trip",
     "budget": {
-      "backpacker": "৳2,500 - ৳3,800",
-      "standard": "৳5,000 - ৳7,500",
-      "luxury": "৳10,000 - ৳16,000",
+      "backpacker": "৳১,২০০ - ৳১,৮০০",
+      "standard": "৳৩,০০০ - ৳৪,৫০০",
+      "luxury": "৳৭,০০০ - ৳১০,০০০",
       "currency": "BDT"
     },
-    "highlights": ["Terracotta Plaque Relief Carvings", "Ancient Monastic Cell Quadrangles", "On-site Archaeological Museum", "Pala Dynasty Architectural Wonder", "Nearby Kushumba Mosque (Black Basalt)"],
-    "localFoods": [
+    "highlights": ["Turquoise Water Kayaking", "Sari River Boat Cruise", "Lalakhal Tea Estate", "Zero Point Lookout"],
+    "howToGoSteps": [
       {
-        "name": "Bogura Traditional Sara Doi (Clay-pot Sweet Curd)",
-        "desc": "World-famous creamy caramel baked sweet yogurt made from thick simmered buffalo milk in porous earthen pots."
-      },
-      {
-        "name": "Paharpur Traditional Chitol Maachher Muitha",
-        "desc": "Spicy pounded fish dumplings stewed in rich onion and cardamom broth."
-      },
-      {
-        "name": "Rajshahi Lychees & Mangoes (Summer)",
-        "desc": "Fazli, Khirsapat, and Langra mangoes harvested straight from nearby Rajshahi orchards."
+        "step": 1,
+        "from": "Sarighat (Jaintiapur)",
+        "to": "Lalakhal Ghat",
+        "vehicleType": "boat",
+        "vehicleLabelEn": "Engine Boat / Kayak",
+        "vehicleLabelBn": "ইঞ্জিন বোট বা কায়াকিং",
+        "sharedFare": "কায়াকিং ৳২০০/ঘণ্টা",
+        "reservedFare": "ইঞ্জিন বোট ৳১,০০০ - ৳১,৫০০ (রিজার্ভ)",
+        "duration": "৪৫ মিনিট বোট রাইড",
+        "notes": "সিলেট কদমতলী বা টিলাগড় থেকে সারীঘাট লোকাল বাসে ভাড়া ৳৬০-৳৭০।"
       }
     ],
-    "safetyTips": [
-      "Do not climb or scratch the fragile ancient terracotta relief plaques. Preservation guards patrol the complex.",
-      "The site covers 27 acres; carry a sun hat, water bottle, and comfortable walking shoes.",
-      "Archaeological museum remains closed on government holidays and Sunday mornings."
+    "bargainingTips": ["সারীঘাটে বোট নেওয়ার সময় জিরো পয়েন্ট পর্যন্ত যাওয়া-আসা অন্তর্ভুক্ত কিনা কথা বলে নিন।"],
+    "safetyTips": ["কায়াকিং করার সময় লাইফ জ্যাকেট পরা বাধ্যতামূলক।"],
+    "localFoods": [{ "name": "Lalakhal Fresh River Fish Fry", "desc": "সারী নদীর তাজা ছোট মাছ ভাজি ও মসলা চা।" }]
+  },
+  {
+    "id": "hum-hum-waterfall",
+    "name": "Hum Hum Waterfall",
+    "bengaliName": "হামহাম জলপ্রপাত, রাজকান্দি ফরেস্ট",
+    "division": "Sylhet",
+    "district": "Moulvibazar",
+    "category": "Offbeat",
+    "vibe": "Riverine & Waterfalls",
+    "tags": ["Waterfall", "Extreme", "Trekking", "Rainforest", "Offbeat"],
+    "rating": 4.85,
+    "reviewCount": 590,
+    "crowdLevel": "Very Low",
+    "crowdMeter": "Very Low (দুর্গম গহীন জঙ্গল ট্রেইল)",
+    "heroImage": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80",
+    "gallery": ["https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=800&q=80"],
+    "tagline": "The Hidden Jungle Giant – A thundering 140-foot waterfall in Rajkandi Forest",
+    "description": "Deep inside the Rajkandi reserve forest in Kamalganj. An adventurous 4-hour trek through muddy streams, bamboo thickets, and deep ravines leads to this monumental waterfall.",
+    "bestSeason": "August to October (Full roaring water volume)",
+    "bestTimeToVisit": "August to October",
+    "idealDuration": "Full Day Extreme Trek",
+    "budget": {
+      "backpacker": "৳২,০০০ - ৳৩,০০০",
+      "standard": "৳৪,০০০ - ৳৬,০০০",
+      "luxury": "৳৮,০০০ - ৳১২,০০০",
+      "currency": "BDT"
+    },
+    "highlights": ["140-foot Waterfall Cascade", "Rajkandi Deep Jungle Trek", "Bamboo Canyon Walk", "Wildlife Calls"],
+    "howToGoSteps": [
+      {
+        "step": 1,
+        "from": "Sreemangal",
+        "to": "Kalabanpara Village",
+        "vehicleType": "chander-gari",
+        "vehicleLabelEn": "4WD Jeep / Mahindra",
+        "vehicleLabelBn": "৪-হুইল ড্রাইভ জিপ",
+        "sharedFare": "শেয়ারিং বিরল",
+        "reservedFare": "৳৩,০০০ - ৳৩,৫০০",
+        "duration": "১.৫ ঘণ্টা",
+        "notes": "কাঁচা কর্দমাক্ত মাটির পাহাড়ি রাস্তা।"
+      },
+      {
+        "step": 2,
+        "from": "Kalabanpara",
+        "to": "Hum Hum Waterfall",
+        "vehicleType": "trek",
+        "vehicleLabelEn": "Deep Forest Muddy Trek",
+        "vehicleLabelBn": "৪ ঘণ্টার কর্দমাক্ত গহীন জঙ্গল ট্র্যাকিং",
+        "sharedFare": "গাইড ফি ৳৮০০ (বাধ্যতামূলক)",
+        "reservedFare": "গাইড ফি ৳৮০০",
+        "duration": "৪ ঘণ্টা ট্র্যাকিং",
+        "notes": "কাঁচা বাঁশের লাঠি ও জোঁকের প্রতিষেধক ছাড়া প্রবেশ করবেন না।"
+      }
     ],
-    "transportSummary": "Direct train from Dhaka to Joypurhat or Shantahar Junction (5-6 hrs), then 25-min auto-rickshaw straight to the temple gates."
+    "bargainingTips": ["কলাবনপাড়া থেকেই স্থানীয় রেজিস্টার্ড আদিবাসী গাইড নিন, কোনো বহিরাগত গাইড নেওয়া ঝুঁকিপূর্ণ।"],
+    "safetyTips": ["জঙ্গলে প্রচুর পাহাড়ি জোঁক থাকে, হাফপ্যান্ট পরে ট্র্যাকিং করবেন না।"],
+    "localFoods": [{ "name": "Kalabanpara Village Meal", "desc": "আদিবাসী গ্রামে আগে থেকে অর্ডার করে রাখা পাহাড়ি দেশি মোরগ ও ভাত।" }]
+  },
+  {
+    "id": "turong-utma-chora",
+    "name": "Turong Chora & Utma Chora",
+    "bengaliName": "তুরং ও উতমা ছড়া",
+    "division": "Sylhet",
+    "district": "Sylhet",
+    "category": "Offbeat",
+    "vibe": "Riverine & Waterfalls",
+    "tags": ["Border", "Stream", "Water", "Offbeat", "Nature"],
+    "rating": 4.75,
+    "reviewCount": 420,
+    "crowdLevel": "Very Low",
+    "crowdMeter": "Very Low (একেবারে বর্ডার ট্রেইল)",
+    "heroImage": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1200&q=80",
+    "gallery": ["https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=800&q=80"],
+    "tagline": "The Secret Border Springs – Turquoise mountain streams along Companyganj boundary",
+    "description": "Untouched secluded freshwater streams running down the Meghalaya hill slopes right on the border of Companyganj. Perfect for those who seek zero crowd and pure nature.",
+    "bestSeason": "June to September",
+    "bestTimeToVisit": "June to September",
+    "idealDuration": "Day Trip from Sylhet",
+    "budget": {
+      "backpacker": "৳১,০০০ - ৳১,৫০০",
+      "standard": "৳২,৫০০ - ৳৩,৫০০",
+      "luxury": "৳৫,০০০ - ৳৭,০০০",
+      "currency": "BDT"
+    },
+    "highlights": ["Crystal Mountain Spring Water", "Untouched Forest Streams", "Border Stone Formations", "Quiet Sandbanks"],
+    "howToGoSteps": [
+      {
+        "step": 1,
+        "from": "Companyganj Bazar",
+        "to": "Utma / Turong Chora",
+        "vehicleType": "auto",
+        "vehicleLabelEn": "Local Motorbike Pilot",
+        "vehicleLabelBn": "স্থানীয় ভাড়ায় চালিত মোটরসাইকেল",
+        "sharedFare": "৳২০০/জন",
+        "reservedFare": "৳৪০০ (যাওয়া-আসা)",
+        "duration": "৪০ মিনিট",
+        "notes": "স্থানীয় অভিজ্ঞ বাইকচালকরা মাটির রাস্তা দিয়ে সহজে পৌঁছে দেয়।"
+      }
+    ],
+    "bargainingTips": ["বাইকচালকের সাথে অপেক্ষা করার সময় সহ ভাড়া আগে থেকেই পরিষ্কার করে নিন।"],
+    "safetyTips": ["সীমান্তের জিরো লাইন অতিক্রম করবেন না এবং সন্ধ্যার আগেই ফিরে আসুন।"],
+    "localFoods": [{ "name": "Companyganj Haor Fish Meal", "desc": "বাজারের তাজা টেংরা ও বাতাশী মাছের ঝোল।" }]
+  },
+
+  {
+    "id": "sundarbans-kotka",
+    "name": "Sundarbans (Kotka & Kochikhali)",
+    "bengaliName": "সুন্দরবন ও কটকা-কচিখালী",
+    "division": "Khulna",
+    "district": "Bagerhat & Khulna",
+    "category": "Popular",
+    "vibe": "Forests & Wildlife",
+    "tags": ["Mangrove", "Tiger", "Wildlife", "Cruise", "UNESCO"],
+    "rating": 4.96,
+    "reviewCount": 2680,
+    "crowdLevel": "Medium",
+    "crowdMeter": "Medium (লাইভঅ্যাবোর্ড জাহাজে ট্রাভেলার্স)",
+    "heroImage": "https://images.unsplash.com/photo-1534177616072-ef7dc120449d?auto=format&fit=crop&w=1200&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1534177616072-ef7dc120449d?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=800&q=80"
+    ],
+    "tagline": "The World's Largest Coastal Mangrove – Realm of the Royal Bengal Tiger",
+    "description": "UNESCO World Heritage mangrove delta. Multi-day liveaboard cruisers sail deep into Kotka wildlife sanctuary, Jamtola sea beach, and narrow silent creeks filled with spotted deer and tigers.",
+    "bestSeason": "November to February (Mild weather and prime wildlife viewing)",
+    "bestTimeToVisit": "November to February",
+    "idealDuration": "3 Days / 2 Nights Liveaboard",
+    "budget": {
+      "backpacker": "৳৬,৫০০ - ৳৯,০০০",
+      "standard": "৳১২,০০০ - ৳১৮,০০০",
+      "luxury": "৳২২,০০০ - ৳৪০,০০০",
+      "currency": "BDT"
+    },
+    "highlights": ["Kotka Wildlife Watchtower", "Jamtola Sea Beach Trail", "Silent Morning Dinghy Safari", "Tiger Pugmark Tracking", "Karamjal Breeding Center"],
+    "howToGoSteps": [
+      {
+        "step": 1,
+        "from": "Khulna / Mongla Port",
+        "to": "Deep Sundarbans (Kotka/Kochikhali)",
+        "vehicleType": "launch",
+        "vehicleLabelEn": "Liveaboard Cruiser Vessel",
+        "vehicleLabelBn": "৩ দিন ২ রাত ক্রুজ লঞ্চ প্যাকেজ",
+        "sharedFare": "৳৯,০০০ - ৳১৮,০০০/জন (মান অনুযায়ী)",
+        "reservedFare": "মংলা থেকে করমজল ডে-ট্যুর বোট ৳১,৫০০ - ৳২,৫০০",
+        "duration": "৩ দিন ২ রাত",
+        "notes": "প্যাকেজে কেবিন, খাবার, বন বিভাগ অনুমতি ও সশস্ত্র গার্ড অন্তর্ভুক্ত।"
+      }
+    ],
+    "bargainingTips": ["অনুমোদিত ট্যুর অপারেটরদের মাধ্যমে প্যাকেজ বুক করুন, যাতে আর্মড ফরেস্ট গার্ড অন্তর্ভুক্ত থাকে।"],
+    "safetyTips": ["বনে হাঁটার সময় সশস্ত্র ফরেস্ট গার্ডের দল ছাড়া একা বনের ভেতর যাবেন না।"],
+    "localFoods": [
+      { "name": "Chui Jhal Beef / Mutton", "desc": "চুইঝালের ডালপালা দিয়ে রান্না করা খাসির মাখামাখা মাংস।" },
+      { "name": "Pure Sundarbans Wild Honey", "desc": "মৌয়ালদের সংগৃহীত প্রাকৃতিক খাঁটি খলসী ফুলের মধু।" }
+    ]
   },
   {
     "id": "sixty-dome-mosque",
@@ -392,255 +976,1863 @@
     "bengaliName": "ষাট গম্বুজ মসজিদ",
     "division": "Khulna",
     "district": "Bagerhat",
+    "category": "Popular",
     "vibe": "Heritage & History",
-    "vibes": ["Heritage & History"],
-    "rating": 4.85,
-    "reviewCount": 860,
+    "tags": ["Heritage", "UNESCO", "Architecture", "History"],
+    "rating": 4.86,
+    "reviewCount": 1280,
+    "crowdLevel": "Medium",
+    "crowdMeter": "Medium (ঐতিহাসিক দর্শনীয় স্থান)",
     "heroImage": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=800&q=80"
-    ],
+    "gallery": ["https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=800&q=80"],
     "tagline": "15th-Century Medieval Brick Mosque City – UNESCO World Heritage",
-    "description": "Built in the mid-15th century by the saint-warrior Khan Jahan Ali, the Sixty Dome Mosque (Shat Gombuj Masjid) features 77 domes supported by 60 stone columns and 11 vaulted bays. Its Tughlaq-influenced brick architecture stands as a pinnacle of medieval Sultanate engineering.",
-    "bestTimeToVisit": "October to March (Crisp dry weather)",
+    "description": "Constructed in mid-15th century by saint-warrior Khan Jahan Ali. 77 terracotta domes supported by 60 stone columns stand as a pinnacle of medieval Sultanate architecture.",
+    "bestSeason": "October to March",
+    "bestTimeToVisit": "October to March",
     "idealDuration": "1 - 2 Days",
     "budget": {
-      "backpacker": "৳2,500 - ৳4,000",
-      "standard": "৳5,500 - ৳8,500",
-      "luxury": "৳11,000 - ৳18,000",
+      "backpacker": "৳২,৫০০ - ৳৩,৫০০",
+      "standard": "৳৫,০০০ - ৳৭,৫০০",
+      "luxury": "৳১০,০০০ - ৳১৬,০০০",
       "currency": "BDT"
     },
-    "highlights": ["77 Terracotta Domes & 60 Stone Pillars", "Khan Jahan Ali Tomb & Sacred Crocodile Pond", "Ghoradighi Giant Freshwater Reservoir", "Bagerhat Museum Collections"],
-    "localFoods": [
+    "highlights": ["77 Terracotta Domes", "Khan Jahan Ali Tomb Dighi", "Ghoradighi Ancient Reservoir", "Bagerhat Museum"],
+    "howToGoSteps": [
       {
-        "name": "Bagerhat Coconut Shell Curry & Chingri",
-        "desc": "Fresh sweet tiger prawns simmered in freshly squeezed coconut milk and mild green chilies."
+        "step": 1,
+        "from": "Khulna Town",
+        "to": "Bagerhat Sadar",
+        "vehicleType": "bus",
+        "vehicleLabelEn": "Interdistrict Local Bus",
+        "vehicleLabelBn": "লোকাল বাস",
+        "sharedFare": "৳৬০ - ৳৮০/জন",
+        "reservedFare": "৳৮০০ (সিএনজি রিজার্ভ)",
+        "duration": "৪৫ মিনিট",
+        "notes": "খুলনা রূপসা ব্রিজ বা বাসস্ট্যান্ড থেকে নিয়মিত ছাড়ে।"
       },
       {
-        "name": "Khulna Chui Jhal Mutton Bhuna",
-        "desc": "Rich dark braised mutton infused with piper chaba roots, meltingly tender and fragrant."
+        "step": 2,
+        "from": "Bagerhat Town",
+        "to": "Sixty Dome Mosque Complex",
+        "vehicleType": "auto",
+        "vehicleLabelEn": "Easybike / Auto",
+        "vehicleLabelBn": "ইজিবাইক / টমটম",
+        "sharedFare": "৳২০/জন",
+        "reservedFare": "৳১০০",
+        "duration": "১০ মিনিট",
+        "notes": "সরাসরি প্রত্নতাত্ত্বিক মসজিদের গেটে নামিয়ে দেয়।"
       }
     ],
-    "safetyTips": [
-      "This is an active place of prayer and veneration; dress modestly (shoulders and knees covered) and remove shoes before entering the prayer hall.",
-      "Feeding the sacred crocodiles at Khan Jahan Ali Dighi is regulated; maintain a safe distance from the water's edge."
-    ],
-    "transportSummary": "AC bus from Dhaka via the landmark Padma Bridge directly to Bagerhat (3.5 - 4 hrs)."
+    "bargainingTips": ["খান জাহান আলীর মাজার ও ষাট গম্বুজ একসঙ্গে দেখার জন্য ইজিবাইক ২৫০-৩০০ টাকায় রিজার্ভ করুন।"],
+    "safetyTips": ["মসজিদ প্রাঙ্গণে শালীন পোশাক পরিধান করুন এবং জুতো খুলে প্রবেশ করুন।"],
+    "localFoods": [{ "name": "Bagerhat Coconut Prawn Curry", "desc": "নারিকেলের দুধে রান্না করা বড় গলদা চিংড়ি।" }]
   },
   {
-    "id": "kuakata-daughter-of-ocean",
-    "name": "Kuakata – Sagar Kanya",
+    "id": "mandarbaria-dublar-char",
+    "name": "Mandarbaria & Dublar Char",
+    "bengaliName": "মান্দারবাড়িয়া সৈকত ও দুবলার চর",
+    "division": "Khulna",
+    "district": "Satkhira",
+    "category": "Offbeat",
+    "vibe": "Beaches & Islands",
+    "tags": ["Beach", "Mangrove", "Deer", "Offbeat", "Island"],
+    "rating": 4.88,
+    "reviewCount": 420,
+    "crowdLevel": "Very Low",
+    "crowdMeter": "Very Low (দুর্গম বন্য সৈকত)",
+    "heroImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+    "gallery": ["https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80"],
+    "tagline": "The Untouched Wild Beach of Sundarbans – Sand dunes where tigers and deer roam",
+    "description": "An isolated, wild virgin beach located at the south-western edge of Sundarbans overlooking the Bay of Bengal. Dublar Char is famous for fishermen's temporary dry fish villages and the historic Rash Mela.",
+    "bestSeason": "November to February",
+    "bestTimeToVisit": "November to February",
+    "idealDuration": "2 - 3 Days Trawler Expedition",
+    "budget": {
+      "backpacker": "৳৬,০০০ - ৳৮,০০০",
+      "standard": "৳১০,০০০ - ৳১৬,০০০",
+      "luxury": "৳১৮,০০০ - ৳২৮,০০০",
+      "currency": "BDT"
+    },
+    "highlights": ["Wild Mangrove Sand Dunes", "Tiger Footprints on Sand", "Dublar Char Dry Fish Life", "Bioluminescent Night Waves"],
+    "howToGoSteps": [
+      {
+        "step": 1,
+        "from": "Munshiganj / Shyamnagar Ghat",
+        "to": "Mandarbaria Sea Beach",
+        "vehicleType": "boat",
+        "vehicleLabelEn": "Special Reserved Engine Trawler",
+        "vehicleLabelBn": "বিশেষ ট্রলার রিজার্ভ",
+        "sharedFare": "শেয়ারিং পাওয়া যায় না",
+        "reservedFare": "৳১৫,০০০ - ৳২৫,০০০ (২ দিন ট্রলার রিজার্ভ)",
+        "duration": "৬ - ৭ ঘণ্টা নদীপথ",
+        "notes": "বন বিভাগের বিশেষ পাস ও বন্দুকধারী বনরক্ষী প্রয়োজন হয়।"
+      }
+    ],
+    "bargainingTips": ["মুন্সিগঞ্জ ঘাটের বিশ্বস্ত ট্রলার মালিকদের সাথে আগে থেকেই জ্বালানি ও গার্ড খরচসহ চুক্তি করুন।"],
+    "safetyTips": ["বন্যপ্রাণী ও বাঘের বিচরণক্ষেত্র বিধায় দলছুট হয়ে একা সৈকতে হাঁটবেন না।"],
+    "localFoods": [{ "name": "Coastal Sundarbans Crab & Bhetki", "desc": "তাজা সামুদ্রিক ভেটকি মাছ ও কাঁকড়ার কারি।" }]
+  },
+  {
+    "id": "bhatpara-nilkuthi",
+    "name": "Bhatpara Nilkuthi & Shahi Mosque",
+    "bengaliName": "ভাটপাড়া নীলকুঠি ও মুজীবনগর",
+    "division": "Khulna",
+    "district": "Meherpur",
+    "category": "Offbeat",
+    "vibe": "Heritage & History",
+    "tags": ["Heritage", "Colonial", "History", "Offbeat"],
+    "rating": 4.68,
+    "reviewCount": 310,
+    "crowdLevel": "Very Low",
+    "crowdMeter": "Very Low (শান্ত ঐতিহাসিক স্থাপত্য)",
+    "heroImage": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+    "gallery": ["https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=800&q=80"],
+    "tagline": "The British Colonial Indigo Factory & Historic Mujibnagar Memorial",
+    "description": "Bhatpara features the grand crumbling brick arches of an 18th-century British indigo plantation house along with the nearby Mujibnagar Liberation War memorial complex.",
+    "bestSeason": "October to March",
+    "bestTimeToVisit": "October to March",
+    "idealDuration": "Day Trip from Meherpur / Chuadanga",
+    "budget": {
+      "backpacker": "৳১,০০০ - ৳১,৫০০",
+      "standard": "৳২,৫০০ - ৳৩,৫০০",
+      "luxury": "৳৫,০০০ - ৳৮,০০০",
+      "currency": "BDT"
+    },
+    "highlights": ["Bhatpara Nilkuthi Arches", "Mujibnagar Memorial Complex", "Mango & Litchi Orchards", "Kajla River Walks"],
+    "howToGoSteps": [
+      {
+        "step": 1,
+        "from": "Chuadanga / Meherpur",
+        "to": "Bhatpara Nilkuthi",
+        "vehicleType": "bus",
+        "vehicleLabelEn": "Local Bus / Easybike",
+        "vehicleLabelBn": "লোকাল বাস ও ইজিবাইক",
+        "sharedFare": "৳৫০ (বাস) + ৳২০ (ইজিবাইক)",
+        "reservedFare": "৳৩০০ (ইজিবাইক রিজার্ভ)",
+        "duration": "৪০ মিনিট",
+        "notes": "মেহেরপুর বাসস্ট্যান্ড থেকে গাংনী হয়ে সহজে যাওয়া যায়।"
+      }
+    ],
+    "bargainingTips": ["মেহেরপুর থেকে মুজিবনগর ও নীলকুঠি একত্রে ঘোরার জন্য ইজিবাইক ৫০০-৬০০ টাকায় রিজার্ভ মেলে।"],
+    "safetyTips": ["পুরোনো নীলকুঠির ভগ্ন দেয়ালের ওপর ওঠা বিপজ্জনক হতে পারে।"],
+    "localFoods": [{ "name": "Meherpur Subash Mishti & Chamcham", "desc": "মেহেরপুরের বিখ্যাত খাঁটি ছানার মিষ্টি ও চমচম।" }]
+  },
+  {
+    "id": "mithapukur-sagardari",
+    "name": "Mithapukur Dighi & Sagardari",
+    "bengaliName": "মাইকেল মধুসূদন দত্ত বাড়ি, কেশবপুর",
+    "division": "Khulna",
+    "district": "Jashore",
+    "category": "Offbeat",
+    "vibe": "Heritage & History",
+    "tags": ["Heritage", "Literature", "River", "Offbeat"],
+    "rating": 4.75,
+    "reviewCount": 510,
+    "crowdLevel": "Low",
+    "crowdMeter": "Low (সাহিত্য ও প্রকৃতির মেলবন্ধন)",
+    "heroImage": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+    "gallery": ["https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=800&q=80"],
+    "tagline": "The Birthplace of Modern Bengali Poetry – Beside the Kobadak River",
+    "description": "The ancestral mansion of epic poet Michael Madhusudan Dutt on the serene banks of the Kopotakkho (Kobadak) River in Keshabpur, surrounded by ancient banyan trees and black-faced langurs.",
+    "bestSeason": "October to March",
+    "bestTimeToVisit": "October to March",
+    "idealDuration": "Day Trip from Jashore",
+    "budget": {
+      "backpacker": "৳১,০০০ - ৳১,৫০০",
+      "standard": "৳২,৫০০ - ৳৩,৫০০",
+      "luxury": "৳৫,০০০ - ৳৭,০০০",
+      "currency": "BDT"
+    },
+    "highlights": ["Madhusudan Memorial Museum", "Kobadak River Ghat", "Rare Black-faced Langurs", "Ancient Banyan Trees"],
+    "howToGoSteps": [
+      {
+        "step": 1,
+        "from": "Jessore Town",
+        "to": "Keshabpur",
+        "vehicleType": "bus",
+        "vehicleLabelEn": "Local Bus",
+        "vehicleLabelBn": "লোকাল বাস",
+        "sharedFare": "৳৫০/জন",
+        "reservedFare": "৳৪০০ (সিএনজি)",
+        "duration": "৪৫ মিনিট",
+        "notes": "যশোর মনিহার বাসস্ট্যান্ড থেকে নিয়মিত বাস ছাড়ে।"
+      },
+      {
+        "step": 2,
+        "from": "Keshabpur Bazar",
+        "to": "Sagardari Madhupalli",
+        "vehicleType": "auto",
+        "vehicleLabelEn": "Van / Easybike",
+        "vehicleLabelBn": "ভ্যান / ইজিবাইক",
+        "sharedFare": "৳২০ - ৳৩০/জন",
+        "reservedFare": "৳১৫০",
+        "duration": "২০ মিনিট",
+        "notes": "কপোতাক্ষ নদের পাড় দিয়ে মনোরম গ্রামীণ পথ।"
+      }
+    ],
+    "bargainingTips": ["কেশবপুর বাজারে বিরল প্রজাতির কালোমুখ হনুমান দেখতে লোকাল ভ্যানচালকের পরামর্শ নিন।"],
+    "safetyTips": ["কপোতাক্ষ নদে গোসলের সময় গভীর পাকে নামবেন না।"],
+    "localFoods": [{ "name": "Jashore Patali Gur & Narkel Naru", "desc": "যশোরের বিখ্যাত খাঁটি খেজুরের পাটালি গুড়।" }]
+  },
+  {
+    "id": "jhau-bon-burigoalini",
+    "name": "Jhau Bon & Dubolhati border trails",
+    "bengaliName": "ঝাউবন ও সুন্দরবন ইকো-ভিলেজ, বুড়িগোয়ালিনী",
+    "division": "Khulna",
+    "district": "Satkhira",
+    "category": "Offbeat",
+    "vibe": "Forests & Wildlife",
+    "tags": ["Mangrove", "Village", "Eco-Tourism", "Offbeat", "Water"],
+    "rating": 4.78,
+    "reviewCount": 390,
+    "crowdLevel": "Very Low",
+    "crowdMeter": "Very Low (গ্রামীণ শান্ত সুন্দরবন প্রান্ত)",
+    "heroImage": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&w=1200&q=80",
+    "gallery": ["https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&w=800&q=80"],
+    "tagline": "The Edge of Mangroves – Traditional mud houses and mudflat crab catchers",
+    "description": "Experience community-based mangrove tourism in Burigoalini, Satkhira. Watch honey gatherers (Mawalis) prepare boats, walk along peaceful river dykes, and explore coastal Casuarina (Jhau) groves.",
+    "bestSeason": "November to February",
+    "bestTimeToVisit": "November to February",
+    "idealDuration": "2 Days / 1 Night",
+    "budget": {
+      "backpacker": "৳২,০০০ - ৳৩,০০০",
+      "standard": "৳৪,০০০ - ৳৬,০০০",
+      "luxury": "৳৮,০০০ - ৳১২,০০০",
+      "currency": "BDT"
+    },
+    "highlights": ["Community Eco-Resort Cottages", "Canal Country Boat Rides", "Kholpetua River Sunset", "Crab Fattening Farms"],
+    "howToGoSteps": [
+      {
+        "step": 1,
+        "from": "Satkhira / Shyamnagar",
+        "to": "Burigoalini Ghat",
+        "vehicleType": "auto",
+        "vehicleLabelEn": "Local Bike / Easybike",
+        "vehicleLabelBn": "লোকাল বাইক ও ট্রলার",
+        "sharedFare": "৳৫০ (বাইক)",
+        "reservedFare": "৳৮০০ (ট্রলারে সুন্দরবন প্রান্তসীমা ঘুরে দেখা)",
+        "duration": "৪০ মিনিট",
+        "notes": "খোলপেটুয়া নদীর পাড়ে প্রাকৃতিক ইকো-ভিলেজ।"
+      }
+    ],
+    "bargainingTips": ["স্থানীয় জেলেদের নৌকায় খাল ভ্রমণের জন্য আড়াই-তিন ঘণ্টার চুক্তি করুন ৫০০-৭০০ টাকায়।"],
+    "safetyTips": ["সুন্দরবনের জলসীমায় প্রবেশের সময় বন বিভাগ পাস সঙ্গে রাখুন।"],
+    "localFoods": [{ "name": "Fresh Tiger Shrimp & Khalsi Honey", "desc": "সাতক্ষীরার বাগদা চিংড়ি ও তাজা বুনো মধু।" }]
+  },
+
+  {
+    "id": "kuakata-sea-beach",
+    "name": "Kuakata Sea Beach",
     "bengaliName": "কুয়াকাটা সমুদ্র সৈকত",
     "division": "Barishal",
     "district": "Patuakhali",
+    "category": "Popular",
     "vibe": "Beaches & Islands",
-    "vibes": ["Beaches & Islands", "Heritage & History"],
-    "rating": 4.7,
-    "reviewCount": 1320,
+    "tags": ["Beach", "Sunrise", "Sunset", "Rakhine", "Water"],
+    "rating": 4.8,
+    "reviewCount": 2150,
+    "crowdLevel": "High",
+    "crowdMeter": "High (সাগরকন্যা সৈকত)",
     "heroImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?auto=format&fit=crop&w=800&q=80"
-    ],
-    "tagline": "The Daughter of the Sea – Watch both Sunrise and Sunset from the same beach",
-    "description": "Kuakata is one of the rare beaches in the world where you can witness both the sunrise and sunset over the Bay of Bengal from the exact same shoreline. It also boasts historic Buddhist Wells, centuries-old Rakhine tribal villages, and the serene Gangamati mangrove canal.",
-    "bestTimeToVisit": "October to March (Clear skies for unhindered sunrise and sunset views)",
+    "gallery": ["https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80"],
+    "tagline": "The Daughter of the Sea – Watch both Sunrise & Sunset from the same beach",
+    "description": "Known as Sagar Kanya, Kuakata allows travelers to watch both sunrise and sunset unobstructed over the Bay of Bengal. Also home to ancient Buddhist Wells and historic Rakhine tribal villages.",
+    "bestSeason": "October to March",
+    "bestTimeToVisit": "October to March",
     "idealDuration": "2 - 3 Days",
     "budget": {
-      "backpacker": "৳3,000 - ৳4,500",
-      "standard": "৳6,500 - ৳10,000",
-      "luxury": "৳14,000 - ৳22,000",
+      "backpacker": "৳৩,০০০ - ৳৪,৫০০",
+      "standard": "৳৬,৫০০ - ৳১০,০০০",
+      "luxury": "৳১৪,০০০ - ৳২২,০০০",
       "currency": "BDT"
     },
-    "highlights": ["Sunrise & Sunset Dual View", "Red Crab Island (Lal Kakrar Dwip)", "Centuries-Old Rakhine Buddhist Temples", "Fatrar Bon Mangrove Reserve", "Fresh Fried Pomfret & Crab"],
-    "localFoods": [
+    "highlights": ["Sunrise & Sunset Dual View", "Red Crab Island (Lal Kakrar Char)", "Lebur Char Mangrove Point", "Rakhine Buddhist Temples"],
+    "howToGoSteps": [
       {
-        "name": "Fresh Fried Hilsha (Ilish Paturi)",
-        "desc": "Prime Barishali Hilsha marinated in mustard paste, wrapped in gourd leaves and pan-roasted."
+        "step": 1,
+        "from": "Barishal",
+        "to": "Kuakata Beach Zero Point",
+        "vehicleType": "bus",
+        "vehicleLabelEn": "Direct AC / Non-AC Bus",
+        "vehicleLabelBn": "সরাসরি বাস (পায়রা সেতু হয়ে)",
+        "sharedFare": "৳২৫০ - ৳৩৫০/জন",
+        "reservedFare": "৳২,৫০০ (প্রাইভেট ট্যাক্সি)",
+        "duration": "২.৫ - ৩ ঘণ্টা",
+        "notes": "পায়রা সেতু চালু হওয়ার পর ঢাকা বা বরিশাল থেকে ফেরিবিহীন দ্রুত যাত্রা।"
       },
       {
-        "name": "Rakhine Coconut Pancakes & Rice Noodles",
-        "desc": "Delicate traditional Rakhine breakfast cakes sweetened with pure palm syrup."
+        "step": 2,
+        "from": "Kuakata Zero Point",
+        "to": "Lebur Char & Red Crab Beach",
+        "vehicleType": "auto",
+        "vehicleLabelEn": "Motorbike Tour Pilot",
+        "vehicleLabelBn": "মোটরবাইক বিচ ট্যুর",
+        "sharedFare": "৳৫০০ - ৳৭০০ (আসা-যাওয়া সম্পূর্ণ প্যাকেজ)",
+        "reservedFare": "৳১,২০০ (২ জন যাত্রীসহ)",
+        "duration": "২ - ৩ ঘণ্টা স্পট ভ্রমণ",
+        "notes": "লেবুর চর, শুঁটকিপল্লী, ঝাউবন ও লাল কাঁকড়ার চর কভার করে।"
       }
     ],
-    "safetyTips": [
-      "When visiting Red Crab Beach, avoid chasing or stepping on the crab burrows to preserve the delicate habitat.",
-      "Motorbike tours along the beach are popular; always negotiate rates beforehand and wear a helmet."
-    ],
-    "transportSummary": "Direct AC bus from Dhaka via Padma Bridge and Payra Bridge (5.5 - 6 hrs), or luxury overnight Launch from Dhaka Sadarghat to Barishal."
+    "bargainingTips": ["মোটরবাইক ড্রাইভারদের সাথে কোন কোন স্পটে থামবে তা যাত্রার আগেই পাকা করুন।"],
+    "safetyTips": ["লাল কাঁকড়ার দ্বীপে হাঁটার সময় কাঁকড়ার গর্তগুলো সাবধানে এড়িয়ে চলুন।"],
+    "localFoods": [{ "name": "Fresh Fried Hilsha (Ilish Paturi)", "desc": "তাজা ইলিশের পাতুরি ও সরিষা ইলিশ।" }]
   },
   {
-    "id": "ratargul-swamp-forest",
-    "name": "Ratargul Freshwater Swamp Forest",
-    "bengaliName": "রাতারগুল সোয়াম্প ফরেস্ট",
-    "division": "Sylhet",
-    "district": "Sylhet",
-    "vibe": "Forests & Wildlife",
-    "vibes": ["Forests & Wildlife", "Riverine & Waterfalls"],
-    "rating": 4.8,
-    "reviewCount": 1100,
-    "heroImage": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1200&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&w=800&q=80"
-    ],
-    "tagline": "The Amazon of Bangladesh – Submerged evergreen canopy navigated by silent canoes",
-    "description": "One of the few freshwater swamp forests in South Asia, Ratargul becomes completely submerged under 20-30 feet of water during monsoon. Silent wooden canoes glide between the submerged Koroch and Murta trees under a dense green emerald canopy.",
-    "bestTimeToVisit": "July to October (Monsoon season when the forest is delightfully submerged in crystal waters)",
-    "idealDuration": "Day Trip from Sylhet (combine with Bisnakhandi/Jaflong)",
-    "budget": {
-      "backpacker": "৳1,500 - ৳2,500",
-      "standard": "৳3,500 - ৳5,500",
-      "luxury": "৳7,000 - ৳12,000",
-      "currency": "BDT"
-    },
-    "highlights": ["Silent Wooden Boat Safari", "Submerged Koroch Tree Canopies", "Forest Watchtower Panoramic View", "Birdwatching (Kingfishers & Herons)", "Water Lily Blooms"],
-    "localFoods": [
-      {
-        "name": "Sylheti Akhni Pulao",
-        "desc": "Fragrant Kalijira rice cooked in spiced beef or mutton broth with prunes and fried onions."
-      },
-      {
-        "name": "Lalakhal Spiced Tea",
-        "desc": "Fresh spiced tea served at river ghats after the boat safari."
-      }
-    ],
-    "safetyTips": [
-      "Wear life jackets at all times on the wooden boats; the submerged forest water can be deep and branches may snag.",
-      "Watch your hands and do not grab tree branches blindly, as small harmless tree snakes and spiders occasionally rest on foliage."
-    ],
-    "transportSummary": "Direct train/air to Sylhet city, then 1-hr CNG auto-rickshaw or private car to Ratargul boat ghat."
-  },
-  {
-    "id": "birishiri-ceramic-hills",
-    "name": "Birishiri Ceramic Hills & Shomeshwari",
-    "bengaliName": "বিরিশিরি ও চীনা মাটির পাহাড়",
-    "division": "Mymensingh",
-    "district": "Netrokona",
+    "id": "floating-guava-market",
+    "name": "Floating Guava Market (Bhimruli)",
+    "bengaliName": "ভাসমান পেয়ারা বাজার, ভিমরুলি",
+    "division": "Barishal",
+    "district": "Jhalakathi",
+    "category": "Popular",
     "vibe": "Riverine & Waterfalls",
-    "vibes": ["Riverine & Waterfalls", "Hills & Trekking"],
-    "rating": 4.75,
-    "reviewCount": 650,
-    "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=800&q=80"
-    ],
-    "tagline": "The Turquoise Blue Lagoon & White Ceramic Chalk Cliffs",
-    "description": "Located in Durgapur near the Meghalaya border, Birishiri is famous for its surreal turquoise-blue porcelain lake framed by white and pink clay hills. Crossing the crystal clear shallow gravel bed of the Shomeshwari River on wooden boats is an unforgettable experience.",
-    "bestTimeToVisit": "October to March (Dry weather when the lake water turns brilliant turquoise and roads are easily accessible)",
-    "idealDuration": "2 Days",
+    "tags": ["Market", "Canal", "Boat", "Village", "Fruit"],
+    "rating": 4.84,
+    "reviewCount": 1390,
+    "crowdLevel": "Medium",
+    "crowdMeter": "Medium (জুলাই-আগস্টে পেয়ারার মৌসুমে জমজমাট)",
+    "heroImage": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1200&q=80",
+    "gallery": ["https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=800&q=80"],
+    "tagline": "The Venice of Bengal – Centuries-old floating canal markets of sweet green guavas",
+    "description": "Hundreds of wooden canoes filled with crisp freshly picked green guavas assemble at the confluence of canals in Bhimruli and Atghar Kuriana.",
+    "bestSeason": "July to September (Guava harvest season)",
+    "bestTimeToVisit": "July to September",
+    "idealDuration": "Day Trip from Barishal",
     "budget": {
-      "backpacker": "৳2,500 - ৳3,800",
-      "standard": "৳5,000 - ৳7,500",
-      "luxury": "৳9,000 - ৳14,000",
+      "backpacker": "৳১,২০০ - ৳২,০০০",
+      "standard": "৳৩,০০০ - ৳৪,৫০০",
+      "luxury": "৳৬,০০০ - ৳৯,০০০",
       "currency": "BDT"
     },
-    "highlights": ["Ceramic Blue Water Lake", "Shomeshwari River Wooden Boat Ride", "Hajong & Garo Indigenous Cultural Academy", "Ranikhong Catholic Church on Hilltop", "Bijoypur Border Lookout"],
-    "localFoods": [
+    "highlights": ["Hundreds of Floating Guava Boats", "Canal Wooden Trawler Cruise", "Hog Plum (Amra) Orchards", "Bhimruli Wooden Bridge"],
+    "howToGoSteps": [
       {
-        "name": "Muktagacha Gopal Monda",
-        "desc": "Legendary sweetmeat from nearby Mymensingh, made using pure curdled chhana and raw sugar since 1824."
+        "step": 1,
+        "from": "Barishal (Rupatoli)",
+        "to": "Banaripara / Jhalakathi",
+        "vehicleType": "bus",
+        "vehicleLabelEn": "Local Bus",
+        "vehicleLabelBn": "লোকাল বাস",
+        "sharedFare": "৳৫০/জন",
+        "reservedFare": "৳৩০০ (সিএনজি)",
+        "duration": "৪০ মিনিট",
+        "notes": "রূপাতলী বাসস্ট্যান্ড থেকে নিয়মিত ছাড়ে।"
       },
       {
-        "name": "Shomeshwari River Baime & Air Fish Curry",
-        "desc": "Fresh sweet river fish cooked with mustard seed paste and dried red chilies."
+        "step": 2,
+        "from": "Banaripara Ghat",
+        "to": "Bhimruli Floating Market",
+        "vehicleType": "boat",
+        "vehicleLabelEn": "Trawler / Wooden Canoe",
+        "vehicleLabelBn": "ট্রলার বা ডিঙি নৌকা রিজার্ভ",
+        "sharedFare": "৳১৫০/জন (শেয়ারিং ট্রলার)",
+        "reservedFare": "৳৮০০ - ৳১,৫০০ (ডিঙি নৌকা রিজার্ভ)",
+        "duration": "২ - ৩ ঘণ্টা ক্যানেল ক্রুজ",
+        "notes": "ছোট ডিঙি নৌকায় খালের ভেতরে ঢুকলে অসাধারণ অভিজ্ঞতা হয়।"
       }
     ],
-    "safetyTips": [
-      "Swimming in the ceramic lake is prohibited because the chemical-rich chalk bed drops abruptly and water contains fine mineral sediments.",
-      "Roads from Netrokona can be dusty; carry a dust mask or bandana when riding local motorbikes or rickshaws."
-    ],
-    "transportSummary": "Bus or train from Dhaka to Netrokona / Jaria Jhanjail, then local CNG or rental motorbike across the river."
+    "bargainingTips": ["ডিঙি নৌকা ভাড়া করার সময় পেয়ারা বাগানগুলোর ভেতর নিয়ে যাওয়ার শর্ত রাখুন।"],
+    "safetyTips": ["খালের ওপর ঝুলন্ত নারিকেল গাছ ও বাঁশের সাঁকোর নিচে মাথা নিচু করে বসুন।"],
+    "localFoods": [{ "name": "Crunchy Kacha Peyara & Amra", "desc": "গাছপাকা তাজা মিষ্টি পেয়ারা ও মিষ্টি আমড়ার চাটনি।" }]
   },
   {
-    "id": "old-dhaka-heritage",
-    "name": "Historic Old Dhaka & Sonargaon",
-    "bengaliName": "পুরান ঢাকা ও সোনারগাঁও",
-    "division": "Dhaka",
-    "district": "Dhaka & Narayanganj",
-    "vibe": "Heritage & History",
-    "vibes": ["Heritage & History"],
-    "rating": 4.8,
-    "reviewCount": 2400,
-    "heroImage": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=800&q=80"
+    "id": "nijhum-dwip-manpura",
+    "name": "Nijhum Dwip & Manpura Island",
+    "bengaliName": "নিঝুম দ্বীপ ও মনপুরা, ভোলা/নোয়াখালী",
+    "division": "Barishal",
+    "district": "Bhola",
+    "category": "Offbeat",
+    "vibe": "Beaches & Islands",
+    "tags": ["Island", "Deer", "Launch", "Offbeat", "Mangrove"],
+    "rating": 4.88,
+    "reviewCount": 680,
+    "crowdLevel": "Very Low",
+    "crowdMeter": "Very Low (বিচ্ছিন্ন শান্ত দ্বীপ)",
+    "heroImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+    "gallery": ["https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80"],
+    "tagline": "The Silent Island – Sanctuary of 40,000 Spotted Deer and Meghna Estuary",
+    "description": "Quiet isolated islands in the southern delta where thousands of wild spotted deer feed peacefully along mangrove Keora forests, vast mudflats, and buffalo pastures.",
+    "bestSeason": "October to March (Calm winter river transit)",
+    "bestTimeToVisit": "October to March",
+    "idealDuration": "3 Days / 2 Nights",
+    "budget": {
+      "backpacker": "৳৩,৫০০ - ৳৫,০০০",
+      "standard": "৳৭,০০০ - ৳১০,০০০",
+      "luxury": "৳১২,০০০ - ৳১৮,০০০",
+      "currency": "BDT"
+    },
+    "highlights": ["Keora Forest Spotted Deer Herd", "Monpura 500m Wooden Pier", "Komolani Sea Beach", "Choakhali Canal Safari"],
+    "howToGoSteps": [
+      {
+        "step": 1,
+        "from": "Dhaka Sadarghat",
+        "to": "Manpura / Hatiya",
+        "vehicleType": "launch",
+        "vehicleLabelEn": "Overnight River Launch",
+        "vehicleLabelBn": "বিলাসবহুল রিভার লঞ্চ",
+        "sharedFare": "৳৩৫০ - ৳৫০০ (ডেক)",
+        "reservedFare": "৳১,২০০ (সিঙ্গেল কেবিন) / ৳২,২০০ (ডাবল কেবিন)",
+        "duration": "১০ - ১২ ঘণ্টা",
+        "notes": "বিকেল ৫:০০-৬:০০ টায় সদরঘাট থেকে ছাড়ে, ভোরে পৌঁছায়।"
+      },
+      {
+        "step": 2,
+        "from": "Manpura / Hatiya Ghat",
+        "to": "Deer Forest / Namar Bazar",
+        "vehicleType": "auto",
+        "vehicleLabelEn": "Motorbike / Trawler",
+        "vehicleLabelBn": "মোটরসাইকেল বা বোটে হরিণের চর",
+        "sharedFare": "৳১০০ - ৳১৫০/জন",
+        "reservedFare": "৳৬০০ - ৳৮০০ (সারাদিন বাইক)",
+        "duration": "১ ঘণ্টা",
+        "notes": "দ্বীপে বাইকই যাতায়াতের প্রধান ও সবচেয়ে দ্রুত বাহন।"
+      }
     ],
-    "tagline": "The 400-Year-Old Mughal Capital & Lost City of Panam",
-    "description": "Old Dhaka is a dizzying, enchanting sensory maze of historic Mughal mosques, 19th-century colonial mansions like Ahsan Manzil (The Pink Palace), the incomplete 1678 Lalbagh Fort, and Panam City—the abandoned ghostly 19th-century merchant street in ancient capital Sonargaon.",
-    "bestTimeToVisit": "October to March (Cooler pleasant walking temperatures; vibrant Shakrain Kite Festival in mid-January)",
+    "bargainingTips": ["লঞ্চের টিকিট পিক মৌসুমে আগে বুক করুন এবং দ্বীপে মোটরসাইকেল চালকদের সাথে সারাদিনের চুক্তি করুন।"],
+    "safetyTips": ["নদীতে ট্রলারে পারাপারের সময় জোয়ার-ভাটার সময় সম্পর্কে জেনে নিন।"],
+    "localFoods": [{ "name": "Mohish er Dudher Tok Doi", "desc": "ভোলার বিখ্যাত খাঁটি মহিষের দুধের টক দই।" }]
+  },
+  {
+    "id": "horinghata-forest",
+    "name": "Horinghata Forest & Beach",
+    "bengaliName": "হরিণঘাটা বন, পাথরঘাটা, বরগুনা",
+    "division": "Barishal",
+    "district": "Barguna",
+    "category": "Offbeat",
+    "vibe": "Forests & Wildlife",
+    "tags": ["Deer", "Forest", "Footbridge", "Offbeat", "Beach"],
+    "rating": 4.82,
+    "reviewCount": 440,
+    "crowdLevel": "Very Low",
+    "crowdMeter": "Very Low (সবুজ বন ও কাঠের ঝুলন্ত ব্রিজ)",
+    "heroImage": "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1200&q=80",
+    "gallery": ["https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=800&q=80"],
+    "tagline": "The Deer Sanctuary & Forest Suspension Footbridge of Patharghata",
+    "description": "A dense coastal mangrove forest where a long wooden walking footbridge runs through the canopy above tidal canals directly to the secluded sea beach.",
+    "bestSeason": "October to March",
+    "bestTimeToVisit": "October to March",
+    "idealDuration": "Day Trip from Barguna / Barishal",
+    "budget": {
+      "backpacker": "৳১,৫০০ - ৳২,৫০০",
+      "standard": "৳৩,৫০০ - ৳৫,০০০",
+      "luxury": "৳৭,০০০ - ৳১০,০০০",
+      "currency": "BDT"
+    },
+    "highlights": ["Canopy Wooden Footbridge", "Wild Spotted Deer Herds", "Horinghata Secluded Beach", "Watchtower Views"],
+    "howToGoSteps": [
+      {
+        "step": 1,
+        "from": "Barishal",
+        "to": "Patharghata",
+        "vehicleType": "bus",
+        "vehicleLabelEn": "Regional Bus",
+        "vehicleLabelBn": "বাস",
+        "sharedFare": "৳২০০ - ৳২৫০/জন",
+        "reservedFare": "৳১,৫০০ (সিএনজি)",
+        "duration": "৩ ঘণ্টা",
+        "notes": "রূপাতলী বাসস্ট্যান্ড থেকে নিয়মিত ছাড়ে।"
+      },
+      {
+        "step": 2,
+        "from": "Patharghata Bazar",
+        "to": "Horinghata Forest Gate",
+        "vehicleType": "auto",
+        "vehicleLabelEn": "Motorcycle / Auto",
+        "vehicleLabelBn": "মোটরসাইকেল / অটো",
+        "sharedFare": "৳৫০ - ৳৮০/জন",
+        "reservedFare": "৳২০০",
+        "duration": "২০ মিনিট",
+        "notes": "সরাসরি বনের মুখে কাঠের ব্রিজের কাছে নামিয়ে দেয়।"
+      }
+    ],
+    "bargainingTips": ["পাথরঘাটা বাজার থেকে অটো বা বাইক যাওয়া-আসা মিলিয়ে কথা বলে নেওয়া ভালো।"],
+    "safetyTips": ["কাঠের ফুটব্রিজ ভেজা থাকলে পা সাবধানে ফেলুন।"],
+    "localFoods": [{ "name": "Patharghata Fresh Hilsha & Crab", "desc": "বলেশ্বর নদীর মোহনার তাজা রূপালী ইলিশ ভাজি।" }]
+  },
+  {
+    "id": "sonar-char-fatrar-char",
+    "name": "Sonar Char & Fatrar Char",
+    "bengaliName": "সোনার চর ও ফাতরার চর, পটুয়াখালী",
+    "division": "Barishal",
+    "district": "Patuakhali",
+    "category": "Offbeat",
+    "vibe": "Beaches & Islands",
+    "tags": ["Beach", "Mangrove", "Wild", "Offbeat", "Water"],
+    "rating": 4.85,
+    "reviewCount": 350,
+    "crowdLevel": "Very Low",
+    "crowdMeter": "Very Low (চরম নির্জন সৈকত)",
+    "heroImage": "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?auto=format&fit=crop&w=1200&q=80",
+    "gallery": ["https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?auto=format&fit=crop&w=800&q=80"],
+    "tagline": "The Golden Sand Island – Untouched wild beach and coastal mangrove wilderness",
+    "description": "An ultra-secluded wild beach where gold-tinted sands meet the deep blue Bay. Completely free of commercial structures, populated only by sea eagles and red crabs.",
+    "bestSeason": "November to February",
+    "bestTimeToVisit": "November to February",
+    "idealDuration": "Day Boat Tour from Kuakata",
+    "budget": {
+      "backpacker": "৳২,৫০০ - ৳৩,৫০০",
+      "standard": "৳৫,০০০ - ৳৮,০০০",
+      "luxury": "৳১০,০০০ - ৳১৫,০০০",
+      "currency": "BDT"
+    },
+    "highlights": ["Virgin Golden Sand Dunes", "Red Crab Colonies", "Fatrar Char Mangrove Forest", "Total Seclusion"],
+    "howToGoSteps": [
+      {
+        "step": 1,
+        "from": "Kuakata or Galachipa",
+        "to": "Sonar Char Island",
+        "vehicleType": "boat",
+        "vehicleLabelEn": "Speedboat / Trawler Reserve",
+        "vehicleLabelBn": "স্পিডবোট / ট্রলার রিজার্ভ",
+        "sharedFare": "শেয়ারিং পাওয়া যায় না",
+        "reservedFare": "৳৪,০০০ - ৳৭,০০০ (পুরো বোট রিজার্ভ)",
+        "duration": "১.৫ - ২ ঘণ্টা সমুদ্রপথ",
+        "notes": "কুয়াকাটা স্পিডবোট ঘাট থেকে ভালো ট্রলার ঠিক করতে হয়।"
+      }
+    ],
+    "bargainingTips": ["কুয়াকাটা ঘাটে একাধিক মাঝির সাথে কথা বলে ট্রলার ভাড়া যাচাই করুন।"],
+    "safetyTips": ["সমুদ্র উত্তাল থাকলে ছোট ট্রলারে যাবেন না, আবহাওয়া সতর্কবার্তা দেখে নিন।"],
+    "localFoods": [{ "name": "Fresh Green Coconut & Dry Fish", "desc": "দ্বীপের তাজা ডাব ও স্থানীয় শুঁটকি ভর্তা।" }]
+  },
+  {
+    "id": "satla-shapla-bil",
+    "name": "Gowakhali Canal & Water Lily Village (Satla)",
+    "bengaliName": "সাতলা শাপলা বিল, উজিরপুর",
+    "division": "Barishal",
+    "district": "Barishal",
+    "category": "Offbeat",
+    "vibe": "Riverine & Waterfalls",
+    "tags": ["Water Lily", "Canal", "Village", "Boat", "Offbeat"],
+    "rating": 4.88,
+    "reviewCount": 780,
+    "crowdLevel": "Low",
+    "crowdMeter": "Low to Medium (ভোরে শাপলা ফোটার সময় অপরূপ)",
+    "heroImage": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1200&q=80",
+    "gallery": ["https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=800&q=80"],
+    "tagline": "The Red Water Lily Kingdom – Endless pink blooms covering rural canals at sunrise",
+    "description": "Known as the Water Lily Capital of Bangladesh. At dawn, thousands of acres of wetlands in Satla are painted in vivid crimson and pink as millions of red water lilies bloom.",
+    "bestSeason": "August to October (Full water lily bloom period)",
+    "bestTimeToVisit": "August to October (06:00 AM - 08:30 AM)",
+    "idealDuration": "Morning Trip from Barishal",
+    "budget": {
+      "backpacker": "৳১,০০০ - ৳১,৫০০",
+      "standard": "৳২,৫০০ - ৳৩,৫০০",
+      "luxury": "৳৫,০০০ - ৳৭,৫০০",
+      "currency": "BDT"
+    },
+    "highlights": ["Millions of Red Water Lilies", "Sunrise Wooden Canoe Ride", "Shapla Harvesting", "Village Wetland Life"],
+    "howToGoSteps": [
+      {
+        "step": 1,
+        "from": "Barishal (Nathullabad)",
+        "to": "Shikarpur ➔ Satla Bazar",
+        "vehicleType": "bus",
+        "vehicleLabelEn": "Local Bus",
+        "vehicleLabelBn": "বাস",
+        "sharedFare": "৳৭০ - ৳৮০/জন",
+        "reservedFare": "৳১,২০০ (সিএনজি রিজার্ভ)",
+        "duration": "১.৫ ঘণ্টা",
+        "notes": "ভোরে রওনা হতে হবে যাতে সকাল ৬:০০-৭:০০ টায় পৌঁছানো যায়।"
+      },
+      {
+        "step": 2,
+        "from": "Satla Bazar",
+        "to": "Shapla Bil Canal",
+        "vehicleType": "boat",
+        "vehicleLabelEn": "Small Wooden Canoe (ডিঙি নৌকা)",
+        "vehicleLabelBn": "শাপলা বিলের ছোট ডিঙি নৌকা",
+        "sharedFare": "৳১০০ - ৳১৫০/জন",
+        "reservedFare": "৳৫০০ - ৳৮০০ প্রতি ট্রিপ",
+        "duration": "১.৫ - ২ ঘণ্টা",
+        "notes": "ডিঙি নৌকায় করে শাপলার গালিচার ভেতর যাওয়া যায়।"
+      }
+    ],
+    "bargainingTips": ["মাঝির সাথে ২ ঘণ্টার জন্য চুক্তির টাকা ৫০০-৭০০ টাকার মধ্যে মিটিয়ে নিন।"],
+    "safetyTips": ["সকাল ৮:৩০ এর পর রোদের তাপে ফুলগুলো বন্ধ হয়ে যায়, তাই ভোরবেলা যাওয়াই মোক্ষম সময়।"],
+    "localFoods": [{ "name": "Fresh Shapla Bhaji & Pitha", "desc": "বিল থেকে তোলা তাজা শাপলার ডাটা ভাজি ও গ্রামীণ চালের পিঠা।" }]
+  },
+
+  {
+    "id": "somapura-mahavihara",
+    "name": "Somapura Mahavihara (Paharpur)",
+    "bengaliName": "সোমপুর মহাবিহার (পাহাড়পুর)",
+    "division": "Rajshahi",
+    "district": "Naogaon",
+    "category": "Popular",
+    "vibe": "Heritage & History",
+    "tags": ["UNESCO", "Heritage", "Archaeology", "Monastery"],
+    "rating": 4.88,
+    "reviewCount": 1120,
+    "crowdLevel": "Medium",
+    "crowdMeter": "Medium (ইউনেস্কো বিশ্ব ঐতিহ্য)",
+    "heroImage": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+    "gallery": ["https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=800&q=80"],
+    "tagline": "UNESCO World Heritage – 8th-Century Buddhist Monastic Citadel of the Pala Dynasty",
+    "description": "Constructed in the 8th century by Pala Emperor Dharmapala, Sompur Mahavihara is one of the largest Buddhist monasteries in the subcontinent with intricate terracotta plaques.",
+    "bestSeason": "October to March (Pleasant winter afternoons)",
+    "bestTimeToVisit": "October to March",
     "idealDuration": "1 - 2 Days",
     "budget": {
-      "backpacker": "৳1,500 - ৳2,500",
-      "standard": "৳3,500 - ৳6,000",
-      "luxury": "৳8,000 - ৳15,000",
+      "backpacker": "৳২,০০০ - ৳৩,০০০",
+      "standard": "৳৪,৫০০ - ৳৬,৫০০",
+      "luxury": "৳৯,০০০ - ৳১৪,০০০",
       "currency": "BDT"
     },
-    "highlights": ["Lalbagh Fort & Pari Bibi Tomb", "Ahsan Manzil (Pink Palace) on Buriganga River", "Panam Nagar Merchant Mansions", "Sadarghat River Port Wooden Boat Crossings", "Star Mosque (Tara Masjid) Chini-Tikri Mosaics"],
-    "localFoods": [
+    "highlights": ["Terracotta Plaque Relief Carvings", "Ancient Monastic Cell Quadrangles", "On-site Archaeological Museum"],
+    "howToGoSteps": [
       {
-        "name": "Authentic Old Dhaka Kacchi Biryani",
-        "desc": "Fragrant Chinigura rice layered with tender marinated mutton and saffron potatoes, served with Borhani yogurt drink (Hazi / Sultan's Dine)."
-      },
-      {
-        "name": "Bakarkhani & Malai Cha",
-        "desc": "Crispy traditional multi-layered dry biscuit bread paired with thick simmering clotted cream tea at Nazira Bazar."
-      },
-      {
-        "name": "Beauty Lassi & Special Faluda",
-        "desc": "Century-old refreshing sweet yogurt lassi whipped with pure lemon essence and topped with shaved ice."
+        "step": 1,
+        "from": "Joypurhat or Naogaon",
+        "to": "Paharpur Site Gate",
+        "vehicleType": "auto",
+        "vehicleLabelEn": "Auto / CNG",
+        "vehicleLabelBn": "অটো / সিএনজি",
+        "sharedFare": "৳৪০ - ৳৬০/জন",
+        "reservedFare": "৳৩০০ (সিএনজি রিজার্ভ)",
+        "duration": "২৫ - ৩০ মিনিট",
+        "notes": "জয়পুরহাট রেলস্টেশন থেকে সরাসরি পাহাড়পুরের অটো পাওয়া যায়।"
       }
     ],
-    "safetyTips": [
-      "Streets in Old Dhaka are extremely bustling; keep backpacks zipped and wallets in front pockets.",
-      "Explore on foot or take cycle rickshaws; large cars get stuck in the narrow historic lanes.",
-      "Stay hydrated and sample street food from renowned established legacy outlets."
-    ],
-    "transportSummary": "Dhaka Metro Rail (MRT Line 6) to Motijheel / Bangladesh Secretariat, then a short cycle-rickshaw ride into the historic quarters."
+    "bargainingTips": ["জয়পুরহাট স্টেশন থেকে সরাসরি অটোরিকশা রিজার্ভ করলে ২৫০-৩০০ টাকার বেশি দেবেন না।"],
+    "safetyTips": ["প্রাচীন টেরাকোটা দেয়ালে হাত দিয়ে ঘষাঘষি করবেন না।"],
+    "localFoods": [{ "name": "Bogura Clay-pot Sweet Curd (দই)", "desc": "বগুড়ার সুস্বাদু ঐতিহ্যবাহী খাঁটি সরা দই।" }]
   },
   {
-    "id": "kantajew-temple-dinajpur",
-    "name": "Kantajew Temple & Tajhat Palace",
-    "bengaliName": "কান্তজীউ মন্দির ও তাজহাট রাজবাড়ি",
-    "division": "Rangpur",
-    "district": "Dinajpur & Rangpur",
+    "id": "puthia-temple-complex",
+    "name": "Puthia Temple Complex",
+    "bengaliName": "পুঠিয়া রাজবাড়ি ও শিব মন্দির",
+    "division": "Rajshahi",
+    "district": "Rajshahi",
+    "category": "Popular",
     "vibe": "Heritage & History",
-    "vibes": ["Heritage & History"],
+    "tags": ["Heritage", "Temple", "Terracotta", "Palace"],
     "rating": 4.82,
-    "reviewCount": 590,
+    "reviewCount": 940,
+    "crowdLevel": "Medium",
+    "crowdMeter": "Medium (শান্ত প্রাচীন মন্দির কমপ্লেক্স)",
     "heroImage": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=800&q=80"
-    ],
-    "tagline": "The Masterpiece of Terracotta Artistry & Northern Royal Splendor",
-    "description": "Built in 1752 by Maharaja Pran Nath, the late medieval Kantajew Temple is one of the most magnificent Hindu monuments in the subcontinent. Every square inch of its brick exterior is adorned with intricate terracotta panels illustrating epic scenes from the Ramayana and Mahabharata.",
-    "bestTimeToVisit": "November to February (Mild northern winter, coincides with the historic annual Rash Mela in late autumn)",
-    "idealDuration": "2 Days",
+    "gallery": ["https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=800&q=80"],
+    "tagline": "The Largest Historic Terracotta Temple Cluster in Bangladesh",
+    "description": "A breathtaking collection of 19th-century terracotta Hindu temples and Indo-Saracenic royal palaces surrounding picturesque ponds (Dighis) in Puthia.",
+    "bestSeason": "October to March",
+    "bestTimeToVisit": "October to March",
+    "idealDuration": "Day Trip from Rajshahi",
     "budget": {
-      "backpacker": "৳2,500 - ৳3,800",
-      "standard": "৳5,000 - ৳7,500",
-      "luxury": "৳10,000 - ৳16,000",
+      "backpacker": "৳১,০০০ - ৳১,৫০০",
+      "standard": "৳২,৫০০ - ৳৩,৫০০",
+      "luxury": "৳৫,০০০ - ৳৮,০০০",
       "currency": "BDT"
     },
-    "highlights": ["Exquisite Ramayana Terracotta Reliefs", "Nava-Ratna (Nine-Spire) Temple Architecture", "Tajhat Palace Neoclassical Facade", "Ramsagar National Lake (Man-made Dighi)"],
-    "localFoods": [
+    "highlights": ["Bhubaneswar Shiva Temple", "Pancha Ratna Govinda Temple", "Puthia Royal Palace", "Shyama Sarovar Dighi"],
+    "howToGoSteps": [
       {
-        "name": "Dinajpur Kataribhog & Chini-gura Rice Specialties",
-        "desc": "Prized aromatic rice cooked into delicate sweet polao and kheer."
+        "step": 1,
+        "from": "Rajshahi Bus Stand",
+        "to": "Puthia Bus Stop",
+        "vehicleType": "bus",
+        "vehicleLabelEn": "Local Bus",
+        "vehicleLabelBn": "বাস",
+        "sharedFare": "৳৪০/জন",
+        "reservedFare": "৳৪০০ (সিএনজি)",
+        "duration": "৪০ মিনিট",
+        "notes": "রাজশাহী-নাটোর হাইওয়ের ওপরেই পুঠিয়া অবস্থিত।"
       },
       {
-        "name": "Dinajpur Lychees (Bedana & Bombay)",
-        "desc": "Renowned as the juiciest, sweetest lychees in South Asia (May-June harvest)."
+        "step": 2,
+        "from": "Puthia Stop",
+        "to": "Temple Complex",
+        "vehicleType": "auto",
+        "vehicleLabelEn": "Rickshaw / Walking",
+        "vehicleLabelBn": "রিকশা / হাঁটা পথ",
+        "sharedFare": "৳১০ - ৳২০/জন",
+        "reservedFare": "৳৫০ (রিকশা)",
+        "duration": "৫ মিনিট হাঁটা",
+        "notes": "মন্দিরগুলো একটি সুন্দর লেকের চারপাশে হাঁটা দূরত্বে অবস্থিত।"
       }
     ],
-    "safetyTips": [
-      "Remove footwear before walking onto the raised terracotta plinth.",
-      "Northern winter nights can be surprisingly chilly; pack light woolens and jackets during December and January."
+    "bargainingTips": ["পুঠিয়া বাজারেই ঐতিহ্যবাহী মিষ্টি পাওয়া যায়, মিষ্টির দাম যাচাই করে নিন।"],
+    "safetyTips": ["মন্দিরের ভেতরের টেরাকোটা কারুকাজ সাবধানে পর্যবেক্ষণ করুন।"],
+    "localFoods": [{ "name": "Rajshahi Kalojam & Mangoes", "desc": "রাজশাহীর মিষ্টি রসালো আম ও খাঁটি কালোজাম মিষ্টি।" }]
+  },
+  {
+    "id": "mahasthangarh",
+    "name": "Mahasthangarh",
+    "bengaliName": "মহাস্থানগড়, বগুড়া",
+    "division": "Rajshahi",
+    "district": "Bogura",
+    "category": "Popular",
+    "vibe": "Heritage & History",
+    "tags": ["Archaeology", "Ancient City", "History", "Heritage"],
+    "rating": 4.8,
+    "reviewCount": 1640,
+    "crowdLevel": "High",
+    "crowdMeter": "High (প্রাচীনতম দুর্গনগরী)",
+    "heroImage": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+    "gallery": ["https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=800&q=80"],
+    "tagline": "The 3rd-Century BCE Ancient Citadel of Pundranagara",
+    "description": "One of the earliest urban archaeological sites discovered in Bangladesh, dating back to at least the 3rd century BCE beside the Karatoya River.",
+    "bestSeason": "October to March",
+    "bestTimeToVisit": "October to March",
+    "idealDuration": "Day Trip from Bogura",
+    "budget": {
+      "backpacker": "৳১,০০০ - ৳১,৫০০",
+      "standard": "৳২,৫০০ - ৳৩,৫০০",
+      "luxury": "৳৫,০০০ - ৳৮,০০০",
+      "currency": "BDT"
+    },
+    "highlights": ["Ancient Fortified Ramparts", "Bairagir Bhita & Govinda Bhita", "Mahasthangarh Museum", "Vasu Vihara Monasteries"],
+    "howToGoSteps": [
+      {
+        "step": 1,
+        "from": "Bogura Town (Charmatha)",
+        "to": "Mahasthangarh Gate",
+        "vehicleType": "cng",
+        "vehicleLabelEn": "Shared CNG Auto",
+        "vehicleLabelBn": "শেয়ার্ড সিএনজি",
+        "sharedFare": "৳৩০ - ৳৪০/জন",
+        "reservedFare": "৳২০০",
+        "duration": "২০ মিনিট",
+        "notes": "বগুড়া চারমাথা থেকে প্রতি মিনিটে সিএনজি ছাড়ে।"
+      }
     ],
-    "transportSummary": "Direct train from Dhaka (Ekota Express / Drutojan Express, 7 hrs) or domestic flight to Saidpur Airport (50 mins) + 30-min car ride."
+    "bargainingTips": ["মহাস্থানগড়ের গেট থেকে ভাস্তু বিহার পর্যন্ত অটোরিকশা ১০০-১৫০ টাকায় ঘুরে আসা যায়।"],
+    "safetyTips": ["গ্রীষ্মের দুপুরে প্রচুর রোদ থাকে, সাথে ছাতা ও পানির বোতল রাখুন।"],
+    "localFoods": [{ "name": "Bogura Shahi Doi & Kotkoti", "desc": "মহাস্থানগড়ের স্পেশাল মশলাদার মচমচে কটকটি।" }]
+  },
+  {
+    "id": "kusumba-mosque-dubalhati",
+    "name": "Kusumba Mosque & Dubalhati Rajbari",
+    "bengaliName": "কুসুম্বা মসজিদ ও দুবলহাটি, নওগাঁ",
+    "division": "Rajshahi",
+    "district": "Naogaon",
+    "category": "Offbeat",
+    "vibe": "Heritage & History",
+    "tags": ["Black Basalt", "Mosque", "Palace", "Offbeat", "Heritage"],
+    "rating": 4.84,
+    "reviewCount": 490,
+    "crowdLevel": "Low",
+    "crowdMeter": "Low (কালো পাথরের অসাধারণ স্থাপত্য)",
+    "heroImage": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+    "gallery": ["https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=800&q=80"],
+    "tagline": "The Black Gem of Sultanate Architecture – Built of solid carved black basalt stone",
+    "description": "Constructed in 1558 CE during the Suri dynasty, Kusumba Mosque is famously featured on the 5-Taka note, built of dark black basalt stone with exquisite floral mihrab carvings.",
+    "bestSeason": "October to March",
+    "bestTimeToVisit": "October to March",
+    "idealDuration": "Day Trip from Naogaon / Rajshahi",
+    "budget": {
+      "backpacker": "৳১,০০০ - ৳১,৫০০",
+      "standard": "৳২,৫০০ - ৳৩,৫০০",
+      "luxury": "৳৫,০০০ - ৳৭,৫০০",
+      "currency": "BDT"
+    },
+    "highlights": ["Carved Black Basalt Stone Mihrabs", "Massive Dighi (Pond)", "Dubalhati 300-Room Rajbari", "Sultanate Arches"],
+    "howToGoSteps": [
+      {
+        "step": 1,
+        "from": "Naogaon Town",
+        "to": "Manda (Kusumba Gate)",
+        "vehicleType": "bus",
+        "vehicleLabelEn": "Local Bus / Auto",
+        "vehicleLabelBn": "বাস ও অটো",
+        "sharedFare": "৳৪০ (বাস) + ৳২০ (অটো)",
+        "reservedFare": "৳৩০০ (সিএনজি)",
+        "duration": "৪০ মিনিট",
+        "notes": "নওগাঁ বালুডাঙ্গা বাসস্ট্যান্ড থেকে রাজশাহীগামী বাসে মান্দা নামা যায়।"
+      }
+    ],
+    "bargainingTips": ["মান্দা থেকে দুবলহাটি রাজবাড়ি ঘুরিয়ে আনার জন্য অটো ৪০০ টাকায় চুক্তি করা যায়।"],
+    "safetyTips": ["মসজিদের ভেতরে জুতো খুলে প্রবেশ করুন।"],
+    "localFoods": [{ "name": "Naogaon Sandesh & Pera Mishti", "desc": "নওগাঁর বিখ্যাত খাঁটি প্যারা সন্দেশ।" }]
+  },
+  {
+    "id": "chalan-beel-bridge",
+    "name": "Chalan Beel Wooden Bridge & Water Expanses",
+    "bengaliName": "চলনবিল, নাটোর/সিরাজগঞ্জ",
+    "division": "Rajshahi",
+    "district": "Natore",
+    "category": "Offbeat",
+    "vibe": "Riverine & Waterfalls",
+    "tags": ["Wetland", "Boat", "Bridge", "Offbeat", "Water"],
+    "rating": 4.79,
+    "reviewCount": 620,
+    "crowdLevel": "Low",
+    "crowdMeter": "Low to Medium (বর্ষায় বিশাল জলরাশি)",
+    "heroImage": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1200&q=80",
+    "gallery": ["https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=800&q=80"],
+    "tagline": "The Great Northern Wetland – Endless water vistas and wooden engine boat cruises",
+    "description": "Bangladesh's largest wetland ecosystem covering multiple districts. In monsoon, it looks like a boundless open ocean crossed by scenic elevated roads and wooden bridges.",
+    "bestSeason": "July to October (Monsoon water expanse)",
+    "bestTimeToVisit": "July to October",
+    "idealDuration": "Day Trip from Natore",
+    "budget": {
+      "backpacker": "৳১,২০০ - ৳১,৮০০",
+      "standard": "৳২,৫০০ - ৳৪,০০০",
+      "luxury": "৳৬,০০০ - ৳৯,০০০",
+      "currency": "BDT"
+    },
+    "highlights": ["Chalan Beel Wooden Engine Boat Safari", "Singra Nature Park", "Fish Catching with Bhoro Nets", "Scenic Highway Drive"],
+    "howToGoSteps": [
+      {
+        "step": 1,
+        "from": "Natore Town",
+        "to": "Singra Bazar Ghat",
+        "vehicleType": "bus",
+        "vehicleLabelEn": "Local Bus",
+        "vehicleLabelBn": "বাস",
+        "sharedFare": "৳৪০/জন",
+        "reservedFare": "৳৩৫০ (সিএনজি)",
+        "duration": "৩৫ মিনিট",
+        "notes": "নাটোর থেকে বগুড়াগামী বাসে সিংড়ায় নামতে হবে।"
+      },
+      {
+        "step": 2,
+        "from": "Singra Ghat",
+        "to": "Chalan Beel Deep Waters",
+        "vehicleType": "boat",
+        "vehicleLabelEn": "Engine Boat Cruise",
+        "vehicleLabelBn": "চলনবিলে ইঞ্জিন নৌকা ভ্রমণ",
+        "sharedFare": "৳১৫০/জন",
+        "reservedFare": "৳১,০০০ - ৳১,৫০০ (২ ঘণ্টা রিজার্ভ)",
+        "duration": "২ ঘণ্টা",
+        "notes": "বিশাল জলরাশির বুকে নৌভ্রমণ।"
+      }
+    ],
+    "bargainingTips": ["সিংড়া ঘাটে নৌকার মাঝির সাথে ২-৩ ঘণ্টার ট্রিপের জন্য দরদাম করে নিন।"],
+    "safetyTips": ["বর্ষায় হঠাৎ দমকা হাওয়া তৈরি হতে পারে, নৌকায় লাইফ জ্যাকেট রাখুন।"],
+    "localFoods": [{ "name": "Natore Kachagolla", "desc": "নাটোরের বিখ্যাত ও খাঁটি কাঁচাগোল্লা মিষ্টি।" }]
+  },
+  {
+    "id": "ghoraghat-hili-border",
+    "name": "Ghoraghat Fort & Hili Border trails",
+    "bengaliName": "ঘোড়াঘাট ও হিলি সীমান্ত",
+    "division": "Rajshahi",
+    "district": "Joypurhat",
+    "category": "Offbeat",
+    "vibe": "Heritage & History",
+    "tags": ["Border", "Fort", "History", "Offbeat"],
+    "rating": 4.65,
+    "reviewCount": 280,
+    "crowdLevel": "Very Low",
+    "crowdMeter": "Very Low (সীমান্তবর্তী শান্ত রুট)",
+    "heroImage": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+    "gallery": ["https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=800&q=80"],
+    "tagline": "The Medieval Fort Ruins & Active International Border Checkpoint",
+    "description": "Explore the historic Ghoraghat medieval sultanate fort ruins and the bustling unique international railroad border crossing at Hili.",
+    "bestSeason": "October to March",
+    "bestTimeToVisit": "October to March",
+    "idealDuration": "Day Trip from Joypurhat",
+    "budget": {
+      "backpacker": "৳৮০০ - ৳১,২০০",
+      "standard": "৳২,০০০ - ৳৩,০০০",
+      "luxury": "৳৪,০০০ - ৳৬,০০০",
+      "currency": "BDT"
+    },
+    "highlights": ["Medieval Fort Ramparts", "Hili Railway Border Point", "Historic Mosques", "Peaceful Green Countryside"],
+    "howToGoSteps": [
+      {
+        "step": 1,
+        "from": "Joypurhat Town",
+        "to": "Hili / Ghoraghat",
+        "vehicleType": "bus",
+        "vehicleLabelEn": "Local Bus / Tomtom",
+        "vehicleLabelBn": "লোকাল বাস ও টমটমে ডে-ট্রিপ",
+        "sharedFare": "৳৫০/জন",
+        "reservedFare": "৳৩০০",
+        "duration": "৪০ মিনিট",
+        "notes": "জয়পুরহাট থেকে সারাদিনের কম খরচে ডে-ট্রিপ।"
+      }
+    ],
+    "bargainingTips": ["হিলি সীমান্তে অটোচালকদের সাথে ঘুরে দেখার মোট সময় ঠিক করে নিন।"],
+    "safetyTips": ["সীমান্তের জিরো লাইনে ফটোগ্রাফির সময় বিজিবি নিয়মনীতি মেনে চলুন।"],
+    "localFoods": [{ "name": "Northern Paratha & Dal", "desc": "সীমান্তের ধারের গরম মুচমুচে পরোটা ও বুটের ডাল।" }]
+  },
+  {
+    "id": "talonda-padma-char",
+    "name": "Talonda Jamidar Bari & Padma Char",
+    "bengaliName": "পদ্মার চরে সূর্যাস্ত, গোদাগাড়ী",
+    "division": "Rajshahi",
+    "district": "Rajshahi",
+    "category": "Offbeat",
+    "vibe": "Riverine & Waterfalls",
+    "tags": ["River", "Sunset", "Palace", "Offbeat", "Sandbank"],
+    "rating": 4.76,
+    "reviewCount": 390,
+    "crowdLevel": "Very Low",
+    "crowdMeter": "Very Low (পদ্মার বুকে নিরিবিলি সূর্যাস্ত)",
+    "heroImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+    "gallery": ["https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80"],
+    "tagline": "The Golden Sandbanks of the Mighty Padma River in Godagari",
+    "description": "Vast pristine white sandy islands rising out of the mighty Padma River at sunset, paired with the ancient decaying terracotta mansions of Talonda.",
+    "bestSeason": "October to March (Winter sand dunes appear)",
+    "bestTimeToVisit": "October to March",
+    "idealDuration": "Afternoon Trip from Rajshahi",
+    "budget": {
+      "backpacker": "৳৫০০ - ৳১,০০০",
+      "standard": "৳১,৫০০ - ৳২,৫০০",
+      "luxury": "৳৪,০০০ - ৳৬,০০০",
+      "currency": "BDT"
+    },
+    "highlights": ["Padma River Sandbank Sunset", "Wooden Boat Crossing", "Talonda Ancient Zamindar Mansion", "Quiet River Breezes"],
+    "howToGoSteps": [
+      {
+        "step": 1,
+        "from": "Rajshahi Court Point",
+        "to": "Padma Char Sandbank",
+        "vehicleType": "boat",
+        "vehicleLabelEn": "Local Engine Boat",
+        "vehicleLabelBn": "লোকাল ইঞ্জিন নৌকা",
+        "sharedFare": "৳২০ - ৳৫০/জন (চরে যাওয়া)",
+        "reservedFare": "৳৩০০ - ৳৫০০ (নৌকা রিজার্ভ)",
+        "duration": "১৫ মিনিট",
+        "notes": "রাজশাহী শহরের কোর্ট পয়েন্ট বা টি-বাঁধ থেকে নৌকা ছাড়ে।"
+      }
+    ],
+    "bargainingTips": ["মাঝিকে চরে নামিয়ে অপেক্ষা করতে বললে অতিরিক্ত ১০০ টাকার বেশি দেবেন না।"],
+    "safetyTips": ["পদ্মার চোরাবালি বা খাড়া পাড়ে নামবেন না, শুকনো চরের ওপরে থাকুন।"],
+    "localFoods": [{ "name": "Padma Fried River Fish & Jhal Muri", "desc": "পদ্মার তাজা ছোট মাছ ভাজি ও স্পেশাল চানাচুর ঝালমুড়ি।" }]
+  },
+
+  {
+    "id": "kantajew-temple",
+    "name": "Kantajew Temple & Nayabad Mosque",
+    "bengaliName": "কান্তজিউ মন্দির ও নয়াবাদ মসজিদ",
+    "division": "Rangpur",
+    "district": "Dinajpur",
+    "category": "Popular",
+    "vibe": "Heritage & History",
+    "tags": ["Terracotta", "Heritage", "Temple", "History", "Mosque"],
+    "rating": 4.9,
+    "reviewCount": 1380,
+    "crowdLevel": "Medium",
+    "crowdMeter": "Medium (টেরাকোটা শিল্পের সেরা নিদর্শন)",
+    "heroImage": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+    "gallery": ["https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=800&q=80"],
+    "tagline": "The Masterpiece of Terracotta Artistry in South Asia (1752 CE)",
+    "description": "Every single square inch of its late-medieval brick exterior is adorned with intricate terracotta panels illustrating epic mythological and social scenes from ancient Bengal.",
+    "bestSeason": "October to March",
+    "bestTimeToVisit": "October to March",
+    "idealDuration": "Day Trip from Dinajpur",
+    "budget": {
+      "backpacker": "৳১,২০০ - ৳১,৮০০",
+      "standard": "৳২,৫০০ - ৳৪,০০০",
+      "luxury": "৳৬,০০০ - ৳৯,০০০",
+      "currency": "BDT"
+    },
+    "highlights": ["Exquisite Ramayana Terracotta Panels", "Historic Nayabad Mosque", "Dhepa River Serene Shore", "Ramsagar Lake"],
+    "howToGoSteps": [
+      {
+        "step": 1,
+        "from": "Dinajpur Town",
+        "to": "Dashmile Junction",
+        "vehicleType": "bus",
+        "vehicleLabelEn": "Local Bus / Auto",
+        "vehicleLabelBn": "বাস / অটো",
+        "sharedFare": "৳৪০/জন",
+        "reservedFare": "৳২৫০",
+        "duration": "২৫ মিনিট",
+        "notes": "দিনাজপুর সদর থেকে তেঁতুলিয়াগামী হাইওয়ে।"
+      },
+      {
+        "step": 2,
+        "from": "Dashmile",
+        "to": "Kantajew Temple Gate",
+        "vehicleType": "auto",
+        "vehicleLabelEn": "Easybike Auto",
+        "vehicleLabelBn": "ইজিবাইক",
+        "sharedFare": "৳২০/জন",
+        "reservedFare": "৳১০০",
+        "duration": "১০ মিনিট",
+        "notes": "ঢেপা নদীর সুন্দর শান্ত পাড় ধরে মন্দির গেটে নিয়ে যাবে।"
+      }
+    ],
+    "bargainingTips": ["দশমাইল থেকে নয়াবাদ মসজিদ ও কান্তজিউ একসঙ্গে দেখার জন্য অটো ১৫০-২০০ টাকায় কথা বলে নিন।"],
+    "safetyTips": ["টেরাকোটা ফলকগুলোতে অযথা স্পর্শ করবেন না যাতে প্রাকৃতিক ক্ষয় না হয়।"],
+    "localFoods": [{ "name": "Dinajpur Kataribhog Polao", "desc": "দিনাজপুরের বিখ্যাত কাটারিভোগ সুগন্ধি চালের পোলাও।" }]
+  },
+  {
+    "id": "tajhat-palace",
+    "name": "Tajhat Palace",
+    "bengaliName": "তাজহাট জমিদার বাড়ি, রংপুর",
+    "division": "Rangpur",
+    "district": "Rangpur",
+    "category": "Popular",
+    "vibe": "Heritage & History",
+    "tags": ["Palace", "Architecture", "Heritage", "Museum"],
+    "rating": 4.82,
+    "reviewCount": 1180,
+    "crowdLevel": "Medium",
+    "crowdMeter": "Medium (রংপুর শহরের অহংকার)",
+    "heroImage": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+    "gallery": ["https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=800&q=80"],
+    "tagline": "The Grand Neoclassical Palace of Northern Bengal (Early 20th Century)",
+    "description": "Constructed by Maharaja Kumar Gopal Lal Roy, featuring monumental white Corinthian columns, sweeping marble staircases, and lovely lush gardens.",
+    "bestSeason": "October to March",
+    "bestTimeToVisit": "October to March",
+    "idealDuration": "Half Day Trip in Rangpur",
+    "budget": {
+      "backpacker": "৳৫০০ - ৳১,০০০",
+      "standard": "৳১,৫০০ - ৳২,৫০০",
+      "luxury": "৳৪,০০০ - ৳৬,০০০",
+      "currency": "BDT"
+    },
+    "highlights": ["Corinthian Marble Facade", "Palace Museum Artifacts", "Grand Front Lawns", "Chikli Water Park"],
+    "howToGoSteps": [
+      {
+        "step": 1,
+        "from": "Rangpur City Center",
+        "to": "Tajhat Palace Gate",
+        "vehicleType": "auto",
+        "vehicleLabelEn": "Auto / Cycle Rickshaw",
+        "vehicleLabelBn": "অটো / রিকশা",
+        "sharedFare": "৳৩০ - ৳৫০/জন",
+        "reservedFare": "৳৮০ - ৳১০০",
+        "duration": "১৫ মিনিট",
+        "notes": "জাহাজ কোম্পানি মোড় বা শাপলা চত্বর থেকে সহজে রিকশা মেলে।"
+      }
+    ],
+    "bargainingTips": ["রিকশাচালককে তাজহাট ঘুরে কারমাইকেল কলেজের শতবর্ষী ক্যাম্পাসেও নিয়ে যেতে বলতে পারেন।"],
+    "safetyTips": ["জাদুঘর রবিবারে এবং সরকারি ছুটির দিনে বন্ধ থাকে।"],
+    "localFoods": [{ "name": "Rangpur Haribhanga Mango (Summer)", "desc": "রংপুরের বিখ্যাত সুমিষ্ট আঁশহীন হাঁড়িভাঙ্গা আম।" }]
+  },
+  {
+    "id": "swapnapuri-ramsagar",
+    "name": "Swapnapuri & Ramsagar",
+    "bengaliName": "রামসাগর দীঘি ও স্বপ্নপুরী, দিনাজপুর",
+    "division": "Rangpur",
+    "district": "Dinajpur",
+    "category": "Popular",
+    "vibe": "Heritage & History",
+    "tags": ["Lake", "Park", "Nature", "Heritage"],
+    "rating": 4.75,
+    "reviewCount": 980,
+    "crowdLevel": "Medium",
+    "crowdMeter": "Medium (বিশাল দীঘি ও পার্ক)",
+    "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "gallery": ["https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80"],
+    "tagline": "The Largest Man-made Lake of Bangladesh – Surrounded by red dirt hills",
+    "description": "Excavated in the 1750s by Raja Ramnath to relieve local famine. Ramsagar is a sprawling serene artificial lake enclosed by quiet pine and mahogany woods.",
+    "bestSeason": "October to March",
+    "bestTimeToVisit": "October to March",
+    "idealDuration": "Half Day Trip",
+    "budget": {
+      "backpacker": "৳৮০০ - ৳১,২০০",
+      "standard": "৳২,০০০ - ৳৩,০০০",
+      "luxury": "৳৪,০০০ - ৳৬,০০০",
+      "currency": "BDT"
+    },
+    "highlights": ["Ramsagar Giant Water Mirror", "Forest Walkways", "Migratory Birds in Winter", "Swapnapuri Amusement Park"],
+    "howToGoSteps": [
+      {
+        "step": 1,
+        "from": "Dinajpur Town",
+        "to": "Ramsagar Dighi",
+        "vehicleType": "auto",
+        "vehicleLabelEn": "Auto Easybike",
+        "vehicleLabelBn": "অটো ইজিবাইক",
+        "sharedFare": "৳৩০/জন",
+        "reservedFare": "৳১৫০ - ৳২০০ (রিজার্ভ)",
+        "duration": "২০ মিনিট",
+        "notes": "শহর থেকে মাত্র ৮ কিলোমিটার দক্ষিণে।"
+      }
+    ],
+    "bargainingTips": ["রামসাগর ঘুরে ফিরে আসার জন্য অটোকে অপেক্ষা করিয়ে রাখলে সুবিধা হয়।"],
+    "safetyTips": ["দীঘির গভীর পানিতে গোসল করা নিষেধ।"],
+    "localFoods": [{ "name": "Dinajpur Sweet Litchi", "desc": "বেদানা ও বোম্বাই জাতের রসালো বিশ্ববিখ্যাত লিচু।" }]
+  },
+  {
+    "id": "dahagram-tin-bigha",
+    "name": "Dahagram-Angarpota & Tin Bigha Corridor",
+    "bengaliName": "তিন বিঘা করিডোর ও পাটগ্রাম, লালমনিরহাট",
+    "division": "Rangpur",
+    "district": "Lalmonirhat",
+    "category": "Offbeat",
+    "vibe": "Heritage & History",
+    "tags": ["Border", "Enclave", "History", "Offbeat", "Rural"],
+    "rating": 4.82,
+    "reviewCount": 390,
+    "crowdLevel": "Very Low",
+    "crowdMeter": "Very Low (ঐতিহাসিক শান্ত ছিটমহল)",
+    "heroImage": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1200&q=80",
+    "gallery": ["https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=800&q=80"],
+    "tagline": "The Historic Enclave Oasis – Crossing through the legendary Tin Bigha Corridor",
+    "description": "Access Bangladesh's largest former enclave through the strip of Tin Bigha Corridor into Dahagram-Angarpota beside the Teesta River.",
+    "bestSeason": "October to March",
+    "bestTimeToVisit": "October to March",
+    "idealDuration": "Day Trip from Rangpur / Lalmonirhat",
+    "budget": {
+      "backpacker": "৳১,০০০ - ৳১,৫০০",
+      "standard": "৳২,৫০০ - ৳৩,৫০০",
+      "luxury": "৳৫,০০০ - ৳৭,৫০০",
+      "currency": "BDT"
+    },
+    "highlights": ["Tin Bigha Corridor Passage", "Dahagram Rural Life", "Teesta River Border Point", "Mustard Fields in Winter"],
+    "howToGoSteps": [
+      {
+        "step": 1,
+        "from": "Lalmonirhat / Rangpur",
+        "to": "Patgram Bazar",
+        "vehicleType": "bus",
+        "vehicleLabelEn": "Regional Bus",
+        "vehicleLabelBn": "বাস",
+        "sharedFare": "৳১২০ - ৳১৫০/জন",
+        "reservedFare": "৳১,৫০০ (সিএনজি)",
+        "duration": "২ ঘণ্টা",
+        "notes": "বুড়িমারীগামী বাসে পাটগ্রামে নামতে হবে।"
+      },
+      {
+        "step": 2,
+        "from": "Patgram Bazar",
+        "to": "Tin Bigha Corridor Gate",
+        "vehicleType": "auto",
+        "vehicleLabelEn": "Auto / Bike",
+        "vehicleLabelBn": "অটো / বাইক",
+        "sharedFare": "৳৫০ - ৳৮০/জন",
+        "reservedFare": "৳১৫০ - ৳২০০",
+        "duration": "২০ মিনিট",
+        "notes": "করিডোরের ভেতর দিয়ে দহগ্রাম ইউনিয়নে যাওয়া যায়।"
+      }
+    ],
+    "bargainingTips": ["পাটগ্রাম স্টেশন থেকেই অটো ঠিক করে দহগ্রামের জিরো পয়েন্ট পর্যন্ত কথা বলে নিন।"],
+    "safetyTips": ["করিডোরে বিজিবি ও বিএসএফ উভয় দেশের নিয়ম মেনে চলুন।"],
+    "localFoods": [{ "name": "North Bengal Teesta River Fish Meal", "desc": "তিস্তা নদীর তাজা বৈরালী ও বাতাসি মাছের ঝোল।" }]
+  },
+  {
+    "id": "teesta-barrage-dalia",
+    "name": "Teesta Barrage & River Island Life",
+    "bengaliName": "তিস্তা ব্যারেজ ও ডালিয়া, নীলফামারী",
+    "division": "Rangpur",
+    "district": "Nilphamari",
+    "category": "Offbeat",
+    "vibe": "Riverine & Waterfalls",
+    "tags": ["River", "Barrage", "Sunset", "Offbeat", "Water"],
+    "rating": 4.76,
+    "reviewCount": 460,
+    "crowdLevel": "Low",
+    "crowdMeter": "Low to Medium (বিশাল ব্যারেজ ও বাতাস)",
+    "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "gallery": ["https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80"],
+    "tagline": "The Mega Barrage of the North – 44 massive gates over the rushing Teesta River",
+    "description": "Located in Dalia, Nilphamari. The country's largest irrigation barrage where water rushes down creating immense misty river breezes and quiet sandbar islands.",
+    "bestSeason": "October to March (Winter cool breezes and calm sandbars)",
+    "bestTimeToVisit": "October to March",
+    "idealDuration": "Half Day Trip",
+    "budget": {
+      "backpacker": "৳৮০০ - ৳১,২০০",
+      "standard": "৳২,০০০ - ৳৩,০০০",
+      "luxury": "৳৪,০০০ - ৳৬,০০০",
+      "currency": "BDT"
+    },
+    "highlights": ["44-Gate Teesta Barrage Walk", "Engine Boat Ride to Chars", "Teesta Sunset View", "Fresh Baim & Ilish Fry"],
+    "howToGoSteps": [
+      {
+        "step": 1,
+        "from": "Saidpur / Rangpur",
+        "to": "Jaldhaka ➔ Dalia Barrage",
+        "vehicleType": "bus",
+        "vehicleLabelEn": "Bus / Leguna",
+        "vehicleLabelBn": "বাস / লেগুনা",
+        "sharedFare": "৳৮০ - ৳১০০/জন",
+        "reservedFare": "৳৮০০ (সিএনজি রিজার্ভ)",
+        "duration": "১ ঘণ্টা",
+        "notes": "জলঢাকা হয়ে সরাসরি তিস্তা ব্যারেজ পয়েন্টে যায়।"
+      }
+    ],
+    "bargainingTips": ["ব্যারেজের মাথায় তাজা বৈরালী মাছ ভাজা খাওয়ার সময় দরদাম করে নিন।"],
+    "safetyTips": ["ব্যারেজের স্লুইস গেটের কাছাকাছি সাঁতার কাটা বিপদজনক।"],
+    "localFoods": [{ "name": "Fresh Fried Teesta Bairali Fish", "desc": "ব্যারেজের ঘাটের টাটকা মচমচে বৈরালী মাছ ভাজি ও কাঁচামরিচ-পেঁয়াজ।" }]
+  },
+  {
+    "id": "birganj-shalban-singra",
+    "name": "Birganj Shalban & Singra National Park",
+    "bengaliName": "বীরগঞ্জ শালবন ও সিংড়া ফরেস্ট",
+    "division": "Rangpur",
+    "district": "Dinajpur",
+    "category": "Offbeat",
+    "vibe": "Forests & Wildlife",
+    "tags": ["Forest", "Wildlife", "Offbeat", "Nature", "Lotus"],
+    "rating": 4.74,
+    "reviewCount": 310,
+    "crowdLevel": "Very Low",
+    "crowdMeter": "Very Low (নিঝুম শালবন ও জীববৈচিত্র্য)",
+    "heroImage": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&w=1200&q=80",
+    "gallery": ["https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&w=800&q=80"],
+    "tagline": "The Northern Deciduous Shal Canopy & Peaceful Lotus Reservoir",
+    "description": "A dense natural forest of towering Shal trees in northern Dinajpur. Criss-crossed by quiet walking trails and peaceful natural reservoirs where migratory birds rest.",
+    "bestSeason": "November to February",
+    "bestTimeToVisit": "November to February",
+    "idealDuration": "Day Trip from Dinajpur",
+    "budget": {
+      "backpacker": "৳৭০০ - ৳১,০০০",
+      "standard": "৳১,৮০০ - ৳২,৮০০",
+      "luxury": "৳৪,০০০ - ৳৬,০০০",
+      "currency": "BDT"
+    },
+    "highlights": ["Shal Tree Canopy Trail", "Singra Forest Reservoir", "Quiet Bird Watching", "Kantajew Temple connector"],
+    "howToGoSteps": [
+      {
+        "step": 1,
+        "from": "Dinajpur Town",
+        "to": "Birganj Bazar",
+        "vehicleType": "bus",
+        "vehicleLabelEn": "Local Bus",
+        "vehicleLabelBn": "বাস",
+        "sharedFare": "৳৫০/জন",
+        "reservedFare": "৳৩০০ (সিএনজি)",
+        "duration": "৩৫ মিনিট",
+        "notes": "বীরগঞ্জ বাসস্ট্যান্ড থেকে পূর্বে সিংড়া ফরেস্ট।"
+      },
+      {
+        "step": 2,
+        "from": "Birganj Bazar",
+        "to": "Singra Forest Gate",
+        "vehicleType": "auto",
+        "vehicleLabelEn": "Easybike",
+        "vehicleLabelBn": "ইজিবাইক",
+        "sharedFare": "৳৩০/জন",
+        "reservedFare": "৳১০০",
+        "duration": "১৫ মিনিট",
+        "notes": "সরাসরি বনের ভেতরে যাওয়ার ট্রেইলে নামিয়ে দেয়।"
+      }
+    ],
+    "bargainingTips": ["ইজিবাইককে বনের বাইরে অপেক্ষা করতে বললে ঘণ্টা প্রতি ৫০-৬০ টাকা অতিরিক্ত দিতে হয়।"],
+    "safetyTips": ["বনে হাঁটার সময় প্লাস্টিক বা আবর্জনা ফেলবেন না।"],
+    "localFoods": [{ "name": "Dinajpur Chidwa & Sweet Curd", "desc": "কাটারি চালের চিড়া ও মিষ্টি খাঁটি দই।" }]
+  },
+  {
+    "id": "banglabandha-tetulia",
+    "name": "Banglabandha Zero Point & Mahananda River",
+    "bengaliName": "বাংলাবান্ধা জিরো পয়েন্ট ও রক মিউজিয়াম, তেঁতুলিয়া",
+    "division": "Rangpur",
+    "district": "Panchagarh",
+    "category": "Offbeat",
+    "vibe": "Hills & Trekking",
+    "tags": ["Border", "Kanchenjunga", "Tea", "River", "Offbeat"],
+    "rating": 4.9,
+    "reviewCount": 850,
+    "crowdLevel": "Medium",
+    "crowdMeter": "Medium (কাঞ্চনজঙ্ঘা দেখার প্রাইম ভিউপয়েন্ট)",
+    "heroImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1200&q=80",
+    "gallery": ["https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80"],
+    "tagline": "The Northernmost Tip of Bangladesh – Clear views of Mount Kanchenjunga in autumn",
+    "description": "Located in Tetulia, Panchagarh. In late autumn and winter, the snow-capped third highest peak in the world—Mount Kanchenjunga—glows right on the horizon over flat green tea estates and the Mahananda River.",
+    "bestSeason": "October to November (Clear skies for viewing Kanchenjunga)",
+    "bestTimeToVisit": "October to November",
+    "idealDuration": "2 Days / 1 Night",
+    "budget": {
+      "backpacker": "৳২,৫০০ - ৳৩,৫০০",
+      "standard": "৳৫,০০০ - ৳৭,৫০০",
+      "luxury": "৳১০,০০০ - ৳১৬,০০০",
+      "currency": "BDT"
+    },
+    "highlights": ["Kanchenjunga Peak Panorama", "Banglabandha 4-Country Land Port", "Mahananda River Stone Lifting", "Plain-land Organic Tea Gardens"],
+    "howToGoSteps": [
+      {
+        "step": 1,
+        "from": "Panchagarh Town",
+        "to": "Tetulia Town",
+        "vehicleType": "bus",
+        "vehicleLabelEn": "Local Bus",
+        "vehicleLabelBn": "বাস",
+        "sharedFare": "৳৬০ - ৳৭০/জন",
+        "reservedFare": "৳৫০০ (সিএনজি)",
+        "duration": "৪৫ মিনিট",
+        "notes": "তেঁতুলিয়া ডাকবাংলো থেকে কাঞ্চনজঙ্ঘা দেখা যায়।"
+      },
+      {
+        "step": 2,
+        "from": "Tetulia Town",
+        "to": "Banglabandha Zero Point",
+        "vehicleType": "auto",
+        "vehicleLabelEn": "Auto Easybike",
+        "vehicleLabelBn": "অটো ইজিবাইক",
+        "sharedFare": "৳৪০ - ৳৫০/জন",
+        "reservedFare": "৳২০০",
+        "duration": "২০ মিনিট",
+        "notes": "ভারতের ফুলবাড়ি সীমান্তের সাথে সংযুক্ত জিরো পয়েন্ট।"
+      }
+    ],
+    "bargainingTips": ["তেঁতুলিয়া ডাকবাংলোর ভিউপয়েন্ট থেকে সূর্যোদয়ের সময় কাঞ্চনজঙ্ঘা দেখার জন্য ভোর ৫:০০ টায় অটো প্রস্তুত রাখুন।"],
+    "safetyTips": ["জিরো পয়েন্টে সীমান্ত নিয়ম কঠোরভাবে মেনে চলুন।"],
+    "localFoods": [{ "name": "Tetulia Organic Green Tea", "desc": "তেঁতুলিয়ার নিজস্ব সমতল চা বাগানের ফ্রেশ গ্রিন টি।" }]
+  },
+
+  {
+    "id": "panam-nagar-sonargaon",
+    "name": "Panam Nagar & Sonargaon Folk Art Museum",
+    "bengaliName": "পানাম নগর ও সোনারগাঁও লোকশিল্প জাদুঘর",
+    "division": "Dhaka",
+    "district": "Narayanganj",
+    "category": "Popular",
+    "vibe": "Heritage & History",
+    "tags": ["Heritage", "Ancient City", "Architecture", "Museum"],
+    "rating": 4.84,
+    "reviewCount": 2650,
+    "crowdLevel": "High",
+    "crowdMeter": "High (ছুটির দিনে পর্যটকে মুখর)",
+    "heroImage": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+    "gallery": ["https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=800&q=80"],
+    "tagline": "The Ghost City of Bengal – 19th-century wealthy merchant street in ancient capital",
+    "description": "An abandoned 19th-century colonial street of 52 merchant mansions in ancient capital Sonargaon, paired with the grand estate of Shilpacharya Zainul Abedin Folk Art Museum.",
+    "bestSeason": "October to March",
+    "bestTimeToVisit": "October to March",
+    "idealDuration": "Day Trip from Dhaka",
+    "budget": {
+      "backpacker": "৳৮০০ - ৳১,২০০",
+      "standard": "৳২,০০০ - ৳৩,০০০",
+      "luxury": "৳৪,৫০০ - ৳৭,০০০",
+      "currency": "BDT"
+    },
+    "highlights": ["52 Colonial Merchant Mansions", "Sonargaon Folk Art Museum", "Goaldi 16th-Century Mosque", "Zainul Abedin Art Galleries"],
+    "howToGoSteps": [
+      {
+        "step": 1,
+        "from": "Dhaka (Gulistan)",
+        "to": "Mograpara Chowrasta",
+        "vehicleType": "bus",
+        "vehicleLabelEn": "Highway Bus (Sonargaon / Bandhab)",
+        "vehicleLabelBn": "বাস",
+        "sharedFare": "৳৬০ - ৳৮০/জন",
+        "reservedFare": "৳১,০০০ (উবার/ট্যাক্সি)",
+        "duration": "৪০ - ৫০ মিনিট",
+        "notes": "গুলিস্তান বা সায়েদাবাদ থেকে সরাসরি মোগরাপাড়া বাস ছাড়ে।"
+      },
+      {
+        "step": 2,
+        "from": "Mograpara",
+        "to": "Panam Nagar Gate",
+        "vehicleType": "auto",
+        "vehicleLabelEn": "Auto / Rickshaw",
+        "vehicleLabelBn": "অটো",
+        "sharedFare": "৳২০ - ৳৩০/জন",
+        "reservedFare": "৳৮০ - ৳১০০",
+        "duration": "১০ মিনিট",
+        "notes": "মোগরাপাড়া থেকে লোকশিল্প জাদুঘর ও পানাম নগর খুবই কাছে।"
+      }
+    ],
+    "bargainingTips": ["পানাম নগর ও লোকশিল্প জাদুঘর উভয় স্পট ঘুরে দেখার জন্য অটো ১৫০-২০০ টাকায় রিজার্ভ রাখা যায়।"],
+    "safetyTips": ["বিল্ডিংগুলোর ভেতরে ঢোকা নিষিদ্ধ, সাবধানে রাস্তা দিয়ে হেঁটে দেখুন।"],
+    "localFoods": [{ "name": "Sonargaon Sweets & Kacchi", "desc": "মোগরাপাড়া মোড়ের গরম পরোটা ও ক্ষীর চমচম।" }]
+  },
+  {
+    "id": "mainamati-shalban-vihara",
+    "name": "Mainamati & Shalban Vihara",
+    "bengaliName": "শালবন বিহার ও ময়নামতি",
+    "division": "Dhaka",
+    "district": "Cumilla",
+    "category": "Popular",
+    "vibe": "Heritage & History",
+    "tags": ["Heritage", "Monastery", "Archaeology", "History"],
+    "rating": 4.82,
+    "reviewCount": 1420,
+    "crowdLevel": "Medium",
+    "crowdMeter": "Medium (ইতিহাস ও প্রত্নতত্ত্ব প্রেমীদের প্রিয়)",
+    "heroImage": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+    "gallery": ["https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=800&q=80"],
+    "tagline": "The 8th-Century Buddhist Seat of Learning – Located on the Lalmai Hills",
+    "description": "Constructed by King Bhavadeva of the Deva dynasty, featuring 115 monastic cells around a central shrine on the ridge of the Lalmai Hills.",
+    "bestSeason": "October to March",
+    "bestTimeToVisit": "October to March",
+    "idealDuration": "Day Trip from Dhaka / Cumilla",
+    "budget": {
+      "backpacker": "৳১,২০০ - ৳১,৮০০",
+      "standard": "৳২,৫০০ - ৳৪,০০০",
+      "luxury": "৳৫,০০০ - ৳৮,০০০",
+      "currency": "BDT"
+    },
+    "highlights": ["115 Ancient Monastic Cells", "Mainamati Archaeological Museum", "War Cemetery (WWII Commonwealth)", "Lalmai Hill Views"],
+    "howToGoSteps": [
+      {
+        "step": 1,
+        "from": "Dhaka",
+        "to": "Comilla Cantonment",
+        "vehicleType": "bus",
+        "vehicleLabelEn": "Highway AC / Non-AC Bus",
+        "vehicleLabelBn": "বাস (তিশা, এশিয়া লাইন, প্রিন্স)",
+        "sharedFare": "৳২০০ - ৳২৫০/জন",
+        "reservedFare": "৳২,৫০০ (প্রাইভেট কার)",
+        "duration": "১.৫ - ২ ঘণ্টা",
+        "notes": "পদ্মা-মেঘনা সেতু পেরিয়ে সরাসরি কুমিল্লা ক্যান্টনমেন্টে নামা যায়।"
+      },
+      {
+        "step": 2,
+        "from": "Cantonment Point",
+        "to": "Shalban Vihara Gate",
+        "vehicleType": "cng",
+        "vehicleLabelEn": "CNG Auto",
+        "vehicleLabelBn": "সিএনজি",
+        "sharedFare": "৳৩০/জন",
+        "reservedFare": "৳১৫০",
+        "duration": "১৫ মিনিট",
+        "notes": "ক্যান্টনমেন্ট মোড় থেকে সরাসরি শালবন বিহার গেটে যায়।"
+      }
+    ],
+    "bargainingTips": ["শালবন বিহার ও কমনওয়েলথ ওয়ার সেমেট্রি একসঙ্গে দেখার জন্য সিএনজি ২৫০-৩০০ টাকায় রিজার্ভ করুন।"],
+    "safetyTips": ["শালবন বিহার প্রত্নতাত্ত্বিক সাইটে ঘাসের ওপর ময়লা বা প্লাস্টিক ফেলবেন না।"],
+    "localFoods": [{ "name": "Cumilla Matri Bhandar Rasmalai", "desc": "মনোহরপুর মাতৃভাণ্ডারের আদি অকৃত্রিম ঐতিহ্যবাহী রসমালাই।" }]
+  },
+  {
+    "id": "bhawal-national-park",
+    "name": "Bhawal National Park Deep Trails",
+    "bengaliName": "ভাওয়াল জাতীয় উদ্যান ও গহীন ট্রেইল",
+    "division": "Dhaka",
+    "district": "Gazipur",
+    "category": "Offbeat",
+    "vibe": "Forests & Wildlife",
+    "tags": ["Forest", "Shal", "Lake", "Offbeat", "Nature"],
+    "rating": 4.65,
+    "reviewCount": 610,
+    "crowdLevel": "Low",
+    "crowdMeter": "Low to Medium (গহীন ট্রেইলে নীরবতা)",
+    "heroImage": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1200&q=80",
+    "gallery": ["https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=800&q=80"],
+    "tagline": "The Ancient Shal Forest & Secluded Earthen Trails of Gazipur",
+    "description": "Spanning thousands of acres of indigenous Shal (Shorea robusta) forest and natural canals just 40km north of Dhaka. Beyond the picnic areas lie secluded nature trails.",
+    "bestSeason": "October to March",
+    "bestTimeToVisit": "October to March",
+    "idealDuration": "Day Trip from Dhaka",
+    "budget": {
+      "backpacker": "৳৫০০ - ৳৮০০",
+      "standard": "৳১,৫০০ - ৳২,৫০০",
+      "luxury": "৳৪,০০০ - ৳৬,০০০",
+      "currency": "BDT"
+    },
+    "highlights": ["Dense Shal Forest Canopy Trails", "Lakeside Wooden Pavilions", "Quiet Bird Watching", "Bhawal Rajbari Historical Connector"],
+    "howToGoSteps": [
+      {
+        "step": 1,
+        "from": "Gazipur Chowrasta",
+        "to": "Rajendrapur / Bhawal Gate",
+        "vehicleType": "cng",
+        "vehicleLabelEn": "Local Leguna / Bus",
+        "vehicleLabelBn": "লোকাল লেগুনা / বাস",
+        "sharedFare": "৳৩০ - ৳৪০/জন",
+        "reservedFare": "৳২০০",
+        "duration": "২০ মিনিট",
+        "notes": "ঢাকা-ময়মনসিংহ হাইওয়ের ঠিক পাশেই প্রধান প্রবেশদ্বার।"
+      }
+    ],
+    "bargainingTips": ["ঢাকা থেকে প্রভাতী বা সম্রাট বাসে ভাওয়াল পার্কের গেটেই নামা যায় (ভাড়া ৳১০০)।"],
+    "safetyTips": ["বনের গভীরে দলবদ্ধভাবে হাঁটুন এবং সন্ধ্যার আগেই প্রধান ফটকে ফিরে আসুন।"],
+    "localFoods": [{ "name": "Gazipur Sweet Jackfruit & Lassi", "desc": "গাজীপুরের রসালো কাঁঠাল ও হাইওয়ে ধারের তাজা লাচ্ছি।" }]
+  },
+  {
+    "id": "baliati-teota-palace",
+    "name": "Baliati Palace & Teota Zamindar Bari",
+    "bengaliName": "বালিয়াটি প্রাসাদ ও তেওতা, মানিকগঞ্জ",
+    "division": "Dhaka",
+    "district": "Manikganj",
+    "category": "Offbeat",
+    "vibe": "Heritage & History",
+    "tags": ["Palace", "Architecture", "River", "Offbeat", "Heritage"],
+    "rating": 4.82,
+    "reviewCount": 540,
+    "crowdLevel": "Low",
+    "crowdMeter": "Low (প্যাসিভ ও শান্ত বিশাল প্রাসাদ)",
+    "heroImage": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+    "gallery": ["https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=800&q=80"],
+    "tagline": "The Grand 7-Block Colonial Palace & Jamuna Riverside Estate of Teota",
+    "description": "Baliati Palace in Saturia features 200 rooms, 7 interconnected quadrangles, and giant Ionic columns. Teota Zamindar Bari sits on the banks of the Jamuna River, birthplace of poet Kazi Nazrul Islam's wife Pramila Devi.",
+    "bestSeason": "October to March",
+    "bestTimeToVisit": "October to March",
+    "idealDuration": "Day Trip from Dhaka",
+    "budget": {
+      "backpacker": "৳৮০০ - ৳১,২০০",
+      "standard": "৳২,০০০ - ৳৩,০০০",
+      "luxury": "৳৪,০০০ - ৳৬,০০০",
+      "currency": "BDT"
+    },
+    "highlights": ["Colonial Ionic Pillars & 7 Blocks", "Back Reservoir Ponds", "Teota Jamuna Riverfront", "Historic Pramila Devi Ancestral Memorial"],
+    "howToGoSteps": [
+      {
+        "step": 1,
+        "from": "Dhaka (Gabtoli)",
+        "to": "Saturia Bazar",
+        "vehicleType": "bus",
+        "vehicleLabelEn": "Direct Bus (এসবি লিংক / শুভযাত্রা)",
+        "vehicleLabelBn": "বাস",
+        "sharedFare": "৳১০০ - ৳১২০/জন",
+        "reservedFare": "৳১,৫০০ (সিএনজি)",
+        "duration": "১.৫ ঘণ্টা",
+        "notes": "গাবতলী থেকে সাটুরিয়াগামী বাসে সরাসরি যাওয়া যায়।"
+      },
+      {
+        "step": 2,
+        "from": "Saturia Bazar",
+        "to": "Baliati Palace Gate",
+        "vehicleType": "auto",
+        "vehicleLabelEn": "Auto / Rickshaw",
+        "vehicleLabelBn": "অটো",
+        "sharedFare": "৳১০ - ৳১৫/জন",
+        "reservedFare": "৳৪০",
+        "duration": "৫ মিনিট",
+        "notes": "সাটুরিয়া বাজার থেকে হাঁটা দূরত্বে প্রাসাদ।"
+      }
+    ],
+    "bargainingTips": ["সাটুরিয়া থেকে তেওতা পর্যন্ত যাওয়ার জন্য সিএনজি ২৫০-৩০০ টাকায় রিজার্ভ পাওয়া যায়।"],
+    "safetyTips": ["প্রাসাদের পেছনের পুকুরঘাট পিচ্ছিল হতে পারে, সাবধানে পা ফেলুন।"],
+    "localFoods": [{ "name": "Manikganj Ghol & Sweet Pitha", "desc": "মানিকগঞ্জের খাঁটি মাঠা ও পাটালি গুড়ের মিষ্টি।" }]
+  },
+  {
+    "id": "padma-mainot-ghat",
+    "name": "Padma Floating Resorts & Char Dohar",
+    "bengaliName": "মৈনট ঘাট / 'মিনি কক্সবাজার', দোহার",
+    "division": "Dhaka",
+    "district": "Dhaka",
+    "category": "Offbeat",
+    "vibe": "Riverine & Waterfalls",
+    "tags": ["River", "Sunset", "Boat", "Offbeat", "Water"],
+    "rating": 4.72,
+    "reviewCount": 730,
+    "crowdLevel": "Medium",
+    "crowdMeter": "Medium (বিকেলে মনোরম পদ্মার বাতাস)",
+    "heroImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+    "gallery": ["https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80"],
+    "tagline": "The Mini Beach of Dhaka – Endless roaring waves and sunset over the mighty Padma",
+    "description": "Located in Dohar, southwest of Dhaka. Known as Mini Cox's Bazar where vast Padma River waves crash onto wide sandy dykes, offering fresh fried Hilsha fish and engine boat rides to remote sandbars.",
+    "bestSeason": "October to March (Gentle breeze & sand dunes) or Monsoon (Roaring river)",
+    "bestTimeToVisit": "October to March",
+    "idealDuration": "Afternoon Trip from Dhaka",
+    "budget": {
+      "backpacker": "৳৭০০ - ৳১,০০০",
+      "standard": "৳১,৮০০ - ৳২,৮০০",
+      "luxury": "৳৪,০০০ - ৳৬,০০০",
+      "currency": "BDT"
+    },
+    "highlights": ["Padma River Endless Wave Horizon", "Fresh Hilsha Fry on Riverbank", "Engine Trawler to Padma Sandbar", "Dohar Zamindar Heritage"],
+    "howToGoSteps": [
+      {
+        "step": 1,
+        "from": "Dhaka (Gulistan / Babubazar)",
+        "to": "Mainot Ghat (Dohar)",
+        "vehicleType": "bus",
+        "vehicleLabelEn": "Direct Bus (যমুনা / নগর পরিবহন)",
+        "vehicleLabelBn": "সরাসরি বাস (যমুনা/নগর পরিবহন)",
+        "sharedFare": "৳১১০ - ৳১৩০/জন",
+        "reservedFare": "৳১,৮০০ (প্রাইভেট কার)",
+        "duration": "২ - ২.৫ ঘণ্টা",
+        "notes": "গুলিস্তান ফুলবাড়িয়া থেকে সরাসরি মৈনট ঘাট পর্যন্ত যায়।"
+      },
+      {
+        "step": 2,
+        "from": "Mainot Ghat",
+        "to": "Padma Char Island",
+        "vehicleType": "boat",
+        "vehicleLabelEn": "Local Trawler / Speedboat",
+        "vehicleLabelBn": "ট্রলার বা স্পিডবোট",
+        "sharedFare": "৳৫০/জন (ট্রলার)",
+        "reservedFare": "৳৫০০ - ৳৮০০ (বোট রিজার্ভ)",
+        "duration": "১৫ মিনিট",
+        "notes": "নদীর ওপারে চরে গিয়ে সূর্যাস্ত দেখা এক অন্যরকম অনুভূতি।"
+      }
+    ],
+    "bargainingTips": ["ঘাটে তাজা ইলিশ ভাজার দাম প্রতিটি মাছের পিস প্রতি দরদাম করে নিন (সাধারণত ৳১২০-৳১৮০/পিস)।"],
+    "safetyTips": ["পদ্মা নদী অত্যন্ত খরস্রোতা, তাই সাঁতার না জানলে গভীর পানিতে নামবেন না।"],
+    "localFoods": [{ "name": "Crispy Padma Hilsha Fry & Rice", "desc": "পদ্মার তাজা ইলিশ ভাজি, গরম ভাত ও শুকনা মরিচ তেল।" }]
+  },
+  {
+    "id": "mohera-zamindar-bari",
+    "name": "Mohera Zamindar Bari & Dhanbari Mosque",
+    "bengaliName": "মহেরা জমিদার বাড়ি, মির্জাপুর, টাঙ্গাইল",
+    "division": "Dhaka",
+    "district": "Tangail",
+    "category": "Offbeat",
+    "vibe": "Heritage & History",
+    "tags": ["Palace", "Gardens", "Architecture", "Heritage", "Offbeat"],
+    "rating": 4.86,
+    "reviewCount": 890,
+    "crowdLevel": "Medium",
+    "crowdMeter": "Medium (চমৎকার সংরক্ষিত প্রাসাদ)",
+    "heroImage": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+    "gallery": ["https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=800&q=80"],
+    "tagline": "The Best-Preserved Royal Estate of Bengal – 4 grand palatial villas in Tangail",
+    "description": "Constructed in 1890, Mohera Zamindar Bari is beautifully maintained with lush flower gardens, deer enclosures, European neoclassical colonnades, and shimmering ponds.",
+    "bestSeason": "October to March",
+    "bestTimeToVisit": "October to March",
+    "idealDuration": "Day Trip from Dhaka",
+    "budget": {
+      "backpacker": "৳৮০০ - ৳১,২০০",
+      "standard": "৳২,০০০ - ৳৩,০০০",
+      "luxury": "৳৪,৫০০ - ৳৭,০০০",
+      "currency": "BDT"
+    },
+    "highlights": ["Chowdhury Lodge & Ananda Lodge", "Maharaj Lodge Greco-Roman Facade", "Visakha Sagar Dighi", "Tangail Porabari Chamcham Trail"],
+    "howToGoSteps": [
+      {
+        "step": 1,
+        "from": "Dhaka (Mohakhali / Gabtoli)",
+        "to": "Pakulla Point (Tangail Highway)",
+        "vehicleType": "bus",
+        "vehicleLabelEn": "Highway Bus (ধলেশ্বরী / বিনিময়)",
+        "vehicleLabelBn": "বাস",
+        "sharedFare": "৳১৫০ - ৳১৮০/জন",
+        "reservedFare": "৳১,৫০০ (কার)",
+        "duration": "১.৫ ঘণ্টা",
+        "notes": "টাঙ্গাইল হাইওয়ের পাকুল্লা বাসস্ট্যান্ডে নামতে হবে।"
+      },
+      {
+        "step": 2,
+        "from": "Pakulla Point",
+        "to": "Mohera Zamindar Bari Gate",
+        "vehicleType": "cng",
+        "vehicleLabelEn": "Shared CNG / Auto",
+        "vehicleLabelBn": "শেয়ার্ড সিএনজি",
+        "sharedFare": "৳৩০ - ৳৪০/জন",
+        "reservedFare": "৳১৫০",
+        "duration": "১৫ মিনিট",
+        "notes": "পাকুল্লা থেকে সরাসরি মহেরা পুলিশ ট্রেনিং সেন্টারের গেটে নিয়ে যাবে।"
+      }
+    ],
+    "bargainingTips": ["পাকুল্লা থেকে সিএনজিতে শেয়ারিংয়ে উঠলে ভাড়া মাত্র ৩০-৪০ টাকা।"],
+    "safetyTips": ["প্রাসাদ বর্তমানে পুলিশ ট্রেনিং সেন্টার হিসেবে সংরক্ষিত, তাই ভেতরের নিয়ম মেনে চলুন।"],
+    "localFoods": [{ "name": "Tangail Porabari Chamcham", "desc": "পোড়াবাড়ির আদি ও আসল অতুলনীয় স্বাদের চমচম।" }]
+  },
+
+  {
+    "id": "birishiri-white-clay",
+    "name": "Birishiri & Bijoypur White Clay Lake",
+    "bengaliName": "সাদা মাটির পাহাড় ও বিরিশিরি, নেত্রকোণা",
+    "division": "Mymensingh",
+    "district": "Netrokona",
+    "category": "Popular",
+    "vibe": "Riverine & Waterfalls",
+    "tags": ["Hills", "Lake", "Clay", "Tribal", "River"],
+    "rating": 4.82,
+    "reviewCount": 1150,
+    "crowdLevel": "Medium",
+    "crowdMeter": "Medium (চিনামাটির নীল হ্রদ)",
+    "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "gallery": ["https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80"],
+    "tagline": "The Turquoise Porcelain Lagoon & White Ceramic Cliffs of Durgapur",
+    "description": "Famous for its stunning turquoise-blue porcelain lake framed by white and pink chalk hills beside the border of Meghalaya.",
+    "bestSeason": "October to March (Dry weather & turquoise water)",
+    "bestTimeToVisit": "October to March",
+    "idealDuration": "2 Days / 1 Night",
+    "budget": {
+      "backpacker": "৳২,৫০০ - ৳৩,৮০০",
+      "standard": "৳৫,০০০ - ৳৭,৫০০",
+      "luxury": "৳৯,০০০ - ৳১৪,০০০",
+      "currency": "BDT"
+    },
+    "highlights": ["Bijoypur White Clay Blue Lake", "Shomeshwari River Wooden Boat Ride", "Hajong & Garo Cultural Academy", "Ranikhong Church on Hilltop"],
+    "howToGoSteps": [
+      {
+        "step": 1,
+        "from": "Dhaka (Mohakhali)",
+        "to": "Birishiri (Durgapur)",
+        "vehicleType": "bus",
+        "vehicleLabelEn": "Direct Highway Bus (সরকার / শিখা)",
+        "vehicleLabelBn": "সরাসরি বাস",
+        "sharedFare": "৳৩০০ - ৳৩৫০/জন",
+        "reservedFare": "৳৩,০০০ (কার)",
+        "duration": "৫ - ৬ ঘণ্টা",
+        "notes": "মহাখালী বাস টার্মিনাল থেকে ভোর থেকে গাড়ি ছাড়ে।"
+      },
+      {
+        "step": 2,
+        "from": "Birishiri Bridge",
+        "to": "White Clay Lake & Spots",
+        "vehicleType": "auto",
+        "vehicleLabelEn": "Full Day Auto / Motorbike Reserve",
+        "vehicleLabelBn": "সারাদিনের অটো বা মোটর বাইক রিজার্ভ",
+        "sharedFare": "৳৪০০/জন",
+        "reservedFare": "৳৮০০ - ৳১,২০০ (২ জনের জন্য সারাদিন)",
+        "duration": "সারাদিন স্পট ভ্রমণ",
+        "notes": "কংস নদী পার হয়ে দুর্গাপুর বাজার থেকে বাইক বা অটো নেওয়া সবচেয়ে সুবিধাজনক।"
+      }
+    ],
+    "bargainingTips": ["বাইকচালকের সাথে চিনামাটির পাহাড়, রানীখং ও সীমান্ত ভিউপয়েন্ট—সব অন্তর্ভুক্ত করে চুক্তি করুন।"],
+    "safetyTips": ["চিনামাটির হ্রদের পানি রাসায়নিক সমৃদ্ধ খনিজযুক্ত, তাই এতে সাঁতার কাটা নিষিদ্ধ।"],
+    "localFoods": [{ "name": "Shomeshwari River Fish & Monda", "desc": "সোমেশ্বরী নদীর তাজা মাছের ঝোল ও মুক্তাগাছার আসল মণ্ডা।" }]
+  },
+  {
+    "id": "gajni-madhutila",
+    "name": "Gajni & Madhutila Eco Park",
+    "bengaliName": "গজনী অবকাশ ও মধুটিলা, শেরপুর",
+    "division": "Mymensingh",
+    "district": "Sherpur",
+    "category": "Popular",
+    "vibe": "Hills & Trekking",
+    "tags": ["Hills", "Garo", "Eco-Park", "Border", "Forest"],
+    "rating": 4.76,
+    "reviewCount": 780,
+    "crowdLevel": "Medium",
+    "crowdMeter": "Medium (সীমান্তবর্তী পাহাড়ি টিলা ও পার্ক)",
+    "heroImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1200&q=80",
+    "gallery": ["https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80"],
+    "tagline": "The Rolling Garo Hills & Forest Vacation Haven of Sherpur",
+    "description": "Nestled against the Meghalaya border hills in Jhenaigati, offering natural forest walks, water reservoirs, hanging bridges, and views of wild elephant herds.",
+    "bestSeason": "October to March",
+    "bestTimeToVisit": "October to March",
+    "idealDuration": "Day Trip from Mymensingh / Sherpur",
+    "budget": {
+      "backpacker": "৳১,২০০ - ৳১,৮০০",
+      "standard": "৳২,৮০০ - ৳৪,০০০",
+      "luxury": "৳৬,০০০ - ৳৯,০০০",
+      "currency": "BDT"
+    },
+    "highlights": ["Garo Hill Rolling Green Slopes", "Madhutila Forest Watchtower", "Crescent Lake Pedal Boating", "Indigenous Handicrafts"],
+    "howToGoSteps": [
+      {
+        "step": 1,
+        "from": "Mymensingh Town",
+        "to": "Sherpur Town",
+        "vehicleType": "bus",
+        "vehicleLabelEn": "Regional Bus",
+        "vehicleLabelBn": "বাস",
+        "sharedFare": "৳১০০/জন",
+        "reservedFare": "৳১,০০০",
+        "duration": "১ ঘণ্টা",
+        "notes": "ময়মনসিংহ ব্রিজ মোড় থেকে প্রতি ১৫ মিনিটে বাস ছাড়ে।"
+      },
+      {
+        "step": 2,
+        "from": "Sherpur Town",
+        "to": "Jhenaigati ➔ Gajni / Madhutila",
+        "vehicleType": "cng",
+        "vehicleLabelEn": "Local CNG",
+        "vehicleLabelBn": "সিএনজি",
+        "sharedFare": "৳৮০/জন",
+        "reservedFare": "৳৪০০ (সিএনজি রিজার্ভ)",
+        "duration": "৩৫ মিনিট",
+        "notes": "পাহাড়ের কোল ঘেঁষা সুন্দর সড়ক।"
+      }
+    ],
+    "bargainingTips": ["ঝিনাইগাতী থেকে গজনী ও মধুটিলা দুটি স্পট ঘুরিয়ে আনার জন্য সিএনজি ৫০০-৬০০ টাকায় চুক্তি করুন।"],
+    "safetyTips": ["সীমান্তবর্তী বনাঞ্চলে মাঝেমধ্যে বুনো হাতির দল নামে, স্থানীয়দের সতর্কতা মেনে চলুন।"],
+    "localFoods": [{ "name": "Sherpur Chhana Sweets & Garo Tea", "desc": "শেরপুরের বিখ্যাত ছানার প্যারা সন্দেশ।" }]
+  },
+  {
+    "id": "ranikhong-someshwari",
+    "name": "Shusong Durgapur Ranikhong Church & Someshwari",
+    "bengaliName": "রানীখং চার্চ ও সোমেশ্বরী নদী",
+    "division": "Mymensingh",
+    "district": "Netrokona",
+    "category": "Offbeat",
+    "vibe": "Riverine & Waterfalls",
+    "tags": ["River", "Church", "Garo", "Offbeat", "Sand Beach"],
+    "rating": 4.86,
+    "reviewCount": 470,
+    "crowdLevel": "Low",
+    "crowdMeter": "Low (পাহাড়ি নদীর শান্ত তীর)",
+    "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "gallery": ["https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80"],
+    "tagline": "The Hilltop Catholic Mission & Turquoise Waters of Someshwari",
+    "description": "Perched on a quiet green hillock overlooking the transparent waters of the Someshwari River and the blue silhouettes of the Meghalaya mountains. Home to ancient Garo and Hajong communities.",
+    "bestSeason": "October to March",
+    "bestTimeToVisit": "October to March",
+    "idealDuration": "Day Trip from Durgapur",
+    "budget": {
+      "backpacker": "৳১,০০০ - ৳১,৫০০",
+      "standard": "৳২,৫০০ - ৳৩,৫০০",
+      "luxury": "৳৫,০০০ - ৳৮,০০০",
+      "currency": "BDT"
+    },
+    "highlights": ["Ranikhong Hilltop 100-Year Church", "Shomeshwari Clean Sandy Riverbank", "Bijoypur Border Lookout", "Garo Traditional Weaving"],
+    "howToGoSteps": [
+      {
+        "step": 1,
+        "from": "Durgapur Bazar",
+        "to": "Ranikhong Hill Mission",
+        "vehicleType": "auto",
+        "vehicleLabelEn": "Local Engine Van / Trolley / Bike",
+        "vehicleLabelBn": "ইঞ্জিন ভ্যান বা ট্রলি / বাইক",
+        "sharedFare": "৳৩০ - ৳৫০/জন",
+        "reservedFare": "৳২০০",
+        "duration": "২০ মিনিট",
+        "notes": "সোমেশ্বরী নদী পেরিয়ে দুর্গাপুর থেকে সরাসরি রানীখং পাহাড়ে যাওয়া যায়।"
+      }
+    ],
+    "bargainingTips": ["দুর্গাপুর বাজার থেকে বাইক নিলে চিনামাটির পাহাড় ও রানীখং একসঙ্গে দেখা যায়।"],
+    "safetyTips": ["চার্চ প্রাঙ্গণে প্রবেশ করার সময় নীরবতা বজায় রাখুন।"],
+    "localFoods": [{ "name": "Durgapur River Baime Fish", "desc": "সোমেশ্বরী নদীর সুস্বাদু বাইম মাছের কষা ঝোল।" }]
+  },
+  {
+    "id": "shadhur-chorpati-nakugaon",
+    "name": "Shadhur Chorpati & Garo Pahar border trails",
+    "bengaliName": "নালিতাবাড়ী ও নাকুগাঁও ল্যান্ড পোর্ট, শেরপুর",
+    "division": "Mymensingh",
+    "district": "Sherpur",
+    "category": "Offbeat",
+    "vibe": "Hills & Trekking",
+    "tags": ["Hills", "Border", "River", "Offbeat", "Serene"],
+    "rating": 4.74,
+    "reviewCount": 290,
+    "crowdLevel": "Very Low",
+    "crowdMeter": "Very Low (একেবারে নিরিবিলি পাহাড়ি সীমান্ত)",
+    "heroImage": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1200&q=80",
+    "gallery": ["https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=800&q=80"],
+    "tagline": "The Green Hillocked Frontier & Cold Water Streams of Nalitabari",
+    "description": "Quiet undulating green hillocks right alongside the Meghalaya border line, crystal-clear cold mountain streams of the Bhogai River, and Nakugaon land port.",
+    "bestSeason": "October to March",
+    "bestTimeToVisit": "October to March",
+    "idealDuration": "Day Trip from Sherpur",
+    "budget": {
+      "backpacker": "৳৮০০ - ৳১,২০০",
+      "standard": "৳২,০০০ - ৳৩,০০০",
+      "luxury": "৳৪,৫০০ - ৳৬,০০০",
+      "currency": "BDT"
+    },
+    "highlights": ["Nakugaon International Land Port", "Bhogai River Cold Water Springs", "Rolling Green Border Tilas", "Untouched Nature"],
+    "howToGoSteps": [
+      {
+        "step": 1,
+        "from": "Sherpur Town",
+        "to": "Nalitabari ➔ Nakugaon",
+        "vehicleType": "bus",
+        "vehicleLabelEn": "Local Bus / CNG",
+        "vehicleLabelBn": "বাস / সিএনজি",
+        "sharedFare": "৳৫০/জন",
+        "reservedFare": "৳৩৫০",
+        "duration": "৪০ মিনিট",
+        "notes": "নালিতাবাড়ী থেকে সীমান্ত ঘেঁষা সবুজ পাহাড়ি টিলার পথ।"
+      }
+    ],
+    "bargainingTips": ["নালিতাবাড়ী বাজার থেকে লোকাল বাইকচালকদের নিয়ে ঘুরে দেখতে পারেন মাত্র ২০০-২৫০ টাকায়।"],
+    "safetyTips": ["আন্তর্জাতিক সীমানার পিলার অতিক্রম করবেন না।"],
+    "localFoods": [{ "name": "Nalitabari Tulshimala Rice Delicacies", "desc": "শেরপুরের ঐতিহ্যবাহী সুগন্ধি তুলশীমালা চালের পায়েস।" }]
+  },
+  {
+    "id": "muktagacha-zamindar-palace",
+    "name": "Muktagacha Zamindar Palace & Monda Heritage",
+    "bengaliName": "মুক্তাগাছা রাজবাড়ি ও মণ্ডা ঐতিহ্য",
+    "division": "Mymensingh",
+    "district": "Mymensingh",
+    "category": "Offbeat",
+    "vibe": "Heritage & History",
+    "tags": ["Palace", "Sweets", "Heritage", "History", "Offbeat"],
+    "rating": 4.8,
+    "reviewCount": 680,
+    "crowdLevel": "Medium",
+    "crowdMeter": "Medium (ঐতিহাসিক রাজবাড়ি ও মিষ্টির দোকান)",
+    "heroImage": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+    "gallery": ["https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=800&q=80"],
+    "tagline": "The 200-Year-Old Palace of Rajah Jagat Kishore & Legendary Gopal Monda",
+    "description": "Constructed in 1727, featuring an intricately carved revolving wooden dance stage, iron treasury, and the 200-year-old original sweetmeat shop of Ramgopal Pal (Gopal Monda).",
+    "bestSeason": "October to March",
+    "bestTimeToVisit": "October to March",
+    "idealDuration": "Half Day Trip from Mymensingh",
+    "budget": {
+      "backpacker": "৳৫০০ - ৳৮০০",
+      "standard": "৳১,৫০০ - ৳২,৫০০",
+      "luxury": "৳৩,৫০০ - ৳৫,০০০",
+      "currency": "BDT"
+    },
+    "highlights": ["Revolving Wooden Stage", "Ancient Iron Treasury", "Gopal Monda Legendary Sweet Shop", "Palace Temple Ruins"],
+    "howToGoSteps": [
+      {
+        "step": 1,
+        "from": "Mymensingh Town",
+        "to": "Muktagacha Rajbari",
+        "vehicleType": "bus",
+        "vehicleLabelEn": "Local Bus / Auto",
+        "vehicleLabelBn": "লোকাল বাস / অটো",
+        "sharedFare": "৳৩০ - ৳৪০/জন",
+        "reservedFare": "৳২০০ (সিএনজি)",
+        "duration": "২৫ মিনিট",
+        "notes": "ময়মনসিংহ টাউন হল বা টাঙ্গাইল বাসস্ট্যান্ড থেকে নিয়মিত বাস ও সিএনজি ছাড়ে।"
+      }
+    ],
+    "bargainingTips": ["মুক্তাগাছা বাজারে রামগোপাল পালের আসল আদি মণ্ডার দোকানটি রাজবাড়ির ঠিক পাশেই অবস্থিত।"],
+    "safetyTips": ["রাজবাড়ির পুরোনো ভবনের ঝুঁকিপূর্ণ অংশে প্রবেশ করবেন না।"],
+    "localFoods": [{ "name": "Authentic Muktagacha Gopal Monda", "desc": "১৮২৪ সাল থেকে বিশুদ্ধ দুধের ছানা ও চিনি দিয়ে তৈরি বিখ্যাত ঐতিহ্যবাহী মণ্ডা।" }]
   }
 ]

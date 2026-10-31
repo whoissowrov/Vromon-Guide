@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState, useMemo } from 'react';
 import { useApp } from '../context/AppContext';
 import routesData from '../data/routes.json';
+import destinationsData from '../data/destinations.json';
 import { 
   Navigation, 
   Bus, 
@@ -22,15 +23,70 @@ const RoutePlanner = () => {
   const { routeFrom, setRouteFrom, routeTo, setRouteTo } = useApp();
   const [activeTransitTab, setActiveTransitTab] = useState('bus'); // 'bus' | 'train' | 'air' | 'local'
 
-  const { origins, destinations, routes } = routesData;
+  const { origins, routes } = routesData;
 
-  // Build the route lookup key: e.g. "dhaka_to_sajek-valley"
-  // If from is not dhaka, fallback gracefully to dhaka route with an advisory note
-  const routeKey = `${routeFrom}_to_${routeTo}`;
-  const route = routes[routeKey] || routes[`dhaka_to_${routeTo}`] || routes['dhaka_to_sajek-valley'];
+  // Group destinations by division for the dropdown
+  const groupedDestinations = useMemo(() => {
+    const groups = {};
+    destinationsData.forEach(dest => {
+      if (!groups[dest.division]) {
+        groups[dest.division] = [];
+      }
+      groups[dest.division].push(dest);
+    });
+    return groups;
+  }, []);
 
   const currentOrigin = origins.find(o => o.id === routeFrom) || origins[0];
-  const currentDestination = destinations.find(d => d.id === routeTo) || destinations[0];
+  const matchedSpot = destinationsData.find(d => d.id === routeTo) || destinationsData[0];
+
+  // Build the route lookup key: e.g. "dhaka_to_sajek-valley"
+  const routeKey = `${routeFrom}_to_${routeTo}`;
+  const staticRoute = routes[routeKey] || routes[`dhaka_to_${routeTo}`];
+
+  // Dynamic route fallback for any destination in the 52-spot Master Dataset
+  const route = staticRoute || {
+    summary: `${currentOrigin.name.split('(')[0]} ➔ ${matchedSpot.district} ➔ ${matchedSpot.name}`,
+    distance: "স্থানভেদে ১৫০ - ৪৫০ কিমি",
+    typicalDuration: "গন্তব্য অনুযায়ী ৫ - ১০ ঘণ্টা",
+    overview: matchedSpot.description || matchedSpot.tagline,
+    bus: {
+      available: true,
+      operators: ["শ্যামলী এন আর", "হানিফ এন্টারপ্রাইজ", "এনা পরিবহন", "গ্রীন লাইন", "দেশ ট্রাভেলস", "লোকাল সার্ভিস"],
+      fareRange: matchedSpot.howToGoSteps?.[0]?.sharedFare ? `${matchedSpot.howToGoSteps[0].sharedFare} (লোকাল) - ৳১,৫০০ (এসি)` : "৳৪০০ - ৳১,২০০",
+      boardingPoints: [currentOrigin.name.split('(')[0] + " সেন্ট্রাল টার্মিনাল", "কাউন্টার পয়েন্ট"],
+      droppingPoints: [matchedSpot.district + " বাস টার্মিনাল", "নিকটবর্তী উপজেলা"],
+      duration: "৬ - ৯ ঘণ্টা",
+      notes: `${matchedSpot.name} পৌঁছানোর জন্য প্রথমে জেলা সদরে পৌঁছে লোকাল যানবাহনে বা শেয়ারিং গাড়িতে কানেক্ট করুন।`
+    },
+    train: {
+      available: true,
+      type: "Intermodal (Train + Road)",
+      availableTrains: [
+        { name: "আন্তঃনগর ট্রেন সার্ভিস", route: `${currentOrigin.name.split('(')[0]} থেকে নিকটবর্তী রেলওয়ে স্টেশন`, time: "সকাল / রাতের শিডিউল", fare: "৳১৫০ - ৳১,২০০" }
+      ],
+      station: "নিকটবর্তী জংশন বা রেলওয়ে স্টেশন",
+      duration: "৪ - ৭ ঘণ্টা",
+      bookingTip: "বাংলাদেশ রেলওয়ের অফিসিয়াল ওয়েবসাইট বা অ্যাপ থেকে অগ্রিম টিকিট বুকিং করুন।"
+    },
+    air: {
+      available: ["Chattogram", "Sylhet", "Barishal", "Rajshahi", "Rangpur"].includes(matchedSpot.division),
+      airlines: ["বিমান বাংলাদেশ", "ইউএস-বাংলা", "এয়ার অ্যাস্ট্রা"],
+      airports: {
+        departure: `${currentOrigin.name.split('(')[0]} বিমানবন্দর`,
+        arrival: `${matchedSpot.division} আঞ্চলিক বিমানবন্দর`
+      },
+      fareRange: "৳৩,৫০০ - ৳৮,৫০০",
+      duration: "৪৫ - ৫৫ মিনিট",
+      notes: "বিমানে পৌঁছে বিমানবন্দর থেকে প্রাইভেট কার বা মাইক্রোবাস রিজার্ভ করে স্পটে যাওয়া যায়।"
+    },
+    localTransit: {
+      modes: matchedSpot.howToGoSteps ? matchedSpot.howToGoSteps.map(s => s.vehicleLabelBn || s.vehicleType).join(', ') : "লোকাল সিএনজি, অটো, বা চাঁদের গাড়ি",
+      typicalFares: matchedSpot.howToGoSteps?.[0]?.sharedFare || "লোকাল রেট",
+      lastMileInfo: matchedSpot.howToGoSteps?.map(s => `${s.from} ➔ ${s.to}: ${s.vehicleLabelBn} (${s.sharedFare})`).join(' | ') || matchedSpot.tagline,
+      scamWarnings: matchedSpot.bargainingTips || ["আগে থেকে দরদাম ঠিক করে উঠুন।"]
+    }
+  };
 
   const handleSwap = () => {
     // If the destination happens to be an origin city, allow swap
@@ -113,10 +169,14 @@ const RoutePlanner = () => {
                 onChange={(e) => setRouteTo(e.target.value)}
                 className="w-full px-4 py-3 rounded-2xl bg-slate-50 dark:bg-[#0E241B] border border-slate-200 dark:border-emerald-800/40 text-slate-900 dark:text-white font-bold text-sm sm:text-base focus:ring-2 focus:ring-emerald-500 focus:outline-none cursor-pointer"
               >
-                {destinations.map((dest) => (
-                  <option key={dest.id} value={dest.id} className="dark:bg-[#0B1E16]">
-                    {dest.name}
-                  </option>
+                {Object.keys(groupedDestinations).map((division) => (
+                  <optgroup key={division} label={`── ${division} Division ──`} className="font-bold text-slate-500">
+                    {groupedDestinations[division].map((dest) => (
+                      <option key={dest.id} value={dest.id} className="dark:bg-[#0B1E16] text-slate-900 dark:text-white font-medium">
+                        {dest.name} ({dest.bengaliName}) [{dest.category}]
+                      </option>
+                    ))}
+                  </optgroup>
                 ))}
               </select>
             </div>

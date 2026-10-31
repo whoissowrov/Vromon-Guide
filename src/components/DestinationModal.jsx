@@ -37,12 +37,6 @@ const DestinationModal = () => {
   const spot = activeModalSpot;
   const isBookmarked = bookmarks.includes(spot.id);
 
-  // Map destination id to transit step key if available
-  const transitKey = spot.id === 'sajek-valley' ? 'sajek-valley'
-    : spot.id === 'saint-martins-island' ? 'saint-martins-island'
-    : spot.id === 'tanguar-haor' ? 'tanguar-haor'
-    : spot.id === 'bandarban-nilgiri' ? 'nafakhum-waterfall'
-    : 'sajek-valley';
 
   return (
     <div className="fixed inset-0 z-50 overflow-y-auto bg-black/70 backdrop-blur-md flex items-center justify-center p-3 sm:p-6 animate-fadeIn">
@@ -95,9 +89,21 @@ const DestinationModal = () => {
                   <MapPin className="w-3.5 h-3.5" />
                   {spot.district}, {spot.division} Division
                 </span>
+                
+                {spot.category && (
+                  <span className={`px-2.5 py-1 rounded-full text-xs font-extrabold shadow-sm ${
+                    spot.category === 'Popular'
+                      ? 'bg-amber-400 text-slate-950'
+                      : 'bg-purple-500 text-white'
+                  }`}>
+                    {spot.category === 'Popular' ? '🔥 পপুলার স্পট' : '✨ অফবিট জেম'}
+                  </span>
+                )}
+
                 <span className="px-3 py-1 rounded-full text-xs font-bold bg-white/20 text-white backdrop-blur-md">
                   {spot.vibe}
                 </span>
+
                 <div className="flex items-center gap-1 text-xs font-bold bg-amber-500/90 text-white px-2.5 py-1 rounded-full backdrop-blur-sm">
                   <Star className="w-3.5 h-3.5 fill-current" />
                   <span>{spot.rating}</span>
@@ -116,6 +122,20 @@ const DestinationModal = () => {
               <p className="text-xs sm:text-sm text-slate-200 mt-1 max-w-2xl font-medium">
                 {spot.tagline}
               </p>
+
+              {/* Tags */}
+              {spot.tags && spot.tags.length > 0 && (
+                <div className="flex flex-wrap gap-1.5 mt-2">
+                  {spot.tags.map((t, idx) => (
+                    <span
+                      key={idx}
+                      className="text-[11px] font-bold px-2 py-0.5 rounded-md bg-black/40 text-emerald-300 border border-emerald-500/30 backdrop-blur-sm"
+                    >
+                      #{t}
+                    </span>
+                  ))}
+                </div>
+              )}
             </div>
           </div>
 
@@ -148,7 +168,7 @@ const DestinationModal = () => {
           <div className="p-6 sm:p-8 space-y-8">
             
             {activeModalTab === 'transit' ? (
-              <TransitBreakdown destinationKey={transitKey} />
+              <TransitBreakdown spot={spot} />
             ) : (
               <>
                 {/* Description */}
