@@ -29,7 +29,8 @@ const Navbar = () => {
 
   const navLinks = [
     { label: 'Destinations', href: '#destinations', icon: MapPin },
-    { label: 'Route Planner', href: '#route-planner', icon: Navigation },
+    { label: 'Local Transit (ভাড়া)', href: '#transit-stepper', icon: Navigation },
+    { label: 'Route Planner', href: '#route-planner', icon: Compass },
     { label: 'Itineraries', href: '#itineraries', icon: Calendar },
     { label: 'Budget Calculator', href: '#calculator', icon: Calculator },
     { label: 'Emergency & Tips', href: '#emergency', icon: ShieldAlert },

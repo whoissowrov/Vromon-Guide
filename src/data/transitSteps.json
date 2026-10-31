@@ -1,0 +1,318 @@
+{
+  "nafakhum-waterfall": {
+    "spotName": "Nafakhum Waterfall (নাফাখুম জলপ্রপাত)",
+    "location": "Thanchi, Bandarban (থানচি, বান্দরবান)",
+    "overallDifficulty": "Hard Trek & Riverine (কঠিন ট্র্যাকিং ও নদীপথ)",
+    "routeSummary": "ঢাকা ➔ বান্দরবান ➔ থানচি ➔ রেমাক্রি ➔ নাফাখুম",
+    "steps": [
+      {
+        "step": 1,
+        "from": "Dhaka (ঢাকা)",
+        "to": "Bandarban Town (বান্দরবান সদর)",
+        "vehicleType": "bus",
+        "vehicleLabelEn": "Interdistrict Coach",
+        "vehicleLabelBn": "দূরপাল্লার বাস",
+        "sharedFare": "৳৮০০ - ৳৯০০ (Non-AC)",
+        "reservedFare": "৳১,২০০ - ৳১,৮০০ (AC Sleeper)",
+        "duration": "৮ - ৯ ঘণ্টা",
+        "notes": "কল্যাণপুর, সায়েদাবাদ বা আরামবাগ থেকে শ্যামলী, সেন্টমার্টিন, হানিফ বা দেশ ট্রাভেলস। রাত ১০:৩০-এ উঠলে ভোরে নামিয়ে দেয়।"
+      },
+      {
+        "step": 2,
+        "from": "Bandarban Town (বান্দরবান সদর)",
+        "to": "Thanchi Bazaar (থানচি বাজার)",
+        "vehicleType": "chander-gari",
+        "vehicleLabelEn": "Chander Gari / Mahindra",
+        "vehicleLabelBn": "চাঁদের গাড়ি / লোকাল বাস",
+        "sharedFare": "৳২০০ - ৳২৫০ / জন (লোকাল)",
+        "reservedFare": "৳৪,৫০০ - ৳৫,৫০০ (রিজার্ভ ১২-১৪ জন)",
+        "duration": "৪ - ৪.৫ ঘণ্টা",
+        "notes": "থানচি রুটের চাঁদের গাড়ি রোমাঞ্চকর পাহাড়ি খাড়া রাস্তা দিয়ে যায়। থানচি বিজিবি ক্যাম্পে গিয়ে নাম ও জাতীয় পরিচয়পত্র এন্ট্রি করাতে হয়।"
+      },
+      {
+        "step": 3,
+        "from": "Thanchi Boat Ghat (থানচি ঘাট)",
+        "to": "Remakri (রেমাক্রি মুখ)",
+        "vehicleType": "boat",
+        "vehicleLabelEn": "Engine Trawler / Wooden Boat",
+        "vehicleLabelBn": "ইঞ্জিন চালিত সাঙ্গু নৌকা",
+        "sharedFare": "শেয়ারিং পাওয়া যায় না",
+        "reservedFare": "৳৪,০০০ - ৳৪,৫০০ (রিজার্ভ, সর্বোচ্চ ৫ জন)",
+        "duration": "২.৫ - ৩ ঘণ্টা",
+        "notes": "সাঙ্গু নদীর গভীর খাঁদ ও পাথুরে র‍্যাপিড পার হতে হয়। লাইফ জ্যাকেট পরা বাধ্যতামূলক। থানচি সমিতি নির্ধারিত মাঝির মাধ্যমেই বুকিং করতে হবে।"
+      },
+      {
+        "step": 4,
+        "from": "Remakri Village (রেমাক্রি বাজার)",
+        "to": "Nafakhum Waterfall (নাফাখুম জলপ্রপাত)",
+        "vehicleType": "trek",
+        "vehicleLabelEn": "Foot Trek with Guide",
+        "vehicleLabelBn": "পায়ে হাঁটা ট্রেইল (বাধ্যতামূলক গাইড)",
+        "sharedFare": "৳১,০০০ - ৳১,৫০০ / দিন (গাইড ফি)",
+        "reservedFare": "একই গাইড পুরো গ্রুপের জন্য",
+        "duration": "২ - ২.৫ ঘণ্টা (ট্র্যাকিং)",
+        "notes": "রেমাক্রি থেকে পাহাড়ি পাথুরে নদী ও ট্রেইল ধরে হেঁটে যেতে হয়। ভালো গ্রিপের ট্রেকিং স্যান্ডেল বা বুট লাগবে।"
+      }
+    ],
+    "bargainingTips": [
+      "থানচি বিজিবি ক্যাম্প থেকে অনুমোদিত সরকারি রেজিস্টার্ড গাইড নিতে হবে। কোনো দালালের কথায় আলাদা গাইড নেবেন না।",
+      "সাঙ্গু নদীতে বর্ষাকালে পানির স্রোত খুব বেশি থাকে, অতিরিক্ত যাত্রীবোঝাই নৌকায় উঠবেন না। লাইফ জ্যাকেট চেক করে নিন।",
+      "রেমাক্রিতে স্থানীয় আদিবাসী কটেজে সাধারণ থাকা-খাওয়ার ব্যবস্থা রয়েছে। রাতের খাবার আগেই অর্ডার দিয়ে রাখবেন।"
+    ]
+  },
+  "sajek-valley": {
+    "spotName": "Sajek Valley (সাজেক ভ্যালি)",
+    "location": "Baghaichhari, Rangamati (বাঘাইছড়ি, রাঙ্গামাটি)",
+    "overallDifficulty": "Moderate Mountain Road (পাহাড়ি সড়ক)",
+    "routeSummary": "ঢাকা ➔ খাগড়াছড়ি ➔ দীঘিনালা ➔ বাঘাইহাট (এসকর্ট) ➔ সাজেক",
+    "steps": [
+      {
+        "step": 1,
+        "from": "Dhaka (ঢাকা)",
+        "to": "Khagrachari Sadar (খাগড়াছড়ি সদর)",
+        "vehicleType": "bus",
+        "vehicleLabelEn": "Direct Highway Bus",
+        "vehicleLabelBn": "সরাসরি দূরপাল্লার বাস",
+        "sharedFare": "৳৮৫০ (Non-AC)",
+        "reservedFare": "৳১,৪০০ - ৳১,৬০০ (AC / Sleeper)",
+        "duration": "৮ - ৯ ঘণ্টা",
+        "notes": "শান্তিজাহান, হানিফ, সেন্টমার্টিন, ইনা। খাগড়াছড়ি শাপলা চত্বরে সকালে নেমে ফ্রেশ হয়ে নেওয়া যায়।"
+      },
+      {
+        "step": 2,
+        "from": "Khagrachari (খাগড়াছড়ি)",
+        "to": "Dighinala / Baghaihat (দীঘিনালা / বাঘাইহাট)",
+        "vehicleType": "chander-gari",
+        "vehicleLabelEn": "Open 4x4 Chander Gari",
+        "vehicleLabelBn": "চাঁদের গাড়ি (জিপ)",
+        "sharedFare": "৳৩০০ - ৳৩৫০ / জন (লোকাল)",
+        "reservedFare": "৳৮,০০০ - ৳১০,৫০০ (২ দিন ১ রাত রাউন্ডট্রিপ রিজার্ভ)",
+        "duration": "১.৫ ঘণ্টা",
+        "notes": "যদি বড় দল থাকে তবে খাগড়াছড়ি জিপ সমিতি থেকে পুরো চাঁদের গাড়ি রিজার্ভ নেওয়াই সবচেয়ে সুবিধাজনক।"
+      },
+      {
+        "step": 3,
+        "from": "Baghaihat Army Checkpoint (বাঘাইহাট ক্যাম্প)",
+        "to": "Sajek Ruilui Para (সাজেক ভ্যালি)",
+        "vehicleType": "chander-gari",
+        "vehicleLabelEn": "Army Escort Convoy",
+        "vehicleLabelBn": "বাংলাদেশ সেনাবাহিনী নিরাপত্তা কনভয়",
+        "sharedFare": "গাড়ির ভাড়ার অন্তর্ভুক্ত",
+        "reservedFare": "গাড়ির ভাড়ার অন্তর্ভুক্ত",
+        "duration": "১.৫ - ২ ঘণ্টা",
+        "notes": "সেনাবাহিনীর সকালের এসকর্ট সকাল ১০:০০ টা এবং দুপুরের এসকর্ট দুপুর ০৩:০০ টায় ছাড়ে। সময় মিস করলে পাহাড়ে উঠতে পারবেন না।"
+      }
+    ],
+    "bargainingTips": [
+      "খাগড়াছড়ি জিপ সমিতি কাউন্টার থেকে সরকারি নির্ধারিত ভাড়ায় স্লিপ কেটে গাড়ি নিন, দালাল এড়িয়ে চলুন।",
+      "সাজেকে সিএনজি অটোরিকশাও যায় (ভাড়া ৳৪,০০০ - ৳৫,০০০ রিজার্ভ), তবে খাড়া পাহাড়ি বাঁকে ৪x৪ চাঁদের গাড়ি অনেক বেশি নিরাপদ।",
+      "ছুটির দিনগুলোতে সাজেকে কটেজ আগে থেকে বুকিং ছাড়া গেলে থাকার জায়গা পাওয়া কঠিন হতে পারে।"
+    ]
+  },
+  "saint-martins-island": {
+    "spotName": "Saint Martin's Island & Chera Dwip (সেন্ট মার্টিন্স ও ছেঁড়া দ্বীপ)",
+    "location": "Teknaf, Cox's Bazar (টেকনাফ, কক্সবাজার)",
+    "overallDifficulty": "Easy Ocean Voyage (সমুদ্র যাত্রা)",
+    "routeSummary": "ঢাকা ➔ কক্সবাজার / টেকনাফ ➔ দমদমিয়া ঘাট ➔ সমুদ্র ক্রুজ ➔ সেন্ট মার্টিন্স",
+    "steps": [
+      {
+        "step": 1,
+        "from": "Dhaka (ঢাকা)",
+        "to": "Teknaf Damdamia Ghat (টেকনাফ জাহাজ ঘাট)",
+        "vehicleType": "bus",
+        "vehicleLabelEn": "Direct AC Coach to Ghat",
+        "vehicleLabelBn": "সরাসরি জাহাজের বাস",
+        "sharedFare": "৳১,১০০ (Non-AC)",
+        "reservedFare": "৳২,২০০ - ৳২,৫০০ (AC Multi-axle)",
+        "duration": "১০ - ১১ ঘণ্টা",
+        "notes": "সেন্টমার্টিন ট্রাভেলস, শ্যামলী বা দেশ ট্রাভেলস রাত ৮:০০-৯:০০ টায় ছেড়ে সকাল ৭:০০ টায় টেকনাফ জাহাজ ঘাটে নামিয়ে দেয়।"
+      },
+      {
+        "step": 2,
+        "from": "Teknaf Ghat (টেকনাফ ঘাট)",
+        "to": "Saint Martin's Jetty (দ্বীপের জেটি)",
+        "vehicleType": "boat",
+        "vehicleLabelEn": "Sea Cruise Liner (কেয়ারি / বে ক্রুজার)",
+        "vehicleLabelBn": "সমুদ্রগামী বিলাসবহুল জাহাজ",
+        "sharedFare": "৳১,৫০০ - ৳১,৮০০ (ওপেন ডেক রাউন্ডট্রিপ)",
+        "reservedFare": "৳২,৫০০ - ৳৩,২০০ (ভিআইপি লাউঞ্জ রাউন্ডট্রিপ)",
+        "duration": "২.৫ ঘণ্টা",
+        "notes": "জাহাজ টেকনাফ থেকে ছাড়ে সকাল ৯:০০ - ৯:৩০ মিনিটে। রিটার্ন টিকিট সংগ্রহে রাখুন।"
+      },
+      {
+        "step": 3,
+        "from": "Saint Martin Jetty (জেটি)",
+        "to": "Chera Dwip (ছেঁড়া দ্বীপ)",
+        "vehicleType": "boat",
+        "vehicleLabelEn": "Speedboat / Trawler / Van",
+        "vehicleLabelBn": "স্পিডবোট / ট্রলার / সাইকেল",
+        "sharedFare": "৳৩৫০ - ৳৫০০ / জন (স্পিডবোট রাউন্ডট্রিপ)",
+        "reservedFare": "৳২,০০০ - ৳২,৫০০ (স্পিডবোট রিজার্ভ)",
+        "duration": "২০ - ৩০ মিনিট",
+        "notes": "ভাটার সময় সাইকেল চালিয়ে বা হেঁটেও ছেঁড়া দ্বীপে যাওয়া যায়। কোরাল পাথরে হাঁটার সময় রাবার জুতো পরুন।"
+      }
+    ],
+    "bargainingTips": [
+      "জেটি থেকে রিসোর্টে যেতে রিকশা-ভ্যানচালকরা ৩০০-৪০০ টাকা চাইতে পারে, সঠিক ভাড়া ১০০-১৫০ টাকা।",
+      "ছেঁড়া দ্বীপে ডাব খাওয়ার সময় প্রতি ডাবের দাম ৮০-১০০ টাকার বেশি দেবেন না।",
+      "মাঝিদের সাথে সমুদ্রের ট্রলারে যাওয়ার আগে ফেরার নির্দিষ্ট সময় পাকা করে নিন।"
+    ]
+  },
+  "tanguar-haor": {
+    "spotName": "Tanguar Haor & Shimul Bagan (টাঙ্গুয়ার হাওর ও শিমুল বাগান)",
+    "location": "Tahirpur, Sunamganj (তাহিরপুর, সুনামগঞ্জ)",
+    "overallDifficulty": "Waterway Cruise (নৌপথ ও বাইক)",
+    "routeSummary": "ঢাকা ➔ সুনামগঞ্জ ➔ তাহিরপুর ঘাট ➔ হাউসবোট ➔ ওয়াচটাওয়ার",
+    "steps": [
+      {
+        "step": 1,
+        "from": "Dhaka (ঢাকা)",
+        "to": "Sunamganj Town (সুনামগঞ্জ নতুন বাসস্ট্যান্ড)",
+        "vehicleType": "bus",
+        "vehicleLabelEn": "Night Coach",
+        "vehicleLabelBn": "দূরপাল্লার বাস",
+        "sharedFare": "৳৭০০ - ৳৮০০ (Non-AC)",
+        "reservedFare": "৳১,১০০ - ৳১,৩০০ (AC)",
+        "duration": "৬.৫ - ৭.৫ ঘণ্টা",
+        "notes": "হানিফ, শ্যামলী, এনা বা মামুন পরিবহন। সায়েদাবাদ বা মহাখালী থেকে রাত ১০:০০ টায় ছাড়লে ভোরে পৌঁছায়।"
+      },
+      {
+        "step": 2,
+        "from": "Sunamganj Sadar (সুনামগঞ্জ সদর)",
+        "to": "Tahirpur Boat Ghat (তাহিরপুর নৌকা ঘাট)",
+        "vehicleType": "cng",
+        "vehicleLabelEn": "Local CNG Auto-rickshaw",
+        "vehicleLabelBn": "লোকাল সিএনজি / লেগুনা",
+        "sharedFare": "৳১২০ - ৳১৫০ / জন (শেয়ারিং)",
+        "reservedFare": "৳৬০০ - ৳৭০০ (রিজার্ভ সিএনজি)",
+        "duration": "১ ঘণ্টা",
+        "notes": "আব্দুজ জহুর সেতু পেরিয়ে সুরমা নদীর ওপার থেকে সরাসরি তাহিরপুর বাজারের সিএনজি পাওয়া যায়।"
+      },
+      {
+        "step": 3,
+        "from": "Tahirpur Ghat (তাহিরপুর ঘাট)",
+        "to": "Tanguar Haor Watchtower (ওয়াচটাওয়ার ও নীল হ্রদ)",
+        "vehicleType": "boat",
+        "vehicleLabelEn": "Wooden Luxury Houseboat / Engine Boat",
+        "vehicleLabelBn": "হাউসবোট বা ট্রলার",
+        "sharedFare": "৳৬,০০০ - ৳১০,০০০ / জন (২ দিন ১ রাত হাউসবোট প্যাকেজ)",
+        "reservedFare": "৳৭,০০০ - ৳১২,০০০ (সাধারণ ট্রলার ডে-ট্রিপ রিজার্ভ)",
+        "duration": "২ - ৩ ঘণ্টা",
+        "notes": "হাউসবোটে ৫ বেলা সুস্বাদু হাওরের মাছ-হাঁসের খাবার, বিদ্যুৎ, ও ওয়াশরুম থাকে।"
+      },
+      {
+        "step": 4,
+        "from": "Tahirpur (তাহিরপুর)",
+        "to": "Shimul Bagan & Jadukata River (শিমুল বাগান ও যাদুকাটা নদী)",
+        "vehicleType": "auto",
+        "vehicleLabelEn": "Rental Motorbike Pilot",
+        "vehicleLabelBn": "ভাড়ায় চালিত মোটরসাইকেল",
+        "sharedFare": "৳৩০০ - ৳৪০০ / জন (রাউন্ডট্রিপ)",
+        "reservedFare": "৳৫০০ - ৳৭০০ (১ বাইকে ১ জন যাত্রী)",
+        "duration": "৩০ - ৪৫ মিনিট",
+        "notes": "যাদুকাটা নদীর স্বচ্ছ পানি ও বারেক টিলার মেঘালয় ভিউ দেখতে বাইক সবচেয়ে দ্রুততম মাধ্যম।"
+      }
+    ],
+    "bargainingTips": [
+      "তাহিরপুর ঘাটে সাধারণ ট্রলার ভাড়া করার সময় মাঝির সাথে সরাসরি কথা বলুন, কোনো মধ্যস্বত্বভোগীর সহায়তা নেবেন না।",
+      "মোটরবাইকে ওঠার আগেই শিমুল বাগান, বারেক টিলা ও রাজাই ঝর্ণা—সব স্পট ঘুরে দেখার চুক্তির টাকা স্পষ্ট করে নিন।",
+      "হাওরে সাঁতার কাটতে নামার সময় অবশ্যই লাইফ জ্যাকেট ব্যবহার করুন।"
+    ]
+  },
+  "marayan-thong": {
+    "spotName": "Marayan Thong Peak (মারায়াং তং পাহাড়)",
+    "location": "Alikadam, Bandarban (আলীকদম, বান্দরবান)",
+    "overallDifficulty": "Steep Hill Trek (খাড়া পাহাড় ট্র্যাকিং)",
+    "routeSummary": "ঢাকা ➔ চকোরিয়া / আলীকদম ➔ মাতামুহুরী ➔ ট্রেইলহেড ➔ সামিট",
+    "steps": [
+      {
+        "step": 1,
+        "from": "Dhaka (ঢাকা)",
+        "to": "Alikadam / Chakaria (আলীকদম / চকোরিয়া)",
+        "vehicleType": "bus",
+        "vehicleLabelEn": "Direct Bus / Connector",
+        "vehicleLabelBn": "দূরপাল্লার নাইট কোচ",
+        "sharedFare": "৳৮৫০ - ৳৯৫০ (চকোরিয়া)",
+        "reservedFare": "৳১,৪০০ - ৳১,৮০০ (আলীকদম ডিরেক্ট)",
+        "duration": "৮ - ৯ ঘণ্টা",
+        "notes": "শ্যামলী, হানিফ বা সেন্টমার্টিন। চকোরিয়া নেমে লোকাল চাঁদের গাড়ি বা জিপে আলীকদম যাওয়া যায় (৳৯০/জন)।"
+      },
+      {
+        "step": 2,
+        "from": "Alikadam Bazaar (আলীকদম বাজার)",
+        "to": "Trailhead / Residential Para (পাহাড়ের পাদদেশ)",
+        "vehicleType": "auto",
+        "vehicleLabelEn": "Local Tomtom / Auto",
+        "vehicleLabelBn": "লোকাল টমটম / অটো",
+        "sharedFare": "৳৩০ - ৳৪০ / জন",
+        "reservedFare": "৳১৫০ - ৳২০০ (রিজার্ভ)",
+        "duration": "১৫ মিনিট",
+        "notes": "আলীকদম পানবাজার থেকে মাতামুহুরী নদী পার হয়ে পাহাড়ের নিচের মারমা পাড়ায় নামিয়ে দেবে।"
+      },
+      {
+        "step": 3,
+        "from": "Trail Base (পাদদেশ)",
+        "to": "Marayan Thong Summit (মারায়াং তং চূড়া - বুদ্ধ জাদী)",
+        "vehicleType": "trek",
+        "vehicleLabelEn": "Steep Mountain Trek",
+        "vehicleLabelBn": "খাড়া পাহাড়ি ট্র্যাকিং (পায়ে হাঁটা)",
+        "sharedFare": "৳০ (নিজস্ব ট্র্যাকিং) / ৳৮০০ (লোকাল গাইড)",
+        "reservedFare": "ক্যাম্পিং সরঞ্জাম পোর্টার ফি ৳৫০০",
+        "duration": "২.৫ - ৩.৫ ঘণ্টা",
+        "notes": "১,৬৫০ ফুট খাড়া পাহাড়ি ট্রেইল। সাথে অন্তত ২ লিটার খাবার পানি ও গ্লুকোজ বা ওরস্যালাইন থাকা জরুরি।"
+      }
+    ],
+    "bargainingTips": [
+      "পাহাড়ের চূড়ায় কোনো দোকান বা পানির উৎস নেই। নিচের বাজার থেকেই তাঁবু, স্লিপিং ব্যাগ ও খাবার পানি কিনে নিতে হবে।",
+      "পাহাড় চূড়ায় বৌদ্ধ মন্দির (জাদী) রয়েছে, তাই সেখানে উচ্চস্বরে গান বাজানো বা পরিবেশ নোংরা করা সম্পূর্ণ নিষিদ্ধ।"
+    ]
+  },
+  "debotakhum": {
+    "spotName": "Debotakhum Canyon (দেবতাখুম ক্যানিয়ন)",
+    "location": "Roangchhari, Bandarban (রোয়াংছড়ি, বান্দরবান)",
+    "overallDifficulty": "Canyon River Walk & Bamboo Rafting (বাঁশের ভেলা ও গিরিখাত)",
+    "routeSummary": "ঢাকা ➔ বান্দরবান ➔ রোয়াংছড়ি ➔ তারাছা ঘাট ➔ দেবতাখুম",
+    "steps": [
+      {
+        "step": 1,
+        "from": "Bandarban Town (বান্দরবান শহর)",
+        "to": "Roangchhari Bazaar (রোয়াংছড়ি বাজার)",
+        "vehicleType": "chander-gari",
+        "vehicleLabelEn": "Shared Chander Gari / Bus",
+        "vehicleLabelBn": "চাঁদের গাড়ি / পাহাড়ি বাস",
+        "sharedFare": "৳৮০ - ৳১০০ / জন",
+        "reservedFare": "৳১,৮০০ - ৳২,২০০ (রিজার্ভ জিপ)",
+        "duration": "১ ঘণ্টা",
+        "notes": "বান্দরবান সদর রোয়াংছড়ি বাসস্ট্যান্ড থেকে প্রতি ঘণ্টায় গাড়ি ছাড়ে।"
+      },
+      {
+        "step": 2,
+        "from": "Roangchhari (রোয়াংছড়ি বাজার)",
+        "to": "Kanchonpara / Taracha River (তারাছা নদী ঘাট)",
+        "vehicleType": "cng",
+        "vehicleLabelEn": "Local CNG / Trek",
+        "vehicleLabelBn": "সিএনজি বা ট্র্যাকিং",
+        "sharedFare": "৳৫০ / জন",
+        "reservedFare": "৳২৫০ - ৳৩০০ (রিজার্ভ)",
+        "duration": "২০ মিনিট",
+        "notes": "রোয়াংছড়ি বিজিবি ও পুলিশ ক্যাম্পে জাতীয় পরিচয়পত্রের ফটোকপি জমা দিয়ে গাইড নিতে হবে।"
+      },
+      {
+        "step": 3,
+        "from": "Liangshang Para (লিয়াংশাং পাড়া)",
+        "to": "Debotakhum Gorge (দেবতাখুম গভীর গিরিখাত)",
+        "vehicleType": "boat",
+        "vehicleLabelEn": "Bamboo Raft (বাঁশের ভেলা)",
+        "vehicleLabelBn": "বাঁশের ভেলা ও সাঁতার",
+        "sharedFare": "৳১৫০ / জন (ভেলা ও লাইফ জ্যাকেট)",
+        "reservedFare": "৳১,০০০ / গ্রুপ (বাধ্যতামূলক গাইড ফি)",
+        "duration": "১ ঘণ্টা (ক্যানিয়ন ভ্রমণ)",
+        "notes": "উভয় পাশে খাড়া ২০০ ফুট পাথুরে দেয়াল ও মাঝখানে সবুজ গভীর জলরাশি। লাইফ জ্যাকেট ছাড়া ঢোকা নিষেধ।"
+      }
+    ],
+    "bargainingTips": [
+      "রোয়াংছড়ি সমিতি থেকে নির্ধারিত গাইড ফি ৳১,০০০ টাকা। এর অতিরিক্ত কোনো টাকা দাবি করলে সরাসরি বিজিবি ক্যাম্পে জানান।",
+      "দেবতাখুমের শীতল জলে ঢোকার আগে মোবাইল ও মানিব্যাগ ওয়াটারপ্রুফ ব্যাগে রাখতে হবে।"
+    ]
+  }
+}
