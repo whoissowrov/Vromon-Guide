@@ -28,7 +28,8 @@ const DestinationModal = () => {
     toggleBookmark, 
     planRouteTo,
     setActivePhotoSpot,
-    getSpotPhotos
+    getSpotPhotos,
+    openLiveVerification
   } = useApp();
   const [activeImageIndex, setActiveImageIndex] = useState(0);
   const [activeModalTab, setActiveModalTab] = useState('overview'); // 'overview' | 'transit'
@@ -225,13 +226,24 @@ const DestinationModal = () => {
                       </p>
                     </div>
 
-                    <button
-                      onClick={() => setActivePhotoSpot(spot)}
-                      className="px-4 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold shadow-glow flex items-center gap-1.5 transition-all"
-                    >
-                      <Camera className="w-3.5 h-3.5" />
-                      <span>সব ছবি ও লাইটবক্স দেখুন</span>
-                    </button>
+                    <div className="flex flex-wrap items-center gap-2">
+                      <button
+                        onClick={() => openLiveVerification(spot)}
+                        className="px-3.5 py-2 rounded-xl bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white text-xs font-bold shadow-glow flex items-center gap-1.5 transition-all"
+                        title="Live Camera & 5km Geofenced Photo Verification"
+                      >
+                        <Camera className="w-3.5 h-3.5" />
+                        <span>লাইভ ক্যামেরা ও জিপিএস যাচাই</span>
+                      </button>
+
+                      <button
+                        onClick={() => setActivePhotoSpot(spot)}
+                        className="px-3.5 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-white text-xs font-bold border border-slate-700 flex items-center gap-1.5 transition-all"
+                      >
+                        <Camera className="w-3.5 h-3.5 text-emerald-400" />
+                        <span>সব ছবি ও লাইটবক্স ({photosCount})</span>
+                      </button>
+                    </div>
                   </div>
 
                   <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5">

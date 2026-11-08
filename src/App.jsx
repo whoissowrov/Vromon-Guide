@@ -12,6 +12,7 @@ import TravelEssentials from './components/TravelEssentials';
 import DestinationModal from './components/DestinationModal';
 import CommunityPhotosModal from './components/CommunityPhotosModal';
 import BookmarksModal from './components/BookmarksModal';
+import LivePhotoVerificationModal from './components/LivePhotoVerificationModal';
 import Footer from './components/Footer';
 
 function AppContent() {
@@ -71,6 +72,7 @@ function AppContent() {
       <DestinationModal />
       <CommunityPhotosModal />
       <BookmarksModal />
+      <LivePhotoVerificationModal />
     </div>
   );
 }

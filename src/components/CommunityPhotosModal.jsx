@@ -1,9 +1,8 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useApp } from '../context/AppContext';
 import { 
   X, 
   Camera, 
-  Upload, 
   ZoomIn, 
   ZoomOut, 
   ChevronLeft, 
@@ -14,13 +13,12 @@ import {
   User, 
   CheckCircle2, 
   Sparkles, 
-  Share2, 
   ExternalLink,
   Maximize2,
-  Minimize2,
   Filter,
-  Image as ImageIcon,
-  Flame
+  Flame,
+  ShieldCheck,
+  Lock
 } from 'lucide-react';
 
 const CommunityPhotosModal = () => {
@@ -28,9 +26,9 @@ const CommunityPhotosModal = () => {
     activePhotoSpot, 
     setActivePhotoSpot, 
     getSpotPhotos, 
-    addCommunityPhoto,
     likedPhotos,
-    togglePhotoLike
+    togglePhotoLike,
+    openLiveVerification
   } = useApp();
 
   // Active Lightbox Photo Index (null if lightbox closed)
@@ -38,28 +36,14 @@ const CommunityPhotosModal = () => {
   const [isZoomed, setIsZoomed] = useState(false);
   const [zoomScale, setZoomScale] = useState(1);
 
-  // Upload Dialog State
-  const [isUploadOpen, setIsUploadOpen] = useState(false);
-  const [uploadPreview, setUploadPreview] = useState(null);
-  const [uploadPhotographer, setUploadPhotographer] = useState('');
-  const [uploadCaption, setUploadCaption] = useState('');
-  const [uploadDate, setUploadDate] = useState('');
-  const [uploadAspectRatio, setUploadAspectRatio] = useState('tall');
-  const [uploadUrlInput, setUploadUrlInput] = useState('');
-  const [uploadSuccessToast, setUploadSuccessToast] = useState(false);
-
-  // Gallery Sort Filter
-  const [filterMode, setFilterMode] = useState('all'); // 'all' | 'popular' | 'traveler'
-
-  const fileInputRef = useRef(null);
+  // Gallery Sort Filter: 'all' | 'verified' | 'popular' | 'traveler'
+  const [filterMode, setFilterMode] = useState('all');
 
   // Close Lightbox or Modal on ESC
   useEffect(() => {
     const handleKeyDown = (e) => {
       if (e.key === 'Escape') {
-        if (isUploadOpen) {
-          setIsUploadOpen(false);
-        } else if (lightboxIndex !== null) {
+        if (lightboxIndex !== null) {
           setLightboxIndex(null);
           setIsZoomed(false);
           setZoomScale(1);
@@ -77,7 +61,7 @@ const CommunityPhotosModal = () => {
 
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [lightboxIndex, activePhotoSpot, isUploadOpen]);
+  }, [lightboxIndex, activePhotoSpot]);
 
   if (!activePhotoSpot) return null;
 
@@ -88,6 +72,9 @@ const CommunityPhotosModal = () => {
   let photos = [...rawPhotos];
   if (filterMode === 'popular') {
     photos.sort((a, b) => (b.likes || 0) - (a.likes || 0));
+  } else if (filterMode === 'verified') {
+    photos = photos.filter(p => p.isLiveVerified);
+    if (photos.length === 0) photos = [...rawPhotos]; // fallback if none yet
   } else if (filterMode === 'traveler') {
     photos = photos.filter(p => p.isUserUploaded);
     if (photos.length === 0) photos = [...rawPhotos]; // fallback if none yet
@@ -115,47 +102,6 @@ const CommunityPhotosModal = () => {
       setIsZoomed(true);
       setZoomScale(1.8);
     }
-  };
-
-  // Handle File Input Selection
-  const handleFileChange = (e) => {
-    const file = e.target.files?.[0];
-    if (file) {
-      const previewUrl = URL.createObjectURL(file);
-      setUploadPreview(previewUrl);
-    }
-  };
-
-  // Handle Submitting Photo Contribution
-  const handleUploadSubmit = (e) => {
-    e.preventDefault();
-    const photoUrl = uploadPreview || uploadUrlInput.trim();
-    if (!photoUrl) {
-      alert('অনুগ্রহ করে একটি ছবি নির্বাচন করুন অথবা ছবির লিঙ্ক দিন');
-      return;
-    }
-
-    const newPhoto = addCommunityPhoto(spot.id, {
-      url: photoUrl,
-      photographer: uploadPhotographer.trim() || 'Anonymous Explorer',
-      caption: uploadCaption.trim() || `${spot.name}-এ চমৎকার এক মুহূর্ত`,
-      date: uploadDate.trim() || 'Recent Trip',
-      aspectRatio: uploadAspectRatio
-    });
-
-    // Reset upload form
-    setUploadPreview(null);
-    setUploadUrlInput('');
-    setUploadPhotographer('');
-    setUploadCaption('');
-    setUploadDate('');
-    setIsUploadOpen(false);
-
-    // Show celebration toast
-    setUploadSuccessToast(true);
-    setTimeout(() => {
-      setUploadSuccessToast(false);
-    }, 4500);
   };
 
   return (
@@ -196,14 +142,15 @@ const CommunityPhotosModal = () => {
               </div>
             </div>
 
-            {/* Actions: Upload Button + Close Button */}
+            {/* Actions: Take Live Photo Verification Button + Close Button */}
             <div className="flex items-center gap-2.5">
               <button
-                onClick={() => setIsUploadOpen(true)}
+                onClick={() => openLiveVerification(spot)}
                 className="px-4 py-2.5 rounded-2xl bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-500 hover:from-emerald-500 hover:to-teal-400 text-white font-bold text-xs sm:text-sm shadow-glow flex items-center gap-2 transition-all transform hover:scale-102 active:scale-98"
+                title="Strict Rear Live Camera & 5km GPS Verification"
               >
                 <Camera className="w-4 h-4" />
-                <span>Upload Your Real Photo</span>
+                <span>Take Live Photo & Geoverify (৫ কিমি GPS)</span>
               </button>
 
               <button
@@ -231,6 +178,17 @@ const CommunityPhotosModal = () => {
                 সব ছবি ({rawPhotos.length})
               </button>
               <button
+                onClick={() => setFilterMode('verified')}
+                className={`px-3 py-1 rounded-lg transition-colors flex items-center gap-1 ${
+                  filterMode === 'verified'
+                    ? 'bg-emerald-500 text-slate-950 font-bold'
+                    : 'bg-white dark:bg-[#122820] text-slate-700 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-[#18362b]'
+                }`}
+              >
+                <ShieldCheck className="w-3.5 h-3.5 text-emerald-600 dark:text-emerald-400" />
+                <span>ভেরিফায়েড লাইভ</span>
+              </button>
+              <button
                 onClick={() => setFilterMode('popular')}
                 className={`px-3 py-1 rounded-lg transition-colors flex items-center gap-1 ${
                   filterMode === 'popular'
@@ -248,22 +206,6 @@ const CommunityPhotosModal = () => {
             </p>
           </div>
 
-          {/* Toast Notification when Photo Uploaded */}
-          {uploadSuccessToast && (
-            <div className="m-4 p-3.5 rounded-2xl bg-emerald-500/15 border border-emerald-500/40 text-emerald-800 dark:text-emerald-300 text-xs sm:text-sm font-semibold flex items-center justify-between animate-fadeIn">
-              <div className="flex items-center gap-2">
-                <CheckCircle2 className="w-5 h-5 text-emerald-500 shrink-0" />
-                <span>অভিনন্দন! আপনার তোলা আসল ছবিটি কমিউনিটি গ্যালারিতে যুক্ত হয়েছে। ধন্যবাদ!</span>
-              </div>
-              <button 
-                onClick={() => setUploadSuccessToast(false)}
-                className="text-emerald-700 dark:text-emerald-400 hover:text-emerald-900"
-              >
-                <X className="w-4 h-4" />
-              </button>
-            </div>
-          )}
-
           {/* Masonry Gallery Grid Container */}
           <div className="overflow-y-auto p-4 sm:p-6 flex-1">
             {photos.length === 0 ? (
@@ -273,13 +215,14 @@ const CommunityPhotosModal = () => {
                   এখনো কোনো ছবি নেই
                 </h3>
                 <p className="text-sm text-slate-500 dark:text-slate-400 mt-1 max-w-md mx-auto">
-                  আপনি কি সম্প্রতি {spot.name}-এ গিয়েছেন? প্রথম ছবি আপলোড করে কমিউনিটি গ্যালারি শুরু করুন!
+                  আপনি কি বর্তমানে {spot.name}-এ আছেন? ৫ কিমি জিওফেন্স ও লাইভ রিয়ার ক্যামেরা দিয়ে প্রথম ভেরিফায়েড ছবি আপলোড করুন!
                 </p>
                 <button
-                  onClick={() => setIsUploadOpen(true)}
-                  className="mt-4 px-5 py-2.5 rounded-xl bg-emerald-600 text-white font-bold text-sm shadow-md"
+                  onClick={() => openLiveVerification(spot)}
+                  className="mt-4 px-5 py-2.5 rounded-xl bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white font-bold text-sm shadow-glow flex items-center gap-2 mx-auto transition-transform hover:scale-102"
                 >
-                  প্রথম ছবি আপলোড করুন
+                  <Camera className="w-4 h-4" />
+                  <span>Take Live Photo & Geoverify</span>
                 </button>
               </div>
             ) : (
@@ -317,12 +260,17 @@ const CommunityPhotosModal = () => {
                           <span className="truncate">{photo.photographer}</span>
                         </div>
 
-                        {photo.isUserUploaded && (
-                          <span className="px-2 py-0.5 rounded-full bg-emerald-500 text-white text-[10px] font-extrabold shadow-sm flex items-center gap-1">
+                        {photo.isLiveVerified ? (
+                          <span className="px-2.5 py-0.5 rounded-full bg-emerald-500 text-slate-950 text-[10px] font-black shadow-md flex items-center gap-1 border border-emerald-300">
+                            <CheckCircle2 className="w-3 h-3 text-slate-950" />
+                            <span>ভেরিফায়েড লাইভ</span>
+                          </span>
+                        ) : photo.isUserUploaded ? (
+                          <span className="px-2 py-0.5 rounded-full bg-teal-600 text-white text-[10px] font-extrabold shadow-sm flex items-center gap-1">
                             <Sparkles className="w-2.5 h-2.5" />
                             <span>কমিউনিটি</span>
                           </span>
-                        )}
+                        ) : null}
                       </div>
 
                       {/* Bottom Info Overlay */}
@@ -378,11 +326,11 @@ const CommunityPhotosModal = () => {
             </div>
 
             <button
-              onClick={() => setIsUploadOpen(true)}
-              className="px-5 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs sm:text-sm flex items-center gap-2 shadow-md transition-all whitespace-nowrap w-full sm:w-auto justify-center"
+              onClick={() => openLiveVerification(spot)}
+              className="px-5 py-2.5 rounded-xl bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white font-bold text-xs sm:text-sm flex items-center gap-2 shadow-glow transition-all whitespace-nowrap w-full sm:w-auto justify-center"
             >
-              <Upload className="w-4 h-4" />
-              <span>Upload Your Real Photo</span>
+              <Camera className="w-4 h-4" />
+              <span>Take Live Photo & Geoverify (৫ কিমি GPS)</span>
             </button>
           </div>
 
@@ -519,6 +467,15 @@ const CommunityPhotosModal = () => {
           <div className="p-4 sm:p-6 bg-gradient-to-t from-black/90 via-black/60 to-transparent z-20 text-center sm:text-left">
             <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3">
               <div>
+                {currentLightboxPhoto.isLiveVerified && (
+                  <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/40 text-xs font-bold mb-2 shadow-sm">
+                    <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400" />
+                    <span>{currentLightboxPhoto.verifiedBadge || '✅ ভেরিফায়েড লাইভ ফটো (Verified on Location)'}</span>
+                    {currentLightboxPhoto.distanceKm !== null && (
+                      <span className="opacity-80 font-normal">({currentLightboxPhoto.distanceKm} কিমি দূরত্বে)</span>
+                    )}
+                  </div>
+                )}
                 <p className="text-sm sm:text-base font-semibold text-white leading-relaxed">
                   "{currentLightboxPhoto.caption}"
                 </p>
@@ -548,200 +505,6 @@ const CommunityPhotosModal = () => {
             </div>
           </div>
 
-        </div>
-      )}
-
-      {/* ================= "UPLOAD YOUR REAL PHOTO" DIALOG ================= */}
-      {isUploadOpen && (
-        <div className="fixed inset-0 z-[90] bg-black/80 backdrop-blur-md flex items-center justify-center p-3 sm:p-6 animate-fadeIn">
-          <div 
-            className="fixed inset-0" 
-            onClick={() => setIsUploadOpen(false)}
-          />
-
-          <div className="relative w-full max-w-lg bg-white dark:bg-[#0B1E16] border border-slate-200 dark:border-emerald-700/50 rounded-3xl shadow-2xl overflow-hidden z-10 p-6 sm:p-8 animate-scaleUp">
-            
-            {/* Modal Header */}
-            <div className="flex items-center justify-between pb-4 border-b border-slate-200 dark:border-emerald-950/60 mb-5">
-              <div className="flex items-center gap-2.5">
-                <div className="p-2.5 rounded-2xl bg-emerald-100 dark:bg-emerald-950/80 text-emerald-600 dark:text-emerald-400">
-                  <Camera className="w-5 h-5" />
-                </div>
-                <div>
-                  <h3 className="font-extrabold text-lg text-slate-900 dark:text-white">
-                    Upload Your Real Photo
-                  </h3>
-                  <p className="text-xs text-slate-500 dark:text-slate-400">
-                    {spot.name}-এর আসল ভ্রমণ ছবি যুক্ত করুন
-                  </p>
-                </div>
-              </div>
-
-              <button
-                onClick={() => setIsUploadOpen(false)}
-                className="p-2 rounded-xl bg-slate-100 hover:bg-slate-200 dark:bg-emerald-950/60 dark:hover:bg-emerald-900/60 text-slate-600 dark:text-slate-300 transition-colors"
-              >
-                <X className="w-5 h-5" />
-              </button>
-            </div>
-
-            {/* Form */}
-            <form onSubmit={handleUploadSubmit} className="space-y-4">
-              
-              {/* Image Input Area: File Select or Drag Drop */}
-              <div>
-                <label className="block text-xs font-bold uppercase tracking-wider text-slate-600 dark:text-slate-300 mb-1.5">
-                  ছবি নির্বাচন করুন (Choose Photo) *
-                </label>
-
-                {uploadPreview ? (
-                  <div className="relative rounded-2xl overflow-hidden h-48 bg-slate-900 border-2 border-emerald-500/60 group">
-                    <img
-                      src={uploadPreview}
-                      alt="Upload preview"
-                      className="w-full h-full object-cover"
-                    />
-                    <div className="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-                      <button
-                        type="button"
-                        onClick={() => {
-                          setUploadPreview(null);
-                          if (fileInputRef.current) fileInputRef.current.value = '';
-                        }}
-                        className="px-3 py-1.5 rounded-xl bg-rose-600 text-white text-xs font-bold shadow-lg"
-                      >
-                        অন্য ছবি দিন (Remove)
-                      </button>
-                    </div>
-                  </div>
-                ) : (
-                  <div
-                    onClick={() => fileInputRef.current?.click()}
-                    className="border-2 border-dashed border-slate-300 dark:border-emerald-800/60 hover:border-emerald-500 dark:hover:border-emerald-400 rounded-2xl p-6 text-center cursor-pointer transition-colors bg-slate-50 dark:bg-[#07130E]/60 group"
-                  >
-                    <input
-                      ref={fileInputRef}
-                      type="file"
-                      accept="image/*"
-                      onChange={handleFileChange}
-                      className="hidden"
-                    />
-                    <div className="w-12 h-12 rounded-full bg-emerald-100 dark:bg-emerald-950/80 text-emerald-600 dark:text-emerald-400 mx-auto mb-2 flex items-center justify-center group-hover:scale-110 transition-transform">
-                      <Upload className="w-6 h-6" />
-                    </div>
-                    <p className="text-xs sm:text-sm font-bold text-slate-800 dark:text-slate-200">
-                      ফাইল সিলেক্ট করতে এখানে ক্লিক করুন
-                    </p>
-                    <p className="text-[11px] text-slate-500 dark:text-slate-400 mt-1">
-                      JPG, PNG, WebP সাপোর্টেড (মোবাইল বা ক্যামেরা থেকে)
-                    </p>
-                  </div>
-                )}
-
-                {/* Or Custom URL */}
-                <div className="mt-2.5">
-                  <div className="flex items-center gap-2">
-                    <div className="h-px bg-slate-200 dark:bg-emerald-950/60 flex-1" />
-                    <span className="text-[10px] text-slate-400 uppercase font-semibold">অথবা ছবির সরাসরি লিঙ্ক (URL)</span>
-                    <div className="h-px bg-slate-200 dark:bg-emerald-950/60 flex-1" />
-                  </div>
-                  <input
-                    type="url"
-                    placeholder="https://images.unsplash.com/..."
-                    value={uploadUrlInput}
-                    onChange={(e) => {
-                      setUploadUrlInput(e.target.value);
-                      if (e.target.value) setUploadPreview(e.target.value);
-                    }}
-                    className="mt-2 w-full px-3.5 py-2 rounded-xl text-xs bg-slate-50 dark:bg-[#07130E] border border-slate-200 dark:border-emerald-900/60 text-slate-800 dark:text-slate-200 focus:outline-none focus:border-emerald-500"
-                  />
-                </div>
-              </div>
-
-              {/* Photographer Name */}
-              <div>
-                <label className="block text-xs font-bold text-slate-700 dark:text-slate-300 mb-1">
-                  আপনার নাম (Photographer Credit) *
-                </label>
-                <div className="relative">
-                  <User className="w-4 h-4 text-emerald-500 absolute left-3.5 top-1/2 -translate-y-1/2" />
-                  <input
-                    type="text"
-                    required
-                    placeholder="e.g. Tanvir Ahmed / Farhan"
-                    value={uploadPhotographer}
-                    onChange={(e) => setUploadPhotographer(e.target.value)}
-                    className="w-full pl-10 pr-3.5 py-2.5 rounded-xl text-xs sm:text-sm bg-slate-50 dark:bg-[#07130E] border border-slate-200 dark:border-emerald-900/60 text-slate-800 dark:text-slate-200 focus:outline-none focus:border-emerald-500"
-                  />
-                </div>
-              </div>
-
-              {/* Caption */}
-              <div>
-                <label className="block text-xs font-bold text-slate-700 dark:text-slate-300 mb-1">
-                  ছবির ক্যাপশন ও অভিজ্ঞতা (Caption & Story) *
-                </label>
-                <textarea
-                  required
-                  rows={2}
-                  placeholder={`e.g. ${spot.name}-এ সকালের সোনালী মেঘের চাদর অথবা স্থানীয় ট্রেইল...`}
-                  value={uploadCaption}
-                  onChange={(e) => setUploadCaption(e.target.value)}
-                  className="w-full px-3.5 py-2.5 rounded-xl text-xs sm:text-sm bg-slate-50 dark:bg-[#07130E] border border-slate-200 dark:border-emerald-900/60 text-slate-800 dark:text-slate-200 focus:outline-none focus:border-emerald-500 resize-none"
-                />
-              </div>
-
-              {/* Travel Date & Aspect Ratio */}
-              <div className="grid grid-cols-2 gap-3">
-                <div>
-                  <label className="block text-xs font-bold text-slate-700 dark:text-slate-300 mb-1">
-                    ভ্রমণের সময় (Month/Season)
-                  </label>
-                  <input
-                    type="text"
-                    placeholder="e.g. October 2024"
-                    value={uploadDate}
-                    onChange={(e) => setUploadDate(e.target.value)}
-                    className="w-full px-3 py-2 rounded-xl text-xs bg-slate-50 dark:bg-[#07130E] border border-slate-200 dark:border-emerald-900/60 text-slate-800 dark:text-slate-200 focus:outline-none focus:border-emerald-500"
-                  />
-                </div>
-
-                <div>
-                  <label className="block text-xs font-bold text-slate-700 dark:text-slate-300 mb-1">
-                    ছবির ধরন (Layout)
-                  </label>
-                  <select
-                    value={uploadAspectRatio}
-                    onChange={(e) => setUploadAspectRatio(e.target.value)}
-                    className="w-full px-3 py-2 rounded-xl text-xs bg-slate-50 dark:bg-[#07130E] border border-slate-200 dark:border-emerald-900/60 text-slate-800 dark:text-slate-200 focus:outline-none focus:border-emerald-500"
-                  >
-                    <option value="tall">লম্বা (Portrait/Tall)</option>
-                    <option value="wide">চওড়া (Landscape/Wide)</option>
-                    <option value="square">বর্গাকার (Square)</option>
-                  </select>
-                </div>
-              </div>
-
-              {/* Submit Button */}
-              <div className="pt-2 flex items-center justify-end gap-2.5">
-                <button
-                  type="button"
-                  onClick={() => setIsUploadOpen(false)}
-                  className="px-4 py-2.5 rounded-xl text-xs sm:text-sm font-semibold bg-slate-100 hover:bg-slate-200 dark:bg-emerald-950/60 dark:hover:bg-emerald-900/60 text-slate-700 dark:text-slate-300 transition-colors"
-                >
-                  বাতিল
-                </button>
-                <button
-                  type="submit"
-                  className="px-5 py-2.5 rounded-xl text-xs sm:text-sm font-bold bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white shadow-glow flex items-center gap-2 transition-all"
-                >
-                  <Sparkles className="w-4 h-4" />
-                  <span>কমিউনিটিতে যোগ করুন</span>
-                </button>
-              </div>
-
-            </form>
-          </div>
         </div>
       )}
     </>

@@ -188,7 +188,11 @@
         "likes": 205,
         "aspectRatio": "wide"
       }
-    ]
+    ],
+    "coordinates": {
+      "lat": 23.382,
+      "lng": 92.2938
+    }
   },
   {
     "id": "saint-martins-island",
@@ -379,7 +383,11 @@
         "likes": 162,
         "aspectRatio": "wide"
       }
-    ]
+    ],
+    "coordinates": {
+      "lat": 20.6273,
+      "lng": 92.3225
+    }
   },
   {
     "id": "nilgiri-thanchi",
@@ -555,7 +563,11 @@
         "likes": 212,
         "aspectRatio": "wide"
       }
-    ]
+    ],
+    "coordinates": {
+      "lat": 21.9167,
+      "lng": 92.3167
+    }
   },
   {
     "id": "marayan-thong",
@@ -744,7 +756,11 @@
         "likes": 142,
         "aspectRatio": "wide"
       }
-    ]
+    ],
+    "coordinates": {
+      "lat": 21.6883,
+      "lng": 92.3089
+    }
   },
   {
     "id": "debotakhum-shilbadha",
@@ -933,7 +949,11 @@
         "likes": 134,
         "aspectRatio": "tall"
       }
-    ]
+    ],
+    "coordinates": {
+      "lat": 22.1969,
+      "lng": 92.3217
+    }
   },
   {
     "id": "guliakhali-beach",
@@ -1094,7 +1114,11 @@
         "likes": 225,
         "aspectRatio": "wide"
       }
-    ]
+    ],
+    "coordinates": {
+      "lat": 22.5855,
+      "lng": 91.6067
+    }
   },
   {
     "id": "harinmara-chhagalnaiya",
@@ -1271,7 +1295,11 @@
         "likes": 175,
         "aspectRatio": "wide"
       }
-    ]
+    ],
+    "coordinates": {
+      "lat": 23.0361,
+      "lng": 91.5194
+    }
   },
   {
     "id": "nafakhum-amiakhum",
@@ -1460,7 +1488,11 @@
         "likes": 119,
         "aspectRatio": "wide"
       }
-    ]
+    ],
+    "coordinates": {
+      "lat": 21.6833,
+      "lng": 92.5167
+    }
   },
   {
     "id": "ratargul-swamp-forest",
@@ -1636,7 +1668,11 @@
         "likes": 175,
         "aspectRatio": "wide"
       }
-    ]
+    ],
+    "coordinates": {
+      "lat": 25.0022,
+      "lng": 91.9306
+    }
   },
   {
     "id": "tanguar-haor",
@@ -1814,7 +1850,11 @@
         "likes": 197,
         "aspectRatio": "square"
       }
-    ]
+    ],
+    "coordinates": {
+      "lat": 25.1278,
+      "lng": 91.0722
+    }
   },
   {
     "id": "lawachara-sreemangal",
@@ -1978,7 +2018,11 @@
         "likes": 112,
         "aspectRatio": "tall"
       }
-    ]
+    ],
+    "coordinates": {
+      "lat": 24.3239,
+      "lng": 91.785
+    }
   },
   {
     "id": "bholaganj-sada-pathor",
@@ -2155,7 +2199,11 @@
         "likes": 200,
         "aspectRatio": "wide"
       }
-    ]
+    ],
+    "coordinates": {
+      "lat": 25.1583,
+      "lng": 91.7556
+    }
   },
   {
     "id": "lalakhal-sari-river",
@@ -2320,7 +2368,11 @@
         "likes": 180,
         "aspectRatio": "wide"
       }
-    ]
+    ],
+    "coordinates": {
+      "lat": 25.1167,
+      "lng": 92.1833
+    }
   },
   {
     "id": "hum-hum-waterfall",
@@ -2497,7 +2549,11 @@
         "likes": 136,
         "aspectRatio": "wide"
       }
-    ]
+    ],
+    "coordinates": {
+      "lat": 24.2639,
+      "lng": 91.9167
+    }
   },
   {
     "id": "turong-utma-chora",
@@ -2662,7 +2718,11 @@
         "likes": 197,
         "aspectRatio": "wide"
       }
-    ]
+    ],
+    "coordinates": {
+      "lat": 25.1639,
+      "lng": 91.7833
+    }
   },
   {
     "id": "sundarbans-kotka",
@@ -2824,7 +2884,11 @@
         "likes": 165,
         "aspectRatio": "wide"
       }
-    ]
+    ],
+    "coordinates": {
+      "lat": 21.8542,
+      "lng": 89.7828
+    }
   },
   {
     "id": "sixty-dome-mosque",
@@ -2996,7 +3060,11 @@
         "likes": 215,
         "aspectRatio": "wide"
       }
-    ]
+    ],
+    "coordinates": {
+      "lat": 22.6744,
+      "lng": 89.7417
+    }
   },
   {
     "id": "mandarbaria-dublar-char",
@@ -3157,7 +3225,11 @@
         "likes": 223,
         "aspectRatio": "wide"
       }
-    ]
+    ],
+    "coordinates": {
+      "lat": 21.7167,
+      "lng": 89.5833
+    }
   },
   {
     "id": "bhatpara-nilkuthi",
@@ -3317,7 +3389,11 @@
         "likes": 171,
         "aspectRatio": "wide"
       }
-    ]
+    ],
+    "coordinates": {
+      "lat": 23.8222,
+      "lng": 88.6833
+    }
   },
   {
     "id": "mithapukur-sagardari",
@@ -3489,7 +3565,11 @@
         "likes": 122,
         "aspectRatio": "tall"
       }
-    ]
+    ],
+    "coordinates": {
+      "lat": 22.9083,
+      "lng": 89.1583
+    }
   },
   {
     "id": "jhau-bon-burigoalini",
@@ -3650,7 +3730,11 @@
         "likes": 160,
         "aspectRatio": "wide"
       }
-    ]
+    ],
+    "coordinates": {
+      "lat": 22.25,
+      "lng": 89.2333
+    }
   },
   {
     "id": "kuakata-sea-beach",
@@ -3823,7 +3907,11 @@
         "likes": 224,
         "aspectRatio": "wide"
       }
-    ]
+    ],
+    "coordinates": {
+      "lat": 21.8167,
+      "lng": 90.1167
+    }
   },
   {
     "id": "floating-guava-market",
@@ -3996,7 +4084,11 @@
         "likes": 240,
         "aspectRatio": "wide"
       }
-    ]
+    ],
+    "coordinates": {
+      "lat": 22.65,
+      "lng": 90.1167
+    }
   },
   {
     "id": "nijhum-dwip-manpura",
@@ -4169,7 +4261,11 @@
         "likes": 194,
         "aspectRatio": "wide"
       }
-    ]
+    ],
+    "coordinates": {
+      "lat": 22.0667,
+      "lng": 91
+    }
   },
   {
     "id": "horinghata-forest",
@@ -4342,7 +4438,11 @@
         "likes": 114,
         "aspectRatio": "wide"
       }
-    ]
+    ],
+    "coordinates": {
+      "lat": 22.0167,
+      "lng": 89.9667
+    }
   },
   {
     "id": "sonar-char-fatrar-char",
@@ -4503,7 +4603,11 @@
         "likes": 226,
         "aspectRatio": "tall"
       }
-    ]
+    ],
+    "coordinates": {
+      "lat": 21.7833,
+      "lng": 90.4167
+    }
   },
   {
     "id": "satla-shapla-bil",
@@ -4676,7 +4780,11 @@
         "likes": 127,
         "aspectRatio": "wide"
       }
-    ]
+    ],
+    "coordinates": {
+      "lat": 22.8833,
+      "lng": 90.1167
+    }
   },
   {
     "id": "somapura-mahavihara",
@@ -4835,7 +4943,11 @@
         "likes": 170,
         "aspectRatio": "wide"
       }
-    ]
+    ],
+    "coordinates": {
+      "lat": 25.0317,
+      "lng": 88.9772
+    }
   },
   {
     "id": "puthia-temple-complex",
@@ -5007,7 +5119,11 @@
         "likes": 118,
         "aspectRatio": "wide"
       }
-    ]
+    ],
+    "coordinates": {
+      "lat": 24.3667,
+      "lng": 88.8333
+    }
   },
   {
     "id": "mahasthangarh",
@@ -5167,7 +5283,11 @@
         "likes": 181,
         "aspectRatio": "wide"
       }
-    ]
+    ],
+    "coordinates": {
+      "lat": 24.9606,
+      "lng": 89.3456
+    }
   },
   {
     "id": "kusumba-mosque-dubalhati",
@@ -5328,7 +5448,11 @@
         "likes": 155,
         "aspectRatio": "tall"
       }
-    ]
+    ],
+    "coordinates": {
+      "lat": 24.75,
+      "lng": 88.6833
+    }
   },
   {
     "id": "chalan-beel-bridge",
@@ -5501,7 +5625,11 @@
         "likes": 187,
         "aspectRatio": "wide"
       }
-    ]
+    ],
+    "coordinates": {
+      "lat": 24.4167,
+      "lng": 89.25
+    }
   },
   {
     "id": "ghoraghat-hili-border",
@@ -5661,7 +5789,11 @@
         "likes": 149,
         "aspectRatio": "tall"
       }
-    ]
+    ],
+    "coordinates": {
+      "lat": 25.2472,
+      "lng": 89.2139
+    }
   },
   {
     "id": "talonda-padma-char",
@@ -5822,7 +5954,11 @@
         "likes": 143,
         "aspectRatio": "wide"
       }
-    ]
+    ],
+    "coordinates": {
+      "lat": 24.4667,
+      "lng": 88.3333
+    }
   },
   {
     "id": "kantajew-temple",
@@ -5991,7 +6127,11 @@
         "likes": 246,
         "aspectRatio": "wide"
       }
-    ]
+    ],
+    "coordinates": {
+      "lat": 25.7906,
+      "lng": 88.6656
+    }
   },
   {
     "id": "tajhat-palace",
@@ -6147,7 +6287,11 @@
         "likes": 149,
         "aspectRatio": "tall"
       }
-    ]
+    ],
+    "coordinates": {
+      "lat": 25.7222,
+      "lng": 89.2722
+    }
   },
   {
     "id": "swapnapuri-ramsagar",
@@ -6303,7 +6447,11 @@
         "likes": 188,
         "aspectRatio": "wide"
       }
-    ]
+    ],
+    "coordinates": {
+      "lat": 25.55,
+      "lng": 88.6333
+    }
   },
   {
     "id": "dahagram-tin-bigha",
@@ -6472,7 +6620,11 @@
         "likes": 241,
         "aspectRatio": "wide"
       }
-    ]
+    ],
+    "coordinates": {
+      "lat": 26.3333,
+      "lng": 88.9833
+    }
   },
   {
     "id": "teesta-barrage-dalia",
@@ -6629,7 +6781,11 @@
         "likes": 112,
         "aspectRatio": "wide"
       }
-    ]
+    ],
+    "coordinates": {
+      "lat": 26.1833,
+      "lng": 89.05
+    }
   },
   {
     "id": "birganj-shalban-singra",
@@ -6798,7 +6954,11 @@
         "likes": 116,
         "aspectRatio": "tall"
       }
-    ]
+    ],
+    "coordinates": {
+      "lat": 25.8667,
+      "lng": 88.65
+    }
   },
   {
     "id": "banglabandha-tetulia",
@@ -6967,7 +7127,11 @@
         "likes": 203,
         "aspectRatio": "wide"
       }
-    ]
+    ],
+    "coordinates": {
+      "lat": 26.65,
+      "lng": 88.3833
+    }
   },
   {
     "id": "panam-nagar-sonargaon",
@@ -7139,7 +7303,11 @@
         "likes": 194,
         "aspectRatio": "wide"
       }
-    ]
+    ],
+    "coordinates": {
+      "lat": 23.6558,
+      "lng": 90.6017
+    }
   },
   {
     "id": "mainamati-shalban-vihara",
@@ -7311,7 +7479,11 @@
         "likes": 153,
         "aspectRatio": "wide"
       }
-    ]
+    ],
+    "coordinates": {
+      "lat": 23.4333,
+      "lng": 91.1333
+    }
   },
   {
     "id": "bhawal-national-park",
@@ -7472,7 +7644,11 @@
         "likes": 218,
         "aspectRatio": "wide"
       }
-    ]
+    ],
+    "coordinates": {
+      "lat": 24.0833,
+      "lng": 90.4
+    }
   },
   {
     "id": "baliati-teota-palace",
@@ -7645,7 +7821,11 @@
         "likes": 239,
         "aspectRatio": "tall"
       }
-    ]
+    ],
+    "coordinates": {
+      "lat": 23.9944,
+      "lng": 90.0417
+    }
   },
   {
     "id": "padma-mainot-ghat",
@@ -7818,7 +7998,11 @@
         "likes": 240,
         "aspectRatio": "wide"
       }
-    ]
+    ],
+    "coordinates": {
+      "lat": 23.6333,
+      "lng": 90.1333
+    }
   },
   {
     "id": "mohera-zamindar-bari",
@@ -7991,7 +8175,11 @@
         "likes": 122,
         "aspectRatio": "wide"
       }
-    ]
+    ],
+    "coordinates": {
+      "lat": 24.1667,
+      "lng": 90.0333
+    }
   },
   {
     "id": "birishiri-white-clay",
@@ -8160,7 +8348,11 @@
         "likes": 247,
         "aspectRatio": "wide"
       }
-    ]
+    ],
+    "coordinates": {
+      "lat": 25.1228,
+      "lng": 90.6869
+    }
   },
   {
     "id": "gajni-madhutila",
@@ -8320,7 +8512,11 @@
         "likes": 201,
         "aspectRatio": "wide"
       }
-    ]
+    ],
+    "coordinates": {
+      "lat": 25.1833,
+      "lng": 90.1167
+    }
   },
   {
     "id": "ranikhong-someshwari",
@@ -8477,7 +8673,11 @@
         "likes": 129,
         "aspectRatio": "wide"
       }
-    ]
+    ],
+    "coordinates": {
+      "lat": 25.15,
+      "lng": 90.65
+    }
   },
   {
     "id": "shadhur-chorpati-nakugaon",
@@ -8634,7 +8834,11 @@
         "likes": 188,
         "aspectRatio": "wide"
       }
-    ]
+    ],
+    "coordinates": {
+      "lat": 25.2,
+      "lng": 90.2333
+    }
   },
   {
     "id": "muktagacha-zamindar-palace",
@@ -8791,6 +8995,10 @@
         "likes": 258,
         "aspectRatio": "wide"
       }
-    ]
+    ],
+    "coordinates": {
+      "lat": 24.7667,
+      "lng": 90.2667
+    }
   }
 ]

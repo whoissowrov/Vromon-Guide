@@ -33,6 +33,7 @@ export const AppProvider = ({ children }) => {
 
   const [activeModalSpot, setActiveModalSpot] = useState(null);
   const [activePhotoSpot, setActivePhotoSpot] = useState(null);
+  const [liveVerificationSpot, setLiveVerificationSpot] = useState(null);
   const [isBookmarksOpen, setIsBookmarksOpen] = useState(false);
 
   // Real Community Photos user uploads (persisted in localStorage)
@@ -105,16 +106,29 @@ export const AppProvider = ({ children }) => {
     });
   };
 
+  const openLiveVerification = (spot) => {
+    setLiveVerificationSpot(spot);
+  };
+
+  const closeLiveVerification = () => {
+    setLiveVerificationSpot(null);
+  };
+
   const addCommunityPhoto = (spotId, photoData) => {
     const newPhoto = {
       id: `comm-${spotId}-${Date.now()}`,
       url: photoData.url,
-      caption: photoData.caption || 'Traveler photo contribution',
-      photographer: photoData.photographer || 'Fellow Traveler',
-      date: photoData.date || 'Just now',
+      caption: photoData.caption || 'ভেরিফায়েড লাইভ ভ্রমণ ছবি',
+      photographer: photoData.photographer || 'অন-সাইট ট্রাভেলার',
+      date: photoData.date || new Date().toLocaleDateString('bn-BD', { month: 'long', year: 'numeric' }),
       likes: 1,
-      aspectRatio: photoData.aspectRatio || 'tall',
+      aspectRatio: photoData.aspectRatio || 'wide',
       isUserUploaded: true,
+      isLiveVerified: Boolean(photoData.isLiveVerified ?? true),
+      verifiedBadge: photoData.verifiedBadge || '✅ ভেরিফায়েড লাইভ ফটো (Verified on Location)',
+      distanceKm: photoData.distanceKm !== undefined ? photoData.distanceKm : null,
+      userCoords: photoData.userCoords || null,
+      verifiedAt: photoData.verifiedAt || new Date().toISOString(),
       createdAt: new Date().toISOString()
     };
 
@@ -169,6 +183,9 @@ export const AppProvider = ({ children }) => {
         setActiveModalSpot,
         activePhotoSpot,
         setActivePhotoSpot,
+        liveVerificationSpot,
+        openLiveVerification,
+        closeLiveVerification,
         communityUploads,
         likedPhotos,
         togglePhotoLike,

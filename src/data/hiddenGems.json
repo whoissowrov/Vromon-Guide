@@ -27,7 +27,11 @@
     ],
     "bestTime": "October to February (Dry, cool camping nights)",
     "localFood": "Alikadam hill bazaar paratha, country chicken, and tribal organic wild bananas.",
-    "transitKey": "marayan-thong"
+    "transitKey": "marayan-thong",
+    "coordinates": {
+      "lat": 21.6883,
+      "lng": 92.3089
+    }
   },
   {
     "id": "debotakhum-canyon",
@@ -57,7 +61,11 @@
     ],
     "bestTime": "November to March (Water is calm, deep green and crystal clear; avoid mid-monsoon flash floods)",
     "localFood": "Homestyle boiled mountain vegetables, bamboo shoot mash, and stream fish in banana leaf.",
-    "transitKey": "debotakhum"
+    "transitKey": "debotakhum",
+    "coordinates": {
+      "lat": 22.1969,
+      "lng": 92.3217
+    }
   },
   {
     "id": "munlai-para",
@@ -87,7 +95,11 @@
     ],
     "bestTime": "All year round; especially October to March",
     "localFood": "Bawm style roasted chicken with hill herbs, fresh organic papaya salad, and wild ginger tea.",
-    "transitKey": "nafakhum-waterfall"
+    "transitKey": "nafakhum-waterfall",
+    "coordinates": {
+      "lat": 22.0167,
+      "lng": 92.4
+    }
   },
   {
     "id": "dholai-khal-sada-pathor",
@@ -117,7 +129,11 @@
     ],
     "bestTime": "May to October (Full water current and dramatic Meghalaya cloud cover)",
     "localFood": "Sylhet town Akhni Polao, Shatkora beef, and roadside hot Parathas with fried river fish.",
-    "transitKey": "tanguar-haor"
+    "transitKey": "tanguar-haor",
+    "coordinates": {
+      "lat": 25.1583,
+      "lng": 91.7556
+    }
   },
   {
     "id": "pantumai-waterfall",
@@ -147,7 +163,11 @@
     ],
     "bestTime": "June to September for full waterfall roar",
     "localFood": "Local sweet river fish curry and piping hot tea at Pantumai Bazar.",
-    "transitKey": "tanguar-haor"
+    "transitKey": "tanguar-haor",
+    "coordinates": {
+      "lat": 25.1833,
+      "lng": 91.9833
+    }
   },
   {
     "id": "monpura-island",
@@ -177,7 +197,11 @@
     ],
     "bestTime": "October to March (Calm winter river waters and cool breezes)",
     "localFood": "Pure Buffalo Milk Curd (মহিষের দুধের টক দই), fresh Hilsha fry, and local winter duck curry.",
-    "transitKey": "kuakata-daughter-of-ocean"
+    "transitKey": "kuakata-daughter-of-ocean",
+    "coordinates": {
+      "lat": 22.3,
+      "lng": 90.9667
+    }
   },
   {
     "id": "nijhum-dwip",
@@ -207,7 +231,11 @@
     ],
     "bestTime": "November to February (Mild weather and prime deer spotting)",
     "localFood": "Fresh sea Chewa fish, live mud crab curry, and sweet date palm jaggery.",
-    "transitKey": "kuakata-daughter-of-ocean"
+    "transitKey": "kuakata-daughter-of-ocean",
+    "coordinates": {
+      "lat": 22.0667,
+      "lng": 91
+    }
   },
   {
     "id": "sonar-char-patuakhali",
@@ -237,7 +265,11 @@
     ],
     "bestTime": "November to February",
     "localFood": "Fresh Hilsha, dried Loitta fry, and tender coconut water.",
-    "transitKey": "kuakata-daughter-of-ocean"
+    "transitKey": "kuakata-daughter-of-ocean",
+    "coordinates": {
+      "lat": 21.7833,
+      "lng": 90.4167
+    }
   },
   {
     "id": "dahagram-angarpota",
@@ -267,7 +299,11 @@
     ],
     "bestTime": "October to March (Golden winter mustard flower season)",
     "localFood": "North Bengal delicate Chidwa, fresh Teesta river Baim fish curry, and pure cow milk sweets.",
-    "transitKey": "kantajew-temple-dinajpur"
+    "transitKey": "kantajew-temple-dinajpur",
+    "coordinates": {
+      "lat": 26.3333,
+      "lng": 88.9833
+    }
   },
   {
     "id": "birganj-shalban",
@@ -297,6 +333,10 @@
     ],
     "bestTime": "November to February",
     "localFood": "Dinajpur Kataribhog rice polao, traditional sweet rice cakes (Pitha).",
-    "transitKey": "kantajew-temple-dinajpur"
+    "transitKey": "kantajew-temple-dinajpur",
+    "coordinates": {
+      "lat": 25.8667,
+      "lng": 88.65
+    }
   }
 ]
