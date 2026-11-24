@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useApp } from '../context/AppContext';
 import TransitBreakdown from './TransitBreakdown';
+import { toBengaliNumber, getGoogleMapsDirectionsUrl } from '../utils/geolocation';
 import { 
   X, 
   MapPin, 
@@ -17,7 +18,8 @@ import {
   Heart,
   Car,
   ExternalLink,
-  Camera
+  Camera,
+  LocateFixed
 } from 'lucide-react';
 
 const DestinationModal = () => {
@@ -29,7 +31,9 @@ const DestinationModal = () => {
     planRouteTo,
     setActivePhotoSpot,
     getSpotPhotos,
-    openLiveVerification
+    openLiveVerification,
+    userLocation,
+    getSpotDistance
   } = useApp();
   const [activeImageIndex, setActiveImageIndex] = useState(0);
   const [activeModalTab, setActiveModalTab] = useState('overview'); // 'overview' | 'transit'
@@ -49,6 +53,7 @@ const DestinationModal = () => {
   const isBookmarked = bookmarks.includes(spot.id);
   const spotPhotos = getSpotPhotos ? getSpotPhotos(spot) : (spot.realPhotos || []);
   const photosCount = spotPhotos.length;
+  const userDistance = spot && getSpotDistance ? getSpotDistance(spot) : null;
 
   return (
     <div className="fixed inset-0 z-50 overflow-y-auto bg-black/70 backdrop-blur-md flex items-center justify-center p-3 sm:p-6 animate-fadeIn">
@@ -202,6 +207,44 @@ const DestinationModal = () => {
               <TransitBreakdown spot={spot} />
             ) : (
               <>
+                {/* User Geolocation & Google Maps Proximity Bar */}
+                {userDistance !== null && (
+                  <div className="p-4 rounded-2xl bg-gradient-to-r from-emerald-500/15 via-teal-500/10 to-emerald-500/5 border border-emerald-500/40 flex flex-col sm:flex-row sm:items-center justify-between gap-3 shadow-md">
+                    <div className="flex items-start sm:items-center gap-3">
+                      <div className="w-9 h-9 rounded-xl bg-emerald-500/20 border border-emerald-500/40 flex items-center justify-center text-emerald-400 shrink-0 mt-0.5 sm:mt-0">
+                        <LocateFixed className="w-5 h-5 text-emerald-400" />
+                      </div>
+                      <div>
+                        <div className="flex items-center gap-2">
+                          <span className="text-xs font-black text-emerald-800 dark:text-emerald-300">
+                            আপনার অবস্থান ({userLocation?.areaName || 'লাইভ GPS'}) থেকে দূরত্ব:
+                          </span>
+                          <span className="px-2 py-0.5 rounded-full bg-emerald-500 text-slate-950 font-black text-xs">
+                            {toBengaliNumber(userDistance)} কিমি
+                          </span>
+                        </div>
+                        <p className="text-xs text-slate-600 dark:text-slate-300 mt-0.5">
+                          {userDistance <= 5.0
+                            ? '🎯 আপনি বর্তমানে এই পর্যটন স্পটের ৫ কিমির মধ্যে অবস্থান করছেন!'
+                            : 'গুগল ম্যাপসে ড্রাইভ ও লোকাল যানবাহনের সরাসরি দিকনির্দেশনা দেখুন।'
+                          }
+                        </p>
+                      </div>
+                    </div>
+
+                    <a
+                      href={getGoogleMapsDirectionsUrl(userLocation?.lat, userLocation?.lng, spot.coordinates?.lat, spot.coordinates?.lng, spot.name)}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="px-4 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs shadow-sm transition-all flex items-center justify-center gap-1.5 whitespace-nowrap self-start sm:self-auto"
+                    >
+                      <Navigation className="w-3.5 h-3.5" />
+                      <span>গুগল ম্যাপে রুট</span>
+                      <ExternalLink className="w-3 h-3 opacity-70" />
+                    </a>
+                  </div>
+                )}
+
                 {/* Description */}
                 <div>
                   <h3 className="text-lg font-bold text-slate-900 dark:text-white mb-2 flex items-center gap-2">

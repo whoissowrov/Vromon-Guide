@@ -1,5 +1,6 @@
 import React from 'react';
 import { useApp } from '../context/AppContext';
+import { toBengaliNumber, getGoogleMapsDirectionsUrl } from '../utils/geolocation';
 import { 
   Star, 
   MapPin, 
@@ -13,16 +14,44 @@ import {
   Flame,
   Sparkles,
   Layers,
-  Camera
+  Camera,
+  MapPinned,
+  ExternalLink,
+  LocateFixed
 } from 'lucide-react';
 
-const DestinationCard = ({ spot }) => {
-  const { bookmarks, toggleBookmark, setActiveModalSpot, setActivePhotoSpot, getSpotPhotos, planRouteTo } = useApp();
-  const isBookmarked = bookmarks.includes(spot.id);
+const DestinationCard = ({ spot, userDistance }) => {
+  const { 
+    bookmarks, 
+    toggleBookmark, 
+    setActiveModalSpot, 
+    setActivePhotoSpot, 
+    getSpotPhotos, 
+    planRouteTo,
+    userLocation,
+    getSpotDistance,
+    openLiveVerification
+  } = useApp();
 
+  const isBookmarked = bookmarks.includes(spot.id);
   const stepsCount = spot.howToGoSteps ? spot.howToGoSteps.length : 0;
   const spotPhotos = getSpotPhotos ? getSpotPhotos(spot) : (spot.realPhotos || []);
   const photosCount = spotPhotos.length;
+
+  // Compute distance if not explicitly passed
+  const effectiveDistance = userDistance !== undefined 
+    ? userDistance 
+    : (getSpotDistance ? getSpotDistance(spot) : null);
+
+  const isWithinGeofence = effectiveDistance !== null && effectiveDistance <= 5.0;
+
+  const googleMapsUrl = getGoogleMapsDirectionsUrl(
+    userLocation?.lat,
+    userLocation?.lng,
+    spot.coordinates?.lat,
+    spot.coordinates?.lng,
+    spot.name
+  );
 
   return (
     <div className="group rounded-3xl overflow-hidden glass-card hover:shadow-2xl hover:border-emerald-500/40 transition-all duration-300 flex flex-col justify-between">
@@ -39,11 +68,23 @@ const DestinationCard = ({ spot }) => {
           <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
 
           {/* Division & Category Badges */}
-          <div className="absolute top-4 left-4 flex flex-wrap gap-1.5 items-center">
+          <div className="absolute top-4 left-4 flex flex-wrap gap-1.5 items-center max-w-[70%]">
             <span className="px-3 py-1 rounded-full text-xs font-bold bg-white/90 dark:bg-[#07130E]/90 text-slate-800 dark:text-emerald-300 backdrop-blur-md shadow-sm flex items-center gap-1">
               <MapPin className="w-3 h-3 text-emerald-500" />
               {spot.district}, {spot.division}
             </span>
+
+            {/* LIVE DISTANCE BADGE */}
+            {effectiveDistance !== null && (
+              <span className={`px-2.5 py-0.5 rounded-full text-[11px] font-black backdrop-blur-md shadow-md flex items-center gap-1 ${
+                isWithinGeofence
+                  ? 'bg-emerald-500 text-slate-950 animate-pulse ring-2 ring-emerald-300'
+                  : 'bg-teal-500/90 text-slate-950'
+              }`}>
+                <LocateFixed className="w-3 h-3" />
+                <span>{toBengaliNumber(effectiveDistance)} কিমি দূরে</span>
+              </span>
+            )}
 
             {spot.category && (
               <span className={`px-2.5 py-0.5 rounded-full text-[11px] font-extrabold shadow-sm flex items-center gap-1 ${
@@ -125,6 +166,22 @@ const DestinationCard = ({ spot }) => {
             {spot.tagline}
           </p>
 
+          {/* Geofence Alert Banner if user is physically on site */}
+          {isWithinGeofence && (
+            <div className="mb-3 p-2 rounded-xl bg-emerald-500/10 border border-emerald-500/40 text-emerald-700 dark:text-emerald-300 text-xs flex items-center justify-between">
+              <span className="font-bold flex items-center gap-1.5">
+                <span className="w-2 h-2 rounded-full bg-emerald-500 animate-ping"></span>
+                আপনি এই স্পটের ৫ কিমির মধ্যে আছেন!
+              </span>
+              <button
+                onClick={() => openLiveVerification(spot)}
+                className="px-2 py-0.5 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white font-black text-[11px] shadow-sm transition-all"
+              >
+                ভেরিফাই করুন 📸
+              </button>
+            </div>
+          )}
+
           {/* Tags (Hills, Water, Heritage, Forest, etc.) */}
           {spot.tags && spot.tags.length > 0 && (
             <div className="flex flex-wrap gap-1 mb-3.5">
@@ -188,30 +245,34 @@ const DestinationCard = ({ spot }) => {
       </div>
 
       {/* Card Action Buttons */}
-      <div className="p-5 sm:p-6 pt-0 border-t border-slate-100 dark:border-emerald-950/40 mt-2 flex items-center gap-2">
+      <div className="p-5 sm:p-6 pt-0 border-t border-slate-100 dark:border-emerald-950/40 mt-2 flex flex-wrap items-center gap-2">
         <button
           onClick={() => setActiveModalSpot(spot)}
-          className="flex-1 py-2.5 px-3.5 rounded-xl text-xs sm:text-sm font-bold bg-emerald-50 hover:bg-emerald-100 dark:bg-emerald-950/60 dark:hover:bg-emerald-900/60 text-emerald-700 dark:text-emerald-300 transition-colors flex items-center justify-center gap-1.5"
+          className="flex-1 min-w-[110px] py-2.5 px-3 rounded-xl text-xs sm:text-sm font-bold bg-emerald-50 hover:bg-emerald-100 dark:bg-emerald-950/60 dark:hover:bg-emerald-900/60 text-emerald-700 dark:text-emerald-300 transition-colors flex items-center justify-center gap-1.5"
         >
           <span>Spot Guide</span>
           <ArrowUpRight className="w-4 h-4" />
         </button>
 
-        <button
-          onClick={() => setActivePhotoSpot(spot)}
+        {/* GOOGLE MAPS DIRECTIONS BUTTON */}
+        <a
+          href={googleMapsUrl}
+          target="_blank"
+          rel="noopener noreferrer"
           className="py-2.5 px-3 rounded-xl text-xs sm:text-sm font-semibold bg-emerald-500/10 hover:bg-emerald-500/20 text-emerald-700 dark:text-emerald-300 border border-emerald-500/30 transition-colors flex items-center gap-1.5"
-          title="View Real Community Photos & Lightbox"
+          title="গুগল ম্যাপে লাইভ রুট ও ডিরেকশন দেখুন"
         >
-          <Camera className="w-3.5 h-3.5 text-emerald-500" />
-          <span>Photos ({photosCount})</span>
-        </button>
+          <Navigation className="w-3.5 h-3.5 text-emerald-500" />
+          <span>ম্যাপস</span>
+          <ExternalLink className="w-3 h-3 opacity-60" />
+        </a>
 
         <button
           onClick={() => planRouteTo(spot.id)}
           className="py-2.5 px-3 rounded-xl text-xs sm:text-sm font-semibold bg-slate-100 hover:bg-slate-200 dark:bg-[#122820] dark:hover:bg-[#18352b] text-slate-700 dark:text-slate-300 transition-colors flex items-center gap-1.5"
           title="Plan Transport & Route to here"
         >
-          <Navigation className="w-3.5 h-3.5 text-emerald-500" />
+          <Car className="w-3.5 h-3.5 text-emerald-500" />
           <span className="hidden sm:inline">How to Go</span>
         </button>
       </div>

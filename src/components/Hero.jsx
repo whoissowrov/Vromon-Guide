@@ -10,7 +10,9 @@ import {
   Landmark, 
   Trees, 
   Waves,
-  ArrowRight
+  ArrowRight,
+  LocateFixed,
+  Navigation
 } from 'lucide-react';
 
 const Hero = () => {
@@ -20,7 +22,10 @@ const Hero = () => {
     selectedVibe, 
     setSelectedVibe, 
     selectedDivision, 
-    setSelectedDivision 
+    setSelectedDivision,
+    userLocation,
+    exploreNearby,
+    isLocating 
   } = useApp();
 
   const vibes = [
@@ -118,6 +123,20 @@ const Hero = () => {
                 </button>
               ))}
             </div>
+          </div>
+
+          {/* Quick Location Exploration Action Button */}
+          <div className="flex justify-center mt-3">
+            <button
+              onClick={exploreNearby}
+              className="group px-5 py-2.5 rounded-2xl bg-gradient-to-r from-emerald-600/90 via-teal-600/90 to-emerald-700/90 hover:from-emerald-500 hover:to-teal-500 text-white font-bold text-xs sm:text-sm shadow-glow flex items-center gap-2 transition-all transform hover:scale-102 border border-emerald-400/40"
+            >
+              <LocateFixed className="w-4 h-4 text-emerald-300 group-hover:rotate-45 transition-transform" />
+              <span>
+                {userLocation ? `📍 আপনার কাছের দর্শনীয় স্থান (${userLocation.areaName})` : '📍 আমার চারপাশের দর্শনীয় স্থান খুঁজুন (Explore Spots Near Me)'}
+              </span>
+              {isLocating && <span className="animate-spin text-xs">🌀</span>}
+            </button>
           </div>
         </div>
 

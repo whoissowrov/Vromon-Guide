@@ -13,7 +13,8 @@ import {
   Calculator, 
   ShieldAlert,
   Search,
-  Utensils
+  Utensils,
+  LocateFixed
 } from 'lucide-react';
 
 const Navbar = () => {
@@ -23,12 +24,15 @@ const Navbar = () => {
     bookmarks, 
     setIsBookmarksOpen,
     searchQuery,
-    setSearchQuery
+    setSearchQuery,
+    userLocation,
+    exploreNearby
   } = useApp();
 
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const navLinks = [
+    { label: 'কাছের স্পট (Near Me)', isNearby: true, icon: LocateFixed },
     { label: 'Destinations', href: '#destinations', icon: MapPin },
     { label: 'Local Transit (ভাড়া)', href: '#transit-stepper', icon: Navigation },
     { label: 'Local Foods (খাবার)', href: '#food-guide', icon: Utensils },
@@ -38,9 +42,13 @@ const Navbar = () => {
     { label: 'Emergency & Tips', href: '#emergency', icon: ShieldAlert },
   ];
 
-  const handleNavClick = (href) => {
+  const handleNavClick = (link) => {
     setMobileMenuOpen(false);
-    const elem = document.querySelector(href);
+    if (link.isNearby) {
+      exploreNearby();
+      return;
+    }
+    const elem = document.querySelector(link.href);
     if (elem) {
       elem.scrollIntoView({ behavior: 'smooth' });
     }
@@ -75,11 +83,18 @@ const Navbar = () => {
               return (
                 <button
                   key={link.label}
-                  onClick={() => handleNavClick(link.href)}
-                  className="px-3.5 py-2 rounded-xl text-sm font-semibold text-slate-700 dark:text-slate-300 hover:text-emerald-600 dark:hover:text-emerald-400 hover:bg-slate-100 dark:hover:bg-emerald-950/50 transition-all flex items-center gap-1.5"
+                  onClick={() => handleNavClick(link)}
+                  className={`px-3.5 py-2 rounded-xl text-sm font-semibold transition-all flex items-center gap-1.5 ${
+                    link.isNearby && userLocation
+                      ? 'text-emerald-700 dark:text-emerald-300 bg-emerald-500/10 border border-emerald-500/30'
+                      : 'text-slate-700 dark:text-slate-300 hover:text-emerald-600 dark:hover:text-emerald-400 hover:bg-slate-100 dark:hover:bg-emerald-950/50'
+                  }`}
                 >
-                  <Icon className="w-4 h-4 opacity-70" />
+                  <Icon className={`w-4 h-4 ${link.isNearby ? 'text-emerald-500 animate-pulse' : 'opacity-70'}`} />
                   {link.label}
+                  {link.isNearby && userLocation && (
+                    <span className="w-2 h-2 rounded-full bg-emerald-500"></span>
+                  )}
                 </button>
               );
             })}
@@ -162,7 +177,7 @@ const Navbar = () => {
               return (
                 <button
                   key={link.label}
-                  onClick={() => handleNavClick(link.href)}
+                  onClick={() => handleNavClick(link)}
                   className="w-full flex items-center gap-3 px-4 py-3 rounded-xl text-base font-semibold text-slate-800 dark:text-slate-200 hover:bg-emerald-50 dark:hover:bg-emerald-950/60 hover:text-emerald-600 transition-colors text-left"
                 >
                   <Icon className="w-5 h-5 text-emerald-500" />

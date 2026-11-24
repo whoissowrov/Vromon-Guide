@@ -1,5 +1,11 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
 import destinationsData from '../data/destinations.json';
+import { 
+  calculateHaversineDistance, 
+  requestDeviceLocation, 
+  getNearestAreaName, 
+  BANGLADESH_CITY_PRESETS 
+} from '../utils/geolocation';
 
 const AppContext = createContext();
 
@@ -16,6 +22,20 @@ export const AppProvider = ({ children }) => {
   const [selectedDivision, setSelectedDivision] = useState('All');
   const [selectedVibe, setSelectedVibe] = useState('All');
   const [activeTab, setActiveTab] = useState('explore');
+  const [directoryType, setDirectoryType] = useState('all'); // 'all' | 'popular' | 'offbeat' | 'nearby' | 'showcase'
+
+  // User Geolocation State
+  const [userLocation, setUserLocation] = useState(() => {
+    try {
+      const saved = localStorage.getItem('vromon_user_location');
+      return saved ? JSON.parse(saved) : null;
+    } catch {
+      return null;
+    }
+  });
+  const [isLocating, setIsLocating] = useState(false);
+  const [locationError, setLocationError] = useState(null);
+  const [locationRadius, setLocationRadius] = useState(100); // in km (50 | 100 | 200 | 0 for all)
 
   // Route planner state
   const [routeFrom, setRouteFrom] = useState('dhaka');
@@ -72,6 +92,15 @@ export const AppProvider = ({ children }) => {
     localStorage.setItem('vromon_bookmarks', JSON.stringify(bookmarks));
   }, [bookmarks]);
 
+  // Persist user location
+  useEffect(() => {
+    if (userLocation) {
+      localStorage.setItem('vromon_user_location', JSON.stringify(userLocation));
+    } else {
+      localStorage.removeItem('vromon_user_location');
+    }
+  }, [userLocation]);
+
   // Persist community uploads
   useEffect(() => {
     localStorage.setItem('vromon_community_uploads', JSON.stringify(communityUploads));
@@ -84,6 +113,91 @@ export const AppProvider = ({ children }) => {
 
   const toggleTheme = () => {
     setTheme(prev => (prev === 'dark' ? 'light' : 'dark'));
+  };
+
+  /**
+   * Request live device GPS coordinates
+   */
+  const enableUserLocation = async () => {
+    setIsLocating(true);
+    setLocationError(null);
+    try {
+      const location = await requestDeviceLocation();
+      setUserLocation(location);
+      setIsLocating(false);
+      return location;
+    } catch (err) {
+      setLocationError(err.message || 'লোকেশন অ্যাক্সেস ব্যর্থ হয়েছে।');
+      setIsLocating(false);
+      throw err;
+    }
+  };
+
+  /**
+   * Set location manually from Bangladesh city presets
+   */
+  const setManualLocation = (cityOrId) => {
+    let preset = typeof cityOrId === 'string'
+      ? BANGLADESH_CITY_PRESETS.find(c => c.id === cityOrId)
+      : cityOrId;
+
+    if (!preset) return;
+
+    const loc = {
+      lat: preset.lat,
+      lng: preset.lng,
+      accuracy: 500,
+      areaName: `${preset.nameBn} ও আশপাশ`,
+      cityName: preset.nameBn,
+      isManual: true,
+      timestamp: Date.now()
+    };
+    setUserLocation(loc);
+    setLocationError(null);
+    return loc;
+  };
+
+  /**
+   * Clear user location
+   */
+  const clearUserLocation = () => {
+    setUserLocation(null);
+    setLocationError(null);
+    if (directoryType === 'nearby') {
+      setDirectoryType('all');
+    }
+  };
+
+  /**
+   * Calculate distance from current userLocation to a specific spot
+   */
+  const getSpotDistance = (spot) => {
+    if (!userLocation || !spot || !spot.coordinates) return null;
+    const dist = calculateHaversineDistance(
+      userLocation.lat,
+      userLocation.lng,
+      spot.coordinates.lat,
+      spot.coordinates.lng
+    );
+    return dist === Infinity ? null : Math.round(dist * 10) / 10;
+  };
+
+  /**
+   * Jump to Nearby exploration view
+   */
+  const exploreNearby = async () => {
+    setDirectoryType('nearby');
+    const elem = document.getElementById('destinations');
+    if (elem) {
+      elem.scrollIntoView({ behavior: 'smooth' });
+    }
+    if (!userLocation) {
+      try {
+        await enableUserLocation();
+      } catch {
+        // Handled in state
+      }
+    }
   };
 
   const toggleBookmark = (spotId) => {
@@ -173,6 +287,18 @@ export const AppProvider = ({ children }) => {
         setSelectedVibe,
         activeTab,
         setActiveTab,
+        directoryType,
+        setDirectoryType,
+        userLocation,
+        isLocating,
+        locationError,
+        locationRadius,
+        setLocationRadius,
+        enableUserLocation,
+        setManualLocation,
+        clearUserLocation,
+        getSpotDistance,
+        exploreNearby,
         routeFrom,
         setRouteFrom,
         routeTo,
@@ -195,6 +321,7 @@ export const AppProvider = ({ children }) => {
         setIsBookmarksOpen,
         planRouteTo,
         destinationsData,
+        BANGLADESH_CITY_PRESETS
       }}
     >
       {children}
