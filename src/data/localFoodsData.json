@@ -20,8 +20,14 @@
       }
     ],
     "localTransit": "রাজশাহী রেলগেট বা সাহেববাজার থেকে লোকাল অটোরিকশা/ইজিবাইকে কোর্ট স্টেশন (ভাড়া ৳১৫–৳২০/জন)।",
-    "tags": ["Duck", "Ruti", "Spicy", "Bhorta", "Dinner"],
-    "image": "https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?auto=format&fit=crop&w=800&q=80"
+    "tags": [
+      "Duck",
+      "Ruti",
+      "Spicy",
+      "Bhorta",
+      "Dinner"
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Kalai_ruti_with_bhurta_%26_duck_meat.jpg/1280px-Kalai_ruti_with_bhurta_%26_duck_meat.jpg"
   },
   {
     "id": "bogura-doi-kheersha",
@@ -48,8 +54,13 @@
       }
     ],
     "localTransit": "চারমাথা বাস টার্মিনাল থেকে সাতমাথাগামী শেয়ারিং সিএনজি বা অটো (ভাড়া ৳২০–৳২৫/জন)।",
-    "tags": ["Yogurt", "Dessert", "GI Product", "Sweet"],
-    "image": "https://images.unsplash.com/photo-1541658016709-82535e94bc69?auto=format&fit=crop&w=800&q=80"
+    "tags": [
+      "Yogurt",
+      "Dessert",
+      "GI Product",
+      "Sweet"
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Bograr_dahi.jpg/1280px-Bograr_dahi.jpg"
   },
   {
     "id": "natore-kachagolla",
@@ -72,8 +83,13 @@
       }
     ],
     "localTransit": "হরিশপুর বা মাদ্রাসা মোড় থেকে নিচাবাজার ইজিবাইক (ভাড়া ৳১৫–৳২০/জন)।",
-    "tags": ["Sweet", "Chhana", "Heritage", "GI Product"],
-    "image": "https://images.unsplash.com/photo-1599785209707-a456fc1337bb?auto=format&fit=crop&w=800&q=80"
+    "tags": [
+      "Sweet",
+      "Chhana",
+      "Heritage",
+      "GI Product"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/81/Natore_er_KachaGolla1_%28One_Kind_of_Sweet%29.JPG"
   },
   {
     "id": "taurash-buffalo-curd",
@@ -96,8 +112,13 @@
       }
     ],
     "localTransit": "পাবনা বা সিরাজগঞ্জ থেকে লোকাল বাসে তাড়াশ বাজার (ভাড়া ৳৪০–৳৫০)।",
-    "tags": ["Curd", "Buffalo Milk", "Chalan Beel", "Natural"],
-    "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=800&q=80"
+    "tags": [
+      "Curd",
+      "Buffalo Milk",
+      "Chalan Beel",
+      "Natural"
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/%E0%A6%AC%E0%A6%97%E0%A7%81%E0%A6%A1%E0%A6%BC%E0%A6%BE%E0%A6%B0_%E0%A6%A6%E0%A6%87.jpg/1280px-%E0%A6%AC%E0%A6%97%E0%A7%81%E0%A6%A1%E0%A6%BC%E0%A6%BE%E0%A6%B0_%E0%A6%A6%E0%A6%87.jpg"
   },
   {
     "id": "chittagong-kala-bhuna",
@@ -124,8 +145,14 @@
       }
     ],
     "localTransit": "নতুন ব্রিজ বা দামপাড়া থেকে জিইসি/চকবাজারগামী বাস বা টেম্পো (ভাড়া ৳১৫–৳২৫/জন)।",
-    "tags": ["Beef", "Kala Bhuna", "Spicy", "Heritage", "Lunch"],
-    "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80"
+    "tags": [
+      "Beef",
+      "Kala Bhuna",
+      "Spicy",
+      "Heritage",
+      "Lunch"
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Kala_bhuna_1.jpg/1280px-Kala_bhuna_1.jpg"
   },
   {
     "id": "mezbani-gosht-chana-dal",
@@ -148,8 +175,14 @@
       }
     ],
     "localTransit": "নতুন ব্রিজ বা দামপাড়া থেকে জিইসি/চকবাজারগামী বাস বা টেম্পো (ভাড়া ৳১৫–৳২৫/জন)।",
-    "tags": ["Mezban", "Beef", "Chana Dal", "Mustard Oil", "Spicy"],
-    "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?auto=format&fit=crop&w=800&q=80"
+    "tags": [
+      "Mezban",
+      "Beef",
+      "Chana Dal",
+      "Mustard Oil",
+      "Spicy"
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/%E0%A6%AE%E0%A7%87%E0%A6%9C%E0%A6%AC%E0%A6%BE%E0%A6%A8%E0%A6%BF_-_20579791141.jpg/1280px-%E0%A6%AE%E0%A7%87%E0%A6%9C%E0%A6%AC%E0%A6%BE%E0%A6%A8%E0%A6%BF_-_20579791141.jpg"
   },
   {
     "id": "bamboo-chicken-shoot",
@@ -176,8 +209,14 @@
       }
     ],
     "localTransit": "খাগড়াছড়ি থেকে চাঁদের গাড়িতে সরাসরি রুইলুই পাড়া (শেয়ারিং ৳৩৫০–৳৪০০/জন)।",
-    "tags": ["Bamboo", "Tribal", "Chicken", "Smoky", "Hills"],
-    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=800&q=80"
+    "tags": [
+      "Bamboo",
+      "Tribal",
+      "Chicken",
+      "Smoky",
+      "Hills"
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/BambooChicken.jpg/1280px-BambooChicken.jpg"
   },
   {
     "id": "seafood-bbq",
@@ -204,8 +243,14 @@
       }
     ],
     "localTransit": "কলাতলী মোড় থেকে সুগন্ধা বিচে হেঁটে যাওয়া যায়; সেন্টমার্টিন জেটি থেকে বাজারে হাঁটা পথ।",
-    "tags": ["Seafood", "Lobster", "Fish BBQ", "Coral", "Beach Night"],
-    "image": "https://images.unsplash.com/photo-1534939561126-855b8675edd7?auto=format&fit=crop&w=800&q=80"
+    "tags": [
+      "Seafood",
+      "Lobster",
+      "Fish BBQ",
+      "Coral",
+      "Beach Night"
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Fried_Ilish_fish.jpg/1280px-Fried_Ilish_fish.jpg"
   },
   {
     "id": "bela-biscuit-bakorkhani",
@@ -228,8 +273,13 @@
       }
     ],
     "localTransit": "জিইসি মোড় থেকে চকবাজার টেম্পো বা রিকশা (ভাড়া ৳১৫–৳২০/জন)।",
-    "tags": ["Bakery", "Tea Time", "Snack", "Heritage"],
-    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80"
+    "tags": [
+      "Bakery",
+      "Tea Time",
+      "Snack",
+      "Heritage"
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Bakorkhani.jpg/1280px-Bakorkhani.jpg"
   },
   {
     "id": "shatkora-beef",
@@ -256,8 +306,14 @@
       }
     ],
     "localTransit": "কদমতলী বাস টার্মিনাল বা রেলস্টেশন থেকে রিকশা (ভাড়া ৳৫০–৳৬০) অথবা শেয়ারিং সিএনজি (ভাড়া ৳২০/জন)।",
-    "tags": ["Beef", "Shatkora", "Sylhet Special", "Citrus", "Lunch"],
-    "image": "https://images.unsplash.com/photo-1543339308-43e59d6b73a6?auto=format&fit=crop&w=800&q=80"
+    "tags": [
+      "Beef",
+      "Shatkora",
+      "Sylhet Special",
+      "Citrus",
+      "Lunch"
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/BARI_Satkara-1_%28Citrus_macroptera%29.jpg/1280px-BARI_Satkara-1_%28Citrus_macroptera%29.jpg"
   },
   {
     "id": "sylheti-akhni-polao",
@@ -284,8 +340,14 @@
       }
     ],
     "localTransit": "কদমতলী বাস টার্মিনাল বা রেলস্টেশন থেকে রিকশা (ভাড়া ৳৫০–৳৬০) অথবা শেয়ারিং সিএনজি (ভাড়া ৳২০/জন)।",
-    "tags": ["Polao", "Biryani", "Mutton", "Aromatic", "Lunch"],
-    "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=800&q=80"
+    "tags": [
+      "Polao",
+      "Biryani",
+      "Mutton",
+      "Aromatic",
+      "Lunch"
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Mutton_biryani.JPG/1280px-Mutton_biryani.JPG"
   },
   {
     "id": "seven-layer-tea",
@@ -308,8 +370,13 @@
       }
     ],
     "localTransit": "শ্রীমঙ্গল চৌমোহনা থেকে টমটমে রামনগর মণিপুরি পাড়া (ভাড়া ৳২০–৳২৫/জন)।",
-    "tags": ["Tea", "Seven Layer", "Sreemangal", "Beverage"],
-    "image": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=800&q=80"
+    "tags": [
+      "Tea",
+      "Seven Layer",
+      "Sreemangal",
+      "Beverage"
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Seven_Layers_Tea_%2801%29.jpg/1280px-Seven_Layers_Tea_%2801%29.jpg"
   },
   {
     "id": "haor-fresh-fish",
@@ -332,8 +399,14 @@
       }
     ],
     "localTransit": "সুনামগঞ্জ শহর থেকে তাহিরপুর সাহেববাড়ি ঘাট সিএনজি (ভাড়া ৳১০০/জন)।",
-    "tags": ["Fish", "Haor", "Boal", "Tanguar", "Lunch"],
-    "image": "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?auto=format&fit=crop&w=800&q=80"
+    "tags": [
+      "Fish",
+      "Haor",
+      "Boal",
+      "Tanguar",
+      "Lunch"
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Steamed_Ilish_-_Howrah_20170531131639.jpg/1280px-Steamed_Ilish_-_Howrah_20170531131639.jpg"
   },
   {
     "id": "chuknagar-chuijhal-mutton",
@@ -360,8 +433,14 @@
       }
     ],
     "localTransit": "সোনাডাঙ্গা বাসস্ট্যান্ড থেকে চুকনগর বাস (ভাড়া ৳৫০–৳৬০/জন)।",
-    "tags": ["Chuijhal", "Mutton", "Khulna Pride", "Spicy", "Lunch"],
-    "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80"
+    "tags": [
+      "Chuijhal",
+      "Mutton",
+      "Khulna Pride",
+      "Spicy",
+      "Lunch"
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/%E0%A6%96%E0%A6%BE%E0%A6%B8%E0%A6%BF%E0%A6%B0_%E0%A6%9A%E0%A7%81%E0%A6%87%E0%A6%9D%E0%A6%BE%E0%A6%B2.jpg/1280px-%E0%A6%96%E0%A6%BE%E0%A6%B8%E0%A6%BF%E0%A6%B0_%E0%A6%9A%E0%A7%81%E0%A6%87%E0%A6%9D%E0%A6%BE%E0%A6%B2.jpg"
   },
   {
     "id": "satkhira-para-sandesh",
@@ -384,8 +463,13 @@
       }
     ],
     "localTransit": "সাতক্ষীরা বাস টার্মিনাল থেকে তুফান মোড় ইজিবাইক (ভাড়া ৳১০–৳১৫/জন)।",
-    "tags": ["Sweet", "Sandesh", "Pure Milk", "Heritage"],
-    "image": "https://images.unsplash.com/photo-1599785209707-a456fc1337bb?auto=format&fit=crop&w=800&q=80"
+    "tags": [
+      "Sweet",
+      "Sandesh",
+      "Pure Milk",
+      "Heritage"
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Bengali_Sweet_dish_%28Sandesh%29.JPG/1280px-Bengali_Sweet_dish_%28Sandesh%29.JPG"
   },
   {
     "id": "sundarbans-honey-gur",
@@ -408,8 +492,13 @@
       }
     ],
     "localTransit": "শ্যামনগর বাসস্ট্যান্ড থেকে অটো বা মোটরসাইকেলে বুড়িগোয়ালিনী ঘাট (ভাড়া ৳৫০–৳৮০)।",
-    "tags": ["Honey", "Golpata Gur", "Sundarbans", "Organic"],
-    "image": "https://images.unsplash.com/photo-1587049352846-4a222e784d38?auto=format&fit=crop&w=800&q=80"
+    "tags": [
+      "Honey",
+      "Golpata Gur",
+      "Sundarbans",
+      "Organic"
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Traditional_way_of_making_Khejur_Gur_%28date_palm_jaggery%29_at_Gangasagar_02.jpg/1280px-Traditional_way_of_making_Khejur_Gur_%28date_palm_jaggery%29_at_Gangasagar_02.jpg"
   },
   {
     "id": "jashore-nolen-gur-sandesh",
@@ -432,8 +521,13 @@
       }
     ],
     "localTransit": "মনিহার বাসস্ট্যান্ড থেকে দড়াটানা মোড় রিকশায় (ভাড়া ৳১৫–৳২০)।",
-    "tags": ["Date Palm", "Nolen Gur", "Winter Special", "Sweet"],
-    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80"
+    "tags": [
+      "Date Palm",
+      "Nolen Gur",
+      "Winter Special",
+      "Sweet"
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Sandesh_or_Sondesh.jpg/1280px-Sandesh_or_Sondesh.jpg"
   },
   {
     "id": "shorshe-ilish-lejj-bhorta",
@@ -460,8 +554,14 @@
       }
     ],
     "localTransit": "কুয়াকাটা বাসস্ট্যান্ড থেকে সৈকতে হাঁটা পথ; নথুল্লাবাদ টার্মিনাল থেকে পোর্ট রোড অটো (ভাড়া ৳১৫–৳২০)।",
-    "tags": ["Ilish", "Mustard Fish", "Bhorta", "Seafood", "Lunch"],
-    "image": "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?auto=format&fit=crop&w=800&q=80"
+    "tags": [
+      "Ilish",
+      "Mustard Fish",
+      "Bhorta",
+      "Seafood",
+      "Lunch"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Shorshe_Ilish.jpg"
   },
   {
     "id": "bhimruli-guava-amra-makha",
@@ -484,8 +584,13 @@
       }
     ],
     "localTransit": "ঝালকাঠি শহর থেকে অটো বা বাইকে ভিমরুলি ঘাট (ভাড়া ৳৫০–৳৭০)।",
-    "tags": ["Guava", "Kasundi", "Floating Market", "Street Food"],
-    "image": "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?auto=format&fit=crop&w=800&q=80"
+    "tags": [
+      "Guava",
+      "Kasundi",
+      "Floating Market",
+      "Street Food"
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Bhimruli_Floating_Guava_Market%2C_Jhalokathi%2C_Barisal.jpg/1280px-Bhimruli_Floating_Guava_Market%2C_Jhalokathi%2C_Barisal.jpg"
   },
   {
     "id": "gournadi-sora-doi",
@@ -508,8 +613,13 @@
       }
     ],
     "localTransit": "ঢাকা-বরিশাল রুটের যে কোনো বাসে সরাসরি গৌরনদী নামা যায়।",
-    "tags": ["Curd", "Gournadi", "Dessert", "Heritage"],
-    "image": "https://images.unsplash.com/photo-1541658016709-82535e94bc69?auto=format&fit=crop&w=800&q=80"
+    "tags": [
+      "Curd",
+      "Gournadi",
+      "Dessert",
+      "Heritage"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/34/Mishti_Doi.jpg"
   },
   {
     "id": "dinajpur-pelka-seedol",
@@ -532,8 +642,14 @@
       }
     ],
     "localTransit": "রংপুর বাস টার্মিনাল থেকে পায়রা চত্বর ইজিবাইক (ভাড়া ৳১০–৳১৫)।",
-    "tags": ["Pelka", "Seedol", "Indigenous", "North Bengal", "Spicy"],
-    "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=800&q=80"
+    "tags": [
+      "Pelka",
+      "Seedol",
+      "Indigenous",
+      "North Bengal",
+      "Spicy"
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Kalai_ruti_with_Begun_Varta_%26_Chicken_Curry.jpg/1280px-Kalai_ruti_with_Begun_Varta_%26_Chicken_Curry.jpg"
   },
   {
     "id": "kataribhog-duck-roast",
@@ -556,8 +672,13 @@
       }
     ],
     "localTransit": "দিনাজপুর বাস টার্মিনাল থেকে স্টেশন রোড ইজিবাইক (ভাড়া ৳১৫–৳২০/জন)।",
-    "tags": ["Kataribhog Rice", "Duck Curry", "Dinajpur", "Lunch Set"],
-    "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=800&q=80"
+    "tags": [
+      "Kataribhog Rice",
+      "Duck Curry",
+      "Dinajpur",
+      "Lunch Set"
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Kalai_ruti_with_bhurta_%26_duck_meat.jpg/1280px-Kalai_ruti_with_bhurta_%26_duck_meat.jpg"
   },
   {
     "id": "haribhanga-mango",
@@ -580,8 +701,14 @@
       }
     ],
     "localTransit": "রংপুর শাপলা চত্বর থেকে পদাগঞ্জগামী লোকাল লেগুনা/বাস (ভাড়া ৳৪০–৳৫০/জন)।",
-    "tags": ["Mango", "Haribhanga", "Fruit", "Seasonal", "GI Product"],
-    "image": "https://images.unsplash.com/photo-1553279768-865429fa0078?auto=format&fit=crop&w=800&q=80"
+    "tags": [
+      "Mango",
+      "Haribhanga",
+      "Fruit",
+      "Seasonal",
+      "GI Product"
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Mango_Tree%2C_Rajshahi%2C_Bangladesh.jpg/1280px-Mango_Tree%2C_Rajshahi%2C_Bangladesh.jpg"
   },
   {
     "id": "dhaka-kacchi-borhani",
@@ -608,8 +735,14 @@
       }
     ],
     "localTransit": "গুলিস্তান বা বংশাল থেকে রিকশায় নাজিরাবাজার (ভাড়া ৳৪০–৳৬০)।",
-    "tags": ["Kacchi", "Mutton", "Old Dhaka", "Borhani", "Festive"],
-    "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=800&q=80"
+    "tags": [
+      "Kacchi",
+      "Mutton",
+      "Old Dhaka",
+      "Borhani",
+      "Festive"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Kacchi_Biryani_and_Borhani.jpg"
   },
   {
     "id": "mawa-ilish-khichuri",
@@ -632,8 +765,14 @@
       }
     ],
     "localTransit": "গুলিস্তান/যাত্রাবাড়ী থেকে মাওয়াগামী বাস (ভাড়া ৳৮০–৳১০০)।",
-    "tags": ["Ilish", "Padma", "Khichuri", "Fried Fish", "Mawa Ghat"],
-    "image": "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?auto=format&fit=crop&w=800&q=80"
+    "tags": [
+      "Ilish",
+      "Padma",
+      "Khichuri",
+      "Fried Fish",
+      "Mawa Ghat"
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Ilish_fry.jpg/1280px-Ilish_fry.jpg"
   },
   {
     "id": "porabari-chomchom",
@@ -656,8 +795,14 @@
       }
     ],
     "localTransit": "টাঙ্গাইল নতুন বাসস্ট্যান্ড থেকে পোড়াবাড়ি সিএনজি (ভাড়া ৳২৫–৳৩০/জন)।",
-    "tags": ["Chomchom", "Tangail", "Sweet", "GI Product", "Heritage"],
-    "image": "https://images.unsplash.com/photo-1599785209707-a456fc1337bb?auto=format&fit=crop&w=800&q=80"
+    "tags": [
+      "Chomchom",
+      "Tangail",
+      "Sweet",
+      "GI Product",
+      "Heritage"
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/BD_Porabarir_Chamcham.JPG/1280px-BD_Porabarir_Chamcham.JPG"
   },
   {
     "id": "old-dhaka-bakorkhani",
@@ -680,8 +825,14 @@
       }
     ],
     "localTransit": "গুলিস্তান বা বংশাল থেকে রিকশায় নাজিরাবাজার/লালবাগ (ভাড়া ৳৪০–৳৬০)।",
-    "tags": ["Bakorkhani", "Old Dhaka", "Breakfast", "Crispy", "Tea"],
-    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80"
+    "tags": [
+      "Bakorkhani",
+      "Old Dhaka",
+      "Breakfast",
+      "Crispy",
+      "Tea"
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Bakorkhani_shop_in_Old_Dhaka.JPG/1280px-Bakorkhani_shop_in_Old_Dhaka.JPG"
   },
   {
     "id": "muktagacha-monda",
@@ -704,8 +855,14 @@
       }
     ],
     "localTransit": "ময়মনসিংহ টাউনহল বা ব্রিজ মোড় থেকে সিএনজি/বাস (ভাড়া ৳৩০–৳৪০/জন)।",
-    "tags": ["Monda", "Muktagacha", "200 Years Heritage", "Sweet", "GI Product"],
-    "image": "https://images.unsplash.com/photo-1599785209707-a456fc1337bb?auto=format&fit=crop&w=800&q=80"
+    "tags": [
+      "Monda",
+      "Muktagacha",
+      "200 Years Heritage",
+      "Sweet",
+      "GI Product"
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Monda-Shaktigarh.jpg/1280px-Monda-Shaktigarh.jpg"
   },
   {
     "id": "chepa-shutki-chaler-ruti",
@@ -728,8 +885,14 @@
       }
     ],
     "localTransit": "বিরিশিরি পয়েন্ট থেকে দুর্গাপুর বাজার অটোরিকশা (ভাড়া ৳২০–৳৩০/জন)।",
-    "tags": ["Chepa Shutki", "Spicy", "Netrokona", "Ruti", "Birishiri"],
-    "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80"
+    "tags": [
+      "Chepa Shutki",
+      "Spicy",
+      "Netrokona",
+      "Ruti",
+      "Birishiri"
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Dried_fish_in_Chittagong_03.jpg/1280px-Dried_fish_in_Chittagong_03.jpg"
   },
   {
     "id": "mahaprabhu-malai-chop",
@@ -752,7 +915,13 @@
       }
     ],
     "localTransit": "ময়মনসিংহ রেল জংশন থেকে ছোট বাজার রিকশায় (ভাড়া ৳২০–৳৩০)।",
-    "tags": ["Malai Chop", "Mymensingh", "Sweet", "Creamy", "Dessert"],
-    "image": "https://images.unsplash.com/photo-1541658016709-82535e94bc69?auto=format&fit=crop&w=800&q=80"
+    "tags": [
+      "Malai Chop",
+      "Mymensingh",
+      "Sweet",
+      "Creamy",
+      "Dessert"
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Rasmalai_Secretlondon_09.jpg/1280px-Rasmalai_Secretlondon_09.jpg"
   }
 ]

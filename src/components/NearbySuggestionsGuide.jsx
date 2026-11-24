@@ -444,51 +444,75 @@ const NearbySuggestionsGuide = () => {
             {regionalFoods.map(food => (
               <div 
                 key={food.id}
-                className="p-5 rounded-2xl bg-gradient-to-br from-white/10 to-white/5 border border-white/10 hover:border-rose-500/50 transition-all flex flex-col justify-between"
+                className="group rounded-3xl overflow-hidden bg-gradient-to-br from-white/10 to-white/5 border border-white/10 hover:border-rose-500/50 transition-all flex flex-col justify-between"
               >
                 <div>
-                  <div className="flex items-start justify-between gap-3 mb-2">
-                    <div>
-                      <h5 className="font-extrabold text-white text-base">
-                        {food.nameBn}
-                      </h5>
-                      <span className="text-xs text-rose-400 font-semibold font-mono">
-                        {food.nameEn}
-                      </span>
+                  {food.image && (
+                    <div className="relative h-44 w-full overflow-hidden bg-slate-950">
+                      <img
+                        src={food.image}
+                        alt={food.nameEn}
+                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                        loading="lazy"
+                        referrerPolicy="no-referrer"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
+                      <div className="absolute top-3 left-3">
+                        <span className="px-2.5 py-1 rounded-full text-xs font-bold bg-white/90 dark:bg-black/80 text-rose-600 dark:text-rose-300 backdrop-blur-md">
+                          {food.place} ({food.divisionBn})
+                        </span>
+                      </div>
+                      <div className="absolute top-3 right-3">
+                        <span className="px-2.5 py-1 rounded-full text-xs font-black bg-rose-500 text-white shadow-sm">
+                          {food.priceRange}
+                        </span>
+                      </div>
                     </div>
-                    <span className="px-2.5 py-1 rounded-full text-xs font-black bg-rose-500 text-white whitespace-nowrap">
-                      {food.priceRange}
-                    </span>
-                  </div>
+                  )}
 
-                  <p className="text-xs text-slate-300 leading-relaxed mb-4">
-                    {food.description}
-                  </p>
-
-                  <div className="space-y-1.5 text-xs text-slate-400 mb-4">
-                    <div className="flex items-start gap-2">
-                      <MapPin className="w-3.5 h-3.5 text-emerald-400 shrink-0 mt-0.5" />
-                      <span><strong>কোথায় পাবেন:</strong> {food.shopSpot}</span>
+                  <div className="p-5">
+                    <div className="flex items-baseline justify-between gap-3 mb-2">
+                      <div>
+                        <h5 className="font-extrabold text-white text-base">
+                          {food.nameBn}
+                        </h5>
+                        <span className="text-xs text-rose-400 font-semibold font-mono">
+                          {food.nameEn}
+                        </span>
+                      </div>
                     </div>
-                    <div className="flex items-start gap-2">
-                      <Car className="w-3.5 h-3.5 text-amber-400 shrink-0 mt-0.5" />
-                      <span><strong>যাতায়াত:</strong> {food.localTransit}</span>
+
+                    <p className="text-xs text-slate-300 leading-relaxed mb-4">
+                      {food.description}
+                    </p>
+
+                    <div className="space-y-1.5 text-xs text-slate-400 mb-4">
+                      <div className="flex items-start gap-2">
+                        <MapPin className="w-3.5 h-3.5 text-emerald-400 shrink-0 mt-0.5" />
+                        <span><strong>কোথায় পাবেন:</strong> {food.shopSpot}</span>
+                      </div>
+                      <div className="flex items-start gap-2">
+                        <Car className="w-3.5 h-3.5 text-amber-400 shrink-0 mt-0.5" />
+                        <span><strong>যাতায়াত:</strong> {food.localTransit}</span>
+                      </div>
                     </div>
                   </div>
                 </div>
 
-                {food.mapLinks && food.mapLinks[0] && (
-                  <a
-                    href={food.mapLinks[0].url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="w-full py-2 px-3 rounded-xl bg-white/10 hover:bg-rose-600 text-white font-bold text-xs transition-all flex items-center justify-center gap-1.5"
-                  >
-                    <Navigation className="w-3.5 h-3.5" />
-                    <span>গুগল ম্যাপে লোকেশন দেখুন</span>
-                    <ExternalLink className="w-3 h-3 opacity-60" />
-                  </a>
-                )}
+                <div className="p-5 pt-0">
+                  {food.mapLinks && food.mapLinks[0] && (
+                    <a
+                      href={food.mapLinks[0].url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="w-full py-2.5 px-3 rounded-xl bg-white/10 hover:bg-rose-600 text-white font-bold text-xs transition-all flex items-center justify-center gap-1.5"
+                    >
+                      <Navigation className="w-3.5 h-3.5" />
+                      <span>গুগল ম্যাপে লোকেশন দেখুন</span>
+                      <ExternalLink className="w-3 h-3 opacity-60" />
+                    </a>
+                  )}
+                </div>
               </div>
             ))}
           </div>
