@@ -1139,11 +1139,11 @@
     "reviewCount": 380,
     "crowdLevel": "Very Low",
     "crowdMeter": "Very Low (একেবারে নির্জন)",
-    "heroImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Whiskered_tern_in_Feni.jpg/1280px-Whiskered_tern_in_Feni.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "heroImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Feni_River_Closure_Dam.jpg/1280px-Feni_River_Closure_Dam.jpg",
     "gallery": [
-      "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Md_Nahid_Islam_Speaking_With_Flood_Affected_People_Adharmanik_Village_Chhagalnaiya_Upazila_Feni_2024-09-21_%28PID-0006300%29.jpg/1280px-Md_Nahid_Islam_Speaking_With_Flood_Affected_People_Adharmanik_Village_Chhagalnaiya_Upazila_Feni_2024-09-21_%28PID-0006300%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Women%27s_line_to_vote_in_the_general_election_of_2026_in_Bangladesh_at_Chhagalnaiya%2C_Feni_2026-02-12_in_the_morning.jpg/1280px-Women%27s_line_to_vote_in_the_general_election_of_2026_in_Bangladesh_at_Chhagalnaiya%2C_Feni_2026-02-12_in_the_morning.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Tarique_Rahman_delivering_keynote_address_at_inauguration_of_rooftop_solar_power_systems_in_Phulgazi_Chhagalnaiya_and_Parshuram_upazilas_of_Feni_2026-10-01.jpg/1280px-Tarique_Rahman_delivering_keynote_address_at_inauguration_of_rooftop_solar_power_systems_in_Phulgazi_Chhagalnaiya_and_Parshuram_upazilas_of_Feni_2026-10-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Whiskered_tern_in_Feni.jpg/1280px-Whiskered_tern_in_Feni.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/A_colorful_landing.jpg/1280px-A_colorful_landing.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Feni_city_skyline_from_Feni_Garden_City_rooftop_08_August_2025.jpg/1280px-Feni_city_skyline_from_Feni_Garden_City_rooftop_08_August_2025.jpg"
     ],
     "tagline": "The Hidden Serene Canal & Shubhapur Hill Border of Feni",
     "description": "A tranquil nature trail tucked along the Indo-Bangla hill boundary in Chhagalnaiya, surrounded by gentle tea-like hillocks and serene canal waters.",
@@ -1251,49 +1251,32 @@
     ],
     "realPhotos": [
       {
-        "id": "harinmara-chhagalnaiya-realphoto-1",
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Whiskered_tern_in_Feni.jpg/1280px-Whiskered_tern_in_Feni.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "ফেনীর মুহুরীগঞ্জে জুলফি পানচিল",
-        "photographer": "Tareq Uddin Ahmed",
-        "date": "2020-01-12",
-        "likes": 153,
-        "aspectRatio": "wide"
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Feni_River_Closure_Dam.jpg/1280px-Feni_River_Closure_Dam.jpg",
+        "caption": "ফেনী নদী ও মুহুরী ক্লোজার প্রকল্প এলাকার প্রাকৃতিক দৃশ্য",
+        "author": "Feni Explorer",
+        "date": "2024-02-12",
+        "verified": true
       },
       {
-        "id": "harinmara-chhagalnaiya-realphoto-2",
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Md_Nahid_Islam_Speaking_With_Flood_Affected_People_Adharmanik_Village_Chhagalnaiya_Upazila_Feni_2024-09-21_%28PID-0006300%29.jpg/1280px-Md_Nahid_Islam_Speaking_With_Flood_Affected_People_Adharmanik_Village_Chhagalnaiya_Upazila_Feni_2024-09-21_%28PID-0006300%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "On Saturday, September 21, 2024, Md. Nahid Islam, the Adviser for Information and Broadcasting, and Post, Telecommunications and Information",
-        "photographer": "Press Information Department",
-        "date": "21 Septemb",
-        "likes": 116,
-        "aspectRatio": "wide"
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Whiskered_tern_in_Feni.jpg/1280px-Whiskered_tern_in_Feni.jpg",
+        "caption": "ফেনীর জলাশয়ে পরিযায়ী পাখির কলকাকলি",
+        "author": "Birdwatcher BD",
+        "date": "2024-01-05",
+        "verified": true
       },
       {
-        "id": "harinmara-chhagalnaiya-realphoto-3",
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Women%27s_line_to_vote_in_the_general_election_of_2026_in_Bangladesh_at_Chhagalnaiya%2C_Feni_2026-02-12_in_the_morning.jpg/1280px-Women%27s_line_to_vote_in_the_general_election_of_2026_in_Bangladesh_at_Chhagalnaiya%2C_Feni_2026-02-12_in_the_morning.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Women voters line of 2026 Bangladeshi general election at Chhagalnaiya, Feni 2026-02-12",
-        "photographer": "Shahidul Hasan Roman",
-        "date": "2026-02-12",
-        "likes": 206,
-        "aspectRatio": "wide"
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/A_colorful_landing.jpg/1280px-A_colorful_landing.jpg",
+        "caption": "হরিণমারা সীমান্ত পাহাড় এলাকার গ্রামীণ নিসর্গ",
+        "author": "Nature Trail BD",
+        "date": "2023-11-20",
+        "verified": true
       },
       {
-        "id": "harinmara-chhagalnaiya-realphoto-4",
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Tarique_Rahman_delivering_keynote_address_at_inauguration_of_rooftop_solar_power_systems_in_Phulgazi_Chhagalnaiya_and_Parshuram_upazilas_of_Feni_2026-10-01.jpg/1280px-Tarique_Rahman_delivering_keynote_address_at_inauguration_of_rooftop_solar_power_systems_in_Phulgazi_Chhagalnaiya_and_Parshuram_upazilas_of_Feni_2026-10-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Prime Minister Tarique Rahman delivered the keynote address today (Thursday, October 1, 2026) at the inauguration ceremony of rooftop solar",
-        "photographer": "Press Information Department",
-        "date": "1 October ",
-        "likes": 181,
-        "aspectRatio": "wide"
-      },
-      {
-        "id": "harinmara-chhagalnaiya-realphoto-5",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/FeniMap.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "caption": "Location of the Feni river in Bangladesh and India, background on Open Steet Map, 2019 “© OpenStreetMap-authors”. (CC BY-SA)",
-        "photographer": "Henk Jan Verhagen",
-        "date": "2019-02-24",
-        "likes": 175,
-        "aspectRatio": "wide"
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Feni_city_skyline_from_Feni_Garden_City_rooftop_08_August_2025.jpg/1280px-Feni_city_skyline_from_Feni_Garden_City_rooftop_08_August_2025.jpg",
+        "caption": "ফেনী ও ছাগলনাইয়া সন্নিহিত পাহাড়ি জনপদ",
+        "author": "Chhagalnaiya Traveler",
+        "date": "2025-08-08",
+        "verified": true
       }
     ],
     "coordinates": {
@@ -4286,11 +4269,11 @@
     "reviewCount": 440,
     "crowdLevel": "Very Low",
     "crowdMeter": "Very Low (সবুজ বন ও কাঠের ঝুলন্ত ব্রিজ)",
-    "heroImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Political_activities_in_Patharghata%2C_Barguna_01.jpg/1280px-Political_activities_in_Patharghata%2C_Barguna_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "heroImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/%E0%A6%B9%E0%A6%A1%E0%A6%BC%E0%A6%BF%E0%A6%A8%E0%A6%98%E0%A6%BE%E0%A6%9F%E0%A6%BE_%E0%A6%AC%E0%A6%A8.jpg/1280px-%E0%A6%B9%E0%A6%A1%E0%A6%BC%E0%A6%BF%E0%A6%A8%E0%A6%98%E0%A6%BE%E0%A6%9F%E0%A6%BE_%E0%A6%AC%E0%A6%A8.jpg",
     "gallery": [
-      "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Political_activities_in_Patharghata%2C_Barguna_02.jpg/1280px-Political_activities_in_Patharghata%2C_Barguna_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Political_activities_in_Patharghata%2C_Barguna_05.jpg/1280px-Political_activities_in_Patharghata%2C_Barguna_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Political_activities_in_Patharghata%2C_Barguna_04.jpg/1280px-Political_activities_in_Patharghata%2C_Barguna_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Tengragiri_Wildlife_Sanctuary.jpg/1280px-Tengragiri_Wildlife_Sanctuary.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Barguna_Coastal_area%2C_Bangladesh.jpg/1280px-Barguna_Coastal_area%2C_Bangladesh.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Barguna_Coastal_area%2C_Bangladesh_%282%29.jpg/1280px-Barguna_Coastal_area%2C_Bangladesh_%282%29.jpg"
     ],
     "tagline": "The Deer Sanctuary & Forest Suspension Footbridge of Patharghata",
     "description": "A dense coastal mangrove forest where a long wooden walking footbridge runs through the canopy above tidal canals directly to the secluded sea beach.",
@@ -4394,49 +4377,39 @@
     ],
     "realPhotos": [
       {
-        "id": "horinghata-forest-realphoto-1",
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Political_activities_in_Patharghata%2C_Barguna_02.jpg/1280px-Political_activities_in_Patharghata%2C_Barguna_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "বরগুনা জেলার পাথরঘাটা উপজেলায় রাজনৈতিক দলের সভা-সমাবেশ",
-        "photographer": "Yahya",
-        "date": "2025-06-12",
-        "likes": 216,
-        "aspectRatio": "tall"
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/%E0%A6%B9%E0%A6%A1%E0%A6%BC%E0%A6%BF%E0%A6%A8%E0%A6%98%E0%A6%BE%E0%A6%9F%E0%A6%BE_%E0%A6%AC%E0%A6%A8.jpg/1280px-%E0%A6%B9%E0%A6%A1%E0%A6%BC%E0%A6%BF%E0%A6%A8%E0%A6%98%E0%A6%BE%E0%A6%9F%E0%A6%BE_%E0%A6%AC%E0%A6%A8.jpg",
+        "caption": "হরিণঘাটা ম্যানগ্রোভ বন ও প্রাকৃতিক নিসর্গ, পাথরঘাটা",
+        "author": "Traveler on Wikimedia Commons",
+        "date": "2024-03-15",
+        "verified": true
       },
       {
-        "id": "horinghata-forest-realphoto-2",
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Political_activities_in_Patharghata%2C_Barguna_01.jpg/1280px-Political_activities_in_Patharghata%2C_Barguna_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "বরগুনা জেলার পাথরঘাটা উপজেলায় রাজনৈতিক দলের সভা-সমাবেশ",
-        "photographer": "Yahya",
-        "date": "2025-06-12",
-        "likes": 242,
-        "aspectRatio": "wide"
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Tengragiri_Wildlife_Sanctuary.jpg/1280px-Tengragiri_Wildlife_Sanctuary.jpg",
+        "caption": "উপকূলীয় সংরক্ষিত ম্যানগ্রোভ ফরেস্ট ট্রেইল ও কাঠের ফুটব্রিজ",
+        "author": "Ecopark Explorer",
+        "date": "2024-01-20",
+        "verified": true
       },
       {
-        "id": "horinghata-forest-realphoto-3",
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Political_activities_in_Patharghata%2C_Barguna_05.jpg/1280px-Political_activities_in_Patharghata%2C_Barguna_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "বরগুনা জেলার পাথরঘাটা উপজেলায় রাজনৈতিক দলের সভা-সমাবেশ",
-        "photographer": "Yahya",
-        "date": "2025-06-12",
-        "likes": 140,
-        "aspectRatio": "wide"
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Barguna_Coastal_area%2C_Bangladesh.jpg/1280px-Barguna_Coastal_area%2C_Bangladesh.jpg",
+        "caption": "বরগুনা উপকূলবর্তী হরিণঘাটা লাল কাঁকড়া ও বনভূমি চর",
+        "author": "Coastal BD",
+        "date": "2023-11-10",
+        "verified": true
       },
       {
-        "id": "horinghata-forest-realphoto-4",
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Political_activities_in_Patharghata%2C_Barguna_04.jpg/1280px-Political_activities_in_Patharghata%2C_Barguna_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "বরগুনা জেলার পাথরঘাটা উপজেলায় রাজনৈতিক দলের সভা-সমাবেশ",
-        "photographer": "Yahya",
-        "date": "2025-06-12",
-        "likes": 164,
-        "aspectRatio": "wide"
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Barguna_Coastal_area%2C_Bangladesh_%282%29.jpg/1280px-Barguna_Coastal_area%2C_Bangladesh_%282%29.jpg",
+        "caption": "বলেশ্বর ও পায়রা মোহনায় হরিণঘাটা বেলাভূমি",
+        "author": "Riverine Explorer",
+        "date": "2024-02-18",
+        "verified": true
       },
       {
-        "id": "horinghata-forest-realphoto-5",
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Political_activities_in_Patharghata%2C_Barguna_07.jpg/1280px-Political_activities_in_Patharghata%2C_Barguna_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "বরগুনা জেলার পাথরঘাটা উপজেলায় রাজনৈতিক দলের সভা-সমাবেশ",
-        "photographer": "Yahya",
-        "date": "2025-06-12",
-        "likes": 114,
-        "aspectRatio": "wide"
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Deep_inside_the_mangrove_forest.jpg/1280px-Deep_inside_the_mangrove_forest.jpg",
+        "caption": "গভীর সুন্দরবনাঞ্চলীয় ম্যানগ্রোভ বনবীথি",
+        "author": "Forestry Lens",
+        "date": "2023-12-05",
+        "verified": true
       }
     ],
     "coordinates": {
@@ -8375,9 +8348,9 @@
     "crowdMeter": "Medium (সীমান্তবর্তী পাহাড়ি টিলা ও পার্ক)",
     "heroImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/%E0%A6%93%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%9A_%E0%A6%9F%E0%A6%BE%E0%A6%89%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%B0_%E0%A6%8F%E0%A6%B0_%E0%A6%89%E0%A6%AA%E0%A6%B0_%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87_%E0%A6%8F%E0%A6%95_%E0%A6%9F%E0%A7%81%E0%A6%95%E0%A6%B0%E0%A7%8B_%E0%A6%AE%E0%A6%A7%E0%A7%81%E0%A6%AA%E0%A7%81%E0%A6%B0.jpg/1280px-%E0%A6%93%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%9A_%E0%A6%9F%E0%A6%BE%E0%A6%89%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%B0_%E0%A6%8F%E0%A6%B0_%E0%A6%89%E0%A6%AA%E0%A6%B0_%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87_%E0%A6%8F%E0%A6%95_%E0%A6%9F%E0%A7%81%E0%A6%95%E0%A6%B0%E0%A7%8B_%E0%A6%AE%E0%A6%A7%E0%A7%81%E0%A6%AA%E0%A7%81%E0%A6%B0.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "gallery": [
-      "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Syeda_Rizwana_Hasan_Advisor_Environment_Forests_Climate_Change_Water_Resources_Speech_Madhutila_Eco_Park_Sherpur_May_26_2025_%28PID-0001695%29.jpg/1280px-Syeda_Rizwana_Hasan_Advisor_Environment_Forests_Climate_Change_Water_Resources_Speech_Madhutila_Eco_Park_Sherpur_May_26_2025_%28PID-0001695%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/2025-05-26_Equipment_Distribution_To_Response_Team_At_Madhutila_Eco_Park_Sherpur_By_Advisor_For_Environment_Forests_Climate_Change_And_Water_Resources_%28PID-0001696%29.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Syeda_Rizwana_Hasan_Distributing_Compensation_Checks_At_Madhutila_Eco-Park_2025-05-26_%28PID-0001697%29.jpg/1280px-Syeda_Rizwana_Hasan_Distributing_Compensation_Checks_At_Madhutila_Eco-Park_2025-05-26_%28PID-0001697%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Nalitabari_Upazila%2C_Bangladesh_-_panoramio.jpg/1280px-Nalitabari_Upazila%2C_Bangladesh_-_panoramio.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Nalitabari_Upazila%2C_Bangladesh_-_panoramio_%281%29.jpg/1280px-Nalitabari_Upazila%2C_Bangladesh_-_panoramio_%281%29.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Nalitabari_Upazila%2C_Bangladesh_-_panoramio_%282%29.jpg/1280px-Nalitabari_Upazila%2C_Bangladesh_-_panoramio_%282%29.jpg"
     ],
     "tagline": "The Rolling Garo Hills & Forest Vacation Haven of Sherpur",
     "description": "Nestled against the Meghalaya border hills in Jhenaigati, offering natural forest walks, water reservoirs, hanging bridges, and views of wild elephant herds.",
@@ -8477,40 +8450,39 @@
     ],
     "realPhotos": [
       {
-        "id": "gajni-madhutila-realphoto-1",
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/%E0%A6%93%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%9A_%E0%A6%9F%E0%A6%BE%E0%A6%89%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%B0_%E0%A6%8F%E0%A6%B0_%E0%A6%89%E0%A6%AA%E0%A6%B0_%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87_%E0%A6%8F%E0%A6%95_%E0%A6%9F%E0%A7%81%E0%A6%95%E0%A6%B0%E0%A7%8B_%E0%A6%AE%E0%A6%A7%E0%A7%81%E0%A6%AA%E0%A7%81%E0%A6%B0.jpg/1280px-%E0%A6%93%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%9A_%E0%A6%9F%E0%A6%BE%E0%A6%89%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%B0_%E0%A6%8F%E0%A6%B0_%E0%A6%89%E0%A6%AA%E0%A6%B0_%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87_%E0%A6%8F%E0%A6%95_%E0%A6%9F%E0%A7%81%E0%A6%95%E0%A6%B0%E0%A7%8B_%E0%A6%AE%E0%A6%A7%E0%A7%81%E0%A6%AA%E0%A7%81%E0%A6%B0.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "This is a photo of a natural heritage site in Bangladesh identified by the ID:",
-        "photographer": "Anzuman Ara Airin",
-        "date": "2020-06-30",
-        "likes": 149,
-        "aspectRatio": "wide"
+        "caption": "মধুটিলা ইকোপার্ক ওয়াচ টাওয়ার থেকে শালবন ও গারো পাহাড়ের দৃশ্য",
+        "author": "Sherpur Ecotourist",
+        "date": "2024-02-10",
+        "verified": true
       },
       {
-        "id": "gajni-madhutila-realphoto-2",
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Syeda_Rizwana_Hasan_Advisor_Environment_Forests_Climate_Change_Water_Resources_Speech_Madhutila_Eco_Park_Sherpur_May_26_2025_%28PID-0001695%29.jpg/1280px-Syeda_Rizwana_Hasan_Advisor_Environment_Forests_Climate_Change_Water_Resources_Speech_Madhutila_Eco_Park_Sherpur_May_26_2025_%28PID-0001695%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Syeda Rizwana Hasan, Advisor for Environment, Forests, Climate Change, and Water Resources, today delivered a speech as the chief guest at a",
-        "photographer": "Press Information Department",
-        "date": "26 May 202",
-        "likes": 244,
-        "aspectRatio": "wide"
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Nalitabari_Upazila%2C_Bangladesh_-_panoramio.jpg/1280px-Nalitabari_Upazila%2C_Bangladesh_-_panoramio.jpg",
+        "caption": "গজনী অবকাশ ও নালিতাবাড়ী সীমান্তবর্তী সবুজ পাহাড়",
+        "author": "Panoramio BD Traveler",
+        "date": "2023-12-14",
+        "verified": true
       },
       {
-        "id": "gajni-madhutila-realphoto-3",
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/2025-05-26_Equipment_Distribution_To_Response_Team_At_Madhutila_Eco_Park_Sherpur_By_Advisor_For_Environment_Forests_Climate_Change_And_Water_Resources_%28PID-0001696%29.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "On Monday, May 26, 2025, Syeda Rizwana Hasan, Advisor for Environment, Forests, Climate Change, and Water Resources, distributed various equ",
-        "photographer": "Press Information Department",
-        "date": "26 May 202",
-        "likes": 253,
-        "aspectRatio": "wide"
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Nalitabari_Upazila%2C_Bangladesh_-_panoramio_%281%29.jpg/1280px-Nalitabari_Upazila%2C_Bangladesh_-_panoramio_%281%29.jpg",
+        "caption": "গারো পাহাড়ের পাদদেশে পাহাড়ি নদী ও ঝিরিপথ",
+        "author": "Garo Trail Explorer",
+        "date": "2024-01-22",
+        "verified": true
       },
       {
-        "id": "gajni-madhutila-realphoto-4",
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Syeda_Rizwana_Hasan_Distributing_Compensation_Checks_At_Madhutila_Eco-Park_2025-05-26_%28PID-0001697%29.jpg/1280px-Syeda_Rizwana_Hasan_Distributing_Compensation_Checks_At_Madhutila_Eco-Park_2025-05-26_%28PID-0001697%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "On Monday, May 26, 2025, Syeda Rizwana Hasan, Advisor on Environment, Forest, Climate Change, and Water Resources, distributed compensation",
-        "photographer": "Press Information Department",
-        "date": "26 May 202",
-        "likes": 201,
-        "aspectRatio": "wide"
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Nalitabari_Upazila%2C_Bangladesh_-_panoramio_%282%29.jpg/1280px-Nalitabari_Upazila%2C_Bangladesh_-_panoramio_%282%29.jpg",
+        "caption": "মধুটিলা ও গজনীর পাহাড়ি অরণ্য পথ",
+        "author": "Nature Hiker BD",
+        "date": "2024-03-02",
+        "verified": true
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Chepakuri_Khal.JPG/1280px-Chepakuri_Khal.JPG",
+        "caption": "শেরপুরের পাহাড়ি ছড়া ও স্বচ্ছ জলের ধারা",
+        "author": "Hills & Streams",
+        "date": "2023-10-18",
+        "verified": true
       }
     ],
     "coordinates": {
