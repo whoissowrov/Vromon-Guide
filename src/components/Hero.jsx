@@ -56,15 +56,6 @@ const Hero = () => {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
-        {/* Top Tagline Pill */}
-        <div className="flex justify-center mb-6">
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-xs sm:text-sm font-semibold bg-emerald-100/80 dark:bg-emerald-950/70 text-emerald-800 dark:text-emerald-300 border border-emerald-300/60 dark:border-emerald-700/40 shadow-sm backdrop-blur-md">
-            <span className="w-2 h-2 rounded-full bg-rose-500 animate-ping" />
-            <span className="font-bengali text-sm font-bold">রূপসী বাংলা</span>
-            <span className="opacity-40">|</span>
-            <span>Your Ultimate Bangladesh Travel & Transit Companion</span>
-          </div>
-        </div>
 
         {/* Main Heading */}
         <div className="text-center max-w-4xl mx-auto mb-8">
