@@ -9,7 +9,39 @@ import {
 
 const AppContext = createContext();
 
+const getPageFromHash = () => {
+  if (typeof window === 'undefined') return 'home';
+  const hash = window.location.hash.replace(/^#\/?/, '').toLowerCase();
+  const validPages = ['home', 'destinations', 'transit', 'food', 'routes', 'itineraries', 'calculator', 'emergency'];
+  if (validPages.includes(hash)) return hash;
+  if (hash === 'transit-stepper') return 'transit';
+  if (hash === 'food-guide') return 'food';
+  if (hash === 'route-planner') return 'routes';
+  return 'home';
+};
+
 export const AppProvider = ({ children }) => {
+  // Page Routing State ('home' | 'destinations' | 'transit' | 'food' | 'routes' | 'itineraries' | 'calculator' | 'emergency')
+  const [currentPage, setCurrentPage] = useState(getPageFromHash);
+
+  // Sync hash changes (browser back/forward button support)
+  useEffect(() => {
+    const handleHashChange = () => {
+      setCurrentPage(getPageFromHash());
+    };
+    window.addEventListener('hashchange', handleHashChange);
+    return () => window.removeEventListener('hashchange', handleHashChange);
+  }, []);
+
+  const navigateToPage = (page) => {
+    setCurrentPage(page);
+    if (page === 'home') {
+      window.history.pushState(null, '', window.location.pathname);
+    } else {
+      window.location.hash = `#${page}`;
+    }
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
   // Theme state: dark by default for premium travel look or persisted
   const [theme, setTheme] = useState(() => {
     const saved = localStorage.getItem('vromon_theme');
@@ -187,10 +219,7 @@ export const AppProvider = ({ children }) => {
    */
   const exploreNearby = async () => {
     setDirectoryType('nearby');
-    const elem = document.getElementById('destinations');
-    if (elem) {
-      elem.scrollIntoView({ behavior: 'smooth' });
-    }
+    navigateToPage('destinations');
     if (!userLocation) {
       try {
         await enableUserLocation();
@@ -267,16 +296,14 @@ export const AppProvider = ({ children }) => {
   const planRouteTo = (destinationId) => {
     setRouteTo(destinationId);
     setActiveTab('routes');
-    // Scroll smoothly to route section
-    const elem = document.getElementById('route-planner');
-    if (elem) {
-      elem.scrollIntoView({ behavior: 'smooth' });
-    }
+    navigateToPage('routes');
   };
 
   return (
     <AppContext.Provider
       value={{
+        currentPage,
+        navigateToPage,
         theme,
         toggleTheme,
         searchQuery,

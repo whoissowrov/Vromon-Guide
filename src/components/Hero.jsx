@@ -25,7 +25,8 @@ const Hero = () => {
     setSelectedDivision,
     userLocation,
     exploreNearby,
-    isLocating 
+    isLocating,
+    navigateToPage 
   } = useApp();
 
   const vibes = [
@@ -51,8 +52,29 @@ const Hero = () => {
 
   const popularSearches = ['Sajek Valley', "Cox's Bazar", 'Sundarbans', 'Tanguar Haor', 'Sreemangal', 'Bandarban'];
 
+  const handleSearchSubmit = (e) => {
+    if (e.key === 'Enter') {
+      navigateToPage('destinations');
+    }
+  };
+
+  const handleSelectPopular = (spot) => {
+    setSearchQuery(spot);
+    navigateToPage('destinations');
+  };
+
+  const handleSelectVibe = (vibeId) => {
+    setSelectedVibe(vibeId);
+    navigateToPage('destinations');
+  };
+
+  const handleSelectDivision = (div) => {
+    setSelectedDivision(div);
+    navigateToPage('destinations');
+  };
+
   return (
-    <section className="relative overflow-hidden pt-8 pb-16 lg:pt-16 lg:pb-24 border-b border-slate-200 dark:border-emerald-950/40">
+    <section className="relative overflow-hidden pt-8 pb-14 lg:pt-14 lg:pb-20 border-b border-slate-200 dark:border-emerald-950/40">
       
       {/* Background ambient lighting effects */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-7xl h-96 bg-gradient-to-b from-emerald-500/10 via-teal-500/5 to-transparent blur-3xl pointer-events-none -z-10" />
@@ -61,7 +83,6 @@ const Hero = () => {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
-
         {/* Main Heading */}
         <div className="text-center max-w-4xl mx-auto mb-8">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-slate-900 dark:text-white leading-[1.15]">
@@ -71,7 +92,7 @@ const Hero = () => {
             </span>
           </h1>
           <p className="mt-4 text-base sm:text-lg lg:text-xl text-slate-600 dark:text-slate-300 max-w-2xl mx-auto">
-            From the cloud-kissed peaks of Sajek to the pristine coral sands of Saint Martin’s and the wild mangroves of Sundarbans—plan complete routes, trains, buses, and budgets.
+            সাজেক থেকে সেন্টমার্টিন, সুন্দরবন থেকে জাফলং—৭টি আলাদা মডিউলে সাজানো সম্পূর্ণ বাংলাদেশ ভ্রমণ, লোকাল পরিবহন ভাড়া ও আসল আঞ্চলিক খাবারের নির্দেশিকা।
           </p>
         </div>
 
@@ -85,6 +106,7 @@ const Hero = () => {
                   type="text"
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
+                  onKeyDown={handleSearchSubmit}
                   placeholder="Search by division, district, or spot (e.g. Sajek, Sylhet, Sundarbans)..."
                   className="w-full pl-12 pr-4 py-3.5 sm:py-4 text-sm sm:text-base font-medium rounded-xl sm:rounded-2xl bg-transparent text-slate-900 dark:text-white placeholder-slate-400 focus:outline-none"
                 />
@@ -99,10 +121,7 @@ const Hero = () => {
               </div>
               
               <button
-                onClick={() => {
-                  const elem = document.getElementById('destinations');
-                  if (elem) elem.scrollIntoView({ behavior: 'smooth' });
-                }}
+                onClick={() => navigateToPage('destinations')}
                 className="w-full sm:w-auto px-7 py-3.5 sm:py-4 bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white font-bold rounded-xl sm:rounded-2xl shadow-glow transition-all duration-300 flex items-center justify-center gap-2 whitespace-nowrap"
               >
                 <span>Find Spots</span>
@@ -116,7 +135,7 @@ const Hero = () => {
               {popularSearches.map((spot) => (
                 <button
                   key={spot}
-                  onClick={() => setSearchQuery(spot)}
+                  onClick={() => handleSelectPopular(spot)}
                   className="px-2.5 py-1 rounded-lg bg-slate-100 dark:bg-emerald-950/40 hover:bg-emerald-100 dark:hover:bg-emerald-900/50 hover:text-emerald-700 dark:hover:text-emerald-300 transition-colors"
                 >
                   {spot}
@@ -144,10 +163,10 @@ const Hero = () => {
         <div className="mb-8">
           <div className="flex items-center justify-between mb-3 px-1">
             <span className="text-xs sm:text-sm font-bold uppercase tracking-wider text-slate-600 dark:text-emerald-400 flex items-center gap-1.5">
-              <Compass className="w-4 h-4" /> Filter by Travel Vibe
+              <Compass className="w-4 h-4" /> Filter by Travel Vibe (০১. স্পট পেজে যান)
             </span>
             <span className="text-xs text-slate-500 dark:text-slate-400">
-              Click to isolate experiences
+              ক্লিক করলে সরাসরি ফিল্টারকৃত পেজে নিয়ে যাবে
             </span>
           </div>
 
@@ -158,7 +177,7 @@ const Hero = () => {
               return (
                 <button
                   key={vibe.id}
-                  onClick={() => setSelectedVibe(vibe.id)}
+                  onClick={() => handleSelectVibe(vibe.id)}
                   className={`p-3.5 rounded-2xl flex flex-col items-center justify-center text-center gap-2 transition-all duration-300 border ${
                     isActive
                       ? 'bg-gradient-to-b from-emerald-600 to-teal-700 text-white border-emerald-400 shadow-glow scale-[1.02]'
@@ -187,7 +206,7 @@ const Hero = () => {
             return (
               <button
                 key={div}
-                onClick={() => setSelectedDivision(div)}
+                onClick={() => handleSelectDivision(div)}
                 className={`px-3 py-1.5 rounded-full text-xs font-semibold transition-all ${
                   isActive
                     ? 'bg-emerald-600 text-white shadow-sm ring-2 ring-emerald-400/50'
@@ -198,26 +217,6 @@ const Hero = () => {
               </button>
             );
           })}
-        </div>
-
-        {/* Live Stats Ticker */}
-        <div className="mt-12 pt-8 border-t border-slate-200/80 dark:border-emerald-950/60 grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 text-center">
-          <div className="p-3">
-            <div className="text-2xl sm:text-3xl font-extrabold text-emerald-600 dark:text-emerald-400">8 Divisions</div>
-            <div className="text-xs sm:text-sm font-medium text-slate-600 dark:text-slate-400">64 Districts Covered</div>
-          </div>
-          <div className="p-3">
-            <div className="text-2xl sm:text-3xl font-extrabold text-teal-600 dark:text-teal-400">120 km</div>
-            <div className="text-xs sm:text-sm font-medium text-slate-600 dark:text-slate-400">Longest Unbroken Beach</div>
-          </div>
-          <div className="p-3">
-            <div className="text-2xl sm:text-3xl font-extrabold text-amber-500 dark:text-amber-400">10,000 km²</div>
-            <div className="text-xs sm:text-sm font-medium text-slate-600 dark:text-slate-400">Sundarbans Mangrove</div>
-          </div>
-          <div className="p-3">
-            <div className="text-2xl sm:text-3xl font-extrabold text-emerald-600 dark:text-emerald-400">100% Real</div>
-            <div className="text-xs sm:text-sm font-medium text-slate-600 dark:text-slate-400">Transit Fares & Timetables</div>
-          </div>
         </div>
 
       </div>

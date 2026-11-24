@@ -14,7 +14,8 @@ import {
   ShieldAlert,
   Search,
   Utensils,
-  LocateFixed
+  LocateFixed,
+  Home
 } from 'lucide-react';
 
 const Navbar = () => {
@@ -26,31 +27,32 @@ const Navbar = () => {
     searchQuery,
     setSearchQuery,
     userLocation,
-    exploreNearby
+    exploreNearby,
+    currentPage,
+    navigateToPage
   } = useApp();
 
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const navLinks = [
-    { label: 'কাছের স্পট (Near Me)', isNearby: true, icon: LocateFixed },
-    { label: 'Destinations', href: '#destinations', icon: MapPin },
-    { label: 'Local Transit (ভাড়া)', href: '#transit-stepper', icon: Navigation },
-    { label: 'Local Foods (খাবার)', href: '#food-guide', icon: Utensils },
-    { label: 'Route Planner', href: '#route-planner', icon: Compass },
-    { label: 'Itineraries', href: '#itineraries', icon: Calendar },
-    { label: 'Budget Calculator', href: '#calculator', icon: Calculator },
-    { label: 'Emergency & Tips', href: '#emergency', icon: ShieldAlert },
+    { label: 'হোম', page: 'home', icon: Home, isHome: true },
+    { label: '০১. স্পট ও রেডার', page: 'destinations', icon: MapPin },
+    { label: '০২. লোকাল ট্রানজিট', page: 'transit', icon: Navigation },
+    { label: '০৩. আসল খাবার', page: 'food', icon: Utensils },
+    { label: '০৪. রুট প্ল্যানার', page: 'routes', icon: Compass },
+    { label: '০৫. ট্যুর আইটিনারারি', page: 'itineraries', icon: Calendar },
+    { label: '০৬. বাজেট হিসাব', page: 'calculator', icon: Calculator },
+    { label: '০৭. জরুরি গাইড', page: 'emergency', icon: ShieldAlert },
   ];
 
   const handleNavClick = (link) => {
     setMobileMenuOpen(false);
-    if (link.isNearby) {
-      exploreNearby();
-      return;
-    }
-    const elem = document.querySelector(link.href);
-    if (elem) {
-      elem.scrollIntoView({ behavior: 'smooth' });
+    navigateToPage(link.page);
+  };
+
+  const handleSearchSubmit = (e) => {
+    if (e.key === 'Enter') {
+      navigateToPage('destinations');
     }
   };
 
@@ -59,8 +61,11 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           
-          {/* Logo */}
-          <a href="#" className="flex items-center gap-3 group">
+          {/* Logo - Navigates to Home */}
+          <button 
+            onClick={() => navigateToPage('home')} 
+            className="flex items-center gap-3 group text-left"
+          >
             <div className="relative w-11 h-11 rounded-2xl bg-gradient-to-tr from-emerald-600 to-teal-500 flex items-center justify-center text-white shadow-glow group-hover:scale-105 transition-transform duration-300">
               <Compass className="w-6 h-6 animate-pulse" />
               {/* Bangladesh circle accent */}
@@ -71,46 +76,113 @@ const Navbar = () => {
                 Vromon<span className="text-emerald-500">Guide</span>
               </span>
               <span className="text-[11px] font-medium text-emerald-700 dark:text-emerald-400 font-bengali tracking-wider">
-                ভ্রমণ গাইড • Explore Bangladesh
+                ভ্রমণ গাইড • ৭টি স্বতন্ত্র মডিউল
               </span>
             </div>
-          </a>
+          </button>
 
           {/* Desktop Nav Links */}
-          <nav className="hidden lg:flex items-center gap-1">
+          <nav className="hidden xl:flex items-center gap-1">
             {navLinks.map((link) => {
               const Icon = link.icon;
+              const isActive = currentPage === link.page;
               return (
                 <button
                   key={link.label}
                   onClick={() => handleNavClick(link)}
-                  className={`px-3.5 py-2 rounded-xl text-sm font-semibold transition-all flex items-center gap-1.5 ${
-                    link.isNearby && userLocation
-                      ? 'text-emerald-700 dark:text-emerald-300 bg-emerald-500/10 border border-emerald-500/30'
+                  className={`px-3 py-2 rounded-xl text-xs font-bold transition-all flex items-center gap-1.5 ${
+                    isActive
+                      ? 'text-white bg-emerald-600 dark:bg-emerald-600 shadow-sm'
                       : 'text-slate-700 dark:text-slate-300 hover:text-emerald-600 dark:hover:text-emerald-400 hover:bg-slate-100 dark:hover:bg-emerald-950/50'
                   }`}
                 >
-                  <Icon className={`w-4 h-4 ${link.isNearby ? 'text-emerald-500 animate-pulse' : 'opacity-70'}`} />
+                  <Icon className={`w-3.5 h-3.5 ${isActive ? 'text-white' : 'opacity-70'}`} />
                   {link.label}
-                  {link.isNearby && userLocation && (
-                    <span className="w-2 h-2 rounded-full bg-emerald-500"></span>
-                  )}
                 </button>
               );
             })}
           </nav>
 
+          {/* Mid-screen compact menu (lg to xl) */}
+          <nav className="hidden lg:flex xl:hidden items-center gap-1">
+            <button
+              onClick={() => navigateToPage('home')}
+              className={`px-2.5 py-1.5 rounded-lg text-xs font-bold ${
+                currentPage === 'home' ? 'bg-emerald-600 text-white' : 'text-slate-700 dark:text-slate-300'
+              }`}
+            >
+              হোম
+            </button>
+            <button
+              onClick={() => navigateToPage('destinations')}
+              className={`px-2.5 py-1.5 rounded-lg text-xs font-bold ${
+                currentPage === 'destinations' ? 'bg-emerald-600 text-white' : 'text-slate-700 dark:text-slate-300'
+              }`}
+            >
+              ০১. স্পট
+            </button>
+            <button
+              onClick={() => navigateToPage('transit')}
+              className={`px-2.5 py-1.5 rounded-lg text-xs font-bold ${
+                currentPage === 'transit' ? 'bg-emerald-600 text-white' : 'text-slate-700 dark:text-slate-300'
+              }`}
+            >
+              ০২. ট্রানজিট
+            </button>
+            <button
+              onClick={() => navigateToPage('food')}
+              className={`px-2.5 py-1.5 rounded-lg text-xs font-bold ${
+                currentPage === 'food' ? 'bg-emerald-600 text-white' : 'text-slate-700 dark:text-slate-300'
+              }`}
+            >
+              ০৩. খাবার
+            </button>
+            <button
+              onClick={() => navigateToPage('routes')}
+              className={`px-2.5 py-1.5 rounded-lg text-xs font-bold ${
+                currentPage === 'routes' ? 'bg-emerald-600 text-white' : 'text-slate-700 dark:text-slate-300'
+              }`}
+            >
+              ০৪. রুট
+            </button>
+            <button
+              onClick={() => navigateToPage('itineraries')}
+              className={`px-2.5 py-1.5 rounded-lg text-xs font-bold ${
+                currentPage === 'itineraries' ? 'bg-emerald-600 text-white' : 'text-slate-700 dark:text-slate-300'
+              }`}
+            >
+              ০৫. আইটিনারারি
+            </button>
+            <button
+              onClick={() => navigateToPage('calculator')}
+              className={`px-2.5 py-1.5 rounded-lg text-xs font-bold ${
+                currentPage === 'calculator' ? 'bg-emerald-600 text-white' : 'text-slate-700 dark:text-slate-300'
+              }`}
+            >
+              ০৬. বাজেট
+            </button>
+            <button
+              onClick={() => navigateToPage('emergency')}
+              className={`px-2.5 py-1.5 rounded-lg text-xs font-bold ${
+                currentPage === 'emergency' ? 'bg-emerald-600 text-white' : 'text-slate-700 dark:text-slate-300'
+              }`}
+            >
+              ০৭. জরুরি
+            </button>
+          </nav>
+
           {/* Right Action Buttons */}
           <div className="flex items-center gap-2 sm:gap-3">
             
-            {/* Quick Search Trigger / Input for tablet & desktop */}
+            {/* Quick Search Input */}
             <div className="hidden md:flex items-center relative">
               <input
                 type="text"
                 placeholder="Search Sajek, Sylhet..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-44 lg:w-56 pl-9 pr-3 py-1.5 text-xs font-medium bg-slate-100 dark:bg-emerald-950/40 border border-slate-200 dark:border-emerald-800/30 rounded-xl focus:outline-none focus:ring-2 focus:ring-emerald-500 dark:focus:ring-emerald-400 text-slate-800 dark:text-white placeholder-slate-400 transition-all"
+                onKeyDown={handleSearchSubmit}
+                className="w-36 lg:w-48 pl-9 pr-3 py-1.5 text-xs font-medium bg-slate-100 dark:bg-emerald-950/40 border border-slate-200 dark:border-emerald-800/30 rounded-xl focus:outline-none focus:ring-2 focus:ring-emerald-500 dark:focus:ring-emerald-400 text-slate-800 dark:text-white placeholder-slate-400 transition-all"
               />
               <Search className="w-3.5 h-3.5 text-slate-400 absolute left-3 pointer-events-none" />
             </div>
@@ -166,6 +238,12 @@ const Navbar = () => {
               placeholder="Search spots, divisions, vibe..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
+              onKeyDown={(e) => {
+                if (e.key === 'Enter') {
+                  setMobileMenuOpen(false);
+                  navigateToPage('destinations');
+                }
+              }}
               className="w-full pl-10 pr-4 py-2.5 text-sm bg-slate-100 dark:bg-emerald-950/50 border border-slate-200 dark:border-emerald-800/40 rounded-xl focus:outline-none focus:ring-2 focus:ring-emerald-500 text-slate-900 dark:text-white"
             />
             <Search className="w-4 h-4 text-slate-400 absolute left-3.5 top-3.5" />
@@ -174,14 +252,22 @@ const Navbar = () => {
           <div className="space-y-1">
             {navLinks.map((link) => {
               const Icon = link.icon;
+              const isActive = currentPage === link.page;
               return (
                 <button
                   key={link.label}
                   onClick={() => handleNavClick(link)}
-                  className="w-full flex items-center gap-3 px-4 py-3 rounded-xl text-base font-semibold text-slate-800 dark:text-slate-200 hover:bg-emerald-50 dark:hover:bg-emerald-950/60 hover:text-emerald-600 transition-colors text-left"
+                  className={`w-full flex items-center justify-between px-4 py-3 rounded-xl text-sm font-bold transition-colors text-left ${
+                    isActive
+                      ? 'bg-emerald-600 text-white'
+                      : 'text-slate-800 dark:text-slate-200 hover:bg-emerald-50 dark:hover:bg-emerald-950/60 hover:text-emerald-600'
+                  }`}
                 >
-                  <Icon className="w-5 h-5 text-emerald-500" />
-                  {link.label}
+                  <div className="flex items-center gap-3">
+                    <Icon className={`w-4 h-4 ${isActive ? 'text-white' : 'text-emerald-500'}`} />
+                    <span>{link.label}</span>
+                  </div>
+                  {isActive && <span className="text-xs font-semibold">বর্তমান পেজ</span>}
                 </button>
               );
             })}
