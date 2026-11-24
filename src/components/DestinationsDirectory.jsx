@@ -2,6 +2,7 @@ import React, { useState, useMemo } from 'react';
 import { useApp } from '../context/AppContext';
 import DestinationCard from './DestinationCard';
 import HiddenGemsSection from './HiddenGemsSection';
+import NearbySuggestionsGuide from './NearbySuggestionsGuide';
 import { toBengaliNumber } from '../utils/geolocation';
 import { 
   MapPin, 
@@ -19,7 +20,8 @@ import {
   RefreshCw,
   AlertCircle,
   Radio,
-  MapPinned
+  MapPinned,
+  ArrowRight
 } from 'lucide-react';
 
 const DestinationsDirectory = ({ onSelectTransitSpot }) => {
@@ -327,11 +329,15 @@ const DestinationsDirectory = ({ onSelectTransitSpot }) => {
             </div>
           </div>
 
-          {/* NEARBY PROXIMITY RADAR DASHBOARD (Only in Nearby Mode) */}
-          {directoryType === 'nearby' && (
+          {/* NEARBY PROXIMITY RADAR DASHBOARD OR SUGGESTIONS GUIDE */}
+          {directoryType === 'nearby' && userLocation && (
+            <NearbySuggestionsGuide />
+          )}
+
+          {directoryType === 'nearby' && !userLocation && (
             <div className="mb-8 p-5 sm:p-6 rounded-3xl bg-gradient-to-br from-emerald-950/40 via-[#0B1E16] to-[#07130E] border border-emerald-500/30 shadow-xl backdrop-blur-md">
               {/* Not Located State - Big Prompt Banner */}
-              {!userLocation && !isLocating && (
+              {!isLocating && (
                 <div className="text-center py-6 px-4">
                   <div className="w-16 h-16 mx-auto mb-4 rounded-2xl bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-400 shadow-glow">
                     <LocateFixed className="w-8 h-8 animate-pulse text-emerald-400" />
@@ -393,117 +399,30 @@ const DestinationsDirectory = ({ onSelectTransitSpot }) => {
                   </p>
                 </div>
               )}
+            </div>
+          )}
 
-              {/* User Location Active - Radar Panel */}
-              {userLocation && (
+          {/* Invitation Banner when Location is Active in Other Tabs */}
+          {directoryType !== 'nearby' && userLocation && (
+            <div className="mb-6 p-4 rounded-2xl bg-gradient-to-r from-emerald-950/70 via-emerald-900/50 to-teal-950/70 border border-emerald-500/40 flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-xs shadow-lg">
+              <div className="flex items-center gap-3">
+                <span className="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-ping shrink-0" />
                 <div>
-                  <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-4 pb-4 border-b border-emerald-800/40">
-                    <div className="flex items-center gap-3">
-                      <div className="relative">
-                        <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
-                        <div className="w-10 h-10 rounded-xl bg-emerald-500/20 border border-emerald-500/50 flex items-center justify-center text-emerald-400">
-                          <LocateFixed className="w-5 h-5 text-emerald-400" />
-                        </div>
-                      </div>
-                      <div>
-                        <div className="flex items-center gap-2">
-                          <span className="text-xs font-black px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-300 border border-emerald-500/40 uppercase tracking-wider">
-                            {userLocation.isManual ? 'নির্বাচিত শহর' : 'লাইভ GPS সক্রিয়'}
-                          </span>
-                          <span className="text-xs text-slate-400">
-                            (±{userLocation.accuracy}m একুরেসি)
-                          </span>
-                        </div>
-                        <h4 className="text-lg font-extrabold text-white mt-0.5 flex items-center gap-2">
-                          <span>{userLocation.areaName}</span>
-                          <span className="text-xs text-emerald-400/80 font-mono font-normal">
-                            [{userLocation.lat.toFixed(3)}°N, {userLocation.lng.toFixed(3)}°E]
-                          </span>
-                        </h4>
-                      </div>
-                    </div>
-
-                    <div className="flex items-center gap-2 flex-wrap">
-                      <button
-                        onClick={() => enableUserLocation()}
-                        className="px-3 py-1.5 rounded-xl bg-white/10 hover:bg-white/20 text-white text-xs font-bold transition-all flex items-center gap-1.5 border border-white/10"
-                        title="রিলোড বা রিফ্রেশ GPS"
-                      >
-                        <RefreshCw className="w-3.5 h-3.5 text-emerald-400" />
-                        <span>রিফ্রেশ GPS</span>
-                      </button>
-
-                      <button
-                        onClick={clearUserLocation}
-                        className="px-3 py-1.5 rounded-xl bg-rose-500/10 hover:bg-rose-500/20 text-rose-300 text-xs font-bold transition-all flex items-center gap-1.5 border border-rose-500/20"
-                        title="লোকেশন বন্ধ করুন"
-                      >
-                        <span>লোকেশন বন্ধ করুন</span>
-                      </button>
-                    </div>
-                  </div>
-
-                  {/* Proximity Distance Radius Chips & Subcategories */}
-                  <div className="mt-4 flex flex-col md:flex-row md:items-center justify-between gap-3 text-xs">
-                    {/* Radius selector */}
-                    <div className="flex items-center gap-1.5 flex-wrap">
-                      <span className="text-slate-400 font-bold mr-1">দূরত্বের পরিধি:</span>
-                      {[
-                        { radius: 50, label: '৫০ কিমি (খুব কাছে)' },
-                        { radius: 100, label: '১০০ কিমি (ডে-ট্রিপ)' },
-                        { radius: 200, label: '২০০ কিমি (আশেপাশের জেলা)' },
-                        { radius: 0, label: 'পুরো বাংলাদেশ (দূরত্ব অনুযায়ী)' },
-                      ].map((item) => (
-                        <button
-                          key={item.radius}
-                          onClick={() => setLocationRadius(item.radius)}
-                          className={`px-3 py-1.5 rounded-xl font-bold transition-all ${
-                            locationRadius === item.radius
-                              ? 'bg-emerald-500 text-slate-950 font-black shadow-glow'
-                              : 'bg-white/5 text-slate-300 hover:text-white border border-white/10'
-                          }`}
-                        >
-                          {item.label}
-                        </button>
-                      ))}
-                    </div>
-
-                    {/* Popular vs Offbeat toggle inside Nearby */}
-                    <div className="flex items-center gap-1 bg-black/40 p-1 rounded-xl border border-white/10">
-                      <button
-                        onClick={() => setNearbyCategoryFilter('all')}
-                        className={`px-2.5 py-1 rounded-lg font-bold transition-all ${
-                          nearbyCategoryFilter === 'all'
-                            ? 'bg-emerald-600 text-white'
-                            : 'text-slate-400 hover:text-white'
-                        }`}
-                      >
-                        সকল স্পট
-                      </button>
-                      <button
-                        onClick={() => setNearbyCategoryFilter('popular')}
-                        className={`px-2.5 py-1 rounded-lg font-bold transition-all ${
-                          nearbyCategoryFilter === 'popular'
-                            ? 'bg-amber-500 text-slate-950'
-                            : 'text-slate-400 hover:text-white'
-                        }`}
-                      >
-                        জনপ্রিয়
-                      </button>
-                      <button
-                        onClick={() => setNearbyCategoryFilter('offbeat')}
-                        className={`px-2.5 py-1 rounded-lg font-bold transition-all ${
-                          nearbyCategoryFilter === 'offbeat'
-                            ? 'bg-purple-600 text-white'
-                            : 'text-slate-400 hover:text-white'
-                        }`}
-                      >
-                        অফবিট
-                      </button>
-                    </div>
-                  </div>
+                  <p className="font-extrabold text-white text-sm sm:text-base">
+                    📍 আপনার বর্তমান অবস্থান: {userLocation.areaName}
+                  </p>
+                  <p className="text-slate-300 text-xs mt-0.5">
+                    আপনার চারপাশের শীর্ষ জনপ্রিয় ও স্থানীয় অফবিট পর্যটন কেন্দ্রগুলোর বিশেষ ভ্রমণ পরামর্শ ও ডে-ট্রিপ প্ল্যান প্রস্তুত রয়েছে।
+                  </p>
                 </div>
-              )}
+              </div>
+              <button
+                onClick={() => setDirectoryType('nearby')}
+                className="px-4 py-2 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-black text-xs transition-all flex items-center justify-center gap-1.5 whitespace-nowrap shadow-glow"
+              >
+                <span>পরামর্শ ও স্পটগুলো দেখুন</span>
+                <ArrowRight className="w-3.5 h-3.5" />
+              </button>
             </div>
           )}
 
